@@ -12,6 +12,8 @@ The provided interfaces include:
 - 24 channel general purpose I/O
 - Quadrature encoder input
 
+![AMDC Block Diagram](amdc-block-diagram.png?raw=true "AMDC Block Diagram")
+
 ## Repository Structure
 
 The `altium` directory contains all files pertaining to schematics / board design in Altium Designer.
