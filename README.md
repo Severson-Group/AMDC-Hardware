@@ -4,9 +4,9 @@ This project was developed by Nathan Petersen during Spring 2018 for Eric Severs
 
 ## Background
 
-AMDC is a PCB that acts as a carrier card for a PicoZed SoM. AMDC provides useful interfaces which can be used to control power electronics.
+AMDC is a platform that provides relevent interfaces which can be used to control power electronics. Physically, AMDC is a PCB that acts as a carrier card for a PicoZed SoM.
 
-These interfaces include:
+The provided interfaces include:
 - 48 digital outout channels for driving 8 full inverters
 - 16 analog input channels
 - 24 channel general purpose I/O
