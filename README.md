@@ -16,4 +16,9 @@ The provided interfaces include:
 
 ## Repository Structure
 
-The `altium` directory contains all files pertaining to schematics / board design in Altium Designer.
+The `altium` directory contains all files pertaining to schematics / board design in Altium Designer. These files should be the latest working copy of the project.
+
+The `REVyyyymmdd*` directories represent snapshots of the project that were used producing a physical PCB.
+- `REV` indicates a revision of design for manufacturing
+- `yyyymmdd` indicates the date on which design was frozen
+- `*` (letter) indicates which revision in sequence (A - first, B - second, etc.)
