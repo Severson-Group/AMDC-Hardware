@@ -18,8 +18,7 @@ This project originated as [Nathan Petersen's](https://github.com/npetersen2) In
 
 The `altium` directory contains all files pertaining to schematics / board design in Altium Designer. These files should be the latest working copy of the project.
 
-The `REVyyyymmdd*` directories represent snapshots of the project that were used producing a physical PCB.
+The `REVyyyymmdd*` directories represent snapshots of the project that were used to produce a physical PCB. These directories contain the *Gerber*, *Drill* (Excellon format), *Bill of Materials* (XLS), and *Schematic* (PDF) files.
 - `REV` indicates a revision of design for manufacturing
 - `yyyymmdd` indicates the date on which design was frozen
 - `*` (letter) indicates which revision in sequence (A - first, B - second, etc.)
-These directories contain the *Gerber*, *Drill* (Excellon format), *Bill of Materials* (XLS), and *Schematic* (PDF) files that were frozen at the time of the revision.
