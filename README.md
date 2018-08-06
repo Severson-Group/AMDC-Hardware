@@ -12,7 +12,7 @@ The provided interfaces include:
 
 ## Background
 
-This project originated as [Nathan Petersene's](https://github.com/npetersen2) Independent Study project during Spring 2018, advised by Prof. Eric Severson. It is now actively maintained by the [Severson Research Group](http://severson.wempec.wisc.edu/) as a hardware platform for the AMDC system. Open source firmware is forthcoming. 
+This project originated as [Nathan Petersen's](https://github.com/npetersen2) Independent Study project during Spring 2018, advised by Prof. Eric Severson. It is now actively maintained by the [Severson Research Group](http://severson.wempec.wisc.edu/) as a hardware platform for the AMDC system. Open source firmware is forthcoming. 
 
 ## Repository Structure
 
