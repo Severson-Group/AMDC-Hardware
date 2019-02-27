@@ -10,6 +10,8 @@ Revision:   b61f8de1485114937360ea6b4c883aa555ebafbd
 Variant:    No variations
 Units used: mil
 
+Origin (0,0): bottom-left corner of board
+
 Designator Comment                        Layer       Footprint             Center-X(mil) Center-Y(mil) Rotation Description                                                                                      
 CON13      PIN_2x4                        TopLayer    PIN_HEADER_2x4        14150.000     3185.000      180      ""                                                                                               
 CON1       5569257-1                      TopLayer    5569257-1             15789.665     643.000       360      "CONN MOD JACK 8P8C R/A SHIELDED"                                                                
