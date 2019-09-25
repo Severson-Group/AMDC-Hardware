@@ -9,7 +9,7 @@ OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
-TemplateLocationPath=.\templates\
+TemplateLocationPath=C:\GitHub\AMDC-Hardware\altium\templates\
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
@@ -327,91 +327,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HOQMLCEG
 
 [Document18]
-DocumentPath=Power_LDO_1V8.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=17
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KNAMJFHP
-
-[Document19]
-DocumentPath=Power_LDO_3V3.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=19
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SMAQWJJU
-
-[Document20]
-DocumentPath=Power_LDO_5V.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=20
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FLIAPKWL
-
-[Document21]
-DocumentPath=Power_LDO_15V.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=21
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FOLVKJPS
-
-[Document22]
-DocumentPath=USB_OTG.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=22
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WBRHTGIB
-
-[Document23]
 DocumentPath=USB_UART.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UJVIEOTG
 
-[Document24]
+[Document19]
 DocumentPath=AMDC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GHNSFQBD
 
-[Document25]
+[Document20]
 DocumentPath=AMDC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +377,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SFTSHHDF
 
-[Document26]
+[Document21]
 DocumentPath=LVHV8ChanTranslation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +394,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FUDPQEWY
 
-[Document27]
+[Document22]
 DocumentPath=TranslationDir2Chan.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -496,7 +411,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDYLIMEG
 
-[Document28]
+[Document23]
 DocumentPath=BackPage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +428,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYECYDUL
 
-[Document29]
+[Document24]
 DocumentPath=PCB_v3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,24 +445,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MCOGPAXV
 
-[Document30]
-DocumentPath=Power_REF_2V048.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=34
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RQVDXJHY
-
-[Document31]
+[Document25]
 DocumentPath=Power_InrushLimit.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -564,7 +462,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VELVBLJA
 
-[Document32]
+[Document26]
 DocumentPath=AnalogSigCond.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +479,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IUEDQDCI
 
-[Document33]
+[Document27]
 DocumentPath=PCB_v4.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1005,22 +903,18 @@ OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration4_Name1=ColumnNameFormat
 Configuration4_Item1=CaptionAsName
-Configuration4_Name2=Filter
-Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration4_Name3=ForceUpdateSettings
-Configuration4_Item3=False
-Configuration4_Name4=General
-Configuration4_Item4=OpenExported=True|AddToProject=True|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1125|FormHeight=659|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|ViewType=0
-Configuration4_Name5=GroupOrder
-Configuration4_Item5=Supplier Part Number 1=True
-Configuration4_Name6=PCBDocument
-Configuration4_Item6=
-Configuration4_Name7=PCBDocument2
-Configuration4_Item7=
-Configuration4_Name8=SortOrder
-Configuration4_Item8=Designator=Down
-Configuration4_Name9=VisibleOrder
-Configuration4_Item9=Quantity=44|Supplier Part Number 1=114|Designator=101
+Configuration4_Name2=ForceUpdateSettings
+Configuration4_Item2=False
+Configuration4_Name3=General
+Configuration4_Item3=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1125|FormHeight=659|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration4_Name4=GroupOrder
+Configuration4_Item4=Supplier Part Number 1=True
+Configuration4_Name5=SortOrder
+Configuration4_Item5=Comment=Up
+Configuration4_Name6=VisibleOrder
+Configuration4_Item6=Quantity=44|Supplier Part Number 1=114|Designator=101|Comment=100|Value=100
+Configuration4_Name7=VisibleOrder_Flat
+Configuration4_Item7=Quantity=44|Supplier Part Number 1=114|Designator=101|Comment=100|Value=100
 OutputType5=ComponentCrossReference
 OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
