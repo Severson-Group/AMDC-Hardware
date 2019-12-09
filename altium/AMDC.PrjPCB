@@ -501,20 +501,20 @@ Path=C:\Users\Public\Documents\Altium\AD18\Library\Libraries\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectUniversity
-Value=UW-Madison
+Name=ProjectGroup
+Value=Severson Group
 
 [Parameter2]
-Name=ProjectRev
-Value=D
-
-[Parameter3]
 Name=ProjectOrganization
 Value=WEMPEC
 
+[Parameter3]
+Name=ProjectRev
+Value=D
+
 [Parameter4]
-Name=ProjectGroup
-Value=Severson Group
+Name=ProjectUniversity
+Value=UW-Madison
 
 [Configuration1]
 Name=Sources
