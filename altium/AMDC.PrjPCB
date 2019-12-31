@@ -496,6 +496,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SKRXUXRE
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for AMDC\Design Rule Check - PCB_v4.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=C:\Users\Public\Documents\Altium\AD18\Library\Libraries\*.*
 IncludeSubFolders=1
@@ -674,7 +678,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Canon MX920 series Printer WS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
