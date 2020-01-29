@@ -4,15 +4,15 @@ AMDC is a platform that provides relevent interfaces which can be used to contro
 
 The provided interfaces include:
 - 48 digital output channels (able to provide PWM signals for 8 three phase, two level inverters)
-- 16 analog input channels (+- 15V differential input)
-- 24 channel general purpose I/O
-- Quadrature encoder input
+- 8 analog input channels (+- 10V differential input)
+- 4 SPI ports with differential input and output lines
+- 2 quadrature encoder input
 
 ![AMDC Block Diagram](amdc-block-diagram.png?raw=true "AMDC Block Diagram")
 
 ## Background
 
-This project originated as [Nathan Petersen's](https://github.com/npetersen2) Independent Study project during Spring 2018, advised by Prof. Eric Severson. It is now actively maintained by the [Severson Research Group](http://severson.wempec.wisc.edu/) as a hardware platform for the AMDC system. Open source firmware is forthcoming. 
+This project originated as [Nathan Petersen's](https://github.com/npetersen2) Independent Study project during Spring 2018, advised by Prof. Eric Severson. It is now actively maintained by the [Severson Research Group](http://severson.wempec.wisc.edu/) as a hardware platform for the AMDC system. Open source firmware is available on GitHub under the [AMDC-Firmware][https://github.com/Severson-Group/AMDC-Firmware] repository. 
 
 ## Repository Structure
 

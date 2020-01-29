@@ -1,0 +1,27 @@
+6 layer board. ">" indicate copper layers.
+
+TOP
+
+Top Paste
+Top Overlay
+Top Solder
+> Top Layer
+Dielectric 1
+Dielectric 2
+> Int1 (GND)
+Dielectric 3
+> Int2 (Sign)
+Dielectric 4
+Dielectric 5
+> Int3 (Sign)
+Dielectric 6
+> Int4 (PWR)
+Dielectric 7
+Dielectric 8
+> Bottom Layer
+Bottom Solder
+Bottom Overlay
+Bottom Paste
+
+
+BOTTOM
