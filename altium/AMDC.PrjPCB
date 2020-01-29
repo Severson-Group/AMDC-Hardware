@@ -496,140 +496,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SKRXUXRE
 
+[Document28]
+DocumentPath=RevisionChanges.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GCLPOESB
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for AMDC\Design Rule Check - PCB_v4.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for AMDC\PCB_v4.1
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for AMDC\PCB_v4.2
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for AMDC\PCB_v4.3
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for AMDC\PCB_v4.4
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for AMDC\PCB_v4.5
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for AMDC\PCB_v4.6
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for AMDC\PCB_v4.7
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for AMDC\PCB_v4.8
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for AMDC\PCB_v4.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for AMDC\PCB_v4.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for AMDC\PCB_v4.G1
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for AMDC\PCB_v4.G2
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for AMDC\PCB_v4.G3
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for AMDC\PCB_v4.G4
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GM12
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GML
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for AMDC\PCB_v4.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for AMDC\PCB_v4.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for AMDC\PCB_v4.REP
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for AMDC\PCB_v4.TXT
 DItemRevisionGUID=
 
 [SearchPath1]
