@@ -7,14 +7,14 @@ This document describes the design considerations and implementation details for
 Discussion related to inherient requirements and why those requirements exist.
 
 - Main design point: interface with as many power stacks as possible... Flexibility...
----- Designed with certain CREE gate drive in mind...
+  - Designed with certain CREE gate drive in mind...
 
 - Designed to work mainly with three-phase two-level power stacks
 - User supplied PWM voltage level for flexiblity
 - Power distribution for power stacks
 - Selectable status I/O voltage level
 - Generic status signals with selectable direction
---- What is purpose of statuses? example status ideas?
+  - What is purpose of statuses? example status ideas?
 
 ## Block Diagram / External Connections
 
