@@ -1,4 +1,4 @@
-# Power Distribution
+# AMDC Power Distribution
 
 This document describes the design considerations and implementation details for the power distribution subsystem on the Advanced Motor Drive Controller (AMDC).
 
