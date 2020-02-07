@@ -4,11 +4,12 @@ This document describes the design considerations and implementation details for
 
 ## Design Requirements and Considerations
 
-Discussion related to inherient requirements and why those requirements exist.
-- Low noise for ICs
-- Single power input
-- Efficient voltage conversion
-- Inexpensive / small BOM
+The design requirements for the power input and distribution on the AMDC can be boiled down to a succient list of conflicting goals:
+
+1. Single voltage input connection for all PCB power.
+2. Efficient DC/DC conversion for various voltage rails (steady state should not be excessively hot for devices).
+3. Low noise on power rails for circuitry (switching DC/DC are noisy; LDOs are preferred).
+4. Power subsystem is not the main goal of AMDC, therefore BOM should be small and inexensive.
 
 ## Block Diagram / External Connections
 
