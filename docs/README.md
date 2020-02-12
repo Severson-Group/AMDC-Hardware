@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
-### [Analog](docs/Analog.md)
+### [Analog](Analog.md)
 
-### [Encoder](docs/Encoder.md)
+### [Encoder](Encoder.md)
 
-### [Power Distribution](docs/PowerDistribution.md)
+### [Power Distribution](PowerDistribution.md)
 
-### [Power Stack](docs/PowerStack.md)
+### [Power Stack](PowerStack.md)
 
-### [isoSPI](docs/isoSPI.md)
+### [isoSPI](isoSPI.md)
