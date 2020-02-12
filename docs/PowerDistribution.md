@@ -13,10 +13,9 @@ The design requirements for the power input and distribution on the AMDC can be 
 
 The remainder of this document will summarize the resulting AMDC power system design and how it adheres to these goals.
 
-## Block Diagram / External Connections
+## Block Diagram
 
-Pictorial representation of power system, with blocks and descriptions of what they do.
-- Spots to measure current / voltage
+<img src="images/amdc-power-distribution.svg" />
 
 ## Schematics
 
