@@ -9,7 +9,7 @@ The design requirements for the power input and distribution on the AMDC can be 
 1. Single voltage input connection for all PCB power.
 2. Efficient DC/DC conversion for various voltage rails (steady state should not be excessively hot for devices).
 3. Low noise on power rails for circuitry (switching DC/DC are noisy; LDOs are preferred).
-4. Power subsystem is not the main goal of AMDC, therefore BOM should be small and inexensive.
+4. Power subsystem is not the main goal of AMDC, therefore BOM should be small and inexpensive.
 
 The remainder of this document will summarize the resulting AMDC power system design and how it adheres to these goals.
 
