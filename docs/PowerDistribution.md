@@ -2,16 +2,14 @@
 
 This document describes the design considerations and implementation details for the power distribution subsystem on the Advanced Motor Drive Controller (AMDC).
 
-## Design Requirements and Considerations
+## Design Requirements
 
-The design requirements for the power input and distribution on the AMDC can be boiled down to a succient list of conflicting goals:
+The design requirements for the power input and distribution on the AMDC can be boiled down to a succient list of conflicting goals. The remainder of this document will summarize the resulting AMDC power system design and how it adheres to these goals.
 
 1. Single voltage input connection for all PCB power.
 2. Efficient DC/DC conversion for various voltage rails (steady state should not be excessively hot for devices).
 3. Low noise on power rails for circuitry (switching DC/DC are noisy; LDOs are preferred).
 4. Power subsystem is not the main goal of AMDC, therefore BOM should be small and inexpensive.
-
-The remainder of this document will summarize the resulting AMDC power system design and how it adheres to these goals.
 
 ## Block Diagram
 
@@ -39,7 +37,7 @@ To protect the circuitry on the AMDC from over-voltage, under-voltage, and rever
 
 Once the power protection circuitry has "approved" the input voltage, it then passes through a Class B EMC Emissions filtering stage. This consists of inductors and capacitors which prevent the source for being affected by poor dynamic AMDC power draw.
 
-### 4. Large DC/DC Conversion
+### 4. Bulk DC/DC Conversion
 
 The filtered input voltage of 24V is then used by three DC/DC converters to efficiently buck the voltage down to levels needed by the circuitry.
 
@@ -53,7 +51,7 @@ The two 15V DC/DC are isolated, which means that their outputs can be used in se
 
 The output of the 5V DC/DC is used by the majority of the AMDC (PicoZed, nearly all ICs, etc), and thus has a large amount of bulk capacitence on its output. In prior AMDC designs, issues arose when the 5V DC/DC output was directly connected to the rest of the board -- the inrush current caused the DC/DC to current limit and turn itself off. Once it was off, it tried turning back on, thus repeating the cycle and causing a "hiccuping" effect. To solve this, the inrush limiting block is used on the 5V DC/DC output. The main device behind this is the TI TPS22965, a load switch with adjustable rise time. The rise time, set by external capacitor, is set such that the DC/DC does not register a current limiting event. Calculations are provided in the schematics to size this capacitor, but a slower rise time is used in the final design which resulted from experimental test data.
 
-### 5. Small LDO Conversion
+### 5. Individual LDO Conversion
 
 Discussion related to schematics for power subsystem:
 - Related screenshots
