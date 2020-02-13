@@ -64,6 +64,8 @@ After the DC/DC converters efficiently step the input 24V down to various voltag
     2. 3.3V
     3. 1.8V
 
+The PicoZed requires power-on sequencing for its two supply rails: `VIN_HDR` and `VCCO`. The PicoZed output `LV_VCCIO_EN` is a 1.8V active high signal that the PicoZed asserts when the carrier board must provide the VCCO voltage rail. This feeds the enable pin of the `VCCO` LDO.
+
 ## PCB Layout
 
 The floor plan of the AMDC circuit board layout is divided into regions for each subsystem. The power input and conversion region is grouped on the left side, with all signals routed using thick traces. A [trace width calculator](https://www.4pcb.com/trace-width-calculator.html) is used to determine an appropriate trace width for various current levels. The copper weight is assumed to be 1oz and a 10-20C tempurature rise is considered reasonable. Based upon this, various voltage rails require different trace thicknesses.
@@ -88,8 +90,9 @@ The PicoZed power requirements change depending on what is running in the FPGA a
 | `5V`              | 5V              | Nearly all ICs       | ???             | 3A          |
 | `3.3V`            | 3.3V            | JTAG                 | ???             | 1A          |
 | `1.8V`            | 1.8V            | VIO for FPGA         | ???             | 3A          |
-| VREF              | 2.048V          | Analog inputs        | ???             | 25mA        |
+| `VREF`            | 2.048V          | Analog inputs        | ???             | 25mA        |
+
+_The above "???" entries will be measured on the REV D design and this document will be updated accordingly._
 
 ## Datasheets
 
-Appendix with links to relevant datasheets for the parts on the AMDC... DC/DCs, LDOs, power protection, etc.
