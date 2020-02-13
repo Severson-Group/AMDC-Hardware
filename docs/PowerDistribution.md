@@ -27,7 +27,7 @@ A screw terminal input is the main source of power. The nominal voltage is 24V, 
 
 ### 2. Power Protection
 
-To protect the circuitry on the AMDC from over-voltage, under-voltage, and reverse voltage input, back-to-back series MOSFETs are used  to act as a switch for input voltage. The gates' of these MOSFETs are controlled by the [LTC4365](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4365.pdf) device, which is configured to only allow a certian range of voltages (20V to 34V). See the note in the schematics for calculation of the resistor values.
+To protect the circuitry on the AMDC from over-voltage, under-voltage, and reverse voltage input, [back-to-back series MOSFETs](https://www.vishay.com/docs/75642/si4946cdy.pdf) are used  to act as a switch for input voltage. The gates' of these MOSFETs are controlled by the [LTC4365](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4365.pdf) device, which is configured to only allow a certian range of voltages (20V to 34V). See the note in the schematics for calculation of the resistor values.
 
 ### 3. Filter
 
@@ -37,9 +37,9 @@ Once the power protection circuitry has "approved" the input voltage, it then pa
 
 The filtered input voltage of 24V is then used by three DC/DC converters to efficiently buck the voltage down to levels needed by the circuitry.
 
-- 24V to 5V (trimmed to 5.5V) --  P/N: SHHD003A0A4Z
-- 24V to 15V (trimmed to 16V) -- 	P/N: RS6-2415S
-- 24V to 15V (trimmed to 16V) --  P/N: RS6-2415S
+- 24V to 5V (trimmed to 5.5V) --  P/N: [SHHD003A0A4Z](http://apps.geindustrial.com/publibrary/checkout/SHHD003A0A?TNR=Data%20Sheets|SHHD003A0A|generic)
+- 24V to 15V (trimmed to 16V) --  P/N: [RS6-2415S](https://recom-power.com/pdf/Econoline/RS6.pdf)
+- 24V to 15V (trimmed to 16V) --  P/N: [RS6-2415S](https://recom-power.com/pdf/Econoline/RS6.pdf)
 
 All three DC/DCs are trimmed such that their output is +10% higher than the required voltage so that LDOs can be used later (i.e. 5.5V is the DC/DC output so that a 5V LDO can be used). Note that two different versions of the DC/DCs are available, with the only difference being where the trim resistor goes. Both footprints are provided on the AMDC to allow user BOM flexibility, and one resistor is marked DNP.
 
@@ -47,22 +47,22 @@ The two 15V DC/DC are isolated, which means that their outputs can be used in se
 
 The output of the 5.5V DC/DC is used by the majority of the AMDC (PicoZed, nearly all ICs, etc), and thus has a large amount of bulk capacitence on its output. In prior AMDC designs, issues arose when the 5.5V DC/DC output was directly connected to the rest of the board -- the inrush current caused the DC/DC to current limit and turn itself off. Once it was off, it tried turning back on, thus repeating the cycle and causing a "hiccuping" effect.
 
-To solve this, the inrush limiting block is used on the 5.5V DC/DC output. The main device behind this is the TI TPS22965, a load switch with adjustable rise time. The rise time, set by external capacitor, is set such that the DC/DC does not register a current limiting event. Calculations are provided in the schematics to size this capacitor, but a slower rise time (larger capacitor value) is used in the final design which resulted from experimental test data.
+To solve this, the inrush limiting block is used on the 5.5V DC/DC output. The main device behind this is the [TI TPS22965](http://www.ti.com/lit/ds/symlink/tps22965.pdf), a load switch with adjustable rise time. The rise time, set by external capacitor, is set such that the DC/DC does not register a current limiting event. Calculations are provided in the schematics to size this capacitor, but a slower rise time (larger capacitor value) is used in the final design which resulted from experimental test data.
 
 ### 5. Individual LDO Conversion
 
 After the DC/DC converters efficiently step the input 24V down to various voltage rails (+/-16V, +5.5V), local LDOs are used to filter the "noisy" DC/DC output for the rest of the AMDC. These LDOs can be grouped into three categories of voltage rails:
 
 1. Analog front-end
-    1. +15V
-    2. -15V
+    1. +15V -- P/N: [MC78M15CDTRKG](https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF)
+    2. -15V -- P/N: [MC79M15CDTRKG](https://www.onsemi.com/pub/Collateral/MC79M00-D.PDF)
 2. PicoZed
-    1. VIN_HDR (PicoZed main 5V supply)
-    2. VCCO (PicoZed 1.8V I/O supply)
+    1. VIN_HDR (PicoZed main 5V supply) -- P/N: [LT1529CQ-5#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1529fb.pdf)
+    2. VCCO (PicoZed 1.8V I/O supply) -- P/N: [AP2112K-1.8TRG1](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
 3. General purpose
-    1. 5V
-    2. 3.3V
-    3. 1.8V
+    1. 5V -- P/N: [LT1529CQ-5#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1529fb.pdf)
+    2. 3.3V -- P/N: [AP2114H-3.3TRG1](https://www.diodes.com/assets/Datasheets/AP2114.pdf)
+    3. 1.8V -- P/N: [LT1764EQ-1.8#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1764fb.pdf)
 
 The PicoZed requires power-on sequencing for its two supply rails: `VIN_HDR` and `VCCO`. The PicoZed output `LV_VCCIO_EN` is a 1.8V active high signal that the PicoZed asserts when the carrier board must provide the VCCO voltage rail. This feeds the enable pin of the `VCCO` LDO.
 
@@ -93,6 +93,3 @@ The PicoZed power requirements change depending on what is running in the FPGA a
 | `VREF`            | 2.048V          | Analog inputs        | ???             | 25mA        |
 
 _The above "???" entries will be measured on the REV D design and this document will be updated accordingly._
-
-## Datasheets
-
