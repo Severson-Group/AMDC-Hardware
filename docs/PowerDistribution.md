@@ -1,6 +1,6 @@
 # AMDC Power Distribution
 
-This document describes the design considerations and implementation details for the power distribution subsystem on the Advanced Motor Drive Controller (AMDC). A block diagram is presented and discussed in detail. Finally, PCB layout considerations are addressed and an appendix of relevant datasheets is provided.
+This document describes the design considerations and implementation details for the power distribution subsystem on the Advanced Motor Drive Controller (AMDC). A block diagram is presented and discussed in detail, along with PCB layout considerations.
 
 ## Design Requirements
 
