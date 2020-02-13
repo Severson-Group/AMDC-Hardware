@@ -63,7 +63,7 @@ After the DC/DC converters efficiently step the input 24V down to various voltag
     2. 3.3V &mdash; _(P/N: [AP2114H-3.3TRG1](https://www.diodes.com/assets/Datasheets/AP2114.pdf))_
     3. 1.8V &mdash; _(P/N: [LT1764EQ-1.8#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1764fb.pdf))_
 
-The PicoZed requires power-on sequencing for its two supply rails: `VIN_HDR` and `VCCO`. The PicoZed output `LV_VCCIO_EN` is a 1.8V active high signal that the PicoZed asserts when the carrier board must provide the VCCO voltage rail. This feeds the enable pin of the `VCCO` LDO.
+The PicoZed requires power-on sequencing for its two supply rails: `VIN_HDR` and `VCCO`. The PicoZed output `LV_VCCIO_EN` is a 1.8V active high signal that the PicoZed asserts when the carrier board must provide the VCCO voltage rail. This feeds the enable pin of the `VCCO` LDO. See the [PicoZed 7Z030 SOM Hardware User Guide](http://zedboard.org/sites/default/files/documentations/5279-UG-PicoZed-7015-7030-V2_0.pdf) section 2.11 for more information on PicoZed power requirements.
 
 ## PCB Layout
 
