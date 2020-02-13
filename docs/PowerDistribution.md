@@ -27,7 +27,7 @@ A screw terminal input is the main source of power. The nominal voltage is 24V, 
 
 ### 2. Power Protection
 
-To protect the circuitry on the AMDC from over-voltage, under-voltage, and reverse voltage input, [back-to-back series MOSFETs](https://www.vishay.com/docs/75642/si4946cdy.pdf) are used  to act as a switch for input voltage. The gates' of these MOSFETs are controlled by the [LTC4365](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4365.pdf) device, which is configured to only allow a certian range of voltages (20V to 34V). See the note in the schematics for calculation of the resistor values.
+To protect the circuitry on the AMDC from over-voltage, under-voltage, and reverse voltage input, [back-to-back series MOSFETs](https://www.vishay.com/docs/75642/si4946cdy.pdf) are used  to act as a switch for input voltage. The gates of these MOSFETs are controlled by the [LTC4365](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4365.pdf) device, which is configured to only allow a certian range of voltages (20V to 34V). See the note in the schematics for calculation of the resistor values.
 
 ### 3. Filter
 
