@@ -55,6 +55,7 @@ After the DC/DC converters efficiently step the input 24V down to various voltag
 1. Analog front-end
     1. +15V &mdash; _(P/N: [MC78M15CDTRKG](https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF))_
     2. -15V &mdash; _(P/N: [MC79M15CDTRKG](https://www.onsemi.com/pub/Collateral/MC79M00-D.PDF))_
+    3. VREF &mdash; _(P/N: [REF3020AIDBZR](http://www.ti.com/lit/ds/symlink/ref3012.pdf))_
 2. PicoZed
     1. VIN_HDR (PicoZed main 5V supply) &mdash; _(P/N: [LT1529CQ-5#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1529fb.pdf))_
     2. VCCO (PicoZed 1.8V I/O supply) &mdash; _(P/N: [AP2112K-1.8TRG1](https://www.diodes.com/assets/Datasheets/AP2112.pdf))_
