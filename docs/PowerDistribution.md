@@ -19,11 +19,11 @@ The design requirements for the power input and distribution on the AMDC can be 
 
 A screw terminal input is the main source of power. The nominal voltage is 24V, but can support 20-34V range. Around 12W of power is needed to run all of AMDC.
 
-| Property              | Value | Units |
-|-----------------------|-------|-------|
-| Nominal input voltage | 24    | V     |
-| Nominal input power   | 12    | W     |
-| Nominal input current | 0.5   | A     |
+| Nominal Inputs | Value | Units |
+|----------------|-------|-------|
+| Voltage        | 24    | V     |
+| Current        | 0.5   | A     |
+| Power          | 12    | W     |
 
 ### 2. Power Protection
 
