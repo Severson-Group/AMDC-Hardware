@@ -37,9 +37,8 @@ Once the power protection circuitry has "approved" the input voltage, it then pa
 
 The filtered input voltage of 24V is then used by three DC/DC converters to efficiently buck the voltage down to levels needed by the circuitry.
 
-- 24V to 5V (trimmed to 5.5V) --  P/N: [SHHD003A0A4Z](http://apps.geindustrial.com/publibrary/checkout/SHHD003A0A?TNR=Data%20Sheets|SHHD003A0A|generic)
-- 24V to 15V (trimmed to 16V) --  P/N: [RS6-2415S](https://recom-power.com/pdf/Econoline/RS6.pdf)
-- 24V to 15V (trimmed to 16V) --  P/N: [RS6-2415S](https://recom-power.com/pdf/Econoline/RS6.pdf)
+- 24V to 5V (trimmed to 5.5V) &mdash; _(P/N: [SHHD003A0A4Z](http://apps.geindustrial.com/publibrary/checkout/SHHD003A0A?TNR=Data%20Sheets|SHHD003A0A|generic))_
+- 24V to 15V (trimmed to 16V, 2x) &mdash; _(P/N: [RS6-2415S](https://recom-power.com/pdf/Econoline/RS6.pdf))_
 
 All three DC/DCs are trimmed such that their output is +10% higher than the required voltage so that LDOs can be used later (i.e. 5.5V is the DC/DC output so that a 5V LDO can be used). Note that two different versions of the DC/DCs are available, with the only difference being where the trim resistor goes. Both footprints are provided on the AMDC to allow user BOM flexibility, and one resistor is marked DNP.
 
@@ -54,15 +53,15 @@ To solve this, the inrush limiting block is used on the 5.5V DC/DC output. The m
 After the DC/DC converters efficiently step the input 24V down to various voltage rails (+/-16V, +5.5V), local LDOs are used to filter the "noisy" DC/DC output for the rest of the AMDC. These LDOs can be grouped into three categories of voltage rails:
 
 1. Analog front-end
-    1. +15V -- P/N: [MC78M15CDTRKG](https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF)
-    2. -15V -- P/N: [MC79M15CDTRKG](https://www.onsemi.com/pub/Collateral/MC79M00-D.PDF)
+    1. +15V &mdash; _(P/N: [MC78M15CDTRKG](https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF))_
+    2. -15V &mdash; _(P/N: [MC79M15CDTRKG](https://www.onsemi.com/pub/Collateral/MC79M00-D.PDF))_
 2. PicoZed
-    1. VIN_HDR (PicoZed main 5V supply) -- P/N: [LT1529CQ-5#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1529fb.pdf)
-    2. VCCO (PicoZed 1.8V I/O supply) -- P/N: [AP2112K-1.8TRG1](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
+    1. VIN_HDR (PicoZed main 5V supply) &mdash; _(P/N: [LT1529CQ-5#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1529fb.pdf))_
+    2. VCCO (PicoZed 1.8V I/O supply) &mdash; _(P/N: [AP2112K-1.8TRG1](https://www.diodes.com/assets/Datasheets/AP2112.pdf))_
 3. General purpose
-    1. 5V -- P/N: [LT1529CQ-5#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1529fb.pdf)
-    2. 3.3V -- P/N: [AP2114H-3.3TRG1](https://www.diodes.com/assets/Datasheets/AP2114.pdf)
-    3. 1.8V -- P/N: [LT1764EQ-1.8#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1764fb.pdf)
+    1. 5V &mdash; _(P/N: [LT1529CQ-5#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1529fb.pdf))_
+    2. 3.3V &mdash; _(P/N: [AP2114H-3.3TRG1](https://www.diodes.com/assets/Datasheets/AP2114.pdf))_
+    3. 1.8V &mdash; _(P/N: [LT1764EQ-1.8#PBF](https://www.analog.com/media/en/technical-documentation/data-sheets/1764fb.pdf))_
 
 The PicoZed requires power-on sequencing for its two supply rails: `VIN_HDR` and `VCCO`. The PicoZed output `LV_VCCIO_EN` is a 1.8V active high signal that the PicoZed asserts when the carrier board must provide the VCCO voltage rail. This feeds the enable pin of the `VCCO` LDO.
 
