@@ -92,3 +92,7 @@ The PicoZed power requirements change depending on what is running in the FPGA a
 | `VREF`            | 2.048V          | Analog inputs        | ???             | 25mA        |
 
 _The above "???" entries will be measured on the REV D design and this document will be updated accordingly._
+
+### Measuring Current
+
+Users can measure voltage rail current at a variety of spots on AMDC. See the block diagram above for locations of 0R resistors and jumpers which can be removed to measure current. All LDOs have a 0R resistor at their output and all DC/DCs have a jumper at their outputs.
