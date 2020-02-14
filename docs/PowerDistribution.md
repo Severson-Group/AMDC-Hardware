@@ -97,3 +97,22 @@ _The above "???" entries will be measured on the REV D design and this document 
 ### Measuring Current
 
 Users can measure voltage rail current at a variety of spots on AMDC. See the block diagram above for locations of 0R resistors and jumpers which can be removed to measure current. All LDOs have a 0R resistor at their output and all DC/DCs have a jumper at their outputs.
+
+## External Power Consumption
+
+Several connectors on the AMDC provide power to external devices (i.e. encoder, power stack, analog sensor, etc). These voltage rails come from the supplies on AMDC, so must adhere to the max power restrictions denoted in the above table. More info can be found in each subsystem's documentation.
+
+### Power Stack Power
+
+Each power stack DB15 connector includes two power rails: low voltage and high voltage. The low voltage can be either 3.3V or 5V and is set by a PCB jumper. This low voltage rail can be used as a power supply on the power stack, and is the expected I/O voltage level for status signals. Note that the power stack current draw from this low voltage rail should be reasonable, as it comes from AMDC general power rails (see table above).
+
+The high voltage power rail is fed directly from a screw terminal (`VIN_PS` / `GND_IN_PS`). These signals are only routed to the power stack connectors. Therefore, the user can supply whatever voltage their power stack needs (e.g. 24V or 12V). The user must not draw more than 2A combined for all power stacks from this high voltage power supply. If the user's power stack needs more power, they must use their own power supply, and reference the AMDC common (`GND`) to their power supply common.
+
+### Analog Power
+
+Each analog input RJ45 connector interfaces to two differential input signals and provides +/- 15V power and the AMDC common (`GND`). Users can use this power supply to power their external sensors, but cannot consume too much power. See table above for maxiumum ratings.
+
+### Encoder Power
+
+### isoSPI Power
+
