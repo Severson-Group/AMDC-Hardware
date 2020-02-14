@@ -100,13 +100,13 @@ Users can measure voltage rail current at a variety of spots on AMDC. See the bl
 
 ## External Power Consumption
 
-Several connectors on the AMDC provide power to external devices (i.e. encoder, power stack, analog sensor, etc). These voltage rails come from the supplies on AMDC, so must adhere to the max power restrictions denoted in the above table. More info can be found in each subsystem's documentation.
+Several connectors on the AMDC provide power to external devices (i.e. encoder, power stack, analog sensor, etc). These voltage rails come from the supplies on AMDC, so must adhere to the max power restrictions denoted in the above table. Brief info is given below, but more info can be found in each subsystem's documentation.
 
 ### Power Stack Power
 
-Each power stack DB15 connector includes two power rails: low voltage and high voltage. The low voltage can be either 3.3V or 5V and is set by a PCB jumper. This low voltage rail can be used as a power supply on the power stack, and is the expected I/O voltage level for status signals. Note that the power stack current draw from this low voltage rail should be reasonable, as it comes from AMDC general power rails (see table above).
+Each power stack DB15 connector includes two power rails: low voltage and high voltage. The low voltage can either be 3.3V or 5V and is set by a PCB jumper. This low voltage rail can be used as a power supply on the power stack, and is the expected I/O voltage level for status signals. Note that the power stack current draw from this low voltage rail should be reasonable, as it comes from AMDC general power rails (see table above).
 
-The high voltage power rail is fed directly from a screw terminal (`VIN_PS` / `GND_IN_PS`). These signals are only routed to the power stack connectors. Therefore, the user can supply whatever voltage their power stack needs (e.g. 24V or 12V). The user must not draw more than 2A combined for all power stacks from this high voltage power supply. If the user's power stack needs more power, they must use their own power supply, and reference the AMDC common (`GND`) to their power supply common.
+The high voltage power rail is fed directly from a screw terminal input on AMDC (`VIN_PS` / `GND_IN_PS`). These signals are only routed to the power stack connectors. Therefore, the user can supply whatever voltage their power stack needs (e.g. 24V or 12V). The user must not draw more than 2A combined for all power stacks from this high voltage power supply. If the user's power stack needs more current from the high-voltage rail, they must use their own power supply and reference the AMDC common (`GND`) to their power stack common.
 
 ### Analog Power
 
@@ -114,5 +114,9 @@ Each analog input RJ45 connector interfaces to two differential input signals an
 
 ### Encoder Power
 
+Each encoder interface DB9 connector provides a power rail for the external encoder. The voltage is 5V, but can be disabled by removing the encoder power jumper on AMDC. The above table provides max power draw for the AMD 5V generic rail.
+
 ### isoSPI Power
+
+Each isoSPI interface DB15 connector provides two power rails: 5V and `VIN` (the main input to AMDC, nominally 24V). The external isoSPI boards can consume either rail, but must limit current draw to values denoted in above table.
 
