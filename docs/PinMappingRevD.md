@@ -2,6 +2,22 @@
 
 This document describes the pin mapping for signals on the AMDC hardware that connect to the PicoZed and Zynq-7000 FPGA module. The Vivado constraint file is based off of this mapping.
 
+## UART
+
+| PCB Signal Name | PicoZed Pin | Zynq-7000 Port |
+|-----------------|-------------|----------------|
+| `USB_UART_TXD`  | JX1-50      | UART1          |
+| `USB_UART_RXD`  | JX1-50      | UART1          |
+
+## EEPROM
+
+| PCB Signal Name | PicoZed Pin | Zynq-7000 Port |
+|-----------------|-------------|----------------|
+| `EEPROM_CS`     | JX1-50      | SPI3           |
+| `EEPROM_SCK`    | JX1-50      | SPI3           |
+| `EEPROM_SI`     | JX1-50      | SPI3           |
+| `EEPROM_SO`     | JX1-50      | SPI3           |
+
 ## Power Stack Interface
 
 ### Inverter 1
