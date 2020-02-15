@@ -1,5 +1,7 @@
 # AMDC Hardware Documentation
 
+### [Pin Mapping: REV D](PinMappingRevD.md)
+
 ## Table of Contents
 
 ### [Analog](Analog.md)
