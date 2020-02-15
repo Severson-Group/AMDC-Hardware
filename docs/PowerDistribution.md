@@ -4,7 +4,7 @@ This document describes the design considerations and implementation details for
 
 ## Design Requirements
 
-The design requirements for the power input and distribution on the AMDC can be boiled down to a succient list of conflicting goals. The remainder of this document will summarize the resulting AMDC power system design and how it adheres to these goals. The following describes these goals:
+The design requirements for the power input and distribution on the AMDC can be boiled down to a succinct list of conflicting goals. The remainder of this document will summarize the resulting AMDC power system design and how it adheres to these goals. The following describes these goals:
 
 1. Single voltage input connection for all PCB power.
 2. Efficient DC/DC conversion for various voltage rails (steady state should not be excessively hot for devices).
@@ -27,7 +27,7 @@ A screw terminal input is the main source of power. The nominal voltage is 24V, 
 
 ### 2. Power Protection
 
-To protect the circuitry on the AMDC from over-voltage, under-voltage, and reverse voltage input, [back-to-back series MOSFETs](https://www.vishay.com/docs/75642/si4946cdy.pdf) are used  to act as a switch for input voltage. The gates of these MOSFETs are controlled by the [LTC4365](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4365.pdf) device, which is configured to only allow a certian range of voltages (20V to 34V). See the note in the schematics for calculation of the resistor values.
+To protect the circuitry on the AMDC from over-voltage, under-voltage, and reverse voltage input, [back-to-back series MOSFETs](https://www.vishay.com/docs/75642/si4946cdy.pdf) are used  to act as a switch for input voltage. The gates of these MOSFETs are controlled by the [LTC4365](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4365.pdf) device, which is configured to only allow a certain range of voltages (20V to 34V). See the note in the schematics for calculation of the resistor values.
 
 ### 3. Filter
 
@@ -44,7 +44,7 @@ All three DC/DCs are trimmed such that their output is +10% higher than the requ
 
 The two 15V DC/DC are isolated, which means that their outputs can be used in series to create both positive and negative voltage rails (+/-15V). The mid-point is tied to AMDC common voltage rail (`GND`).
 
-The output of the 5.5V DC/DC is used by the majority of the AMDC (PicoZed, nearly all ICs, etc), and thus has a large amount of bulk capacitence on its output. In prior AMDC designs, issues arose when the 5.5V DC/DC output was directly connected to the rest of the board -- the inrush current caused the DC/DC to current limit and turn itself off. Once it was off, it tried turning back on, thus repeating the cycle and causing a "hiccuping" effect.
+The output of the 5.5V DC/DC is used by the majority of the AMDC (PicoZed, nearly all ICs, etc), and thus has a large amount of bulk capacitance on its output. In prior AMDC designs, issues arose when the 5.5V DC/DC output was directly connected to the rest of the board -- the inrush current caused the DC/DC to current limit and turn itself off. Once it was off, it tried turning back on, thus repeating the cycle and causing a "hiccupping" effect.
 
 To solve this, the inrush limiting block is used on the 5.5V DC/DC output. The main device behind this is the [TI TPS22965](http://www.ti.com/lit/ds/symlink/tps22965.pdf), a load switch with adjustable rise time. The rise time, set by external capacitor, is set such that the DC/DC does not register a current limiting event. Calculations are provided in the schematics to size this capacitor, but a slower rise time (larger capacitor value) is used in the final design which resulted from experimental test data.
 
@@ -68,9 +68,9 @@ The PicoZed requires power-on sequencing for its two supply rails: `VIN_HDR` and
 
 ## PCB Layout
 
-The floor plan of the AMDC circuit board layout is divided into regions for each subsystem. The power input and conversion region is grouped on the left side, with all signals routed using thick traces. A [trace width calculator](https://www.4pcb.com/trace-width-calculator.html) is used to determine an appropriate trace width for various current levels. The copper weight is assumed to be 1oz and a 10-20C tempurature rise is considered reasonable. Based upon this, various voltage rails require different trace thicknesses.
+The floor plan of the AMDC circuit board layout is divided into regions for each subsystem. The power input and conversion region is grouped on the left side, with all signals routed using thick traces. A [trace width calculator](https://www.4pcb.com/trace-width-calculator.html) is used to determine an appropriate trace width for various current levels. The copper weight is assumed to be 1oz and a 10-20C temperature rise is considered reasonable. Based upon this, various voltage rails require different trace thicknesses.
 
-As an example, the majority of ICs consume less than 100mA of current, so a default 10mil trace width is used, resulting in negligible tempurature rise. However, the power distribution rail for the power stack is designed to support a maximum of 2A, so 50-80mil trace widths are used.
+As an example, most ICs consume less than 100mA of current, so a default 10mil trace width is used, resulting in negligible temperature rise. However, the power distribution rail for the power stack is designed to support a maximum of 2A, so 50-80mil trace widths are used.
 
 High frequency switching noise is emitted from the DC/DC modules which can affect AMDC operation. Therefore, these "dirty" power rails are kept away from "clean" signals. The voltage rails post LDOs are assumed to be clean, so they are freely routed around the PCB, while DC/DC rails are kept short and localized.
 
@@ -104,19 +104,19 @@ Several connectors on the AMDC provide power to external devices (i.e. encoder, 
 
 ### Power Stack Power
 
-Each power stack DB15 connector includes two power rails: low voltage and high voltage. The low voltage can either be 3.3V or 5V and is set by a PCB jumper. This low voltage rail can be used as a power supply on the power stack, and is the expected I/O voltage level for status signals. Note that the power stack current draw from this low voltage rail should be reasonable, as it comes from AMDC general power rails (see table above).
+Each power stack DB15 connector includes two power rails: low voltage and high voltage. The low voltage can either be 3.3V or 5V and is set by a PCB jumper. This low voltage rail can be used as a power supply on the power stack and is the expected I/O voltage level for status signals. Note that the power stack current draw from this low voltage rail should be reasonable, as it comes from AMDC general power rails (see table above).
 
 The high voltage power rail is fed directly from a screw terminal input on AMDC (`VIN_PS` / `GND_IN_PS`). These signals are only routed to the power stack connectors. Therefore, the user can supply whatever voltage their power stack needs (e.g. 24V or 12V). The user must not draw more than 2A combined for all power stacks from this high voltage power supply. If the user's power stack needs more current from the high-voltage rail, they must use their own power supply and reference the AMDC common (`GND`) to their power stack common.
 
 ### Analog Power
 
-Each analog input RJ45 connector interfaces to two differential input signals and provides +/- 15V power and the AMDC common (`GND`). Users can use this power supply to power their external sensors, but cannot consume too much power. See table above for maxiumum ratings.
+Each analog input RJ45 connector interfaces to two differential input signals and provides +/- 15V power and the AMDC common (`GND`). Users can use this power supply to power their external sensors, but cannot consume too much power. See table above for maximum ratings.
 
 ### Encoder Power
 
-Each encoder interface DB9 connector provides a power rail for the external encoder. The voltage is 5V, but can be disabled by removing the encoder power jumper on AMDC. The above table provides max power draw for the AMD 5V generic rail.
+Each encoder interface DB9 connector provides a power rail for the external encoder. The voltage is 5V but can be disabled by removing the encoder power jumper on AMDC. The above table provides max power draw for the AMD 5V generic rail.
 
 ### isoSPI Power
 
-Each isoSPI interface DB15 connector provides two power rails: 5V and `VIN` (the main input to AMDC, nominally 24V). The external isoSPI boards can consume either rail, but must limit current draw to values denoted in above table.
+Each isoSPI interface DB15 connector provides two power rails: 5V and `VIN` (the main input to AMDC, nominally 24V). The external isoSPI boards can consume either rail but must limit current draw to values denoted in above table.
 
