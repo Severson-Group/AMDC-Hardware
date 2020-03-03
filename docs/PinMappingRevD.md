@@ -187,7 +187,7 @@ This document describes the pin mapping for signals on the AMDC hardware that co
 | PCB Signal Name | PicoZed Pin | Zynq-7000 Pin |
 |-----------------|-------------|---------------|
 | `LV_SPI2_SCLK`  | JX1-61      | E2            |
-| `LV_SPI2_MISO`  | JX1-67      | F7            |
+| `LV_SPI2_MISO`  | JX1-53      | D1            |
 | `LV_SPI2_MOSI`  | JX1-63      | D2            |
 | `LV_SPI2_NSS`   | JX1-55      | C1            |
 | `LV_SPI2_IN`    | JX1-90      | Y15           |
