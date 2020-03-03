@@ -167,7 +167,7 @@ This document describes the pin mapping for signals on the AMDC hardware that co
 | `LV_ENC_1Z`     | JX1-62      | D7            |
 | `LV_ENC_2A`     | JX1-64      | D6            |
 | `LV_ENC_2B`     | JX1-68      | A5            |
-| `LV_ENC_2Z`       JX1-70      | A4            |
+| `LV_ENC_2Z`     | JX1-70      | A4            |
 
 ## isoSPI
 
