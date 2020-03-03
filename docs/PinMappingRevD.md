@@ -2,6 +2,8 @@
 
 This document describes the pin mapping for signals on the AMDC hardware that connect to the PicoZed and Zynq-7000 FPGA module. The Vivado constraint file is based off of this mapping.
 
+NOTE: if any mistakes are found in this document, **make sure to update the [Vivado constraint file](https://github.com/Severson-Group/AMDC-Firmware/blob/develop/hw/constraints_amdc_revd.xdcc)!!!**
+
 ## UART
 
 | PCB Signal Name | PicoZed Pin | Zynq-7000 Port |
