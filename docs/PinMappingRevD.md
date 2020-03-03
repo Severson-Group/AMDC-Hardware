@@ -178,7 +178,7 @@ This document describes the pin mapping for signals on the AMDC hardware that co
 | `LV_SPI1_SCLK`  | JX1-47      | B4            |
 | `LV_SPI1_MISO`  | JX1-41      | C6            |
 | `LV_SPI1_MOSI`  | JX1-49      | B3            |
-| `LV_SPI1_NSS`   | JX1-42      | D5            |
+| `LV_SPI1_NSS`   | JX1-43      | C5            |
 | `LV_SPI1_IN`    | JX1-88      | Y14           |
 | `LV_SPI1_OUT`   | JX1-74      | A7            |
 
