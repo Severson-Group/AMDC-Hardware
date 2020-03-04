@@ -10,7 +10,7 @@ This document describes problems with the REV D AMDC hardware and the required r
 
 ### 2. Analog RC filter caps missing
 
-<img src="docs/images/errata/rev-d-errata-rc-caps.jpg" />
+<img src="images/errata/rev-d-errata-rc-caps.jpg" width="500"/>
 
 **Issue:** The BOM specified incorrect size capacitors for the passive RC filters on the analog inputs.
 
@@ -18,8 +18,8 @@ This document describes problems with the REV D AMDC hardware and the required r
 
 ### 3. Single channel voltage translator IC missing.
 
-<img src="docs/images/errata/rev-d-errata-u3.jpg" />
-<img src="docs/images/errata/rev-d-errata-u12.jpg" />
+<img src="images/errata/rev-d-errata-u3.jpg" width="200"/>
+<img src="images/errata/rev-d-errata-u12.jpg" width="200"/>
 
 **Issue:** U3 and U12 footprint is too large for the IC, thus not soldered onto PCB by default.
 
@@ -27,7 +27,7 @@ This document describes problems with the REV D AMDC hardware and the required r
 
 ### 4. PicoZed connectors missing
 
-<img src="docs/images/errata/rev-d-errata-picozed-con.jpg" />
+<img src="images/errata/rev-d-errata-picozed-con.jpg"  width="500"/>
 
 **Issue:** The 3x 100-pin PicoZed connectors were not populated.
 
@@ -35,7 +35,7 @@ This document describes problems with the REV D AMDC hardware and the required r
 
 ### 5. JTAG USB data lines swapped
 
-<img src="docs/images/errata/rev-d-errata-jtag-usb.jpg" />
+<img src="images/errata/rev-d-errata-jtag-usb.jpg"  width="500"/>
 
 **Issue:** The schematic drawing for the JTAG-SMT2-NC module labeled the USB data line pins incorrectly, so they are swapped on the PCB (i.e. USB_D+ should go to USB_D-, etc).
 
