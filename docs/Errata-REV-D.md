@@ -4,6 +4,9 @@ This document describes problems with the REV D AMDC hardware and the required r
 
 ### 1. Power protection broken
 
+<img src="images/errata/rev-d-errata-power-protection.jpg" width="500"/>
+
+
 **Issue:** The input power protection does not work. It keeps the protection MOSFET off even when valid input voltage is present.
 
 **Fix:** Short pins 6 and 7 together on Q3. This disables the input protection.
