@@ -8,18 +8,18 @@ NOTE: if any mistakes are found in this document, **make sure to update the [Viv
 
 | PCB Signal Name | PicoZed Pin | Zynq-7000 Port |
 |-----------------|-------------|----------------|
-| `USB_UART_RXD`  | JX3-64      | MIO51 - UART1  |
-| `USB_UART_TXD`  | JX3-66      | MIO50 - UART1  |
+| `USB_UART_RXD`  | JX3-64      | MIO51 - UART0  |
+| `USB_UART_TXD`  | JX3-66      | MIO50 - UART0  |
 
 
 ## EEPROM
 
 | PCB Signal Name | PicoZed Pin | Zynq-7000 Port |
 |-----------------|-------------|----------------|
-| `EEPROM_CS`     | JX3-37      | MIO42 - SPI3   |
-| `EEPROM_SCK`    | JX3-43      | MIO40 - SPI3   |
-| `EEPROM_SI`     | JX3-38      | MIO45 - SPI3   |
-| `EEPROM_SO`     | JX3-41      | MIO46 - SPI3   |
+| `EEPROM_CS`     | JX3-37      | MIO42 - SPI0   |
+| `EEPROM_SCK`    | JX3-43      | MIO40 - SPI0   |
+| `EEPROM_SI`     | JX3-38      | MIO45 - SPI0   |
+| `EEPROM_SO`     | JX3-41      | MIO46 - SPI0   |
 
 ## Power Stack Interface
 
