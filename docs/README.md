@@ -1,8 +1,8 @@
 # AMDC Hardware Documentation
 
-### [Pin Mapping: REV D](PinMappingRevD.md)
+This collection of documents outline the design and implementation for the AMDC hardware.
 
-## Table of Contents
+## Subsystems
 
 ### [Analog](Analog.md)
 
@@ -13,6 +13,12 @@
 ### [Power Stack](PowerStack.md)
 
 ### [isoSPI](isoSPI.md)
+
+## Pin Mapping
+
+The following document describe the mapping between PCB signal names, PicoZed connector pins, and Zynq-7000 SoC pins. 
+
+### [Pin Mapping: REV D](PinMappingRevD.md)
 
 ## Errata
 
