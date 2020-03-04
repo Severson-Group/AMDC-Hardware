@@ -13,3 +13,9 @@
 ### [Power Stack](PowerStack.md)
 
 ### [isoSPI](isoSPI.md)
+
+## Errata
+
+The follow documents describe errors in hardware design and the necessary rework for each design revision.
+
+### [REV D Errata](Errata-REV-D.md)
