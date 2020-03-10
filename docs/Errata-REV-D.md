@@ -43,3 +43,15 @@ This document describes problems with the REV D AMDC hardware and the required r
 **Issue:** The schematic drawing for the JTAG-SMT2-NC module labeled the USB data line pins incorrectly, so they are swapped on the PCB (i.e. USB_D+ should go to USB_D-, etc).
 
 **Fix:** Rework board to swap the JTAG USB data lines.
+
+Due to the layout, this rework must be done on the top of the PCB. Below is a screenshot from Altium of the board layout. Use this image to figure out where you want to cut traces so you can swap the JTAG USB data lines.
+
+<img src="images/errata/rev-d-errata-jtag-usb-layout.png" width="300"/>
+
+**Suggestioned Method:** To do this rework in a fairly easy way, consider following these steps:
+
+1. Remove U33 TVS diode (this is used to protect against ESD events, but is not strictly required).
+2. Cut traces at blue line below.
+3. Attach jumper wires (recommended to use 30AWG) at the green locations below.
+
+<img src="images/errata/rev-d-errata-jtag-usb-rework.png" width="500"/>
