@@ -26,17 +26,32 @@ For reference, the AMDC REV D schematics are available [here](https://github.com
 
 #### Configure PCB for bring-up
 
-5. Make sure the PicoZed is NOT plugged in.
+5. Print serial number label for both the AMDC PCB and PicoZed and update board log.
+<img src="images/bring-up/amdc-rev-d-label-sn.jpg" width=500 />
 
-6. Set jumpers for bring-up: when you first apply power to a board, you should isolate each power supply (if possible) and ensure they function as expected. See the [Power Distribution document](PowerDistribution.md) for a diagram of the jumper locations in the power flow path. Remove the jumpers after the DC/DC converters, before the LDOs (i.e. remove JP8, JP9, JP10).
+6. Install miscellaneous hardware parts:
+    1. PicoZed heatsink (e.g. [P/N on Digi-Key](https://www.digikey.com/products/en?keywords=1528-1697-ND))
+    <img src="images/bring-up/amdc-rev-d-heatsink2.jpg" width=200 />
+    
+    2. All jumpers
+    <img src="images/bring-up/amdc-rev-d-jumpers1.jpg" width=200 />
+    <img src="images/bring-up/amdc-rev-d-jumpers2.jpg" width=200 />
+    <img src="images/bring-up/amdc-rev-d-jumpers3.jpg" width=200 />
+    
+    3. All stand-offs (do not leave any off since board flexes when PicoZed is installed)
+    <img src="images/bring-up/amdc-rev-d-standoffs.jpg" width=200 />
+
+7. Set jumpers for bring-up: when you first apply power to a board, you should isolate each power supply (if possible) and ensure they function as expected. See the [Power Distribution document](PowerDistribution.md) for a diagram of the jumper locations in the power flow path. Remove the jumpers after the DC/DC converters, before the LDOs (i.e. remove JP8, JP9, JP10).
+
+8. Make sure the PicoZed is NOT plugged in.
 
 #### Apply power and verify voltage regulator outputs
 
-7. Apply input power at 24V, **with current limit of 500mA.** Make sure you are using an accurate DC power supply that can do accurate current limiting (try the Rigol DP832 supply). The AMDC should **not** draw 500mA. If it does, something is wrong -- immediately turn off power and debug the issue. A few watts should be consumed by the DC/DC converters at no load (i.e. jumpers disconnected at their outputs).
+9. Apply input power at 24V, **with current limit of 500mA.** Make sure you are using an accurate DC power supply that can do accurate current limiting (try the Rigol DP832 supply). The AMDC should **not** draw 500mA. If it does, something is wrong -- immediately turn off power and debug the issue. A few watts should be consumed by the DC/DC converters at no load (i.e. jumpers disconnected at their outputs).
 
-8. Measure the DC/DC voltage output. Note that the DC/DC converters are isolated, so the input ground of your power supply (`VIN-`) should not be connected to common on the AMDC (`GND`). Measure the +5.5V, +16V and -16V DC/DC outputs and ensure they are reasonably close to the desired voltage. If not, stop and debug.
+10. Measure the DC/DC voltage output. Note that the DC/DC converters are isolated, so the input ground of your power supply (`VIN-`) should not be connected to common on the AMDC (`GND`). Measure the +5.5V, +16V and -16V DC/DC outputs and ensure they are reasonably close to the desired voltage. If not, stop and debug.
 
-9. Power off AMDC. Put each jumper (JP8, JP9, JP10) back on individually, powering board on between each. At each power on, ensure the power draw from your 24V DC supply is still reasonable (it should go up slightly). Measure the output of the LDOs connected to the jumper you attached (see schematics / power distribution doc for reference). Ensure LDO voltage outputs are correct.
+11. Power off AMDC. Put each jumper (JP8, JP9, JP10) back on individually, powering board on between each. At each power on, ensure the power draw from your 24V DC supply is still reasonable (it should go up slightly). Measure the output of the LDOs connected to the jumper you attached (see schematics / power distribution doc for reference). Ensure LDO voltage outputs are correct.
 
 10. Once you have validated all LDO voltage rails, put on all jumpers and make note of the power draw. It should be around 5W.
 
@@ -48,11 +63,11 @@ For reference, the AMDC REV D schematics are available [here](https://github.com
 
 #### Validate PicoZed power draw
 
-11. Turn board back off and carefully plug in the PicoZed.
+12. Turn board back off and carefully plug in the PicoZed.
 
-12. Power on AMDC. Make sure power draw is still reasonable (~5W).
+13. Power on AMDC. Make sure power draw is still reasonable (~5W).
 
-13. Make sure LEDs are on:
+14. Make sure LEDs are on:
     1. One LED on PicoZed (indicates internal PicoZed power-on sequencing worked)
     2. Green and red LED (LED2 and LED3) on AMDC (indicates power to AMDC)
 
