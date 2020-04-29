@@ -4,6 +4,10 @@ This document describes the design considerations and implementation details for
 
 *Note that this discussion applies to AMDC REV D hardware only -- prior AMDC revisions used different front-end circuitry.*
 
+# Relevant Versions of AMDC Hardware
+
+AMDC REV D
+
 ## Design Requirements
 
 There are several design requirements that must be met for the encoder subsystem of AMDC:
@@ -21,7 +25,27 @@ The AMDC REV D hardware supports two independent encoder interfaces. These must 
 
 ### 2. DB9 Connector
 
-Each D-sub connecter has 9 pins – 6 for differential ABZ signals, 2 for ground signals and 1 for 5V supply to encoder. A jumper should be installed if the encoder is powered by 5 V from AMDC. More information on the D-sub connector can be found [here]( https://www.alliedelec.com/m/d/c3366066d9274ddf3c20bc3008518f5b.pdf?src-supplier=Allied+Electronics).
+Each D-sub connecter has 9 pins – 6 for differential ABZ signals, 2 for ground signals and 1 for 5V supply to encoder. A jumper should be installed if the encoder is powered by 5 V from AMDC. There are two jumpers numbered on the silkscreen as JP2 and JP3 (each for one encoder input). 
+
+A table of the pin mappings for each D-Sub connector is shown below:
+
+| Pin number | Signal name |
+|------------|--------|
+| 1 | A |
+| 2 | A̅ |
+| 3 | B |
+| 4 | B̅ |
+| 5 | Z |
+| 6 | Z̅ |
+| 7 | 5 V |
+| 8 | GND |
+| 9 | GND |
+
+Location of these encoder connectors in the AMDC is shown below:
+
+<img src="images/amdc-encoder-input-highlighted.svg" />
+
+More information on the D-sub connector can be found [here]( https://www.alliedelec.com/m/d/c3366066d9274ddf3c20bc3008518f5b.pdf?src-supplier=Allied+Electronics).
 
 ### 3. Differential to Single-Ended Conversion
 
@@ -43,14 +67,14 @@ Exposure to absolute maximum ratings for an extended period of time may affect d
 | Low-level input voltage (logic LOW)   | 0 V   |     | 0.8 V |
 | Common-mode input voltage             | -7 V  |     | 7 V   |
 
-When the chip is operated at nominal conditions (Vcc = 5 V, room temperature 25 C), the output signals of the chip are such that the high-level output voltage is 3.8 V or more and low-level output voltage is around 0.2 V. Typical current the chip consumes is about 10 mA. This translates to about 50 mW of power consumption with 5 V supply. The rise and fall times of the output signal are both approximately equal to 4 ns. Assuming the system as first order, the bandwidth of the chip is approximately equal to 0.35/4 ns = 87.5 MHz.
+When the chip is operated at nominal conditions (Vcc = 5 V, room temperature 25 C), the output signals of the chip are such that the high-level output voltage is 3.8 V or more and low-level output voltage is around 0.2 V. Typical current the chip consumes is about 10 mA. This translates to about 50 mW of power consumption with 5 V supply. The rise and fall times of the output signal are both approximately equal to 4 ns. Assuming the system as first order, Assuming the system as first order, the maximum frequency the chip can reliably operate at is approximately 0.35/4 ns = 87.5 MHz.
 
 Before connecting the encoder to AMDC, the user should check if the encoder output signals satisfy recommended operating conditions of the chip. More detailed information on the operating conditions can be found in the [datasheet](http://www.ti.com/lit/ds/symlink/am26c32.pdf).
 
 
 ### 4. Level Shifter
 
-After the encoder differential signals are converted to single-ended, these signals are then level-shifted/translated to a lower voltage, allowing compatibility with PicoZed FPGA. The level shifter [SN74LVC8T245](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf) uses two separate configurable power-supply rails and allows for bidirectional operation. Signals on each side (input or output) are referenced to their respective voltage rail. In the AMDC REV D design, the input voltage rail is at 5 V and the output voltage rail is at 1.8 V. The maximum output current can be up to 32 mA when device is powered by 5 V. The outputs of this chip (6 signals in total if 2 encoders are connected) are then transmitted to PicoZed. The rise and fall times of the output signal are both approximately equal to 1ns. Assuming the system as first order, the bandwidth of the chip is approximately equal to 0.35/1 ns = 350 MHz.
+After the encoder differential signals are converted to single-ended, these signals are then level-shifted/translated to a lower voltage, allowing compatibility with PicoZed FPGA. The level shifter [SN74LVC8T245](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf) uses two separate configurable power-supply rails and allows for bidirectional operation. Signals on each side (input or output) are referenced to their respective voltage rail. In the AMDC REV D design, the input voltage rail is at 5 V and the output voltage rail is at 1.8 V. The outputs of this chip (6 signals in total if 2 encoders are connected) are then transmitted to PicoZed. The rise and fall times of the output signal are both approximately equal to 1 ns. Assuming the system as first order, Assuming the system as first order, the maximum frequency the chip can reliably operate at is approximately 0.35/1 ns = 350 MHz.
 
 ## PCB Layout
 
