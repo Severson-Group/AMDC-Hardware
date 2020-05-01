@@ -10,8 +10,11 @@ AMDC REV D
 
 There are several design requirements that must be met for the analog signal chain of AMDC:
 
-1. Interface differential analog inputs (bipolar, ±10 V differential signals) to FPGA.
-2. Have low noise for ICs
+1. Synchronously digitize differential analog inputs (bipolar, ±10 V differential signals).
+2. Operate ADC fast enough such that sampling can be aligned to PWM carrier waveform (>100ksps throughput on all channels with accurate timing).
+3. High impedance inputs so no possiblity for ground loops.
+4. High common-mode rejection ratio (CMRR) for wide range of inputs.
+5. Low noise signal chain.
 
 As it was mentioned, the analog input to AMDC should be bipolar differential with the voltage within ±10 V. Then, the analog front-end converts this into pseudo-differential bipolar which is needed by the analog-to-digital converter (ADC). More information on ADC input types and their definitions can be found [here](https://www.analog.com/media/en/technical-documentation/product-selector-card/2PB_sarinputtypesfb.pdf).
 
