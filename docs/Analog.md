@@ -67,7 +67,7 @@ After analog input signal passes through analog front-end (voltage level decreas
 
 Each analog input to ADC is configured as pseudo-differential bipolar signal - its positive input signal is single-ended LPF output that can swing between 0.048 V and 4.048 V, and its negative input signal is at _V_<sub>REF</sub> = 2.048 V, resulting in differential input span of ±2 V which is digitized by ADC.
 
-The outputs of the ADC chip are 8 serial data outputs each resulting from 1 differential analog input. The chip is also supplied by 1.8 V which is used as a digital HIGH of the output signal. These 8 digital signals are then transmitted to Picozed.
+The outputs of the ADC chip are 8 serial data outputs each resulting from 1 differential analog input. The chip is also supplied by 1.8 V which is used as a digital HIGH of the output signal. These 8 digital signals are then transmitted to Picozed. There are other 3 digital signals (ADC CNV, ADC SCK and ADC CLKOUT) needed for the interface with FPGA.
 
 More detailed information on the operating conditions of ADC can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf).
 
