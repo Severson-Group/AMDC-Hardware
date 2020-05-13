@@ -19,8 +19,7 @@ The power stack interface was designed with the following requirements:
 
 ## Block Diagram
 
-
-
+<img src="images/amdc-power-stack.svg" />
 
 
 
