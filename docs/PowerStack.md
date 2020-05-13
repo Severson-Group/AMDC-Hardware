@@ -35,6 +35,16 @@ Each inverter has four status lines (labeled A, B, C, and D). These signals oper
 
 These status signals can be used as arbitrary I/O between the AMDC and the power stack. Typically, they are used to read faults states, reset the power stack, read ready states from the power stack gate drives, etc. The voltage level which is selected by the jumper on the AMDC is supplied to each DB-15 connector so the power stack can use the correct I/O voltage level for communication.
 
+#### Jumpers
+
+On the AMDC, the following are the jumpers used to set status line voltage level and direction:
+
+- JP1: Status voltage level
+- JP4: Status A direction
+- JP5: Status B direction
+- JP6: Status C direction
+- JP7: Status D direction
+
 ### 3. Voltage Rails
 
 There are three voltage rails which must be understood: `VDD`, `VDRIVE`, and `VPS`.
