@@ -1,6 +1,6 @@
 # Advanced Motor Drive Controller (AMDC) Hardware
 
-![AMDC REV D Hardware](amdc-rev-d.jpg?raw=true "AMDC REV D Hardware")
+<img src="amdc-rev-d.jpg" width="75%" align="center"/>
 
 AMDC is a platform that provides relevent interfaces which can be used to control power electronics. The AMDC hardware is a PCB that serves as a carrier card for a [PicoZed SoM](http://zedboard.org/product/picozed).
 
@@ -10,7 +10,11 @@ The provided interfaces include:
 - 4 SPI ports with differential input and output lines
 - 2 quadrature encoder input
 
-![AMDC Block Diagram](amdc-block-diagram.png?raw=true "AMDC Block Diagram")
+<img src="amdc-block-diagram.png" width="50%" />
+
+## Documentation
+
+Detailed documentaion is available about the hardware of the AMDC. [Check it out...](docs/)
 
 ## Background
 
