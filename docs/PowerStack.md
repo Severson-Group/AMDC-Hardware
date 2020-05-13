@@ -2,7 +2,37 @@
 
 This document describes the design considerations and implementation details for the power stack interface subsystem on the Advanced Motor Drive Controller (AMDC).
 
+## Relevant Versions of AMDC Hardware
+
+AMDC REV D
+
 ## Design Requirements and Considerations
+
+The power stack interface was designed with the following requirements:
+
+- Drive 8 three-phase two-level inverters (6 PWM signals each)
+- Support status monitoring for each inverter (4 I/O channels each)
+- Configurable voltage level for PWM signals
+- Configurable voltage level and direction for status line I/O
+- Provide power distribution from seperate AMDC screw terminals to all power stacks
+- Hardware E-STOP functionality to disable all PWM (no firmware needed)
+
+## Block Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Discussion related to inherient requirements and why those requirements exist.
 
