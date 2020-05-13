@@ -55,27 +55,56 @@ This voltage rail (the "power stack status line voltage") is either 5V or 3.3V, 
 
 Note that this voltage rail passes through a 1206 0R resistor for each DB-15 connector (i.e. each inverter). Thus, the user may depopulate this resistor if needed to remove this voltage rail from the connector.
 
+## DB-15 Connectors
 
-## Connector Pinout
+The AMDC has 8x DB-15 connectors, one for each of the eight inverters. The DB-15 connectors are grouped into stacks of two, so there are four total stacks of DB-15 connectors across the front of the PCB. In the schematics, the top DB-15 connector in each stack is labeled as `A` and the bottom as `B`. The inverter numbering is as follows:
 
-Explaination and list of pinout
+| Silkscreen Label | Top / Bottom | Inverter # |
+|------------------|--------------|------------|
+| `CON10A`         | Top          | `INV 1`    |
+| `CON10A`         | Bottom       | `INV 2`    |
+| `CON10B`         | Top          | `INV 3`    |
+| `CON10B`         | Bottom       | `INV 4`    |
+| `CON10C`         | Top          | `INV 5`    |
+| `CON10C`         | Bottom       | `INV 6`    |
+| `CON10D`         | Top          | `INV 7`    |
+| `CON10D`         | Bottom       | `INV 8`    |
 
-Picture of all 8 power stack connectors with arrows which correspond to firmware names etc
 
-## Schematics
+### DB-15 Connector Pinout
 
-Discussion related to schematics for power stack interface...
+Each DB-15 connector uses the same pinout, but for its own inverter. For example, the top DB-15 of `CON10A` supplies the PWM and status signals for inverter #1, while the bottom DB-15 of `CON10D` is mapped to inverter #8.
+
+Each DB-15 connector has three rows of pins (uses the high-density DB-15 format). The connector has tiny labels next to each pin hole which map to the schematic labeling. The following table indicates the pinout for each connector:
+
+| Pin # | Signal Name |
+|-------|-------------|
+| 1     | `PWM_1`     |
+| 2     | `PWM_2`     |
+| 3     | `PWM_3`     |
+| 4     | `PWM_4`     |
+| 5     | `PWM_5`     |
+| 6     | `PWM_6`     |
+| 7     | `GND`       |
+| 8     | `STS_A`     |
+| 9     | `STS_B`     |
+| 10    | `STS_C`     |
+| 11    | `STS_D`     |
+| 12    | `VPS`       |
+| 13    | `VDD`       |
+| 14    | `GNDPS`     |
+| 15    | `GND`       |
+
+The mapping between `PWM*` signals in the above table and the "correct" power stack switch locations is not fixed in nature; this depends on the FPGA firmware being used. Typically, the odd-numbered PWM signals drive the high-side switches, while the even-numbered signals drive the low-side switches. However, this can be changed arbitarily in the FPGA firmware. In general, the PWM signals are just arbitrary outputs -- they can be driven to any sequence in the FPGA and used in any way in the power stack.
+
+For the default PWM firmware driver implementation, setting the duty ratio command for "PWM 0" results in inverter #1 (`INV1`): `PWM1` and `PWM2` being set to the desired duty ratios. These signals will then appear at `CON10A`, pins 1 and 2. The voltage level will toggle between 0V (AMDC `GND`) and the user-supplied `VDRIVE`. Setting "PWM 1" in firmware simply increments the `PWM*` signal locations, so would correspond to `INV1`: `PWM3` and `PWM4`. This continues on, cycles through each inverter number sequentially. The last one, "PWM 23", would appear at `INV8`: `PWM5` and `PWM6`.
 
 ## PCB Layout
 
-Discussion related to PCB layout for power subsystem:
-- Power distribution trace width
-- Signal interface for PWM I/O (fast edges, close traces, ...bad)
-
-## Voltage Rails / Max Current Limitations
-
-Etc
+The PCB layout is important for the high-speed digital PWM signals. The 48x PWM signals are spaced out on the PCB such that there is reduced capacitive coupling between them during signal switching edges. The power supply rail traces are thicker than other traces to accommodate the required current rating while minimally heating up the circuit board.
 
 ## Datasheets
 
-Appendix with links to relevant datasheets for the parts on the AMDC... Level translation, PWM drivers, etc
+- [1.8V compatible level shifter IC (SN74LVC8T245)](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?&ts=1589402166354)
+- [5V to `VDRIVE` level shifter + AND gate IC (TC4468)](http://ww1.microchip.com/downloads/en/DeviceDoc/21425C.pdf)
+- [Stacked 2x DB-15 connector (178-H15-513R497)](https://content.norcomp.net/rohspdfs/Connectors/17Y/178/513/178-H15-513R497.pdf)
