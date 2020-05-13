@@ -35,21 +35,21 @@ Each inverter has four status lines (labeled A, B, C, and D). These signals oper
 
 These status signals can be used as arbitrary I/O between the AMDC and the power stack. Typically, they are used to read faults states, reset the power stack, read ready states from the power stack gate drives, etc. The voltage level which is selected by the jumper on the AMDC is supplied to each DB-15 connector so the power stack can use the correct I/O voltage level for communication.
 
-### 3. Voltage Supplies
+### 3. Voltage Rails
 
 There are three voltage rails which must be understood: `VDD`, `VDRIVE`, and `VPS`.
 
-#### `VPS`
+#### `VPS` &mdash; *Power Stack General Voltage Supply*
 
 This voltage rail (the "power stack voltage rail") is completely independent from the AMDC; the AMDC simply acts as a power distribution network for this rail. On the AMDC, one screw terminal input is used to supply both the + and - rail of `VPS`. Then, the AMDC routing distributes this power rail to each DB-15 connector. This power rail is designed to supply the bulk power required by the power stack gate drivers. Usually, 12V or 24V is used for this. Note that the AMDC trace routing for this signal can only support 2A. At 24V, this would mean 48W power consumption for all power stack gate drives (or 6W each). If the user needs a more powerful gate drive, they must use an external power source for it.
 
 Note that this voltage rail passes through a 1206 0R resistor for each DB-15 connector (i.e. each inverter). Thus, the user may depopulate this resistor if needed to remove this voltage rail from the connector.
 
-#### `VDRIVE`
+#### `VDRIVE` &mdash; *Power Stack PWM Voltage Level*
 
 This voltage rail (the "power stack PWM drive voltage") is supplied via the AMDC screw terminal input. This sets the voltage level used for the PWM signals that go to the power stacks. The user *must* supply a valid voltage at this input for the PWM outputs to function (5V to 18V). The PWM voltages will then be square waves which go between 0V (the AMDC `GND`) and the user-supplied `VDRIVE`. Note that this signal is NOT intended to directly drive the power electronic switch gates in the power stack; this signal controls the gate drive circuitry on the power stack. For high noise immunity, use larger `VDRIVE` voltages. Nominally, 5V is fine if proper shielding is used to block EMI.
 
-#### `VDD`
+#### `VDD` &mdash; *Power Stack Status Voltage Level*
 
 This voltage rail (the "power stack status line voltage") is either 5V or 3.3V, and is selected using the jumper on the AMDC. This voltage is used for the logic high level of the status line signals between the AMDC and the power stack. The logic low level is the 0V AMDC `GND` signal. This voltage is supplied to each DB-15 connector so the power stack can appropriately drive the status lines.
 
