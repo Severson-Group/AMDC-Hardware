@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="9.1087103in"
-   height="8.3793011in"
-   viewBox="0 0 231.36125 212.83426"
+   height="8.5723in"
+   viewBox="0 0 231.36125 217.73644"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -582,15 +582,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="311.05046"
-     inkscape:cy="415.15361"
+     inkscape:zoom="1.4"
+     inkscape:cx="655.31041"
+     inkscape:cy="649.58697"
      inkscape:document-units="mm"
-     inkscape:current-layer="g5511"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1377"
-     inkscape:window-x="-8"
+     inkscape:window-x="2552"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      units="in"
@@ -628,7 +628,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(57.691659,-277.28689)">
+     transform="translate(57.691659,-272.38471)">
     <rect
        style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5800"
@@ -1856,29 +1856,58 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-38.729748"
-       y="301.98029"
+       x="-12.365909"
+       y="289.88596"
        id="text819-5-8-4-0-2-9"><tspan
          sodipodi:role="line"
-         x="-38.729748"
-         y="301.98029"
+         x="-12.365909"
+         y="289.88596"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';fill:#808080;stroke-width:0.26458332"
-         id="tspan6313-53">Status Signal Direction</tspan></text>
+         id="tspan6313-53">Status Signal</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-26.319138"
-       y="308.74371"
+       x="122.48885"
+       y="289.02866"
        id="text819-5-8-4-0-2-9-6"><tspan
          sodipodi:role="line"
-         x="-26.319138"
-         y="308.74371"
+         x="122.48885"
+         y="289.02866"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';fill:#808080;stroke-width:0.26458332"
-         id="tspan6313-53-5">and Voltage Level</tspan></text>
+         id="tspan6313-53-5">Status Signal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="122.6404"
+       y="295.26291"
+       id="text819-5-8-4-0-2-9-6-0"><tspan
+         sodipodi:role="line"
+         x="122.6404"
+         y="295.26291"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';fill:#808080;stroke-width:0.26458332"
+         id="tspan6313-53-5-0">Voltage Level</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-13.597877"
+       y="296.12021"
+       id="text819-5-8-4-0-2-9-3"><tspan
+         sodipodi:role="line"
+         x="-13.597877"
+         y="296.12021"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';fill:#808080;stroke-width:0.26458332"
+         id="tspan6313-53-8">I/O Direction</tspan></text>
     <path
+       style="fill:none;stroke:#808080;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 22.49599,285.80612 h 73.988839 v 3.96875"
+       id="path1157"
        inkscape:connector-curvature="0"
-       id="path6619"
-       d="M 1.5189436,293.63022 H 14.086651"
-       style="fill:#808080;stroke:#808080;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)" />
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#808080;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 98.851497,289.77491 v -3.96875 h 20.174493"
+       id="path1159"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>
