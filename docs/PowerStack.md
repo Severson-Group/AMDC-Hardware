@@ -51,7 +51,9 @@ On the AMDC, the following are the jumpers used to set status line voltage level
 
 ### 3. Voltage Rails
 
-There are three voltage rails which must be understood: `VDD`, `VDRIVE`, and `VPS`.
+There are three voltage rails which must be understood for the power stack interface: `VDD`, `VDRIVE`, and `VPS`.
+
+The AMDC as a whole has various voltage rails which are outlined in the [Power Distribution document](PowerDistribution.md). However, the power stack interface subsystem adds two extra voltage rails to the mix: `VDRIVE` and `VPS`. These are user-supplied via external inputs. The power stack `VDD` rail is jumpered to either the main `5V` or `3.3V` rail.
 
 #### `VPS` &mdash; *Power Stack General Voltage Supply*
 
