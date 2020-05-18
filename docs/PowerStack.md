@@ -79,6 +79,10 @@ This voltage rail (the "power stack status line voltage") is either 5V or 3.3V, 
 
 Note that this voltage rail passes through a 1206 0R resistor for each DB-15 connector (i.e. each inverter). Thus, the user may depopulate this resistor if needed to remove this voltage rail from the connector.
 
+##### Power Requirements for `VDD`
+
+`VDD` is supplied by the internal `5V` or `3.3V` rail on the AMDC. This rail is typically not used as power for dynamic switching, since it is the I/O voltage level for the status lines. The status signals are typically DC values. Therefore, the power drawn from the internal AMDC rails is negligible compared to their capability.
+
 ## DB-15 Connectors
 
 The AMDC has 8x DB-15 connectors, one for each of the eight inverters. The DB-15 connectors are grouped into stacks of two, so there are four total stacks of DB-15 connectors across the front of the PCB. In the schematics, the top DB-15 connector in each stack is labeled as `A` and the bottom as `B`. The inverter numbering is as follows:
