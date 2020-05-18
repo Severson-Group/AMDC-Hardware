@@ -123,9 +123,66 @@ Each DB-15 connector has three rows of pins (uses the high-density DB-15 format)
 | 14    | `GNDPS`     |
 | 15    | `GND`       |
 
-The mapping between `PWM*` signals in the above table and the "correct" power stack switch locations is not fixed in nature; this depends on the FPGA firmware being used. Typically, the odd-numbered PWM signals drive the high-side switches, while the even-numbered signals drive the low-side switches. However, this can be changed arbitarily in the FPGA firmware. In general, the PWM signals are just arbitrary outputs -- they can be driven to any sequence in the FPGA and used in any way in the power stack.
+#### Mapping C Driver to FPGA to Hardware
 
-For the default PWM firmware driver implementation, setting the duty ratio command for "PWM 0" results in inverter #1 (`INV1`): `PWM1` and `PWM2` being set to the desired duty ratios. These signals will then appear at `CON10A`, pins 1 and 2. The voltage level will toggle between 0V (AMDC `GND`) and the user-supplied `VDRIVE`. Setting "PWM 1" in firmware simply increments the `PWM*` signal locations, so would correspond to `INV1`: `PWM3` and `PWM4`. This continues on, cycles through each inverter number sequentially. The last one, "PWM 23", would appear at `INV8`: `PWM5` and `PWM6`.
+The following explains the PWM signal mappings between embedded system layers (i.e. PCB connectors, schematics, FPGA, and C code). This section describes what is implemented in the default firmware. Note that the user can change the firmware which will invalidate the following discussion.
+
+As mentioned above, each DB-15 connector maps to a single three-phase inverter: DB-15 connector pins 1 to 6 map to schematic labels PWM1 to PWM6. Each inverter has its own PWM signals, so the schematic labeling for inverter #1 uses `INV1_PWM1` to `INV1_PWM6`. The same pattern is used for all eight inverters.
+
+Typically, the odd-numbered PWM signals drive the high-side switches, while the even-numbered signals drive the low-side switches. However, this can be changed arbitarily in the FPGA firmware. In general, the PWM signals are just arbitrary outputs -- they can be driven to any sequence in the FPGA and used in any way in the power stack.
+
+To map the schematic signal labeling (e.g. `INV1_PWM1`) to the firmware drivers, a simple scheme is used: the PWM outputs are implemented as independent half-bridge legs in firmware. Each half-bridge consumes two PWM signals (for the high and low switches), so a total of 24 half-bridges can be realized. The user sets the duty ratio command for the half-bridge as a whole, and the FPGA creates the gate signals for the two corresponding PWM outputs (including configurable dead-time). The mapping between half-bridges and PWM signals is as follows:
+
+| Half-Bridge | Inverter Leg | PWM Signal Name (High-Side) | PWM Signal Name (Low-Side) |
+|-------------|--------------|-----------------------------|----------------------------|
+| HB1         | INV1, Leg 1  | INV1_PWM1                   | INV1_PWM2                  |
+| HB2         | INV1, Leg 2  | INV1_PMW3                   | INV1_PWM4                  |
+| HB3         | INV1, Leg 3  | INV1_PWM5                   | INV1_PWM6                  |
+| HB4         | INV2, Leg 1  | INV2_PWM1                   | INV2_PWM2                  |
+| HB5         | INV2, Leg 2  | INV2_PWM3                   | INV2_PWM4                  |
+| HB6         | INV2, Leg 3  | INV2_PWM5                   | INV2_PWM6                  |
+| HB7         | INV3, Leg 1  | INV3_PWM1                   | INV3_PWM2                  |
+| ...         | ...          | ...                         | ...                        |
+| HB24        | INV8, Leg 3  | INV8_PWM5                   | INV8_PWM6                  |
+
+In firmware, these sequences tend to be 0 indexed. For example, in C code, to set a half-bridge duty ratio, the user would call the following C driver function:
+
+```C
+pwm_set_duty(0, 0.5); // Set HB1 duty ratio to 50%
+
+pwm_set_duty(23, 0.25); // Set HB24 duty ratio to 25%
+```
+
+#### Controlling a Three-Phase Inverter
+
+Putting this all together, to control a three-phase inverter from C code, the user simply updates the desired duty ratio for three half-bridge legs. For example, to modulate sinusoidal voltages on inverter #1, the following C code can be used:
+
+```C
+
+double Ts    = 1.0 / 10000.0; // [sec]
+double theta = 0.0;           // [rad]
+double omega = 1000.0;        // [rad/s]
+double Do    = 0.75;          // [--]
+
+// This callback function is executed every Ts seconds (e.g. 1/10000 sec) by the system scheduler
+void example_callback(void)
+{
+    // Update theta
+    theta += (Ts * omega);
+    theta = fmod(theta, 2.0 * M_PI); // Wrap to 2*pi
+    
+    // Calculate desired duty ratios
+    duty_a = Do * cos(theta);
+    duty_b = Do * cos(theta + 2.0*M_PI/3.0);
+    duty_c = Do * cos(theta + 4.0*M_PI/3.0);
+
+    // Update PWM peripheral in FPGA
+    pwm_set_duty(0, duty_a); // Set HB1 duty ratio (INV1, PWM1 and PWM2)
+    pwm_set_duty(1, duty_b); // Set HB2 duty ratio (INV1, PWM3 and PWM4)
+    pwm_set_duty(2, duty_c); // Set HB3 duty ratio (INV1, PWM5 and PWM6)
+}
+
+```
 
 ## PCB Layout
 
