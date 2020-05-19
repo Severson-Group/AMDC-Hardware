@@ -145,7 +145,7 @@ To map the schematic signal labeling (e.g. `INV1_PWM1`) to the firmware drivers,
 | ...         | ...          | ...                         | ...                        |
 | HB24        | INV8, Leg 3  | INV8_PWM5                   | INV8_PWM6                  |
 
-To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the Power Stack section of the [pin mapping document](https://github.com/Severson-Group/AMDC-Hardware/blob/develop/docs/RevD-PinMapping.md#power-stack-interface).
+To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the Power Stack section of the [pin mapping document](RevD-PinMapping.md#power-stack-interface).
 
 #### Example Pseudo-Code for Driving Power Electronics
 
