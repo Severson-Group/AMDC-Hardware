@@ -38,6 +38,8 @@ A table of the pin mappings for each analog connector is shown below:
 | 7 | Analog P2 |
 | 8 | Analog N2 |
 
+To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the analog section of the [pin mapping document](RevD-PinMapping.md#analog).
+
 Location of these 4 analog connectors in the AMDC (stacked as 2 x 2) is shown below:
 
 <img src="images/amdc-analog-input-highlighted.svg" />
