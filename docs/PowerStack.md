@@ -145,7 +145,11 @@ To map the schematic signal labeling (e.g. `INV1_PWM1`) to the firmware drivers,
 | ...         | ...          | ...                         | ...                        |
 | HB24        | INV8, Leg 3  | INV8_PWM5                   | INV8_PWM6                  |
 
-In firmware, these sequences tend to be 0 indexed. For example, in C code, to set a half-bridge duty ratio, the user would call the following C driver function:
+To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the Power Stack section of the [pin mapping document](https://github.com/Severson-Group/AMDC-Hardware/blob/develop/docs/RevD-PinMapping.md#power-stack-interface).
+
+#### Example Pseudo-Code for Driving Power Electronics
+
+In firmware, the above sequences tend to be 0 indexed. For example, in C code, to set a half-bridge duty ratio, the user would call the following C driver function:
 
 ```C
 pwm_set_duty(0, 0.5); // Set HB1 duty ratio to 50%
@@ -153,7 +157,7 @@ pwm_set_duty(0, 0.5); // Set HB1 duty ratio to 50%
 pwm_set_duty(23, 0.25); // Set HB24 duty ratio to 25%
 ```
 
-#### Controlling a Three-Phase Inverter
+##### Controlling a Three-Phase Inverter
 
 Putting this all together, to control a three-phase inverter from C code, the user simply updates the desired duty ratio for three half-bridge legs. For example, to modulate sinusoidal voltages on inverter #1, the following C code can be used:
 
