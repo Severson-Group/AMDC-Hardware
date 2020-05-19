@@ -41,6 +41,8 @@ A table of the pin mappings for each D-Sub connector is shown below:
 | 8 | GND |
 | 9 | GND |
 
+To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the encoder  section of the [pin mapping document](RevD-PinMapping.md#encoder).
+
 Location of these encoder connectors in the AMDC is shown below:
 
 <img src="images/amdc-encoder-input-highlighted.svg" />
