@@ -2,6 +2,10 @@
 
 This document describes the design considerations and implementation details for the power distribution subsystem on the Advanced Motor Drive Controller (AMDC). A block diagram is presented and discussed in detail, along with PCB layout considerations. Finally, max power ratings are provided for each voltage rail.
 
+## Relevant Versions of AMDC Hardware
+
+AMDC REV D
+
 ## Design Requirements
 
 The design requirements for the power input and distribution on the AMDC can be boiled down to a succinct list of conflicting goals. The remainder of this document will summarize the resulting AMDC power system design and how it adheres to these goals. The following describes these goals:
