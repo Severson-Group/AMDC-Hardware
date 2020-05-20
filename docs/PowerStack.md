@@ -123,6 +123,8 @@ Each DB-15 connector has three rows of pins (uses the high-density DB-15 format)
 | 14    | `GNDPS`     |
 | 15    | `GND`       |
 
+To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the Power Stack section of the [pin mapping document](RevD-PinMapping.md#power-stack-interface).
+
 #### Mapping C Driver to FPGA to Hardware
 
 The following explains the PWM signal mappings between embedded system layers (i.e. PCB connectors, schematics, FPGA, and C code). This section describes what is implemented in the default firmware. Note that the user can change the firmware which will invalidate the following discussion.
@@ -145,7 +147,6 @@ To map the schematic signal labeling (e.g. `INV1_PWM1`) to the firmware drivers,
 | ...         | ...          | ...                         | ...                        |
 | HB24        | INV8, Leg 3  | INV8_PWM5                   | INV8_PWM6                  |
 
-To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the Power Stack section of the [pin mapping document](RevD-PinMapping.md#power-stack-interface).
 
 #### Example Pseudo-Code for Driving Power Electronics
 
