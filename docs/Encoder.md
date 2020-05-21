@@ -2,8 +2,6 @@
 
 This document describes the design considerations and implementation details for the encoder input subsystem on the Advanced Motor Drive Controller (AMDC). A block diagram is presented and each component is discussed in detail. Specifications of each component are provided based on the datasheet.
 
-*Note that this discussion applies to AMDC REV D hardware only -- prior AMDC revisions used different front-end circuitry.*
-
 # Relevant Versions of AMDC Hardware
 
 AMDC REV D
