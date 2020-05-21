@@ -12,7 +12,8 @@ There are two design requirements that must be met for the encoder subsystem of 
 
 
 1. Interface standard differential incremental encoders (unipolar, 5V differential signals) to FPGA.
-2. Provide high-bandwidth front-end so that encoder line count is limited by FPGA speed, not circuitry.
+2. Provide a high-bandwidth front-end so that the encoder line count is limited by the FPGA speed, not circuitry.
+
 
 ## Block Diagram
 
