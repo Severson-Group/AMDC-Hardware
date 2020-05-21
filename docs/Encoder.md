@@ -26,7 +26,7 @@ The AMDC REV D hardware supports two independent encoder interfaces. These must 
 
 ### 2. DB9 Connector
 
-Each D-sub connecter has 9 pins – 6 for differential ABZ signals, 2 for ground signals and 1 for 5V supply to encoder. A jumper should be installed if the encoder is powered by 5V from AMDC. There are two jumpers numbered on the silkscreen as JP2 for Encoder 1 and JP3 for Encoder 2, as shown in the block diagram. Encoder 1 and Encoder 2 correspond to top and bottom encoders in the picture below.
+Each D-sub connecter has 9 pins – 6 for the differential ABZ signals, 2 for the ground signals and 1 for 5V supply to the encoder. A jumper should be installed if the encoder is powered by 5V from the AMDC. There are two jumpers numbered on the silkscreen as JP2 for Encoder 1 and JP3 for Encoder 2, as shown in the block diagram. Encoder 1 and Encoder 2 correspond to the top and bottom encoders in the picture below.
 
 
 A table of the pin mappings for each D-Sub connector is shown below:
@@ -53,7 +53,7 @@ More information on the D-sub connector can be found [here]( https://www.alliede
 
 ### 3. Differential to Single-Ended Conversion
 
-After passing through the D-sub connector, the differential ABZ signals (A, A̅, A, B̅, Z, Z̅) are converted to single-ended ABZ signals (OUT A, OUT B, OUT Z) using the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf) chip. This chip is supplied by `Vcc = 5V DC` source from AMDC. The following table summarizes the absolute maximum ratings taken from the datasheet for this chip:
+After passing through the D-sub connector, the differential ABZ signals (A, A̅, A, B̅, Z, Z̅) are converted to the single-ended ABZ signals (OUT A, OUT B, OUT Z) using the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf) chip. This chip is supplied by `Vcc = 5V DC` source from the AMDC. The following table summarizes the absolute maximum ratings taken from the datasheet for this chip:
 
 | Parameter                            | MIN    | MAX           |
 |--------------------------------------|--------|---------------|
@@ -62,7 +62,7 @@ After passing through the D-sub connector, the differential ABZ signals (A, A̅,
 | Differential input voltage           | -14V  | 14V          |
 | Output voltage (OUT A, OUT B, OUT Z) | -0.5V | (Vcc + 0.5)V |
 
-Exposure to absolute maximum ratings for an extended period of time may affect device reliability. Therefore, it is recommended to operate under the recommended operating conditions:
+Exposure to the absolute maximum ratings for an extended period of time may affect device reliability. Therefore, it is recommended to operate under the recommended operating conditions:
 
 | Parameter                             | MIN   | NOM | MAX   |
 |---------------------------------------|-------|-----|-------|
@@ -71,15 +71,15 @@ Exposure to absolute maximum ratings for an extended period of time may affect d
 | Low-level input voltage (logic LOW)   | 0V   |     | 0.8V |
 | Common-mode input voltage             | -7V  |     | 7V   |
 
-When the chip is operated at nominal conditions (Vcc = 5V, room temperature 25C), the output signals of the chip are such that the high-level output voltage is 3.8V or more and low-level output voltage is around 0.2V. Typical current the chip consumes is about 10mA. This translates to about 50mW of power consumption with 5V supply. The rise and fall times of the output signal are both approximately equal to 4ns. Assuming the system as first order, the maximum frequency the chip can reliably operate at is approximately 0.35/4ns = 87.5MHz.
+When the chip is operated at nominal conditions (Vcc = 5V, room temperature 25C), the output signals of the chip are such that the high-level output voltage is 3.8V or more and low-level output voltage is around 0.2V. Typical current the chip consumes is about 10mA. This translates to about 50mW of the power consumption with the 5V supply. The rise and fall times of the output signal are both approximately equal to 4ns. Assuming the system as a first order, the maximum frequency the chip can reliably operate at is approximately 0.35/4ns = 87.5MHz.
 
-Before connecting the encoder to AMDC, the user should check if the encoder output signals satisfy recommended operating conditions of the chip. More detailed information on the operating conditions can be found in the [datasheet](http://www.ti.com/lit/ds/symlink/am26c32.pdf).
+Before connecting the encoder to the AMDC, the user should check if the encoder output signals satisfy recommended operating conditions of the chip. More detailed information on the operating conditions can be found in the [datasheet](http://www.ti.com/lit/ds/symlink/am26c32.pdf).
 
 
 ### 4. Level Shifter
 
-After the encoder differential signals are converted to single-ended, these signals are then level-shifted/translated to a lower voltage, allowing compatibility with PicoZed FPGA. The level shifter [SN74LVC8T245](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf) uses two separate configurable power-supply rails and allows for bidirectional operation. Signals on each side (input or output) are referenced to their respective voltage rail. In the AMDC REV D design, the input voltage rail is at 5V and the output voltage rail is at 1.8V. The outputs of this chip (6 signals in total if 2 encoders are connected) are then transmitted to PicoZed. The rise and fall times of the output signal are both approximately equal to 1ns. Assuming the system as first order, the maximum frequency the chip can reliably operate at is approximately 0.35/1ns = 350MHz.
+After the encoder differential signals are converted to the single-ended, these signals are then level-shifted/translated to a lower voltage, allowing compatibility with the PicoZed FPGA. The level shifter [SN74LVC8T245](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf) uses two separate configurable power-supply rails and allows for the bidirectional operation. Signals on each side (input or output) are referenced to their respective voltage rail. In the AMDC REV D design, the input voltage rail is at 5V and the output voltage rail is at 1.8V. The outputs of this chip (6 signals in total if 2 encoders are connected) are then transmitted to PicoZed. The rise and fall times of the output signal are both approximately equal to 1ns. Assuming the system as a first order, the maximum frequency the chip can reliably operate at is approximately 0.35/1ns = 350MHz.
 
 ## PCB Layout
 
-All chips and D-sub connectors are located on the top layer. The top layer is used to route the signals from the D-sub connectors to the differential to single-ended converter then to the level shifter. The inner layers are used to route the signals from the level shifter to PicoZed. Each inverting and non-inverting pair of encoder signals are terminated by a resistor on the bottom layer. All signal traces have 6mil thickness. Supply and ground traces connected to the chips have thickness of 10mil.
+All chips and D-sub connectors are located on the top layer. The top layer is used to route the signals from the D-sub connectors to the differential to single-ended converter then to the level shifter. The inner layers are used to route the signals from the level shifter to PicoZed. Each inverting and non-inverting pair of the encoder signals are terminated by a resistor on the bottom layer. All signal traces have a 6mil thickness. Supply and ground traces connected to the chips have a thickness of 10mil.
