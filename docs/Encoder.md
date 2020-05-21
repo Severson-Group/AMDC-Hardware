@@ -23,7 +23,8 @@ The AMDC REV D hardware supports two independent encoder interfaces. These must 
 
 ### 2. DB9 Connector
 
-Each D-sub connecter has 9 pins – 6 for differential ABZ signals, 2 for ground signals and 1 for 5V supply to encoder. A jumper should be installed if the encoder is powered by 5 V from AMDC. There are two jumpers numbered on the silkscreen as JP2 and JP3 (each for one encoder input). 
+Each D-sub connecter has 9 pins – 6 for differential ABZ signals, 2 for ground signals and 1 for 5V supply to encoder. A jumper should be installed if the encoder is powered by 5 V from AMDC. There are two jumpers numbered on the silkscreen as JP2 for Encoder 1 and JP3 for Encoder 2, as shown in the block diagram. Encoder 1 and Encoder 2 correspond to top and bottom encoders in the picture below.
+
 
 A table of the pin mappings for each D-Sub connector is shown below:
 
