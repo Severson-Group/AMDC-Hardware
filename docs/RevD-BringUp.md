@@ -53,21 +53,21 @@ For reference, the AMDC REV D schematics are available [here](https://github.com
 
 11. Power off AMDC. Put each jumper (JP8, JP9, JP10) back on individually, powering board on between each. At each power on, ensure the power draw from your 24V DC supply is still reasonable (it should go up slightly). Measure the output of the LDOs connected to the jumper you attached (see schematics / power distribution doc for reference). Ensure LDO voltage outputs are correct.
 
-10. Once you have validated all LDO voltage rails, put on all jumpers and make note of the power draw. It should be around 5W.
+12. Once you have validated all LDO voltage rails, put on all jumpers and make note of the power draw. It should be around 5W.
 
 #### Validate USB interfaces (JTAG and UART)
 
-11. With AMDC powered on, plug in JTAG USB cable to PC. You should hear a ding from your PC indicating it recognized the JTAG interface. If an error appears on your PC for the JTAG USB device (i.e. failed USB enumeration), you did not successfully swap the JTAG USB data lines. Rework and try again.
+13. With AMDC powered on, plug in JTAG USB cable to PC. You should hear a ding from your PC indicating it recognized the JTAG interface. If an error appears on your PC for the JTAG USB device (i.e. failed USB enumeration), you did not successfully swap the JTAG USB data lines. Rework and try again.
 
-12. With AMDC powered on, plug in the USB UART cable to your PC. It should successfully enumerate and appear as the Silicon Labs CP210x interface bridge. If not, make sure you have the [correct drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) installed.
+14. With AMDC powered on, plug in the USB UART cable to your PC. It should successfully enumerate and appear as the Silicon Labs CP210x interface bridge. If not, make sure you have the [correct drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) installed.
 
 #### Validate PicoZed power draw
 
-12. Turn board back off and carefully plug in the PicoZed.
+15. Turn board back off and carefully plug in the PicoZed.
 
-13. Power on AMDC. Make sure power draw is still reasonable (~5W).
+16. Power on AMDC. Make sure power draw is still reasonable (~5W).
 
-14. Make sure LEDs are on:
+17. Make sure LEDs are on:
     1. One LED on PicoZed (indicates internal PicoZed power-on sequencing worked)
     2. Green and red LED (LED2 and LED3) on AMDC (indicates power to AMDC)
 
