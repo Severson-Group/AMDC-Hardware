@@ -11,7 +11,8 @@ AMDC REV D
 There are two design requirements that must be met for the encoder subsystem of AMDC:
 
 
-1. Interface standard differential incremental encoders (unipolar, 5V differential signals) to FPGA.
+1. Interface standard differential incremental encoders (5V differential unipolar signals) to FPGA.
+
 2. Provide a high-bandwidth front-end so that the encoder line count is limited by the FPGA speed, not circuitry.
 
 
