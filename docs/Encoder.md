@@ -8,7 +8,8 @@ AMDC REV D
 
 ## Design Requirements
 
-There are several design requirements that must be met for the encoder subsystem of AMDC:
+There are two design requirements that must be met for the encoder subsystem of AMDC:
+
 
 1. Interface standard differential incremental encoders (unipolar, 5V differential signals) to FPGA.
 2. Provide high-bandwidth front-end so that encoder line count is limited by FPGA speed, not circuitry.
