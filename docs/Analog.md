@@ -23,26 +23,26 @@ As it was mentioned, the analog input to the AMDC should be bipolar differential
 <img src="images/amdc-analog.svg" />
 
 ### Analog connectors
-The analog signal chain of the AMDC can receive up to 8 bipolar differential analog inputs (16 signals in total – 8 positive and 8 negative). There are 4 analog connectors (modular jacks) each receiving up to 2 differential inputs. There are also 4 ESD protection chips to protect the sensitive electronics from the damage due to ESD. 
+The analog signal chain of the AMDC can receive up to 8 bipolar differential analog inputs (16 signals in total – 8 positive and 8 negative). There are 4 analog connectors (modular jacks) each receiving up to 2 differential inputs. There are also 4 ESD protection chips to protect the sensitive electronics from the damage due to ESD.
 
-A table of the pin mappings for each analog connector is shown below:
+A table of the pin mappings for the `Analog connector 1` is shown below:
 
 | Pin number | Signal name |
 |------------|--------|
-| 1 | Analog P1 |
-| 2 | Analog N1 |
+| 1 | `Analog P1` |
+| 2 | `Analog N1` |
 | 3 | +15V |
-| 4 | GND |
+| 4 | `GND` |
 | 5 | -15V |
-| 6 | GND |
-| 7 | Analog P2 |
-| 8 | Analog N2 |
-
-To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the analog section of the [pin mapping document](RevD-PinMapping.md#analog).
+| 6 | `GND` |
+| 7 | `Analog P2` |
+| 8 | `Analog N2` |
 
 The location of these 4 analog connectors in the AMDC (stacked as 2 x 2) is shown below:
 
 <img src="images/amdc-analog-input-highlighted.svg" />
+
+In this picture, the top left connector (when looking from the right side) corresponds to the `Analog connector 1` in the block diagram, the top right connector is the `Analog connector 2`, the bottom left connector is the `Analog connector 3`, and the bottom right connector is the `Analog connector 4`.
 
 More detailed information on the analog connectors can be found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/RJSAE_Brochure.pdf).
 
@@ -61,7 +61,9 @@ After the analog input voltage levels are decreased using the op amps, the next 
 
 _f_<sub>c</sub> = 1 / (2 π _RC_)
 
-The main purpose of these LPFs, however, is for anti-aliasing. They are set to 50kHz (a resistor with _R_ = 100Ω and a capacitor with _C_ = 33nF) since sampling is nominally done at 100kHz for the ADC, and the control loop is nominally at 10 or 20kHz.
+The main purpose of these LPFs, however, is for anti-aliasing. They are set to 50kHz (a resistor with _R_ = 100Ω and a capacitor with _C_ = 33nF) since sampling is nominally done at 100kHz for the ADC, and the control loop is nominally at 10 or 20kHz. 
+
+The nominal build of the AMDC sets RC values to get 50 kHz bandwidth, but the custom builds can use different RC values to obtain a different filter bandwidth.
 
 ### ADC
 
@@ -69,7 +71,9 @@ After the analog input signal passes through analog front-end (voltage level dec
 
 Each analog input to the ADC is configured as a pseudo-differential bipolar signal - its positive input signal is single-ended LPF output that can swing between 0.048V and 4.048V, and its negative input signal is at _V_<sub>REF</sub> = 2.048V, resulting in a differential input span of ±2V which is digitized by ADC.
 
-The outputs of the ADC chip are 8 serial data outputs each resulting from 1 differential analog input. The chip is also supplied by 1.8V which is used as a digital HIGH of the output signal. These 8 digital signals are then transmitted to the Picozed. There are other 3 digital signals (ADC CNV, ADC SCK and ADC CLKOUT) needed for the interface with FPGA.
+The outputs of the ADC chip are 8 serial data outputs each resulting from 1 differential analog input. The chip is also supplied by 1.8V which is used as a digital HIGH of the output signal. These 8 digital signals are then transmitted to the Picozed. There are other 3 digital signals (`ADC CNV`, `ADC SCK` and `ADC CLKOUT`) needed for the interface with FPGA.
+
+To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the analog section of the [pin mapping document](RevD-PinMapping.md#analog).
 
 More detailed information on the operating conditions of the ADC can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf).
 
