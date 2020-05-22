@@ -1,6 +1,6 @@
 # AMDC isoSPI and differential I/O interface
 
-This document describes the design considerations and implementation details for the isoSPI and differential I/O interface on the Advanced Motor Drive Controller (AMDC). The block diagram of the implementation is presented and each block is discussed in detail. The PCB layout and also connector pinout is described in this document.
+This document describes the design considerations and implementation details for the isoSPI and differential I/O interface on the Advanced Motor Drive Controller (AMDC). The block diagram of the implementation is presented and each block is discussed in detail. The details on PCB layout, connector pinout are also provided in this document.
 
 # Relevant Versions of AMDC Hardware
 
@@ -8,9 +8,9 @@ This document is relevant to AMDC REV D only.
 
 ## Design Requirements and Considerations
 
-The isolated serial peripheral interface (isoSPI) has increased noise immunity and safetey compared to non-isolated SPI. The following describes the design requirements for the isoSPI and differential I/O interface.
-1. Implement four isoSPI and four differential I/O interface to FPGA.
-2. Change the voltage level of the signal that is compatible with PicoZed.
+The isolated serial peripheral interface (isoSPI) has increased noise immunity and safetey. The following describes the design requirements for the isoSPI and differential I/O interface.
+1. Implement four isoSPI and four differential I/O interface for FPGA.
+2. Implement voltage level translator to interface with FPGA that operates at 1.8V.
 
 ## Block Diagram / External Connections
 
@@ -18,7 +18,7 @@ The isolated serial peripheral interface (isoSPI) has increased noise immunity a
 
 ### 1. DB15 Connector
 
-DB15 D-sub high-density connectors are used for isoSPI and differential I/O (D_IN / D_OUT) interface in AMDC. There are 2 DB15 conecctors and each connector has 2 isoSPI communication interface, 2 differential I/O interface, 1 pin for ground signals, and 1 pin for 5V supply of the AMDC.
+DB15 D-sub high-density connectors are used for isoSPI and differential I/O (D_IN / D_OUT) interface in AMDC. There are 2 DB15 connectors and each connector has 2 isoSPI communication interface, 2 differential I/O interface, 1 pin for ground signals, and 1 pin for 5V supply of the AMDC.
 
 The pin mappings for each DB15 connector is shown:
 
@@ -50,7 +50,7 @@ More details on the DB15 connector can be found in [here](https://content.norcom
 
 ### 2. isoSPI communication interface
 
-The isoSPI communication interface is implemented using [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). This IC provides a bi-directional interface between standard SPI signals and differential pulses. The SPI signals from PicoZed are in 1.8V voltage signals, this IC also translates the signals to 5V level. For termination, 120 ohms resistor is added. The maximum and minimum operating conditions are provided in the following table:
+The isoSPI communication interface is implemented using [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). This IC provides a bi-directional interface between standard SPI signals and differential pulses. The SPI signals from PicoZed are in 1.8V voltage level, this IC also translates the signals to 5V level. For termination, 120 ohms resistor is added. The maximum and minimum operating conditions are provided in the following table:
 
 | Parameter                             |    Conditions     |   MIN   |  MAX  |
 |---------------------------------------|-------------------|---------|-------|
@@ -61,15 +61,15 @@ The isoSPI communication interface is implemented using [LTC6820](https://www.an
 | Low-level input voltage               |VDDS = 2.7V to 5V  | 0       | 0.3 VDDS  |
 | Low-level input voltage               |VDDS = 1.7V to 2.7V| 0       | 0.2 VDDS  |
 
-This IC can operate at a maximum SPI communication rate of 1 Mbps. The bias resistors (RB1 and RB2) are used to adjust the drive currents to the differential lines. The bias resistors (RB1 and RB2) used in the design will set the drive currents to 10 mA. The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8 mA which corresponds to 79 mW for 5 V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
+This IC can operate at a maximum SPI communication speed of 1 Mbps. The bias resistors (RB1 and RB2) are used to adjust the drive currents to the differential lines. The bias resistors (RB1 and RB2) used in the design will set the drive currents to 10 mA. The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8 mA which corresponds to 79 mW for 5 V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
 
-### 3. isoSPI pulse transformer
+### 3. isoSPI isolation transformer
 
 To add isolation to the differential isoSPI signals, an external isolation barrier is required. This is implemented by adding pulse transformer HX1188NLT, which has 1:1 turns ratio. More information on the pulse transformer is found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/10_100BASE-T%20Single%20Port%20SMD%20Magnetics_Rev2008.pdf).
 
-### 4. Differential I/O driver
+### 4. Single-ended to differential converter
 
-The I/O interface is connected to the FPGA I/O pins of PicoZed which can be configured as SPI, UART or any other communication interface. This signal is translated into differential I/O using AM26C31 differential line driver. The operating conditions for the IC are provided in the following table.
+The I/O interface is connected to the FPGA I/O pins of PicoZed which can be configured as SPI, UART or any other communication interface. This signal is converted into differential I/O using AM26C31 differential line driver. The operating conditions for the IC are provided in the following table.
 | Parameter                             | MIN   | NOM | MAX   |
 |---------------------------------------|-------|-----|-------|
 | Supply voltage Vcc                    | 4.5 V | 5 V | 5.5 V |
@@ -79,7 +79,7 @@ The I/O interface is connected to the FPGA I/O pins of PicoZed which can be conf
 
 The typical propagation delay from input to the output line is 7ns, more details about the switching characteristics can be found in the datasheet. The maximum supply current consumed by the IC including to drive currents for differential lines is around 20 mA which corresponds to 100 mW for 5 V supply. For more information refer to the datasheet of [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995).
 
-### 5. Differential IO transmitter
+### 5. Differential to single-ended converter
 
 The differential signal is converted into single-ended signal using AM26C32 differential line receiver. The operating conditions for the IC are provided in the following table.
 | Parameter                             | MIN   | NOM | MAX   |
@@ -91,9 +91,9 @@ The differential signal is converted into single-ended signal using AM26C32 diff
 
 The typical propagation delay from input to the output line is 17ns, more details about the switching characteristics can be found in the datasheet. The maximum supply current consumed by the IC including to drive currents for differential lines is around 10 mA which corresponds to 50 mW for 5 V supply. For more information refer to the datasheet of [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338).
 
-### 6. Voltage level translator
+### 6. Voltage level shifter
 
-The 5V voltage level from the differential line receiver is translated to a low voltage level (1.8V) for PicoZed using the level translation SN74LVC8T245 IC. This IC translates the voltage based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The IC supports bi-directional translation and the direction can be set using direction control pin (DIR), the high on DIR translated the signals from A to B and low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V. The maximum propagation delay to translate the signals from 5 V to 1.8 V is 23.4 ns, for more information on switching characteristics, refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
+The 5V voltage level from the differential line receiver is translated to a low voltage level (1.8V) for PicoZed using the level translation SN74LVC8T245 IC. This IC supports bi-directional translation, this is also used to translate the low-voltage level (from PicoZed) to 5 V level used by diferential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using direction control pin (DIR), the high on DIR pin translates the signals from A to B and low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V. The maximum propagation delay to translate the signals from 5 V to 1.8 V is 23.4 ns, for more information on switching characteristics, refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
 
 ## PCB Layout
 
