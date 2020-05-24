@@ -10,13 +10,14 @@ AMDC REV D
 
 There are several design requirements that must be met for the analog signal chain of the AMDC:
 
-1. Synchronously digitize differential analog inputs (bipolar, ±10V at each input of the differential signal).
-2. Operate ADC fast enough such that the sampling can be aligned to the PWM carrier waveform (>100ksps throughput on all channels with the accurate timing).
-3. High impedance inputs so no possiblity for the ground loops.
-4. High common-mode rejection ratio (CMRR) for a wide range of inputs.
-5. Low noise signal chain.
+1. Accept truly differential, bipolar, ±10V (max) signals at each of the differential analog inputs.
+2. Synchronously digitize all differential analog inputs at the same time (no multiplexing).
+3. Operate ADC fast enough such that the sampling can be aligned to the PWM carrier waveform (>100ksps throughput on all channels).
+4. Ensure there are no possible ground loops by using high impedance inputs for the differential voltages.
+5. Ensure a high common-mode rejection ratio (CMRR) for the differential inputs.
+6. Ensure the analog signal chain has minimal noise.
 
-As it was mentioned, the analog input to the AMDC should be bipolar differential with the voltage within ±10V. Then, the analog front-end converts this into a pseudo-differential bipolar signal which is needed by the analog-to-digital converter (ADC). More information on the ADC input types and their definitions can be found [here](https://www.analog.com/media/en/technical-documentation/product-selector-card/2PB_sarinputtypesfb.pdf).
+As mentioned above, the analog input to the AMDC should be bipolar differential with the voltage within ±10V. Then, the analog front-end converts this into a single-ended pseudo-differential signal which is needed by the analog-to-digital converter (ADC). More information on the ADC input types and their definitions can be found [here](https://www.analog.com/media/en/technical-documentation/product-selector-card/2PB_sarinputtypesfb.pdf).
 
 ## Block Diagram / External Connections
 
