@@ -58,7 +58,7 @@ where i = 1, 2, 3 ..., 8. (_V_<sub>i</sub><sup>+</sup> - _V_<sub>i</sub><sup>-</
 More detailed information on the operating conditions of the op amp can be found in the [datasheet](http://www.ti.com/lit/ds/symlink/ina143.pdf).
  
 ### Low-Pass Filters (LPFs)
-After the analog input voltage levels are decreased using the op amps, the next stage is to remove the high-frequency noises using the low-pass filters. To implement this, 8 simple first-order RC filters are used each for 1 analog input. The cutoff frequency of the filter is selected based on the resistance and capacitance values:
+After the analog input voltage levels are decreased using the op amps, the next stage is to remove the high-frequency noise using the low-pass filters. To implement this, 8 simple first-order RC filters are used each for 1 analog input. The cutoff frequency of the filter is selected based on the resistance and capacitance values:
 
 _f_<sub>c</sub> = 1 / (2 π _RC_)
 
@@ -68,7 +68,7 @@ The nominal build of the AMDC sets RC values to get 50 kHz bandwidth, but the cu
 
 ### ADC
 
-After the analog input signal passes through analog front-end (voltage level decreased and high-frequeny noise removed), it can be inputted to the ADC to convert to digital signal. [LTC2320-14](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf) high speed octal 14-bit + sign successive approximation register (SAR) ADC is used for this purpose which can receive up to 8 inputs. ADC chip is supplied by 5V from the AMDC to operate.
+After the analog input signal passes through analog front-end (voltage level decreased and high-frequency noise removed), it can be inputted to the ADC to convert to digital signal. [LTC2320-14](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf) high speed octal 14-bit + sign successive approximation register (SAR) ADC is used for this purpose which can receive up to 8 inputs. ADC chip is supplied by 5V from the AMDC to operate.
 
 Each analog input to the ADC is configured as a pseudo-differential bipolar signal - its positive input signal is single-ended LPF output that can swing between 0.048V and 4.048V, and its negative input signal is at _V_<sub>REF</sub> = 2.048V, resulting in a differential input span of ±2V which is digitized by ADC.
 
