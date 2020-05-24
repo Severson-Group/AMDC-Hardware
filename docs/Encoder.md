@@ -23,7 +23,17 @@ There are two design requirements that must be met for the encoder subsystem of 
 
 The AMDC REV D hardware supports two independent encoder interfaces. These must be incremental encoders outputting differential ABZ signals (i.e. the encoder outputs both the non-inverting and inverting signal, e.g. A and A̅). If the encoder only provides single-ended ABZ outputs, an adapter must be used between the encoder and the AMDC which converts the single-ended outputs to the differential signals required by the AMDC. For proper operation, the encoder ground should be connected to the AMDC ground via a pin on the DB9 connector. For powering the encoder, the user has two options: the AMDC provides 5V power via the DB9 connector, or the user can use an external power supply.
 
-The maximum encoder signal frequency that the AMDC is able to receive depends on the FPGA clock frequency, which is 200MHz in our case.  It is suggested that there is a minimum of a 10x over-sampling ratio per encoder data line square wave voltage level. So, the frequency of the square wave on the encoder data line must be less than 10MHz (10 million pulses per second). To calculate the frequency of the encoder square wave signal, speed of the rotor and encoder specifications such as counts/cycles per revolution (CPR) and pulses per revolution (PPR) should be known. For example, if PPR = 1024 and rotor speed is 1000rev./sec., then encoder pulse frequency = PPR x rotor speed = 1024pulses/rev. x 1000rev./sec. = 1.024MHz, which is below maximum frequency the AMDC can receive from the encoder input (10MHz).
+#### Maximum Encoder Frequency Output
+
+Users must select an appropriate encoder for their application. Typically, the decision is based on cost, physical size, rotor speed, and maximum supported frequency output. The last metric, maximum frequency output, is determined by the AMDC hardware.
+
+The maximum encoder signal frequency that the AMDC is able to receive depends on the FPGA clock frequency, which is nominally 200MHz.  It is suggested that there is a minimum of a 10x oversampling ratio. This means the frequency of the encoder square wave output should be less than 20MHz (20 million pulses per second).
+
+##### Encoder Example Application
+
+An example encoder application will now be evaluated to see if it will work with the AMDC hardware. To calculate the frequency of the encoder square wave signal, the maximum speed of the rotor and the encoder specifications are needed.
+
+Consider the following example application: the encoder has 256 counts (i.e. counts per revolution (CPR) = 256) and the maximum rotor speed is 60kRPM (1000 rev/sec). The encoder pulses per revolution (PPR) is 4 * CPR = 1024. At the maximum rotor speed, the encoder output frequency is 1000 rev/sec * PPR = 1.024MHz. This is below the maximum recommended limit of 20MHz, so this application will work with the AMDC hardware.
 
 More information on CPR and PPR can be found [here](https://www.cuidevices.com/blog/what-is-encoder-ppr-cpr-and-lpr).
 
