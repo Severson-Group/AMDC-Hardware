@@ -48,7 +48,7 @@ In this picture, the top left connector (when looking from the right side) corre
 More detailed information on the analog connectors can be found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/RJSAE_Brochure.pdf).
 
 ### Difference amplifiers
-Analog input signals should be conditioned before transmitting to the ADC. The first stage of this conditioning is to decrease the voltage level. These are implemented using 4 [INA2143UA](http://www.ti.com/lit/ds/symlink/ina143.pdf) difference amplifier chips. Each chip has two op amps, totaling in 8 op amps each of which receives one differential analog input. These chips need a ±15V supply which they receive from the AMDC. Each op amp is configured as a non-inverting amplifier and the relationship between its input and output is as follows:
+Analog input signals should be conditioned before transmitting to the ADC. The first stage of this conditioning is to decrease the voltage level. These are implemented using 4 [INA2143UA](http://www.ti.com/lit/ds/symlink/ina143.pdf) difference amplifier chips. Each chip has two op amps, totaling in 8 op amps each of which receives one differential analog input. These ICs require a ±15V supply which they receive from the AMDC. Each op amp is configured as a non-inverting amplifier and the relationship between its input and output is as follows:
 
 
 _V_<sub>i</sub> = _V_<sub>REF</sub>  + 0.1 (_V_<sub>i</sub><sup>+</sup> - _V_<sub>i</sub><sup>-</sup>)
@@ -58,21 +58,19 @@ where i = 1, 2, 3 ..., 8. (_V_<sub>i</sub><sup>+</sup> - _V_<sub>i</sub><sup>-</
 More detailed information on the operating conditions of the op amp can be found in the [datasheet](http://www.ti.com/lit/ds/symlink/ina143.pdf).
  
 ### Low-Pass Filters (LPFs)
-After the analog input voltage levels are decreased using the op amps, the next stage is to remove the high-frequency noise using the low-pass filters. To implement this, 8 simple first-order RC filters are used each for 1 analog input. The cutoff frequency of the filter is selected based on the resistance and capacitance values:
+After the analog input voltage levels are decreased (stage one), stage two uses low-pass filters to prevent high-frequency noise from reaching the ADCs that could otherwise result in aliasing. To implement this, simple first-order RC filters are used for each analog input. The cutoff frequency of the filter is selected based on the resistance and capacitance values:
 
 _f_<sub>c</sub> = 1 / (2 π _RC_)
 
-The main purpose of these LPFs, however, is for anti-aliasing. They are set to 50kHz (a resistor with _R_ = 100Ω and a capacitor with _C_ = 33nF) since sampling is nominally done at 100kHz for the ADC, and the control loop is nominally at 10 or 20kHz. 
-
-The nominal build of the AMDC sets RC values to get 50 kHz bandwidth, but the custom builds can use different RC values to obtain a different filter bandwidth.
+The main purpose of these LPFs is for anti-aliasing. They are nominally set to 50kHz (a resistor with _R_ = 100Ω and a capacitor with _C_ = 33nF) since the default ADC sampling rate used by the AMDC is 100kHz. Users of the AMDC may decide to use different RC values (to obtain a different filter bandwidth) based on their control requirements.
 
 ### ADC
 
-After the analog input signal passes through analog front-end (voltage level decreased and high-frequency noise removed), it can be inputted to the ADC to convert to digital signal. [LTC2320-14](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf) high speed octal 14-bit + sign successive approximation register (SAR) ADC is used for this purpose which can receive up to 8 inputs. ADC chip is supplied by 5V from the AMDC to operate.
+After the analog input signal passes through analog front-end (voltage level decreased in stage one and high-frequency noise removed in stage two), it is sampled by the ADC. [LTC2320-14](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf) high speed octal 14-bit + sign successive approximation register (SAR) ADC is used for this purpose which can receive up to 8 inputs. The ADC is supplied by 5V and 1.8V.
 
-Each analog input to the ADC is configured as a pseudo-differential bipolar signal - its positive input signal is single-ended LPF output that can swing between 0.048V and 4.048V, and its negative input signal is at _V_<sub>REF</sub> = 2.048V, resulting in a differential input span of ±2V which is digitized by ADC.
+Each analog input to the ADC is configured as a pseudo-differential bipolar signal. Its positive input signal is the single-ended LPF output that can swing between 0.048V and 4.048V, and its negative input signal is at _V_<sub>REF</sub> = 2.048V, resulting in a differential input span of ±2V that is digitized by ADC.
 
-The outputs of the ADC chip are 8 serial data outputs each resulting from 1 differential analog input. The chip is also supplied by 1.8V which is used as a digital HIGH of the output signal. These 8 digital signals are then transmitted to the Picozed. There are other 3 digital signals (`ADC CNV`, `ADC SCK` and `ADC CLKOUT`) needed for the interface with FPGA.
+The ADC has a digital serial data output for each analog input (8 digital outputs in total). The output signals use 1.8V logic and are directly connected to the PicoZed. Three aditional digital signals (`ADC CNV`, `ADC SCK` and `ADC CLKOUT`) are used by the AMDC to manage the signal conversion process.
 
 To view the mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, take a look at the analog section of the [pin mapping document](RevD-PinMapping.md#analog).
 
