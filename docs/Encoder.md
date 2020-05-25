@@ -31,12 +31,17 @@ The maximum encoder signal frequency that the AMDC is able to receive depends on
 
 ##### Encoder Example Application
 
-An example encoder application will now be evaluated to see if it will work with the AMDC hardware. To calculate the frequency of the encoder square wave signal, the maximum speed of the rotor and the encoder specifications are needed.
+An example encoder application will now be evaluated to see if it will work with the AMDC hardware. To calculate the frequency of the encoder square wave signal, the maximum speed of the rotor and the encoder specifications are needed. 
 
-Consider the following example application: the encoder has 256 counts (i.e. counts per revolution (CPR) = 256) and the maximum rotor speed is 60kRPM (1000 rev/sec). The encoder pulses per revolution (PPR) is 4 * CPR = 1024. At the maximum rotor speed, the encoder output frequency is 1000 rev/sec * PPR = 1.024MHz. This is below the maximum recommended limit of 20MHz, so this application will work with the AMDC hardware.
+Consider the following example application: the encoder has 4096 counts (i.e. counts per revolution (CPR) = 4096) and the maximum rotor speed is 60kRPM (1000 rev/sec). The encoder pulses per revolution (PPR) is CPR/4 = 1024. At the maximum rotor speed, the encoder output frequency is 1000 rev/sec * PPR = 1.024MHz. This is below the maximum recommended limit of 20MHz, so this application will work with the AMDC hardware.
 
-More information on CPR and PPR can be found [here](https://www.cuidevices.com/blog/what-is-encoder-ppr-cpr-and-lpr).
+To show what is meant by pulses and counts, an example plot of the _A_ and _B_ quadrature signals is presented below:
 
+<img src="images/amdc-encoder_input_signals.svg" />
+
+PPR describes the number of high pulses on either _A_ or _B_ over a single revolution. This is equivalent to cycles or periods per revolution. CPR usually denotes the counts per revolution, which represents the number of quadrature decoded states between _A_ and _B_. The plot above shows that there are 4 states per square wave period, therefore, CPR = 4 * PPR.  
+
+The user, however, must check to make sure what PPR or CPR refers to in the specifications for an individual encoder, as the terminology may differ depending on the manufacturer. More information on CPR and PPR can be found [here](https://www.cuidevices.com/blog/what-is-encoder-ppr-cpr-and-lpr).
 
 ### 2. DB9 Connector
 
