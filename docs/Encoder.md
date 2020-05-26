@@ -33,7 +33,7 @@ The maximum encoder signal frequency that the AMDC is able to receive depends on
 
 An example encoder application will now be evaluated to see if it will work with the AMDC hardware. To calculate the frequency of the encoder square wave signal, the maximum speed of the rotor and the encoder specifications are needed. 
 
-Consider the following example application: the encoder has 4096 counts (i.e. counts per revolution (CPR) = 4096) and the maximum rotor speed is 60kRPM (1000 rev/sec). The encoder pulses per revolution (PPR) is CPR/4 = 1024. At the maximum rotor speed, the encoder output frequency is 1000 rev/sec * PPR = 1.024MHz. This is below the maximum recommended limit of 20MHz, so this application will work with the AMDC hardware.
+Consider the following example application: the encoder has 1024 counts (i.e. counts per revolution (CPR) = 1024) and the maximum rotor speed is 60kRPM (1000 rev/sec). At the maximum rotor speed, the encoder output frequency is 1000 rev/sec * CPR = 1.024MHz. This is below the maximum recommended limit of 20MHz, so this application will work with the AMDC hardware.
 
 To show what is meant by pulses and counts, an example plot of the _A_ and _B_ quadrature signals is presented below:
 
