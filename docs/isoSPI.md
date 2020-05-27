@@ -18,27 +18,27 @@ The isolated serial peripheral interface (isoSPI) has increased noise immunity a
 
 ### 1. DB15 Connector
 
-DB15 D-sub high-density connectors are used for isoSPI and differential I/O (D_IN / D_OUT) interface in AMDC. There are 2 DB15 connectors and each connector has 2 isoSPI communication interface, 2 differential I/O interface, 1 pin for ground signals, and 1 pin for 5V supply from the AMDC.
+DB15 D-sub high-density connectors are used for isoSPI and differential I/O (D_I / D_O) interface in AMDC. There are 2 DB15 connectors and each connector has 2 isoSPI communication interface, 2 differential I/O interface, 1 pin for ground signals, and 1 pin for 5V supply from the AMDC.
 
 The pin mappings for each DB15 connector is shown:
 
 | Pin number | Signal name |
 |------------|--------|
 | 1 | 5V |
-| 2 | D1_IN_P |
-| 3 | D1_IN_N |
-| 4 | D2_IN_P |
-| 5 | D2_IN_N |
+| 2 | D1_I_P |
+| 3 | D1_I_N |
+| 4 | D2_I_P |
+| 5 | D2_I_N |
 | 6 | NC |
 | 7 | isoSPI1_P |
 | 8 | isoSPI1_N |
 | 9 | isoSPI2_P |
 | 10 | isoSPI2_N |
 | 11 | GND |
-| 12 | D1_OUT_P |
-| 13 | D1_OUT_N |
-| 14 | D2_OUT_P |
-| 15 | D2_OUT_N |
+| 12 | D1_O_P |
+| 13 | D1_O_N |
+| 14 | D2_O_P |
+| 15 | D2_O_N |
 
 The mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, can be found at the isoSPI section of the [pin mapping document](RevD-PinMapping.md#encoder).
 
@@ -93,7 +93,7 @@ The maximum supply current consumed by the IC including to drive currents for di
 
 ### 6. Voltage level shifter
 
-The 5V voltage level from the differential line receiver is translated to a low voltage level (1.8V) for PicoZed using the level translation SN74LVC8T245 IC. This IC supports bi-directional translation, this is also used to translate the low-voltage level (from PicoZed) to 5 V level used by diferential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using direction control pin (DIR), the high on DIR pin translates the signals from A to B and low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V.  For more refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
+The 5V voltage level from the differential line receiver is translated to a low voltage level (1.8V) for PicoZed using the level translation SN74LVC8T245 IC. This IC supports bi-directional translation, this is also used to translate the low-voltage level (from PicoZed) to 5 V level used by diferential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using direction control pin (DIR), the high on DIR pin translates the signals from A to B and low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V.  For more information refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
 
 ## PCB Layout
 
