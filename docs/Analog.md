@@ -12,7 +12,7 @@ There are several design requirements that must be met for the analog signal cha
 
 1. Accept truly differential, bipolar, ±10V (max) signals at each of the differential analog inputs.
 2. Synchronously digitize all differential analog inputs at the same time (no multiplexing).
-3. Operate ADC fast enough such that the sampling can be aligned to the PWM carrier waveform (>100ksps throughput on all channels).
+3. Operate the ADC fast enough such that the sampling can be aligned to the PWM carrier waveform (>100ksps throughput on all channels).
 4. Ensure there are no possible ground loops by using high impedance inputs for the differential voltages.
 5. Ensure a high common-mode rejection ratio (CMRR) for the differential inputs.
 6. Ensure the analog signal chain has minimal noise.
@@ -24,7 +24,7 @@ As mentioned above, the analog input to the AMDC should be bipolar differential 
 <img src="images/amdc-analog.svg" />
 
 ### Analog connectors
-The analog signal chain of the AMDC can receive up to 8 bipolar differential analog inputs (16 signals in total – 8 positive and 8 negative). There are 4 analog connectors (modular jacks) each receiving up to 2 differential inputs. There are also 4 ESD protection chips to protect the sensitive electronics from the damage due to ESD.
+The analog signal chain of the AMDC can receive up to 8 bipolar differential analog inputs (16 signals in total – 8 positive and 8 negative). There are 4 analog connectors, each receiving up to 2 differential inputs. There are also [ESD protection devices](http://www.smc-diodes.com/propdf/SMDA03C%20THRU%20SMDA24C%20N0297%20REV.B.pdf) located on the `Analog Pn` and `Analog Nn` signals immediately after the connectors to protect the sensitive analog electronics.
 
 A table of the pin mappings for the analog connectors is shown below:
 
@@ -48,15 +48,15 @@ In this picture, the top left connector (when looking from the right side) corre
 More detailed information on the analog connectors can be found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/RJSAE_Brochure.pdf).
 
 ### Difference amplifiers
-Analog input signals should be conditioned before transmitting to the ADC. The first stage of this conditioning is to decrease the voltage level. These are implemented using 4 [INA2143UA](http://www.ti.com/lit/ds/symlink/ina143.pdf) difference amplifier chips. Each chip has two op amps, totaling in 8 op amps each of which receives one differential analog input. These ICs require a ±15V supply which they receive from the AMDC. Each op amp is configured as a non-inverting amplifier as shown below:
+Analog input signals should be conditioned before being sampled by the ADC. The first stage of this conditioning is to decrease the voltage level. These are implemented using 4 [INA2143UA](http://www.ti.com/lit/ds/symlink/ina143.pdf) difference amplifier chips. Each chip has two op amps (8 op amps in total), each of which receives one differential analog input. These ICs require a ±15V supply which they receive from the AMDC. Each op amp is configured as the non-inverting amplifier shown below:
 
 <img src="images/amdc-analog_op_amp.svg" />
 
-The relationship between its input and output is as follows:
+The relationship between the amplifier input and output is as follows:
 
 _V_<sub>i</sub> = _V_<sub>REF</sub>  + 0.1 (_V_<sub>i</sub><sup>+</sup> - _V_<sub>i</sub><sup>-</sup>)
 
-where i = 1, 2, 3 ..., 8. (_V_<sub>i</sub><sup>+</sup> - _V_<sub>i</sub><sup>-</sup>) is the bipolar differential input coming from the analog connectors and _V_<sub>i</sub> is the output of the op amp which is fed to the low-pass filter (next subsection). _V_<sub>REF</sub> = 2.048V is supplied from the AMDC and 0.1 gain is set using the laser trimmed resistors during IC fab, so each resistance value internal to the [INA2143UA](http://www.ti.com/lit/ds/symlink/ina143.pdf) is very accurate. This results in a very high CMRR. The differential input to the op amp can be between ±20V (AC/DC, each input between ±10V), which means the output can be in the range of 0.048V and 4.048V. The voltage level at each stage of the analog signal chain is shown by a red color in the block diagram.
+where i = 1, 2, 3 ..., 8. (_V_<sub>i</sub><sup>+</sup> - _V_<sub>i</sub><sup>-</sup>) is the bipolar differential input coming from the analog connectors and _V_<sub>i</sub> is the output of the op amp which is fed to a low-pass filter (next subsection). _V_<sub>REF</sub> = 2.048V is supplied from the AMDC and the 0.1 gain is set using the [INA2143UA's](http://www.ti.com/lit/ds/symlink/ina143.pdf) internal resistors (laser trimmed during IC fab to create a precisely matched set). This results in a very high CMRR. The differential input to the op amp can be between ±20V (AC/DC, each input between ±10V), which means the output can be in the range of 0.048V and 4.048V. The voltage level at each stage of the analog signal chain is shown by a red color in the block diagram.
 
 More detailed information on the operating conditions of the op amp can be found in the [datasheet](http://www.ti.com/lit/ds/symlink/ina143.pdf).
  
@@ -73,7 +73,7 @@ The main purpose of these LPFs is for anti-aliasing. They are nominally set to 5
 
 ### ADC
 
-After the analog input signal passes through analog front-end (voltage level decreased in stage one and high-frequency noise removed in stage two), it is sampled by the ADC. [LTC2320-14](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf) high speed octal 14-bit + sign successive approximation register (SAR) ADC is used for this purpose which can receive up to 8 inputs. The ADC is supplied by 5V and 1.8V.
+After the analog input signal passes through the analog front-end (voltage level decreased in stage one and high-frequency noise removed in stage two), it is sampled by the ADC. The [LTC2320-14](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf) high speed octal 14-bit + sign successive approximation register (SAR) ADC is used for this purpose which can receive up to 8 inputs. The ADC is supplied by 5V and 1.8V.
 
 Each analog input to the ADC is configured as a pseudo-differential bipolar signal. Its positive input signal is the single-ended LPF output that can swing between 0.048V and 4.048V, and its negative input signal is at _V_<sub>REF</sub> = 2.048V, resulting in a differential input span of ±2V that is digitized by ADC.
 
