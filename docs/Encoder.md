@@ -70,21 +70,11 @@ More information on the D-sub connector can be found [here]( https://www.alliede
 
 ### 3. Differential to Single-Ended Conversion
 
-After passing through the D-sub connector, the differential ABZ signals (`nA`, `nA̅`, `nB`, `nB̅`, `nZ`, `nZ̅`) are converted to the single-ended ABZ signals (`OUTnA`, `OUTnB`, `OUTnZ`) using the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf) chip. The following table summarizes the absolute maximum ratings taken from the datasheet for this chip:
-
-| Parameter                            | MIN    | MAX           |
-|--------------------------------------|--------|---------------|
-| Supply voltage Vcc                   |        | 7V           |
-| Input voltage (A, A̅, A, B̅, Z or Z̅)   | -11V  | 14V          |
-| Differential input voltage           | -14V  | 14V          |
-| Output voltage (OUT A, OUT B, OUT Z) | -0.5V | (Vcc + 0.5)V |
-
-Exposure to the absolute maximum ratings for an extended period of time may affect device reliability. Therefore, it is recommended to operate under the recommended operating conditions:
+After passing through the D-sub connector, the differential ABZ signals (`nA`, `nA̅`, `nB`, `nB̅`, `nZ`, `nZ̅`) are converted to the single-ended ABZ signals (`OUTnA`, `OUTnB`, `OUTnZ`) using the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf) chip. The following table summarizes the recommended operating conditions of this chip:
 
 | Parameter                             | MIN   | NOM | MAX   |
 |---------------------------------------|-------|-----|-------|
-| Supply voltage Vcc                    | 4.5V | 5V | 5.5V |
-| High-level input voltage (logic HIGH) | 2V   |     | Vcc   |
+| High-level input voltage (logic HIGH) | 2V   |     | 5V   |
 | Low-level input voltage (logic LOW)   | 0V   |     | 0.8V |
 | Common-mode input voltage             | -7V  |     | 7V   |
 
