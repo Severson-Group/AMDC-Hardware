@@ -72,7 +72,8 @@ More information on the D-sub connector can be found [here]( https://www.alliede
 
 ### 3. Differential to Single-Ended Conversion
 
-After passing through the D-sub connector, the differential ABZ signals (A, A̅, A, B̅, Z, Z̅) are converted to the single-ended ABZ signals (OUT A, OUT B, OUT Z) using the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf) chip. This chip is supplied by a `Vcc = 5V DC` source from the AMDC. The following table summarizes the absolute maximum ratings taken from the datasheet for this chip:
+After passing through the D-sub connector, the differential ABZ signals (A, A̅, A, B̅, Z, Z̅) are converted to the single-ended ABZ signals (OUT A, OUT B, OUT Z) using the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf) chip. The following table summarizes the absolute maximum ratings taken from the datasheet for this chip:
+
 
 | Parameter                            | MIN    | MAX           |
 |--------------------------------------|--------|---------------|
