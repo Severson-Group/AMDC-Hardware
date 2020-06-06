@@ -39,7 +39,7 @@ To show what is meant by pulses and counts, an example plot of the _A_ and _B_ q
 
 `PPR` describes the number of high pulses on either _A_ or _B_ over a single revolution. This is equivalent to cycles or periods per revolution. `CPR` usually denotes the counts per revolution, which represents the number of quadrature decoded states between _A_ and _B_. The plot above shows that there are 4 states per square wave period, therefore, `CPR` = 4 * `PPR`.  
 
-Terminology differs from manufacturer to manufacturer. It is recommended that the user verify that `PPR` or `CPR` have this same definition in the specification of an individual encoder. More information on CPR and PPR can be found [here](https://www.cuidevices.com/blog/what-is-encoder-ppr-cpr-and-lpr) and in the comments of [PR 106](https://github.com/Severson-Group/AMDC-Hardware/pull/106).
+Terminology differs from manufacturer to manufacturer. It is recommended that the user verifies that `PPR` or `CPR` have this same definition in the specification of an individual encoder. [This manufacturer](https://www.usdigital.com/products/encoders/incremental/kit/E5), for example, has a different definition of `CPR` and `PPR`. They define `CPR` as cycles/rev which is equivalent to pulses/rev (`PPR`) in this document, and they define `PPR` the same as `CPR` in this document. To avoid confusion, the larger of the two (the 4x one - counts/rev) should always be used when calculating the frequency and comparing with the maximum recommended limit of 20kHz. More information on CPR and PPR can be found [here](https://www.cuidevices.com/blog/what-is-encoder-ppr-cpr-and-lpr) and in the comments of [PR 106](https://github.com/Severson-Group/AMDC-Hardware/pull/106).
 
 ### 2. DB9 Connector
 
@@ -72,11 +72,13 @@ More information on the D-sub connector can be found [here]( https://www.alliede
 
 After passing through the D-sub connector, the differential ABZ signals (`nA`, `nA̅`, `nB`, `nB̅`, `nZ`, `nZ̅`) are converted to the single-ended ABZ signals (`OUTnA`, `OUTnB`, `OUTnZ`) using the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf) chip. The following table summarizes the recommended operating conditions of this chip:
 
-| Parameter                             | MIN   | NOM | MAX   |
+| Parameter                       | MIN   | NOM | MAX   |
 |---------------------------------------|-------|-----|-------|
-| High-level input voltage (logic HIGH) | 2V   |     | 5V   |
-| Low-level input voltage (logic LOW)   | 0V   |     | 0.8V |
+| High-level input voltage (logic HIGH)<sup>1</sup>  | 2V   |     | 5V   |
+| Low-level input voltage (logic LOW)<sup>1</sup>    | 0V   |     | 0.8V |
 | Common-mode input voltage             | -7V  |     | 7V   |
+
+<sup>1</sup> High-level input voltage and Low-level input voltage values are with respect to Common-mode input voltage.
 
 When the IC is operated at nominal conditions (Vcc = 5V, room temperature 25C), the high-level output voltage is 3.8V or more and low-level output voltage is around 0.2V. The chip typically consumes approximately 10mA, which translates to 50mW of power.
 
