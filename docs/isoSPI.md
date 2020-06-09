@@ -96,7 +96,8 @@ The differential signal is then converted into a single-ended signal using the A
 | High-level input voltage              | 2 V   |     | Vcc   |
 | Low-level input voltage               | 0 V   |     | 0.8 V |
 
-The maximum supply current consumed by the IC including to drive currents for differential lines is around 10 mA which corresponds to 50 mW for 5 V supply. For more information refer to the datasheet of [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338).
+The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10 mA, which corresponds to 50 mW for a 5 V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338)datasheet.
+
 
 ### 6. Voltage level shifter
 
