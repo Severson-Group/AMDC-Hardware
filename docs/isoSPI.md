@@ -82,7 +82,8 @@ The I/O interface is connected to the FPGA I/O pins of PicoZed which can be conf
 | High-level input voltage              | 2 V   |     | Vcc   |
 | Low-level input voltage               | 0 V   |     | 0.8 V |
 
-The maximum supply current consumed by the IC including to drive currents for differential lines is around 20 mA which corresponds to 100 mW for 5 V supply. For more information refer to the datasheet of [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995).
+The maximum supply current consumed by the IC including the drive currents for the differential lines is around 20 mA, which corresponds to 100 mW for a 5 V supply. For more information refer to the [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995) datasheet.
+
 
 ### 5. Differential to single-ended converter
 
