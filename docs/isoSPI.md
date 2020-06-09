@@ -87,7 +87,8 @@ The maximum supply current consumed by the IC including the drive currents for t
 
 ### 5. Differential to single-ended converter
 
-The differential signal is converted into single-ended signal using AM26C32 differential line receiver. The operating conditions for the IC are provided in the following table.
+The differential signal is then converted into a single-ended signal using the AM26C32 differential line receiver. The operating conditions for the IC are provided in the following table.
+
 | Parameter                             | MIN   | NOM | MAX   |
 |---------------------------------------|-------|-----|-------|
 | Supply voltage Vcc                    | 4.5 V | 5 V | 5.5 V |
