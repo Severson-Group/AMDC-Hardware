@@ -101,7 +101,8 @@ The maximum supply current consumed by the IC including the drive currents for t
 
 ### 6. Voltage level shifter
 
-The 5V voltage level from the differential line receiver is translated to a low voltage level (1.8V) for PicoZed using the level translation SN74LVC8T245 IC. This IC supports bi-directional translation, this is also used to translate the low-voltage level (from PicoZed) to 5 V level used by diferential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using direction control pin (DIR), the high on DIR pin translates the signals from A to B and low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V.  For more information refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
+The 5V voltage level from the differential line receiver is translated to 1.8V for the PicoZed using the SN74LVC8T245 level translation IC. This IC supports bi-directional translation, and is also used to translate the low-voltage level (from PicoZed) to 5 V level used by the differential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using a direction control pin (DIR), a high on the DIR pin translates the signals from A to B and a low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V.  For more information refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
+
 
 ## PCB Layout
 
