@@ -1,9 +1,9 @@
-# AMDC isoSPI and differential I/O interface
+# AMDC isoSPI and Differential I/O Interface
 
 This document describes the design considerations and implementation details for the isoSPI and differential I/O interface on the Advanced Motor Drive Controller (AMDC). The block diagram of the implementation is presented and each block is discussed in detail. Details on the PCB layout, and connector pinout are also provided in this document.
 
 
-# Relevant Versions of AMDC Hardware
+## Relevant Versions of AMDC Hardware
 
 AMDC REV D
 
