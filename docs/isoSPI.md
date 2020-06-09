@@ -5,7 +5,8 @@ This document describes the design considerations and implementation details for
 
 # Relevant Versions of AMDC Hardware
 
-This document is relevant to AMDC REV D only.
+AMDC REV D
+
 
 ## Design Requirements and Considerations
 
@@ -99,4 +100,3 @@ The 5V voltage level from the differential line receiver is translated to a low 
 ## PCB Layout
 
 The DB15 connector and the pulse transformer are located on the top layer. The isoSPI interfacing IC, differential line driver, receiver, and voltage translator ICs are located on the bottom layer. The top layer is used to route the signals from the DB15 connector to the pulse transformer. Inner signal layer 2 and 3 are used to route the signals from DB15 connector to the differential line driver and receiver ICs. The remaining signals from the ICs to the PicoZed connector are routed using the bottom layer. All the ICs consume less than 100 mA, so the 10 mil thickness trace is used for power supply traces. Most of the signal traces are routed using 6 mil trace thickness.
-
