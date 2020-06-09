@@ -14,7 +14,8 @@ The isolated serial peripheral interface (isoSPI) has increased noise immunity a
 
 1. Implement four isoSPI and four differential I/O interfaces.
 
-2. Implement voltage level translator to interface with FPGA that operates at 1.8V.
+2. Implement a voltage level translator to interface with the FPGA that operates at 1.8V.
+
 
 ## Block Diagram / External Connections
 
