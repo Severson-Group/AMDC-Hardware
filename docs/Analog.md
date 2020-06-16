@@ -89,7 +89,7 @@ Analog connectors, difference amplifier chips and LPFs are located on the top la
 
 ## Datasheets
 
-- Analog connectors - https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/RJSAE_Brochure.pdf
-- ESD protection - http://www.smc-diodes.com/propdf/SMDA03C%20THRU%20SMDA24C%20N0297%20REV.B.pdf
-- Difference amplifiers - http://www.ti.com/lit/ds/symlink/ina143.pdf
-- ADC – https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf
+- [Analog connectors](https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/RJSAE_Brochure.pdf)
+- [ESD protection](http://www.smc-diodes.com/propdf/SMDA03C%20THRU%20SMDA24C%20N0297%20REV.B.pdf)
+- [Difference amplifiers](http://www.ti.com/lit/ds/symlink/ina143.pdf)
+- [ADC](https://www.analog.com/media/en/technical-documentation/data-sheets/232014fa.pdf)
