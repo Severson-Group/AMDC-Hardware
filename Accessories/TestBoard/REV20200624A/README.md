@@ -22,7 +22,7 @@ This test board requires cables to interface to the AMDC power stack and analog 
 
 ### Power Stack Cables
 
-<img src="https://media.digikey.com/Photos/Amphenol%20Photos/MFG_CS-DSDHD15MM0.jpg" width="10em" />
+<img src="https://media.digikey.com/Photos/Amphenol%20Photos/MFG_CS-DSDHD15MM0.jpg" width="25%" />
 
 Digi-Key Part Number: `CS-DSDHD15MM0-002.5-ND`
 
@@ -30,7 +30,7 @@ Only one cable is required.
 
 ### Analog Cables
 
-<img src="https://media.digikey.com/Photos/Amphenol%20Photos/MFG_MP-6ARJ45SNNK.jpg" width="10em" />
+<img src="https://media.digikey.com/Photos/Amphenol%20Photos/MFG_MP-6ARJ45SNNK.jpg" width="25%" />
 
 Digi-Key Part Number: `MP-6ARJ45SNNK-001-ND`
 
