@@ -4,7 +4,7 @@ This document describes the design considerations and implementation details for
 
 ## Relevant Hardware Versions
 
-REV A
+Test Board: REV A, AMDC: REV D
 
 ## Purpose
 

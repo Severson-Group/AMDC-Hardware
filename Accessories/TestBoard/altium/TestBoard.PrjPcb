@@ -106,54 +106,58 @@ GenerateClassCluster=0
 DocumentUniqueId=SMIOSJGF
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for TestBoard\PCB.DRR
+DocumentPath=Project Outputs for TestBoard\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for TestBoard\PCB.EXTREP
+DocumentPath=Project Outputs for TestBoard\PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for TestBoard\PCB.GBL
+DocumentPath=Project Outputs for TestBoard\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for TestBoard\PCB.GBO
+DocumentPath=Project Outputs for TestBoard\PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for TestBoard\PCB.GBS
+DocumentPath=Project Outputs for TestBoard\PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for TestBoard\PCB.GM1
+DocumentPath=Project Outputs for TestBoard\PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for TestBoard\PCB.GTL
+DocumentPath=Project Outputs for TestBoard\PCB.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for TestBoard\PCB.GTO
+DocumentPath=Project Outputs for TestBoard\PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for TestBoard\PCB.GTS
+DocumentPath=Project Outputs for TestBoard\PCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for TestBoard\PCB.LDP
+DocumentPath=Project Outputs for TestBoard\PCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for TestBoard\PCB.REP
+DocumentPath=Project Outputs for TestBoard\PCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for TestBoard\PCB.RUL
+DocumentPath=Project Outputs for TestBoard\PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
+DocumentPath=Project Outputs for TestBoard\PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
 DocumentPath=Project Outputs for TestBoard\PCB.TXT
 DItemRevisionGUID=
 
@@ -518,7 +522,7 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=ForceUpdateSettings
 Configuration1_Item2=False
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=10|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=10|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=True|BomSetName=
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Supplier Part Number 1=True
 Configuration1_Name5=SortOrder
