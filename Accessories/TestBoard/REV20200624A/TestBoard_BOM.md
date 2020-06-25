@@ -1,0 +1,21 @@
+# AMDC Test Board REV A BOM
+
+| Comment | Description | Designator | Footprint | LibRef | Quantity | Supplier Part   Number 1 | Supplier Order   Qty 1 |
+|-|-|-|-|-|-|-|-|
+| Test Point | Test Point | GP1, GP2, GP3, GP4,   GP5, TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13,   TP14, TP15, TP16, TP17, TP18, TP19, TP20, TP21 | TP_1.6MM | Test Point | 26 | 36-5005-ND | 260 |
+| Resistor | Resistor | R9, R10, R11, R12,   R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24 | 0603-RES | Resistor | 16 | 311-0.0GRCT-ND | 160 |
+| Capacitor | Capacitor | C1, C2, C3, C4, C5,   C6, C7, C8 | 0603-CAP | Capacitor | 8 | 311-1341-1-ND | 80 |
+| Resistor | Resistor | R1, R2, R3, R4, R5,   R6, R7, R8 | 0603-RES | Resistor | 8 | 311-470GRCT-ND | 80 |
+| Jumper2 |   | JP1, JP2, JP3, JP4,   JP5, JP6 | PIN_HEADER_1x2 | Jumper2 | 6 | 732-5315-ND | 60 |
+| Resistor | Resistor | R25, R26, R27, R28,   R29, R30 | 0603-RES | Resistor | 6 | 311-160HRCT-ND | 60 |
+| Screw-4-40 |   | SCREW1, SCREW2,   SCREW3, SCREW4 |   | Screw-4-40 | 4 | KEY1046-ND | 40 |
+| Standoff-4-40 |   | STANDOFF1, STANDOFF2,   STANDOFF3, STANDOFF4 |   | Standoff-4-40 | 4 | 36-1656-ND | 40 |
+| LED |   | LED1, LED3 | 0603-LED | LED | 2 | 732-4978-1-ND | 20 |
+| LED |   | LED2, LED4 | 0603-LED | LED | 2 | 732-4980-1-ND | 20 |
+| 5-1634503-1 | CONN BNC JACK STR 50   OHM PCB | Q1 | 5-1634503-1 | 5-1634503-1 | 1 | A97581-ND | 10 |
+| DS04-254-2-02BK-SMT | DIP SWITCH, SPST,   2.54 PITCH, FL | SW1 | DS04-254-2-02BK-SMT | DS04-254-2-02BK-SMT | 1 | 2223-DS04-254-2-02BK-SMT-ND | 10 |
+| ICD15S13E6GX00LF | CONN DSUB HD RCPT   15POS R/A SLDR | CON2 | ICD15S13E6GX00LF | ICD15S13E6GX00LF | 1 | 609-2801-ND | 10 |
+| LED |   | LED5 | 0603-LED | LED | 1 | 732-4981-1-ND | 10 |
+| LED |   | LED6 | 0603-LED | LED | 1 | 732-4966-1-ND | 10 |
+| LT1460KCS3-10#TRMPBF | IC VREF SERIES 0.5%   SOT23-3 | U1 | SOT95P237X112-3N | LT1460KCS3-10#TRMPBF | 1 | LT1460KCS3-10#TRMPBFCT-ND | 10 |
+| RJSAE538004 | CONN MOD JACK 8P8C   R/A SHIELDED | CON1 | RJSAE538004 | RJSAE538004 | 1 | RJSAE538004-ND | 10 |
