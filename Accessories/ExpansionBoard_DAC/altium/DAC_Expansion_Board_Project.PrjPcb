@@ -164,6 +164,22 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for DAC_Expansion_Board_Project\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
+[Parameter1]
+Name=ProjectUniversity
+Value=UW-Madison
+
+[Parameter2]
+Name=ProjectRev
+Value=B
+
+[Parameter3]
+Name=ProjectOrganization
+Value=WEMPEC
+
+[Parameter4]
+Name=ProjectGroup
+Value=Severson Group
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
