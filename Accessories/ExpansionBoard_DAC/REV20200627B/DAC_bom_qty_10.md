@@ -1,6 +1,5 @@
-| | | | | | |
-|-|-|-|-|-|-|
 |Quantity|Supplier Part Number 1|Designator|Comment|Value|Supplier Order Qty 1|
+|-|-|-|-|-|-|
 |8|311-1341-1-ND|C1, C2, C3, C4, C21, C22, C23, C24|CC0603KRX7R8BB104|0.1uF|80|
 |12|311-4066-1-ND|C5, C7, C9, C11, C13, C15, C17, C19, C37, C38, C39, C40|CC0603KRX7R7BB184|0.18uF|120|
 |8|311-1085-1-ND|C6, C8, C10, C12, C14, C16, C18, C20|CC0603KRX7R9BB103|10nF|80|
