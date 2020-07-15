@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for DAC_Expansion_Board_Project
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -156,6 +156,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MOVXETMU
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for DAC_Expansion_Board_Project\Design Rule Check - DAC.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectGroup
 Value=Severson Group
@@ -219,7 +223,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for DAC_Expansion_Board_Project
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1208,10 +1212,16 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=DAC.SchLib
-ComponentDesignItemID0=OPA4192IDR
-ComponentSymbolReference0=OPA4192IDR
+ComponentDesignItemID0=MOUNT_HOLE
+ComponentSymbolReference0=MOUNT_HOLE
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=DAC.SchLib
+ComponentDesignItemID1=Resistor
+ComponentSymbolReference1=Resistor
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1237,11 +1247,21 @@ ParameterName4=Supplier 1
 ParameterUpdate4=1
 ParameterName5=Supplier Part Number 1
 ParameterUpdate5=1
+ParameterName6=Value
+ParameterUpdate6=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOIC127P600X175-14N
+ModelName0=0603-RES
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=MOUNTING_HOLE
+ModelUpdate1=1
+ModelTypeGroup1=SIM
+ModelTypeUpdate1=1
+ModelType2=SIM
+ModelName2=RES
+ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
