@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [DAC_Expansion_Board_Project.PrjPcb]
+   Generated File[DAC.GTO]
+   Generated File[DAC.GTS]
+   Generated File[DAC.GTL]
+   Generated File[DAC.GBL]
+   Generated File[DAC.GBS]
+   Generated File[DAC.GBO]
+   Generated File[DAC.GM1]
+   Generated File[DAC.RUL]
+   Generated File[DAC.EXTREP]
+   Generated File[DAC.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 12:59:44 PM On 7/15/2020
