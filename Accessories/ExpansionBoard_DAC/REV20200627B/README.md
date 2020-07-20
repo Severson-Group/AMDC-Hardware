@@ -7,7 +7,7 @@ This folder contains the compiled design outputs for the AMDC DAC Expansion Boar
 |-------------------|---------------|
 | Size              | 3.91" x 3.91"   |
 | Number of Layers  | 2               |
-| Thickness         | 1.6"            |
+| Thickness         | 1.6mm            |
 | Min Track/Spacing | 6/6mil          |
 | Min Hole Size     | 0.3mm           |
 | Surface Finish    | HASL (Tin Lead) |
