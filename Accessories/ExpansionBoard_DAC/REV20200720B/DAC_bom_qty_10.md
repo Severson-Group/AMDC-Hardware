@@ -21,6 +21,7 @@
 | 4        | 36-9900-ND              | SCREW1, SCREW2, SCREW3, SCREW4                           | 9900                   |        | 40                   |
 | 4        | 1772-1993-ND            | STANDOFF1, STANDOFF2, STANDOFF3, STANDOFF4               | 2057-440-AL-7          |        | 40                   |
 | 1        | 553-1536-1-ND           | T1                                                       | HX1188NLT              |        | 10                   |
+| 5        | A106145CT-ND            | TP1, TP2, TP3, TP4, TP5                                  | Test Point             |        | 50                   |
 | 1        | ADUM130E1BRWZ-ND        | U1                                                       | ADUM130E1BRWZ          |        | 10                   |
 | 1        | LTC6820IMS#TRPBFCT-ND   | U2                                                       | LTC6820IMS#TRPBF       |        | 10                   |
 | 2        | 296-43159-1-ND          | U3, U4                                                   | OPA4192IDR             |        | 20                   |
