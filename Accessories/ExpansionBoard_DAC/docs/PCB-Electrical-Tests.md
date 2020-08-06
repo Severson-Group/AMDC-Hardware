@@ -1,4 +1,4 @@
-#AMDC DAC Expansion Board
+# AMDC DAC Expansion Board
 
 This document outlines basic electrical tests to verify the AMDC DAC expansion board, an accessory for the AMDC Rev D. The expansion board plugs into the AMDC via the Power Stack or IsoSPI interfaces. 
 
