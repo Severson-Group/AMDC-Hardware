@@ -1,6 +1,7 @@
+
 # AMDC DAC Expansion Board
 
-This document describes the design features and capabilites of the AMDC DAC expansion board, which is an accessory board that plugs into either the IsoSPI or Power Stack ports on the AMDC and provides 8 analog outputs (+- 10V output).
+This document describes the design considerations and implementation details for the AMDC DAC expansion board. A block diagram is presented and each component is discussed in detail. Specifications of each component are provided based on the datasheet.
 
 ## Relevant Hardware Versions
 
@@ -9,19 +10,72 @@ This document describes the design features and capabilites of the AMDC DAC expa
 | AMDC | REV D |
 | DAC Board | REV B |
 
-## Hardware Features
+## Design Requirements and Considerations
 
-1. Eight RC filters on each of the eight analog outputs (cutoff frequency set to 100kHz)
-2. Configurable input pinouts to either the IsoSPI or Power Stack Connector configurations (All eight jumpers must all be installed on the same side of the pin headers)
-3. Eight BNC connectors for each analog channel output
-4. Eight Screw post terminals for each analog channel output and four screw post terminals for GND
-5. +/- 5V or 10V analog output voltage range
-6. Test points on all SPI signals and two of the DAC channels outputs before scaling
-7. Asynchronous push button clear to 0V on all output channels
+The AMDC DAC expansion board was designed with the following requirements:
+1. Work with both the IsoSPI and power stack ports through a single DB15 connector
+2. Minimal I/O data lines as possible (simplified SPI interface I.E. CS, SCLK, MOSI)
+3. All digital and power signals on the board are isolated from the AMDC
+4. Operate the DAC fast enough such that all channels have a throughput of at least 20ksps
+5. Slew rate > 1V/us
+6. 12 bit samples
+7. Output Voltage: +/- 10V on all channels
 
-## Output Capabilities
+## Block Diagram / External Connections
 
-1. All channels can be individually configured to update synchronously on a single trigger
-2. All channels can be individually configured to be +/- 5V or +/- 10V
-3. 12-bit samples ( 5mV resolution at +/- 10V)
-4. Maximum sample rate of 781 kSps for a single channel only
+<img src="images/amdc-dac.svg"> 
+
+### AMDC Connector
+
+The AMDC DAC expansion board interfaces with the AMDC via either the Power Stack or IsoSPI ports, both of which use a DB-15 connector. The pinouts of the two ports differ from one another, so jumpers are used to configure the DAC expansion board to a particular pinout. The jumper blocks are discussed in greater detail later in this document.
+
+If the Power Stack port is to be used, additional configuration is required. Each Power Stack port on the AMDC has four status lines. Status lines A, B, and C must be configured as outputs by jumpers on the AMDC. The voltage of the status lines must be configured to 5V in the same manner. More information about the Power Stack can be found [here...](../../../docs/PowerStack.md) 
+
+The DAC board contains the IsoSPI transceiver needed to communicate with the IsoSPI port on the AMDC. No additional configuration is needed to interface with the IsoSPI port.
+
+A table of the pinouts for both connector types is shown below:
+
+ 
+| Pin Number | Power Stack | IsoSPI     |
+|------------|-------------|------------|
+| 1          | No Connect  | `+5V`      |
+| 2          | No Connect  | No Connect |
+| 3          | No Connect  | No Connect |
+| 4          | No Connect  | No Connect |
+| 5          | No Connect  | No Connect |
+| 6          | No Connect  | No Connect |
+| 7          | No Connect  | `SPI_IP`   |
+| 8          | `STS_A`     | `SPI_IM`   |
+| 9          | `STS_B`     | No Connect |
+| 10         | `STS_C`     | No Connect |
+| 11         | No Connect  | `GND`      |
+| 12         | No Connect  | No Connect |
+| 13         | `+5V`       | No Connect |
+| 14         | No Connect  | No Connect |
+| 15         | `GND`       | No Connect |
+
+### Jumper Blocks
+
+There is a total of eight jumpers on the DAC board that configure the expected pinout from the DB-15 connector. 
+
+- Jumpers JP1, JP2, and JP3 are used to route the SPI signals used to communicate with the DAC 
+- Jumpers JP4 and JP5 are used to route the power signals to the board. 
+- Jumpers JP6, JP7, and JP8 enable or disable the SPI signal digital isolator. 
+
+All eight jumpers are critical to the operation of the DAC board, and must be installed on the appropriate side of the jumper blocks as designated by the silkscreen.
+
+### DAC
+
+### Op Amps
+
+<img src="images/amdc-dac_op_amp.svg" width="60%">
+
+### LPFs
+
+<img src="images/amdc-dac_lpf.svg" width="50%">
+
+### BNC Connectors / Screw Terminal 
+
+## PCB Layout
+
+## Datasheets
