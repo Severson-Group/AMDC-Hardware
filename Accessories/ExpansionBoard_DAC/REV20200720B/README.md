@@ -12,8 +12,8 @@ This folder contains the compiled design outputs for the AMDC DAC Expansion Boar
 | Min Hole Size     | 0.3mm           |
 | Surface Finish    | HASL (Tin Lead) |
 | Silkscreen        | Both sides      |
-| Unique Part Count | 28            |
-| SMT Part Count    | 93            |
+| Unique Part Count | 29            |
+| SMT Part Count    | 99            |
 | Trough-Hole Count | 21            |
 
 
