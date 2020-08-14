@@ -1,1 +1,299 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1239.61 481.14"><defs><style>.cls-1{fill:#fff;stroke:blue;}.cls-1,.cls-6{stroke-linecap:round;}.cls-1,.cls-26,.cls-32{stroke-linejoin:round;}.cls-1,.cls-13,.cls-18,.cls-36{stroke-width:1.42px;}.cls-12,.cls-2,.cls-27,.cls-3,.cls-35,.cls-40,.cls-5,.cls-7{isolation:isolate;}.cls-3,.cls-5{font-size:20px;}.cls-12,.cls-3,.cls-33,.cls-34,.cls-42,.cls-46{fill:gray;}.cls-12,.cls-27,.cls-3,.cls-35,.cls-40,.cls-5,.cls-7{font-family:CambriaMath, Cambria Math;}.cls-18,.cls-25,.cls-26,.cls-30,.cls-31,.cls-32,.cls-36,.cls-38,.cls-4,.cls-41,.cls-48,.cls-49,.cls-6{fill:none;}.cls-18,.cls-33,.cls-34,.cls-4,.cls-41,.cls-46{stroke:gray;}.cls-13,.cls-18,.cls-22,.cls-24,.cls-25,.cls-28,.cls-30,.cls-34,.cls-36,.cls-38,.cls-39,.cls-4,.cls-41,.cls-46,.cls-49,.cls-6{stroke-miterlimit:11.34;}.cls-38,.cls-4{stroke-width:1.42px;}.cls-6{stroke:#e6e6e6;stroke-width:2.83px;}.cls-12,.cls-35,.cls-7{font-size:16px;}.cls-8{letter-spacing:0em;}.cls-9{letter-spacing:-0.01em;}.cls-10{letter-spacing:-0.01em;}.cls-11,.cls-14{fill:#d7e3f4;}.cls-11,.cls-13,.cls-14,.cls-21,.cls-22,.cls-24,.cls-25,.cls-26,.cls-28,.cls-29,.cls-30,.cls-31,.cls-32,.cls-43,.cls-49{stroke:#000;}.cls-13{fill:#fff6d5;}.cls-14{stroke-width:1.2px;}.cls-15{letter-spacing:-0.02em;}.cls-16{letter-spacing:-0.03em;}.cls-17{letter-spacing:-0.02em;}.cls-19{letter-spacing:-0.01em;}.cls-20{letter-spacing:-0.02em;}.cls-21,.cls-33{stroke-miterlimit:4.54;stroke-width:1.13px;}.cls-21,.cls-22,.cls-29,.cls-33,.cls-34,.cls-39{fill-rule:evenodd;}.cls-22,.cls-34,.cls-39{stroke-width:2.83px;}.cls-23{letter-spacing:-0.01em;}.cls-24{fill:#ffd5d5;stroke-width:1.42px;}.cls-25,.cls-26,.cls-28{stroke-width:1.42px;}.cls-27,.cls-40{font-size:14px;}.cls-28{fill:#ffe6d5;}.cls-29{stroke-miterlimit:4.54;stroke-width:1.13px;}.cls-30,.cls-41,.cls-46{stroke-width:2.83px;}.cls-31{stroke-miterlimit:5.99;}.cls-31,.cls-32{stroke-width:1.42px;}.cls-35,.cls-39{fill:#a00;}.cls-36,.cls-38,.cls-39{stroke:#a00;}.cls-36,.cls-38{stroke-dasharray:4.25 4.25;}.cls-37{letter-spacing:-0.01em;}.cls-40{fill:blue;}.cls-43{fill:#d6ffd5;}.cls-44{letter-spacing:-0.02em;}.cls-45{letter-spacing:-0.01em;}.cls-47{fill:#c1272d;}.cls-48{stroke:#c1272d;}.cls-49{stroke-width:2.8px;}</style></defs><polygon id="rect5800" class="cls-1" points="603.68 72.92 1238.91 71.85 1238.91 330.74 603.68 331.81 603.68 72.92"/><polygon id="rect5800-2" data-name="rect5800" class="cls-1" points="598.9 77.92 1234.12 76.85 1234.12 335.74 598.9 336.81 598.9 77.92"/><polygon id="rect5800-3" data-name="rect5800" class="cls-1" points="594.12 82.92 1229.34 81.85 1229.34 340.74 594.12 341.81 594.12 82.92"/><g id="text12180" class="cls-2"><text class="cls-3" transform="translate(818.35 45.05)">Stage 2</text></g><path id="path12176" class="cls-4" d="M766.55,68.26V55.92h180.1V68.26" transform="translate(-4.84 -2.14)"/><g id="text17741" class="cls-2"><text class="cls-5" transform="translate(10.27 330.85)">Legend:</text></g><rect id="rect17743" class="cls-6" x="1.42" y="308.91" width="257.46" height="146.62"/><g id="text17777" class="cls-2"><text class="cls-7" transform="translate(67.02 356.01)">L<tspan class="cls-8" x="8.59" y="0">o</tspan><tspan class="cls-9" x="17" y="0">w</tspan><tspan x="29.16" y="0">-pass fil</tspan><tspan class="cls-10" x="82.09" y="0">t</tspan><tspan x="87.36" y="0">er</tspan></text></g><g id="g10482-5"><rect id="rect815-5-51" class="cls-11" x="355.1" y="132.05" width="142" height="164.79"/></g><g id="text11471" class="cls-2"><text class="cls-12" transform="translate(10.27 106.43)">f<tspan class="cls-9" x="4.84" y="0">r</tspan><tspan x="11.23" y="0">om PicoZed</tspan></text></g><rect id="rect11473" class="cls-13" x="13.59" y="338.8" width="42.37" height="26.14"/><g id="text11477" class="cls-2"><text class="cls-7" transform="translate(21.39 357.16)">LPF</text></g><g id="g11485"><rect id="rect11479" class="cls-14" x="13.44" y="371.81" width="42.51" height="25.98"/></g><g id="text11489" class="cls-2"><text class="cls-7" transform="translate(67.02 389.01)">Digital-<tspan class="cls-10" x="50.27" y="0">t</tspan><tspan x="55.54" y="0">o-analog co</tspan><tspan class="cls-15" x="133.71" y="0">nv</tspan><tspan x="150.08" y="0">er</tspan><tspan class="cls-10" x="164.5" y="0">t</tspan><tspan x="169.77" y="0">er</tspan></text></g><g id="text11493" class="cls-2"><text class="cls-7" transform="translate(19.74 390.16)"><tspan class="cls-16">D</tspan><tspan class="cls-17" x="10.12" y="0">A</tspan><tspan x="19.83" y="0">C</tspan></text></g><path id="path12203" class="cls-18" d="M596.49,40.19V27.86H945V40.2" transform="translate(-4.84 -2.14)"/><path id="path12203-2" data-name="path12203" class="cls-18" d="M244.49,40.19V27.86H593V40.2" transform="translate(-4.84 -2.14)"/><g id="text12207" class="cls-2"><text class="cls-3" transform="translate(660.47 17.41)">Analog signal conditioning</text></g><g id="text12213" class="cls-2"><text class="cls-3" transform="translate(297.81 16.67)">Digital-<tspan class="cls-19" x="62.83" y="0">t</tspan><tspan x="69.42" y="0">o-analog co</tspan><tspan class="cls-20" x="167.14" y="0">nv</tspan><tspan x="187.6" y="0">ersion</tspan></text></g><g id="text12213-2" data-name="text12213" class="cls-2"><text class="cls-3" transform="translate(52.46 18.41)">Pinout selection</text></g><path id="path12215" class="cls-18" d="M950.32,40.19V27.86h293.42V40.2" transform="translate(-4.84 -2.14)"/><g id="text12219" class="cls-2"><text class="cls-3" transform="translate(1032.58 17.41)">Analog output</text></g><path id="path11159" class="cls-21" d="M459.84,131.9l-5.67-9.81h11.34Z" transform="translate(-4.84 -2.14)"/><path id="path11157" class="cls-22" d="M459.84,125.35" transform="translate(-4.84 -2.14)"/><g id="text14087" class="cls-2"><text class="cls-7" transform="translate(427.84 124.5)">5V</text></g><path id="path5299" class="cls-21" d="M57.55,419.19l-9.81,5.67V413.53Z" transform="translate(-4.84 -2.14)"/><path id="path5297" class="cls-22" d="M51,419.19" transform="translate(-4.84 -2.14)"/><g id="text9531" class="cls-2"><text class="cls-12" transform="translate(315.77 177.7)"><tspan class="cls-23">C</tspan><tspan x="8.9" y="0">S</tspan></text></g><rect id="rect9537" class="cls-24" x="1016.6" y="128.59" width="111.97" height="173.03"/><g id="text9543" class="cls-2"><text class="cls-7" transform="translate(1057.75 200.36)">BNC<tspan x="-20.46" y="38.4">Connec</tspan><tspan class="cls-10" x="29.75" y="38.4">t</tspan><tspan x="35.02" y="38.4">or</tspan></text></g><g id="text11037" class="cls-2"><text class="cls-7" transform="translate(1131.92 203.19)">Channel_out</text></g><g id="text11037-2" data-name="text11037" class="cls-2"><text class="cls-7" transform="translate(504.85 186.27)"><tspan class="cls-16">D</tspan><tspan class="cls-17" x="10.12" y="0">A</tspan><tspan x="19.83" y="0">C_OUT</tspan></text></g><g id="text11679" class="cls-2"><text class="cls-7" transform="translate(914.51 203.19)">Analog Out</text></g><g id="g13855"><path id="path13851" class="cls-25" d="M501.83,284.32h16.82v10" transform="translate(-4.84 -2.14)"/><path id="path13853" class="cls-26" d="M511.06,294.54h15.73l-7.6,13.74Z" transform="translate(-4.84 -2.14)"/></g><g id="text19619" class="cls-2"><text class="cls-27" transform="translate(526.45 239.18)">(2.5V)</text></g><rect id="rect19621" class="cls-28" x="648.78" y="143.9" width="81.96" height="141.1"/><g id="text19629" class="cls-2"><text class="cls-7" transform="translate(662.62 220.18)">OP Amp</text></g><rect id="rect19631" class="cls-13" x="801.01" y="199.82" width="42.37" height="26.14"/><g id="text19635" class="cls-2"><text class="cls-7" transform="translate(808.81 218.18)">LPF</text></g><path id="path2871" class="cls-29" d="M804.68,215.58l-9.81,5.67V209.91Z" transform="translate(-4.84 -2.14)"/><path id="path19637" class="cls-22" d="M798.14,215.58" transform="translate(-4.84 -2.14)"/><path id="path19647" class="cls-30" d="M848.68,215.58h85" transform="translate(-4.84 -2.14)"/><g id="text19655" class="cls-2"><text class="cls-7" transform="translate(698.47 136.33)">12V</text></g><g id="text19661" class="cls-2"><text class="cls-7" transform="translate(699.61 304.04)">-12V</text></g><g id="g19667"><path id="path19663" class="cls-31" d="M848.41,222.32h8.89v5.3" transform="translate(-4.84 -2.14)"/><path id="path19665" class="cls-32" d="M853.29,227.72h8.31l-4,7.26Z" transform="translate(-4.84 -2.14)"/></g><g id="g19679"><path id="path19675" class="cls-25" d="M734.57,273.65h16.82v10" transform="translate(-4.84 -2.14)"/><path id="path19677" class="cls-26" d="M743.81,283.87h15.72l-7.59,13.74Z" transform="translate(-4.84 -2.14)"/></g><g id="text46041" class="cls-2"><text class="cls-7" transform="translate(411.82 218.33)"><tspan class="cls-16">D</tspan><tspan class="cls-17" x="10.12" y="0">A</tspan><tspan x="19.83" y="0">C</tspan></text></g><g id="text7955" class="cls-2"><text class="cls-7" transform="translate(67.02 420.21)">Analog signal</text></g><path id="path7969" class="cls-33" d="M57.55,440.7l-9.81,5.67V435Z" transform="translate(-4.84 -2.14)"/><path id="path7963" class="cls-34" d="M51,440.7" transform="translate(-4.84 -2.14)"/><g id="text7967" class="cls-2"><text class="cls-7" transform="translate(67.02 441.72)">Digital signal</text></g><g id="text13401" class="cls-2"><text class="cls-35" transform="translate(803.49 175.7)">±10V</text></g><rect id="rect13403" class="cls-36" x="273.31" y="161.04" width="8.02" height="101.58"/><g id="text13505" class="cls-2"><text class="cls-35" transform="translate(277.32 104.42)">Digital <tspan class="cls-37" x="48.48" y="0">L</tspan><tspan class="cls-8" x="56.95" y="0">O</tspan><tspan x="67.32" y="0">W 0V</tspan></text></g><g id="text13513" class="cls-2"><text class="cls-35" transform="translate(277.32 120.85)">Digital HIGH 5V</text></g><rect id="rect18148" class="cls-38" x="766.51" y="202.57" width="6.53" height="21.75"/><rect id="rect18148-2" data-name="rect18148" class="cls-38" x="877.58" y="201.55" width="6.53" height="21.75"/><path id="path18156" class="cls-39" d="M790,201.33" transform="translate(-4.84 -2.14)"/><path id="path19452" class="cls-39" d="M889,203.69" transform="translate(-4.84 -2.14)"/><path id="path7722" class="cls-21" d="M694.57,144.27l-5.67-9.81h11.34Z" transform="translate(-4.84 -2.14)"/><path id="path7720" class="cls-22" d="M694.57,137.73" transform="translate(-4.84 -2.14)"/><path id="path9616" class="cls-21" d="M694.57,288.15l5.67,9.81H688.9Z" transform="translate(-4.84 -2.14)"/><path id="path9614" class="cls-22" d="M694.57,294.69" transform="translate(-4.84 -2.14)"/><g id="text819-5-8-91-5-0-8-0-3-5-7-9-7-9" class="cls-2"><text class="cls-40" transform="translate(1128.26 64.88)">8x copies on PCB</text></g><path id="path12164" class="cls-4" d="M6.26,40V27.69H239.35V40" transform="translate(-4.84 -2.14)"/><g id="text12168" class="cls-2"><text class="cls-3" transform="translate(648.78 45.05)">Stage 1</text></g><line class="cls-30" x1="496.42" y1="192.78" x2="638.55" y2="192.78"/><polygon points="636.48 199.85 648.72 192.78 636.48 185.72 636.48 199.85"/><line class="cls-30" x1="496.42" y1="222.78" x2="638.55" y2="222.78"/><polygon points="636.48 229.85 648.72 222.78 636.48 215.72 636.48 229.85"/><line class="cls-41" x1="217.42" y1="182.78" x2="344.93" y2="182.78"/><polygon class="cls-42" points="342.86 189.85 355.1 182.78 342.86 175.72 342.86 189.85"/><line class="cls-41" x1="217.42" y1="212.78" x2="344.93" y2="212.78"/><polygon class="cls-42" points="342.86 219.85 355.1 212.78 342.86 205.72 342.86 219.85"/><line class="cls-41" x1="217.42" y1="242.78" x2="344.93" y2="242.78"/><polygon class="cls-42" points="342.86 249.85 355.1 242.78 342.86 235.72 342.86 249.85"/><g id="text9531-2" data-name="text9531" class="cls-2"><text class="cls-12" transform="translate(296.76 207.74)">SCLK</text></g><g id="text9531-3" data-name="text9531" class="cls-2"><text class="cls-12" transform="translate(295.77 238.3)">MOSI</text></g><g id="text11037-3" data-name="text11037" class="cls-2"><text class="cls-7" transform="translate(504.85 216.94)">VREF</text></g><line class="cls-30" x1="793.3" y1="213.44" x2="730.74" y2="213.44"/><line class="cls-30" x1="1213.35" y1="213.11" x2="1128.57" y2="213.11"/><polygon points="1211.28 206.04 1223.52 213.11 1211.28 220.18 1211.28 206.04"/><line class="cls-30" x1="928.83" y1="213.44" x2="1006.43" y2="213.44"/><polygon points="1004.36 220.51 1016.6 213.44 1004.36 206.38 1004.36 220.51"/><rect class="cls-43" x="181.16" y="130.94" width="77.71" height="168.34"/><g id="text9531-4" data-name="text9531" class="cls-2"><text class="cls-12" transform="translate(1.42 174.7)"><tspan class="cls-44">P</tspan><tspan class="cls-8" x="8.79" y="0">o</tspan><tspan class="cls-45" x="17.2" y="0">w</tspan><tspan x="29.39" y="0">er Stack pinout</tspan></text></g><g id="text9531-5" data-name="text9531" class="cls-2"><text class="cls-12" transform="translate(19.33 237.3)">isoSPI pinout</text></g><g id="text9543-2" data-name="text9543" class="cls-2"><text class="cls-7" transform="translate(196.37 199.57)">Jumper<tspan x="0" y="38.4">Bloc</tspan><tspan class="cls-37" x="29.67" y="38.4">k</tspan><tspan x="37.95" y="38.4">s</tspan></text></g><path id="path10776" class="cls-46" d="M140.36,194l12.44-17.14" transform="translate(-4.84 -2.14)"/><g id="text11530" class="cls-2"><text class="cls-12" transform="translate(140.26 202.41)">5</text></g><path id="path10776-2" data-name="path10776" class="cls-46" d="M140.36,254l12.44-17.14" transform="translate(-4.84 -2.14)"/><g id="text11530-2" data-name="text11530" class="cls-2"><text class="cls-12" transform="translate(140.26 262.41)">5</text></g><line class="cls-41" x1="1.42" y1="182.78" x2="170.93" y2="182.78"/><polygon class="cls-42" points="168.86 189.85 181.1 182.78 168.86 175.72 168.86 189.85"/><line class="cls-41" x1="1.42" y1="242.78" x2="170.93" y2="242.78"/><polygon class="cls-42" points="168.86 249.85 181.1 242.78 168.86 235.72 168.86 249.85"/><line class="cls-47" x1="289.61" y1="128.74" x2="281.33" y2="155.13"/><line class="cls-48" x1="289.61" y1="128.74" x2="282.4" y2="151.71"/><polygon class="cls-47" points="280.24 150.26 281.33 155.13 285 151.76 280.24 150.26"/><line class="cls-47" x1="797.13" y1="177.43" x2="773.04" y2="199.46"/><line class="cls-48" x1="797.13" y1="177.43" x2="775.69" y2="197.04"/><polygon class="cls-47" points="774.54 194.71 773.04 199.46 777.91 198.39 774.54 194.71"/><line class="cls-47" x1="843.84" y1="175.7" x2="872.65" y2="196.87"/><line class="cls-48" x1="843.84" y1="175.7" x2="869.76" y2="194.74"/><polygon class="cls-47" points="867.7 196.32 872.65 196.87 870.65 192.3 867.7 196.32"/><line class="cls-49" x1="455" y1="123.22" x2="455" y2="96.17"/><line class="cls-49" x1="689.73" y1="133.47" x2="689.73" y2="106.43"/><line class="cls-49" x1="689.76" y1="322.07" x2="689.76" y2="295.03"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1239.6 502.1" style="enable-background:new 0 0 1239.6 502.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'CambriaMath';}
+	.st1{font-size:16px;}
+	.st2{fill:#FFFFFF;stroke:#0000FF;stroke-width:1.42;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#808080;}
+	.st4{font-size:20px;}
+	.st5{fill:none;stroke:#808080;stroke-width:1.42;stroke-miterlimit:11.34;}
+	.st6{fill:none;stroke:#E6E6E6;stroke-width:2.83;stroke-linecap:round;stroke-miterlimit:11.34;}
+	.st7{fill:#D7E3F4;stroke:#000000;}
+	.st8{fill:#FFF6D5;stroke:#000000;stroke-width:1.42;stroke-miterlimit:11.34;}
+	.st9{fill:#D7E3F4;stroke:#000000;stroke-width:1.2;}
+	.st10{fill:#FFD5D5;stroke:#000000;stroke-width:1.42;stroke-miterlimit:11.34;}
+	.st11{fill-rule:evenodd;clip-rule:evenodd;stroke:#000000;stroke-width:1.13;stroke-miterlimit:4.54;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;stroke:#000000;stroke-width:2.83;stroke-miterlimit:11.34;}
+	.st13{fill:none;stroke:#000000;stroke-width:1.42;stroke-miterlimit:11.34;}
+	.st14{fill:none;stroke:#000000;stroke-width:1.42;stroke-linejoin:round;}
+	.st15{font-size:14px;}
+	.st16{fill:#FFE6D5;stroke:#000000;stroke-width:1.42;stroke-miterlimit:11.34;}
+	.st17{fill:none;stroke:#000000;stroke-width:2.83;stroke-miterlimit:11.34;}
+	.st18{fill:none;stroke:#000000;stroke-width:1.42;stroke-miterlimit:5.99;}
+	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;stroke:#808080;stroke-width:1.13;stroke-miterlimit:4.54;}
+	.st20{fill-rule:evenodd;clip-rule:evenodd;fill:#808080;stroke:#808080;stroke-width:2.83;stroke-miterlimit:11.34;}
+	.st21{fill:#AA0000;}
+	.st22{fill:none;stroke:#AA0000;stroke-width:1.42;stroke-miterlimit:11.34;stroke-dasharray:4.25,4.25;}
+	.st23{fill-rule:evenodd;clip-rule:evenodd;fill:#AA0000;stroke:#AA0000;stroke-width:2.83;stroke-miterlimit:11.34;}
+	.st24{fill:#0000FF;}
+	.st25{fill:none;stroke:#808080;stroke-width:2.8;stroke-miterlimit:11.34;}
+	.st26{fill:none;stroke:#808080;stroke-width:2.83;stroke-miterlimit:11.34;}
+	.st27{fill:#D6FFD5;stroke:#000000;}
+	.st28{fill:#808080;stroke:#808080;stroke-width:2.83;stroke-miterlimit:11.34;}
+	.st29{fill:none;}
+	.st30{fill:none;stroke:#C1272D;}
+	.st31{fill:#C1272D;}
+	.st32{fill:none;stroke:#000000;stroke-width:2.8;stroke-miterlimit:11.34;}
+</style>
+<g id="text11471_2_">
+	<g>
+		<text transform="matrix(1 0 0 1 67.0201 393.7349)" class="st0 st1">Digital Isolator</text>
+	</g>
+</g>
+<polygon id="rect5800" class="st2" points="603.7,72.9 1238.9,71.8 1238.9,330.7 603.7,331.8 "/>
+<polygon id="rect5800-2" class="st2" points="598.9,77.9 1234.1,76.8 1234.1,335.7 598.9,336.8 "/>
+<polygon id="rect5800-3" class="st2" points="594.1,82.9 1229.3,81.8 1229.3,340.7 594.1,341.8 "/>
+<g id="text12180">
+	<text transform="matrix(1 0 0 1 818.35 45.05)" class="st3 st0 st4">Stage 2</text>
+</g>
+<path id="path12176" class="st5" d="M761.7,66.1V53.8h180.1v12.3"/>
+<path id="path12176_1_" class="st5" d="M591.6,66.1V53.8h166.2v12.3"/>
+<g id="text17741">
+	<text transform="matrix(1 0 0 1 10.27 330.85)" class="st0 st4">Legend:</text>
+</g>
+<rect id="rect17743" x="1.4" y="308.9" class="st6" width="257.5" height="186.3"/>
+<g id="text17777">
+	<text transform="matrix(1 0 0 1 67.02 356.01)" class="st0 st1">L</text>
+	<text transform="matrix(1 0 0 1 75.61 356.01)" class="st0 st1">o</text>
+	<text transform="matrix(1 0 0 1 84.02 356.01)" class="st0 st1">w</text>
+	<text transform="matrix(1 0 0 1 96.18 356.01)" class="st0 st1">-pass fil</text>
+	<text transform="matrix(1 0 0 1 149.11 356.01)" class="st0 st1">t</text>
+	<text transform="matrix(1 0 0 1 154.38 356.01)" class="st0 st1">er</text>
+</g>
+<g id="g10482-5">
+	<rect id="rect815-5-51" x="355.1" y="132.1" class="st7" width="142" height="164.8"/>
+</g>
+<g id="text11471">
+	<text transform="matrix(1 0 0 1 10.27 106.43)" class="st3 st0 st1">f</text>
+	<text transform="matrix(1 0 0 1 15.11 106.43)" class="st3 st0 st1">r</text>
+	<text transform="matrix(1 0 0 1 21.5 106.43)" class="st3 st0 st1">om AMDC</text>
+</g>
+<rect id="rect11473" x="13.6" y="338.8" class="st8" width="42.4" height="26.1"/>
+<g id="text11477">
+	<text transform="matrix(1 0 0 1 21.39 357.16)" class="st0 st1">LPF</text>
+</g>
+<g id="g11485">
+	<rect id="rect11479" x="13.4" y="411.8" class="st9" width="42.5" height="26"/>
+</g>
+<g id="g11485_1_">
+	<rect id="rect11479_1_" x="13.5" y="375.4" class="st10" width="42.5" height="26"/>
+</g>
+<g id="text11489">
+	<text transform="matrix(1 0 0 1 67.02 429.01)" class="st0 st1">Digital-</text>
+	<text transform="matrix(1 0 0 1 117.29 429.01)" class="st0 st1">t</text>
+	<text transform="matrix(1 0 0 1 122.56 429.01)" class="st0 st1">o-analog co</text>
+	<text transform="matrix(1 0 0 1 200.73 429.01)" class="st0 st1">nv</text>
+	<text transform="matrix(1 0 0 1 217.1 429.01)" class="st0 st1">er</text>
+	<text transform="matrix(1 0 0 1 231.52 429.01)" class="st0 st1">t</text>
+	<text transform="matrix(1 0 0 1 236.79 429.01)" class="st0 st1">er</text>
+</g>
+<g id="text11477_1_">
+	<text transform="matrix(1 0 0 1 22.1098 393.7349)" class="st0 st1">ISO</text>
+</g>
+<g id="text11493">
+	<text transform="matrix(1 0 0 1 19.74 430.16)" class="st0 st1">D</text>
+	<text transform="matrix(1 0 0 1 29.86 430.16)" class="st0 st1">A</text>
+	<text transform="matrix(1 0 0 1 39.57 430.16)" class="st0 st1">C</text>
+</g>
+<path id="path12203" class="st5" d="M591.6,38V25.7h348.5v12.3"/>
+<path id="path12203-2" class="st5" d="M239.7,38V25.7h348.5v12.3"/>
+<g id="text12207">
+	<text transform="matrix(1 0 0 1 660.47 17.41)" class="st3 st0 st4">Analog signal conditioning</text>
+</g>
+<g id="text12213">
+	<text transform="matrix(1 0 0 1 297.81 16.67)" class="st3 st0 st4">Digital-</text>
+	<text transform="matrix(1 0 0 1 360.64 16.67)" class="st3 st0 st4">t</text>
+	<text transform="matrix(1 0 0 1 367.23 16.67)" class="st3 st0 st4">o-analog co</text>
+	<text transform="matrix(1 0 0 1 464.95 16.67)" class="st3 st0 st4">nv</text>
+	<text transform="matrix(1 0 0 1 485.41 16.67)" class="st3 st0 st4">ersion</text>
+</g>
+<g id="text12213-2">
+	<text transform="matrix(1 0 0 1 52.46 18.41)" class="st3 st0 st4">Pinout selection</text>
+</g>
+<path id="path12215" class="st5" d="M945.5,38V25.7h293.4v12.3"/>
+<g id="text12219">
+	<text transform="matrix(1 0 0 1 1032.58 17.41)" class="st3 st0 st4">Analog output</text>
+</g>
+<path id="path11159" class="st11" d="M455,129.8l-5.7-9.8h11.3L455,129.8z"/>
+<path id="path11157" class="st12" d="M455,123.2"/>
+<g id="text14087">
+	<text transform="matrix(1 0 0 1 427.84 124.5)" class="st0 st1">5V</text>
+</g>
+<path id="path5299" class="st11" d="M52.7,457l-9.8,5.7v-11.3L52.7,457z"/>
+<path id="path5297" class="st12" d="M46.2,457"/>
+<g id="text9531">
+	<text transform="matrix(1 0 0 1 315.77 177.7)" class="st3 st0 st1">C</text>
+	<text transform="matrix(1 0 0 1 324.67 177.7)" class="st3 st0 st1">S</text>
+</g>
+<rect id="rect9537" x="1016.6" y="128.6" class="st10" width="112" height="173"/>
+<g id="text9543">
+	<text transform="matrix(1 0 0 1 1057.75 200.36)" class="st0 st1">BNC</text>
+	<text transform="matrix(1 0 0 1 1037.29 238.76)" class="st0 st1">Connec</text>
+	<text transform="matrix(1 0 0 1 1087.5 238.76)" class="st0 st1">t</text>
+	<text transform="matrix(1 0 0 1 1092.77 238.76)" class="st0 st1">or</text>
+</g>
+<g id="text11037">
+	<text transform="matrix(1 0 0 1 1131.92 203.19)" class="st0 st1">Channel_out</text>
+</g>
+<g id="text11037-2">
+	<text transform="matrix(1 0 0 1 504.85 186.27)" class="st0 st1">D</text>
+	<text transform="matrix(1 0 0 1 514.97 186.27)" class="st0 st1">A</text>
+	<text transform="matrix(1 0 0 1 524.68 186.27)" class="st0 st1">C_OUT</text>
+</g>
+<g id="text11679">
+	<text transform="matrix(1 0 0 1 914.51 203.19)" class="st0 st1">Analog Out</text>
+</g>
+<g id="g13855">
+	<path id="path13851" class="st13" d="M497,282.2h16.8v10"/>
+	<path id="path13853" class="st14" d="M506.2,292.4h15.7l-7.6,13.7L506.2,292.4z"/>
+</g>
+<g id="text19619">
+	<text transform="matrix(1 0 0 1 526.45 239.18)" class="st0 st15">(2.5V)</text>
+</g>
+<rect id="rect19621" x="648.8" y="143.9" class="st16" width="82" height="141.1"/>
+<g id="text19629">
+	<text transform="matrix(1 0 0 1 662.62 220.18)" class="st0 st1">OP Amp</text>
+</g>
+<rect id="rect19631" x="801" y="199.8" class="st8" width="42.4" height="26.1"/>
+<g id="text19635">
+	<text transform="matrix(1 0 0 1 808.81 218.18)" class="st0 st1">LPF</text>
+</g>
+<path id="path2871" class="st11" d="M799.8,213.4l-9.8,5.7v-11.3L799.8,213.4z"/>
+<path id="path19637" class="st12" d="M793.3,213.4"/>
+<path id="path19647" class="st17" d="M843.8,213.4h85"/>
+<g id="text19655">
+	<text transform="matrix(1 0 0 1 698.47 136.33)" class="st0 st1">12V</text>
+</g>
+<g id="text19661">
+	<text transform="matrix(1 0 0 1 699.61 304.04)" class="st0 st1">-12V</text>
+</g>
+<g id="g19667">
+	<path id="path19663" class="st18" d="M843.6,220.2h8.9v5.3"/>
+	<path id="path19665" class="st14" d="M848.4,225.6h8.3l-4,7.3L848.4,225.6z"/>
+</g>
+<g id="g19679">
+	<path id="path19675" class="st13" d="M729.7,271.5h16.8v10"/>
+	<path id="path19677" class="st14" d="M739,281.7h15.7l-7.6,13.7L739,281.7z"/>
+</g>
+<g id="text46041">
+	<text transform="matrix(1 0 0 1 411.82 218.33)" class="st0 st1">D</text>
+	<text transform="matrix(1 0 0 1 421.94 218.33)" class="st0 st1">A</text>
+	<text transform="matrix(1 0 0 1 431.65 218.33)" class="st0 st1">C</text>
+</g>
+<g id="text7955">
+	<text transform="matrix(1 0 0 1 67.02 460.21)" class="st0 st1">Analog signal</text>
+</g>
+<path id="path7969" class="st19" d="M52.7,478.6l-9.8,5.7v-11.4L52.7,478.6z"/>
+<path id="path7963" class="st20" d="M46.2,478.6"/>
+<g id="text7967">
+	<text transform="matrix(1 0 0 1 67.02 481.72)" class="st0 st1">Digital signal</text>
+</g>
+<g id="text13401">
+	<text transform="matrix(1 0 0 1 803.49 175.7)" class="st21 st0 st1">±10V</text>
+</g>
+<rect id="rect13403" x="273.3" y="161" class="st22" width="8" height="101.6"/>
+<g id="text13505">
+	<text transform="matrix(1 0 0 1 277.32 104.42)" class="st21 st0 st1">Digital </text>
+	<text transform="matrix(1 0 0 1 325.8 104.42)" class="st21 st0 st1">L</text>
+	<text transform="matrix(1 0 0 1 334.27 104.42)" class="st21 st0 st1">O</text>
+	<text transform="matrix(1 0 0 1 344.64 104.42)" class="st21 st0 st1">W 0V</text>
+</g>
+<g id="text13513">
+	<text transform="matrix(1 0 0 1 277.32 120.85)" class="st21 st0 st1">Digital HIGH 5V</text>
+</g>
+<rect id="rect18148" x="766.5" y="202.6" class="st22" width="6.5" height="21.8"/>
+<rect id="rect18148-2" x="877.6" y="201.6" class="st22" width="6.5" height="21.8"/>
+<path id="path18156" class="st23" d="M785.2,199.2"/>
+<path id="path19452" class="st23" d="M884.2,201.6"/>
+<path id="path7722" class="st11" d="M689.7,142.1l-5.7-9.8h11.3L689.7,142.1z"/>
+<path id="path7720" class="st12" d="M689.7,135.6"/>
+<path id="path9616" class="st11" d="M689.7,286l5.7,9.8h-11.3L689.7,286z"/>
+<path id="path9614" class="st12" d="M689.7,292.5"/>
+<g id="text819-5-8-91-5-0-8-0-3-5-7-9-7-9">
+	<text transform="matrix(1 0 0 1 1128.26 64.88)" class="st24 st0 st15">8x copies on PCB</text>
+</g>
+<path id="path12164" class="st5" d="M1.4,37.9V25.6h233.1v12.3"/>
+<g id="text12168">
+	<text transform="matrix(1 0 0 1 648.78 45.05)" class="st3 st0 st4">Stage 1</text>
+</g>
+<line class="st17" x1="496.4" y1="192.8" x2="638.5" y2="192.8"/>
+<polygon points="636.5,199.9 648.7,192.8 636.5,185.7 "/>
+<line class="st25" x1="46.2" y1="479" x2="26.2" y2="479"/>
+<line class="st17" x1="496.4" y1="222.8" x2="638.5" y2="222.8"/>
+<polygon points="636.5,229.9 648.7,222.8 636.5,215.7 "/>
+<line class="st26" x1="217.4" y1="182.8" x2="344.9" y2="182.8"/>
+<polygon class="st3" points="342.9,189.9 355.1,182.8 342.9,175.7 "/>
+<line class="st26" x1="217.4" y1="212.8" x2="344.9" y2="212.8"/>
+<polygon class="st3" points="342.9,219.9 355.1,212.8 342.9,205.7 "/>
+<line class="st26" x1="217.4" y1="242.8" x2="344.9" y2="242.8"/>
+<polygon class="st3" points="342.9,249.9 355.1,242.8 342.9,235.7 "/>
+<g id="text9531-2">
+	<text transform="matrix(1 0 0 1 296.76 207.74)" class="st3 st0 st1">SCLK</text>
+</g>
+<g id="text9531-3">
+	<text transform="matrix(1 0 0 1 295.77 238.3)" class="st3 st0 st1">MOSI</text>
+</g>
+<g id="text11037-3">
+	<text transform="matrix(1 0 0 1 504.85 216.94)" class="st0 st1">VREF</text>
+</g>
+<line class="st17" x1="793.3" y1="213.4" x2="730.7" y2="213.4"/>
+<line class="st17" x1="1213.3" y1="213.1" x2="1128.6" y2="213.1"/>
+<polygon points="1211.3,206 1223.5,213.1 1211.3,220.2 "/>
+<line class="st17" x1="928.8" y1="213.4" x2="1006.4" y2="213.4"/>
+<polygon points="1004.4,220.5 1016.6,213.4 1004.4,206.4 "/>
+<rect x="181.2" y="130.9" class="st27" width="77.7" height="168.3"/>
+<g id="text9531-4">
+	<text transform="matrix(1 0 0 1 0.415 164.3161)" class="st3 st0 st1">P</text>
+	<text transform="matrix(1 0 0 1 9.205 164.3161)" class="st3 st0 st1">o</text>
+	<text transform="matrix(1 0 0 1 17.615 164.3161)" class="st3 st0 st1">w</text>
+	<text transform="matrix(1 0 0 1 29.805 164.3161)" class="st3 st0 st1">er Stack pinout</text>
+</g>
+<g id="text9531-5">
+	<text transform="matrix(1 0 0 1 19.7399 222.7802)" class="st3 st0 st1">isoSPI pinout</text>
+</g>
+<g id="text9543-2">
+	<text transform="matrix(1 0 0 1 196.37 199.57)" class="st0 st1">Jumper</text>
+	<text transform="matrix(1 0 0 1 196.37 237.97)" class="st0 st1">Bloc</text>
+	<text transform="matrix(1 0 0 1 226.04 237.97)" class="st0 st1">k</text>
+	<text transform="matrix(1 0 0 1 234.32 237.97)" class="st0 st1">s</text>
+</g>
+<path id="path10776" class="st28" d="M135.5,191.9l12.4-17.1"/>
+<g id="text11530">
+	<text transform="matrix(1 0 0 1 140.26 202.41)" class="st3 st0 st1">5</text>
+</g>
+<path id="path10776-2" class="st28" d="M135.5,251.9l12.4-17.1"/>
+<g id="text11530-2">
+	<text transform="matrix(1 0 0 1 140.26 262.41)" class="st3 st0 st1">5</text>
+</g>
+<line class="st26" x1="1.4" y1="182.8" x2="170.9" y2="182.8"/>
+<polygon class="st3" points="168.9,189.9 181.1,182.8 168.9,175.7 "/>
+<line class="st26" x1="1.4" y1="242.8" x2="170.9" y2="242.8"/>
+<polygon class="st3" points="168.9,249.9 181.1,242.8 168.9,235.7 "/>
+<line class="st29" x1="289.6" y1="128.7" x2="281.3" y2="155.1"/>
+<line class="st30" x1="289.6" y1="128.7" x2="282.4" y2="151.7"/>
+<polygon class="st31" points="280.2,150.3 281.3,155.1 285,151.8 "/>
+<line class="st29" x1="797.1" y1="177.4" x2="773" y2="199.5"/>
+<line class="st30" x1="797.1" y1="177.4" x2="775.7" y2="197"/>
+<polygon class="st31" points="774.5,194.7 773,199.5 777.9,198.4 "/>
+<line class="st29" x1="843.8" y1="175.7" x2="872.7" y2="196.9"/>
+<line class="st30" x1="843.8" y1="175.7" x2="869.8" y2="194.7"/>
+<polygon class="st31" points="867.7,196.3 872.7,196.9 870.7,192.3 "/>
+<line class="st32" x1="455" y1="123.2" x2="455" y2="96.2"/>
+<line class="st32" x1="689.7" y1="133.5" x2="689.7" y2="106.4"/>
+<line class="st32" x1="689.8" y1="322.1" x2="689.8" y2="295"/>
+<line class="st32" x1="46.2" y1="457" x2="26.2" y2="457"/>
+<g id="g11485_2_">
+	<rect id="rect11479_2_" x="42.4" y="229.3" class="st10" width="42.5" height="26"/>
+</g>
+<g id="text11477_2_">
+	<text transform="matrix(1 0 0 1 51.0098 247.6859)" class="st0 st1">ISO</text>
+</g>
+<g id="g11485_3_">
+	<rect id="rect11479_3_" x="42.4" y="170.3" class="st10" width="42.5" height="26"/>
+</g>
+<g id="text11477_3_">
+	<text transform="matrix(1 0 0 1 51.0098 188.6498)" class="st0 st1">ISO</text>
+</g>
+</svg>
