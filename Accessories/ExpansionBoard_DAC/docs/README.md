@@ -1,7 +1,7 @@
 
 # AMDC DAC Expansion Board
 
-<img src="">
+<img src="images/amdc-dac.jpg">
 
 This document describes the design considerations and implementation details for the AMDC DAC expansion board. A block diagram is presented and each component is discussed in detail. Specifications of each component are provided based on the datasheet.
 
@@ -56,7 +56,7 @@ A table of the pinouts for both connector types is shown below:
 | 14         | No Connect  | No Connect |
 | 15         | `GND`       | No Connect |
 
-#### Isolators
+### Isolators
 
 Before the digital signals are routed to the jumpers, they are isolated from the AMDC through digital isolators. The power signals are also isolated within the DC-to-DC converters. The status lines from the power stack inverter are isolated using a single [ADUM130E1BRWZ](https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM130D_130E_131D_131E.pdf) IC. The IsoSPI signals are isolated by the IsoSPI transceiver and do not require additional isolation.
 
@@ -70,8 +70,12 @@ There is a total of eight jumpers on the DAC board that configure the expected p
 
 All eight jumpers are critical to the operation of the DAC board and must be installed on the appropriate side of the jumper blocks as designated by the silkscreen. An example installation of the Power Stack Inverter configuration can be seen below:
 
-<img src="">
-<img src="">
+<img src="images/amdc-dac-jmp1.jpg" style="max-width:580px">
+
+<br>
+<br>
+
+<img src="images/amdc-dac-jmp2.jpg" style="max-width:580px">
 
 ### DAC
 
