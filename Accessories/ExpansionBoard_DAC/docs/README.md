@@ -3,7 +3,7 @@
 
 <img src="images/amdc-dac.jpg">
 
-This document describes the design considerations and implementation details for the AMDC DAC expansion board. A block diagram is presented and each component is discussed in detail. Specifications of each component are provided based on the datasheet.
+This document describes the design considerations and implementation details for the AMDC digital-to-analog converter (DAC) expansion board. A block diagram is presented and each component is discussed in detail. Specifications of each component are provided based on the datasheet.
 
 ## Relevant Hardware Versions
 
@@ -15,7 +15,7 @@ This document describes the design considerations and implementation details for
 ## Design Requirements and Considerations
 
 The AMDC DAC expansion board was designed with the following requirements:
-1. Work with both the IsoSPI and power stack ports through a single DB-15 connector
+1. Work with both the IsoSPI and Power Stack Inverter ports through a single DB-15 connector
 2. Minimal I/O data lines as possible (simplified SPI interface)
 3. All digital and power signals on the board are isolated from the AMDC
 4. Operate the DAC fast enough such that all channels have a throughput of at least 20ksps
@@ -29,7 +29,7 @@ The AMDC DAC expansion board was designed with the following requirements:
 
 ### AMDC Connector
 
-The AMDC DAC expansion board interfaces with the AMDC via either the Power Stack or IsoSPI ports, both of which use a DB-15 connector. The pinouts of the two ports differ from one another; jumpers are used to configure the DAC expansion board to a particular pinout. The jumper blocks are discussed in greater detail later in this document.
+The AMDC DAC expansion board interfaces with the AMDC via either the Power Stack Inverter or IsoSPI ports, both of which use a DB-15 connector. The pinouts of the two ports differ from one another; jumpers are used to configure the DAC expansion board to a particular pinout. The jumper blocks are discussed in greater detail later in this document.
 
 If the Power Stack port is to be used, additional configuration of the AMDC is required. Each Power Stack port on the AMDC has four status lines. Status lines A, B, and C must be configured as outputs by jumpers on the AMDC. The voltage of the status lines must be configured to 5V in the same manner. More information about the Power Stack can be found [here...](../../../docs/PowerStack.md)
 
@@ -58,7 +58,7 @@ A table of the pinouts for both connector types is shown below:
 
 ### Isolators
 
-Before the digital signals are routed to the jumpers, they are isolated from the AMDC through digital isolators. The power signals are also isolated within the DC-to-DC converters. The status lines from the power stack inverter are isolated using a single [ADUM130E1BRWZ](https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM130D_130E_131D_131E.pdf) IC. The IsoSPI signals are isolated by the IsoSPI transceiver and do not require additional isolation.
+Before the digital signals are routed to the jumpers, they are isolated from the AMDC through digital isolators. The power signals are also isolated within the DC-to-DC converters. The status lines from the Power Stack Inverter are isolated using a single [ADUM130E1BRWZ](https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM130D_130E_131D_131E.pdf) IC. The IsoSPI signals are isolated by the IsoSPI transceiver and do not require additional isolation.
 
 ### Jumper Blocks
 
@@ -79,7 +79,7 @@ All eight jumpers are critical to the operation of the DAC board and must be ins
 
 ### DAC
 
-The [DAC60508MC](../REV20200720B/datasheets/dac60508.pdf) 12-bit DAC was selected for its minimal SPI interface. The CS, SCLK, and MOSI lines (supplied by the AMDC) are all that's required to drive each of the eight channels' outputs. The DAC is supplied at 5V with an internally generated _V_<sub>_REF_</sub> = 2.5V. On powerup, the DAC resets all channels' outputs to midscale which scales to 0V across the op amps. A powerup reset event can also be initiated asynchronously of the SPI interface via the onboard push button.
+The [DAC60508MC](../REV20200720B/datasheets/dac60508.pdf) 12-bit DAC was selected for its minimal SPI interface. The CS, SCLK, and MOSI lines (supplied by the AMDC) are all that's required to drive each of the eight output channels. The DAC is supplied at 5V with an internally generated _V_<sub>_REF_</sub> = 2.5V. On powerup, the DAC resets all channels' outputs to midscale which scales to 0V across the op amps. A powerup reset event can also be initiated asynchronously of the SPI interface via the onboard push button.
 
 Each of the DAC's channels operates between 0V and _V_<sub>_REF_</sub>. The output voltage is specified by writing data over the SPI interface to an internal data register for each channel. The output voltage follows the equation:
 
