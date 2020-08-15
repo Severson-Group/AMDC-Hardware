@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for uAMDC
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -531,20 +531,20 @@ GenerateClassCluster=0
 DocumentUniqueId=BYECYDUL
 
 [Parameter1]
-Name=ProjectUniversity
-Value=UW Madison
+Name=ProjectGroup
+Value=Severson Group
 
 [Parameter2]
-Name=ProjectRev
-Value=A
-
-[Parameter3]
 Name=ProjectOrganization
 Value=WEMPEC
 
+[Parameter3]
+Name=ProjectRev
+Value=A
+
 [Parameter4]
-Name=ProjectGroup
-Value=Severson Group
+Name=ProjectUniversity
+Value=UW Madison
 
 [Configuration1]
 Name=Sources
@@ -593,7 +593,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for uAMDC
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
