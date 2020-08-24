@@ -1,8 +1,6 @@
 
 # AMDC DAC Expansion Board
 
-<img src="images/amdc-dac.jpg">
-
 This document describes the design considerations and implementation details for the AMDC digital-to-analog converter (DAC) expansion board. A block diagram is presented and each component is discussed in detail. Specifications of each component are provided based on the datasheet.
 
 ## Relevant Hardware Versions
@@ -11,6 +9,8 @@ This document describes the design considerations and implementation details for
 | ---- | ----- |
 | AMDC | REV D |
 | DAC Board | REV B |
+
+<img src="images/amdc-dac.jpg">
 
 ## Design Requirements and Considerations
 
