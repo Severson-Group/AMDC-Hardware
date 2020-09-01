@@ -11,7 +11,7 @@ The PCB provides the following interfaces to interact with power electronics:
 - 2 quadrature encoder input
 
 ## uAMDC Documentation
-Detailed documentation about the hardware of the uAMDC is availble. Check it out here...
+Detailed documentation about the hardware of the uAMDC is availble. Check it out [here...](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs)
 
 ## Background
 The purpose of this project is to create a lower cost and smaller version of the existing AMDC platform. Professor Eric Severson and Nathan Peterson brought on Prasoon Sinha during Summer 2020 to build the uAMDC platform. The AMDC hardware repository and the AMDC firmware repository are maintained by the Severson Research Group.
