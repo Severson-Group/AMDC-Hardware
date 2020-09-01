@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for uAMDC
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -565,7 +565,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WLPHFNGJ
 
 [Document32]
-DocumentPath=uAMDC_AMDC_Overlay.PcbDoc
+DocumentPath=Overlay_uAMDC_AMDC.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -579,7 +579,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YXBRDBWC
+DocumentUniqueId=NEEEFIYQ
 
 [Parameter1]
 Name=ProjectGroup
@@ -644,7 +644,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for uAMDC
 
 [OutputGroup1]
 Name=Netlist Outputs
