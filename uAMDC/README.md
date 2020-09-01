@@ -1,6 +1,6 @@
 # Micro Advanced Motor Drive Controller (uAMDC) Hardware
 
-Insert 3D Picture here.
+![uAMDC 3D Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/Images/uAMDC_3D.JPG?raw=true)
 
 The uAMDC is a low-cost and compact version of the AMDC platform. The uAMDC is a PCB with a STM32H753 DSP, an inexpensive ($13) high-performance single-core ARM Cortex-M7 microprocessor, and a Lattice iCE40 HX4K FPGA that is reasonably powerful and inexpensive ($6). 
 
