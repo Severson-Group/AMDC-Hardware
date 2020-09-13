@@ -71,7 +71,7 @@ The external `VDRIVE` supply only powers the AMDC PWM circuitry, not the gate dr
 
 P<sub>VDRIVE</sub> = f<sub>sw</sub> * C<sub>total</sub> * `VDRIVE`<sup>2</sup>
 
-Given typical values f<sub>sw</sub> = 100kHz, C<sub>total</sub> = 10nF, `VDRIVE` = 5V, then the current draw on the external 5V power supply is 5mA.
+Given typical values f<sub>sw</sub> = 100kHz, C<sub>total</sub> = 500pF, `VDRIVE` = 5V, then the current draw on the external 5V power supply is about 1mA.
 
 #### `VDD` &mdash; *Power Stack Status Voltage Level*
 
