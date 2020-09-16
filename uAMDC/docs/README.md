@@ -2,15 +2,26 @@
 
 This document describes the design requirements, implementation details, and similarities/differences between the uAMDC and AMDC platform. A high level block diagram of the uAMDC is presented and 3D images of the uAMDC and AMDC are shown to easily compare the two platforms. 
 
+## Table of Contents
+- [Relevant Hardware Versions](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#relevant-hardware-versions)
+- [Design Requirements](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#design-requirements)
+- [uAMDC v. AMDC](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#uamdc-v-amdc)
+    - [Systems on Board](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#systems-on-board)
+    - [Shape and Size](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#shape-and-size)
+    - [Connector Locations](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#connector-locations)
+- [Processing (DSP + FPGA)](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#processing-dsp--fpga)
+    - [DSP and FPGA Communication](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#dsp-and-fpga-communication)
+- [Motor Drive Peripherals & Host Interface](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#motor-drive-peripherals)
+
 ## Relevant Hardware Versions: 
 REVA
 
 ## Design Requirements
 
 The uAMDC board was designed with the following requirements: 
-1. Motor drive peripherals on the uAMDC should be in the same relative locations as the AMDC such that the boards are easily swappable. 
-2. The uAMDC should have half the number of power stack interfaces. 
-3. The uAMDC should be significantly smaller than the AMDC.
+1. The uAMDC should be significantly smaller and cheaper than the AMDC.
+2. Motor drive peripherals on the uAMDC should be in the same relative location as the AMDC such that the boards are easily swappable.
+3. The uAMDC should have half the number of power stack interfaces.
 4. Mounting holes on the uAMDC should be in the same location as the AMDC.
 
 ## uAMDC v. AMDC
@@ -20,16 +31,17 @@ Below is a table that compares the processing technologies, host interface, and 
 |                   | uAMDC               | AMDC                |
 |-------------------| --------------------|---------------------|
 | Processing        | STM DSP and FPGA    | PicoZed             |
-| Analog Inputs     | 8x                  | 8x                  |
+| Analog Inputs     | 8x (12V)                 | 8x (15V)                 |
 | Encoder Interface | 2x Quadrature       | 2x Quadrature       |
 | Power Stack Interface      | 4x three phase PWM  | 8x three phase PWM  |
-| GPIO Exapansion Interface  | 2x                  | 2x                 |
-| Host Interface    | Ethernet, USB-UART, USB | Ethernet, USB-UART      |
+| GPIO Expansion Interface  | 2x                  | 2x                 |
+| Host Interface    | Ethernet, USB-UART, USB-OTG | Ethernet, USB-UART      |
 | Debug Interface   | SWD Debug           | JTAG Debug          |
 
 The major differences between the two platforms are:
 1. The expensive PicoZed that has a FPGA and DSP as a unit is replaced with two distinct devices: an STM DSP and iCE Lattice FPGA.
 2. The number of power stack interfaces on the uAMDC is half the amount that the AMDC has.
+3. The max input voltage for the Analog Inputs is 12V on the uAMDC, whereas the the max input voltage on the AMDC is 15V.
 
 ### Shape and Size
 The shape and size of the uAMDC were determined based on the design requirement that the mounting holes on the uAMDC should be in the same location as the AMDC. The board sizes are listed below:
@@ -37,7 +49,7 @@ The shape and size of the uAMDC were determined based on the design requirement 
 - uAMDC: 4.34 x 5.12 inches
 - AMDC:  6.00 x 6.75 inches
 
-Below is a diagram to better illustrate the mounting hole locations and size differences between the two boards. The yellow X marks a mouting hole location on the AMDC board. The mounting holes on the bottom and right side of the uAMDC are in the exact same locations as the mounting holes on the AMDC. 
+Below is a diagram to better illustrate the mounting hole locations and size differences between the two boards. The yellow X marks a mounting hole location on the AMDC board. The mounting holes on the bottom and right side of the uAMDC are in the exact same locations as the mounting holes on the AMDC. 
 
 ![uAMDC AMDC Overlay](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/Images/uAMDC_AMDC_Overlay.JPG?raw=true)
 
@@ -75,12 +87,18 @@ The Flexible Memory Controller (FMC) is an internal controller on the DSP to con
 | FMC_D[0..7] | 8-bit bidirectional data bus |
 | FMC_A[0..7] | 8-bit address bus
 | FMC_NE[1..4]| Memory bank select (always bank 1 for SRAM)
-| FMC_NBL[0..1] | Chip select (4 subanks within a bank)
+| FMC_NBL[0..1] | Chip select (4 sub-banks within a bank)
 | FMC_NWE | Memory write enable
 | FMC_NOE | Memory output enable
 
 An extra high speed SPI bus has been connected between the two devices as a back up communication option.
 
-## Motor Drive Peripherals
+## Motor Drive Peripherals & Host Interface
 
-The motor drive peripherals are the exact same as the AMDC. Extensive documentation on the peripherals can be found in the [AMDC documentation](https://github.com/Severson-Group/AMDC-Hardware/tree/develop/docs).
+The motor drive peripherals are the exact same as the AMDC. This means that the schematic symbols and footprints are identical (only a decrease in the number of power stack interfaces). Below are the peripherals that are the same:
+- Analog Inputs (12V on uAMDC, 15V on)
+- Power Stack Interface
+- Encoder 
+- GPIO Expansion
+
+Extensive documentation on the peripherals can be found in the [AMDC documentation](https://github.com/Severson-Group/AMDC-Hardware/tree/develop/docs).
