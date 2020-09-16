@@ -11,7 +11,7 @@ This document describes the design requirements, implementation details, and sim
     - [Connector Locations](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#connector-locations)
 - [Processing (DSP + FPGA)](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#processing-dsp--fpga)
     - [DSP and FPGA Communication](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#dsp-and-fpga-communication)
-- [Motor Drive Peripherals & Host Interface](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#motor-drive-peripherals)
+- [Motor Drive Peripherals](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs#motor-drive-peripherals)
 
 ## Relevant Hardware Versions: 
 REVA
@@ -93,7 +93,7 @@ The Flexible Memory Controller (FMC) is an internal controller on the DSP to con
 
 An extra high speed SPI bus has been connected between the two devices as a back up communication option.
 
-## Motor Drive Peripherals & Host Interface
+## Motor Drive Peripherals
 
 The motor drive peripherals are the exact same as the AMDC. This means that the schematic symbols and footprints are identical (only a decrease in the number of power stack interfaces). Below are the peripherals that are the same:
 - Analog Inputs (12V on uAMDC, 15V on)
