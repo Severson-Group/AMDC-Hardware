@@ -77,7 +77,8 @@ To add isolation to the differential isoSPI signals, an external isolation barri
 
 ### 4. Single-ended to differential converter
 
-The I/O interface is connected to the FPGA I/O pins of PicoZed which can be configured as SPI, UART or any other communication interface. This signal is converted into differential I/O using AM26C31 differential line driver. The operating conditions for the IC are provided in the following table.
+The I/O interface is connected to the FPGA I/O pins of the PicoZed, which can be configured as SPI, UART or any other communication interface. This signal is converted into differential I/O using the AM26C31 differential line driver. The operating conditions for the IC are provided in the following table.
+
 | Parameter                             | MIN   | NOM | MAX   |
 |---------------------------------------|-------|-----|-------|
 | Supply voltage Vcc                    | 4.5 V | 5 V | 5.5 V |
