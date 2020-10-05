@@ -56,7 +56,8 @@ More details on the DB15 connector can be found in [here](https://content.norcom
 
 ### 2. isoSPI communication interface
 
-The isoSPI communication interface is implemented using [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). This IC provides a bi-directional interface between standard SPI signals and differential pulses. The SPI signals from PicoZed are in 1.8V voltage level, this IC also translates the signals to 5V level. For termination, 120 ohms resistor is added. The maximum and minimum operating conditions are provided in the following table:
+The isoSPI communication interface is implemented using the [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf)IC. This IC provides a bi-directional interface between standard SPI signals and differential pulses. It also translates the 1.8V SPI signals from the PicoZed to 5V. For termination, a 120 Ω resistor is added. The maximum and minimum operating conditions are provided in the following table:
+
 
 | Parameter                             |    Conditions     |   MIN   |  MAX  |
 |---------------------------------------|-------------------|---------|-------|
