@@ -73,7 +73,8 @@ This IC can operate at a maximum SPI communication speed of 1 Mbps. Bias resisto
 
 ### 3. isoSPI isolation transformer
 
-To add isolation to the differential isoSPI signals, an external isolation barrier is required. This is implemented by adding pulse transformer HX1188NLT, which has 1:1 turns ratio. More information on the pulse transformer is found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/10_100BASE-T%20Single%20Port%20SMD%20Magnetics_Rev2008.pdf).
+To add isolation to the differential isoSPI signals, an external isolation barrier is required. This is implemented by adding the HX1188NLT pulse transformer. More information on the pulse transformer is found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/10_100BASE-T%20Single%20Port%20SMD%20Magnetics_Rev2008.pdf).
+
 
 ### 4. Single-ended to differential converter
 
