@@ -23,7 +23,8 @@ The isolated serial peripheral interface (isoSPI) has increased noise immunity a
 
 ### 1. DB15 Connector
 
-DB15 D-sub high-density connectors are used for isoSPI and differential I/O (D_I / D_O) interface in AMDC. There are 2 DB15 connectors and each connector has 2 isoSPI communication interface, 2 differential I/O interface, 1 pin for ground signals, and 1 pin for 5V supply from the AMDC.
+A total of two DB15 D-sub high-density connectors are used for both the isoSPI and differential I/O (D_I / D_O) interface. Each connector has pins for 2 isoSPI communication interfaces, 2 differential I/O interfaces, 1 pin for ground signals, and 1 pin for 5V supply from the AMDC.
+
 
 The pin mappings for each DB15 connector is shown:
 
