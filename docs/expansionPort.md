@@ -16,7 +16,7 @@ The design requirements for the isoSPI and differential I/O (D_IO) interface are
 
 2. Achieve high throughput using differential I/O interface (limited by the external device and the FPGA speed). Typical propagation delay of the interface is 7ns.
 
-3. Eliminate common-mode noise using an isolation barrier for isoSPI and also provides electric isolation for safety.
+3. Eliminate common-mode noise using an isolation barrier for isoSPI and also provides electrical isolation for safety.
 
 
 ## Block Diagram / External Connections
