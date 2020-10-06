@@ -1,4 +1,4 @@
-# AMDC isoSPI and Differential I/O Interface
+# AMDC IsoSPI and Differential I/O Interface
 
 This document describes the design considerations and implementation details for the isoSPI and differential I/O interface on the Advanced Motor Drive Controller (AMDC). The block diagram of the implementation is presented and each block is discussed in detail. Details on the PCB layout, and connector pinout are also provided in this document.
 
@@ -56,9 +56,9 @@ Location of these connectors in the AMDC is shown below:
 
 More details on the DB15 connector can be found in [here](https://content.norcomp.net/rohspdfs/Connectors/17Y/178/513/178-H15-513R497.pdf)
 
-### 2. isoSPI communication interface
+### 2. IsoSPI communication interface
 
-The isoSPI communication interface is implemented using the [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf)IC. This IC provides a bi-directional interface between standard SPI signals and differential pulses. It also translates the 1.8V SPI signals from the PicoZed to 5V. For termination, a 120 Ω resistor is added. The maximum and minimum operating conditions are provided in the following table:
+The isoSPI communication interface is implemented using the [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf) IC. This IC provides a bi-directional interface between standard SPI signals and differential pulses. It also translates the 1.8V SPI signals from the PicoZed to 5V. For termination, a 120 Ω resistor is added. The maximum and minimum operating conditions are provided in the following table:
 
 
 | Parameter                             |    Conditions     |   MIN   |  MAX  |
@@ -77,7 +77,7 @@ This IC can operate at a maximum SPI communication speed of 1 Mbps. Bias resisto
 The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8 mA, which corresponds to 79 mW for a 5 V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
 
 
-### 3. isoSPI isolation transformer
+### 3. IsoSPI isolation transformer
 
 To add isolation to the differential isoSPI signals, an external isolation barrier is required. This is implemented by adding the HX1188NLT pulse transformer. More information on the pulse transformer is found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/10_100BASE-T%20Single%20Port%20SMD%20Magnetics_Rev2008.pdf).
 
@@ -107,7 +107,7 @@ The differential signal is then converted into a single-ended signal using the A
 | High-level input voltage              | 2 V   |     | Vcc   |
 | Low-level input voltage               | 0 V   |     | 0.8 V |
 
-The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10 mA, which corresponds to 50 mW for a 5 V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338)datasheet.
+The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10 mA, which corresponds to 50 mW for a 5 V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338) datasheet.
 
 
 ### 6. Voltage level shifter
