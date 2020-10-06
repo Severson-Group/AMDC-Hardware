@@ -72,7 +72,7 @@ The isoSPI communication interface is implemented using the [LTC6820](https://ww
 
 This IC can operate at a maximum SPI communication speed of 1 Mbps. Bias resistors (RB1 and RB2) are used to adjust the drive currents to the differential lines, in this design they set the drive currents to 10 mA. These resistors are on the schematic, see the following figure.
 
-<img src="Images/Schematic_RB.PNG" width="200"/>
+<img src="images/Schematic_RB.PNG" width="200"/>
 
 The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8 mA, which corresponds to 79 mW for a 5 V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
 
