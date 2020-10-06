@@ -70,7 +70,11 @@ The isoSPI communication interface is implemented using the [LTC6820](https://ww
 | Low-level input voltage               |VDDS = 2.7V to 5V  | 0       | 0.3 VDDS  |
 | Low-level input voltage               |VDDS = 1.7V to 2.7V| 0       | 0.2 VDDS  |
 
-This IC can operate at a maximum SPI communication speed of 1 Mbps. Bias resistors (RB1 and RB2) are used to adjust the drive currents to the differential lines, in this design they set the drive currents to 10 mA. The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8 mA, which corresponds to 79 mW for a 5 V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
+This IC can operate at a maximum SPI communication speed of 1 Mbps. Bias resistors (RB1 and RB2) are used to adjust the drive currents to the differential lines, in this design they set the drive currents to 10 mA. These resistors are on the schematic, see the following figure.
+
+<img src="Images/Schematic_RB.PNG" width="200"/>
+
+The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8 mA, which corresponds to 79 mW for a 5 V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
 
 
 ### 3. isoSPI isolation transformer
