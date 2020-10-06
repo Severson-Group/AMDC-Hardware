@@ -10,11 +10,13 @@ AMDC REV D
 
 ## Design Requirements and Considerations
 
-The isolated serial peripheral interface (isoSPI) has increased noise immunity and safety. The design requirements for the isoSPI and differential I/O (D_IO) interface are as follows:
+The design requirements for the isoSPI and differential I/O (D_IO) interface are as follows:
 
-1. Implement four isoSPI and four differential I/O interfaces.
+1. Enable differential communication to ensure high noise immunity and to support longer cable lengths.
 
-2. Implement a voltage level translator to interface with the FPGA that operates at 1.8V.
+2. Achieve high throughput using differential I/O interface (limited by the external device and the FPGA speed). Typical propagation delay of the interface is 7ns.
+
+3. Eliminate common-mode noise using an isolation barrier for isoSPI and also provides electric isolation for safety.
 
 
 ## Block Diagram / External Connections
