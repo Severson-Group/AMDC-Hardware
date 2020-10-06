@@ -10,7 +10,7 @@ AMDC REV D
 
 ## Design Requirements and Considerations
 
-The isolated serial peripheral interface (isoSPI) has increased noise immunity and safety. The following describes the design requirements for the isoSPI and differential I/O (D_IO) interface. The design requirements for the isoSPI and differential I/O (D_IO) interface are as follows:
+The isolated serial peripheral interface (isoSPI) has increased noise immunity and safety. The design requirements for the isoSPI and differential I/O (D_IO) interface are as follows:
 
 1. Implement four isoSPI and four differential I/O interfaces.
 
