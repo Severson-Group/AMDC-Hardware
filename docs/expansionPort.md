@@ -1,6 +1,6 @@
 # AMDC IsoSPI and Differential I/O Interface
 
-This document describes the design considerations and implementation details for the isoSPI and differential I/O interface on the Advanced Motor Drive Controller (AMDC). The block diagram of the implementation is presented and each block is discussed in detail. Details on the PCB layout, and connector pinout are also provided in this document.
+This document describes the design considerations and implementation details for the isoSPI and differential I/O interface on the Advanced Motor Drive Controller (AMDC). The block diagram of the implementation is presented and each block is discussed in detail. The connector interface and PCB layout information are also provided in this document.
 
 
 ## Relevant Versions of AMDC Hardware
@@ -25,10 +25,11 @@ The design requirements for the isoSPI and differential I/O (D_IO) interface are
 
 ### 1. DB15 Connector
 
-A total of two DB15 D-sub high-density connectors are used for both the isoSPI and differential I/O (D_I / D_O) interface. Each connector has pins for 2 isoSPI communication interfaces, 2 differential I/O interfaces, 1 pin for ground signals, and 1 pin for 5V supply from the AMDC.
+A total of two DB15 D-sub high-density connectors are used for both the isoSPI and differential I/O (D_I / D_O) interface. Each connector has pins for 2 isoSPI communication interfaces, 2 differential I/O interfaces, 1 pin for ground signals, and 1 pin for 5V supply from the AMDC. More details on the DB15 connector can be found in [here](https://content.norcomp.net/rohspdfs/Connectors/17Y/178/513/178-H15-513R497.pdf). The location of these connectors in the AMDC is shown below:
 
+<img src="images/amdc-isoSPI-input-highlighted.svg" />
 
-The pin mappings for each DB15 connector is shown:
+The pin mappings for each DB15 connector is shown below:
 
 | Pin number | Signal name |
 |------------|--------|
@@ -48,13 +49,7 @@ The pin mappings for each DB15 connector is shown:
 | 14 | D2_O_P |
 | 15 | D2_O_N |
 
-The mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, can be found at the isoSPI section of the [pin mapping document](RevD-PinMapping.md#encoder).
-
-The location of these connectors in the AMDC is shown below:
-
-<img src="images/amdc-isoSPI-input-highlighted.svg" />
-
-More details on the DB15 connector can be found in [here](https://content.norcomp.net/rohspdfs/Connectors/17Y/178/513/178-H15-513R497.pdf)
+The isoSPI signals that connect to the PicoZed pins and Zynq-7000 FPGA module can be found at the isoSPI section of the [pin mapping document](RevD-PinMapping.md#encoder).
 
 ### 2. IsoSPI communication interface
 
