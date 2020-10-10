@@ -14,7 +14,7 @@ The design requirements for the isoSPI and differential I/O (D_IO) interface are
 
 1. Enable differential communication to ensure high noise immunity and to support longer cable lengths.
 
-2. Achieve high throughput using differential I/O interface (limited by the external device and the FPGA speed). Typical propagation delay of the interface is 7ns.
+2. Achieve high throughput using differential I/O interface (limited by the external device and the FPGA speed). The typical propagation delay of the interface is 7ns.
 
 3. Eliminate common-mode noise using an isolation barrier for isoSPI and also provides electrical isolation for safety.
 
@@ -50,7 +50,7 @@ The pin mappings for each DB15 connector is shown:
 
 The mapping between the AMDC schematic labels, PicoZed pins, and Zynq-7000 balls used in Vivado, can be found at the isoSPI section of the [pin mapping document](RevD-PinMapping.md#encoder).
 
-Location of these connectors in the AMDC is shown below:
+The location of these connectors in the AMDC is shown below:
 
 <img src="images/amdc-isoSPI-input-highlighted.svg" />
 
@@ -79,12 +79,12 @@ The maximum supply current consumed by the IC including to drive currents for di
 
 ### 3. IsoSPI isolation transformer
 
-To add isolation to the differential isoSPI signals, an external isolation barrier is required. This is implemented by adding the HX1188NLT pulse transformer. More information on the pulse transformer is found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/10_100BASE-T%20Single%20Port%20SMD%20Magnetics_Rev2008.pdf).
+To isolate the differential isoSPI signals, the HX1188NLT pulse transformer is used. More information on the pulse transformer is found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/10_100BASE-T%20Single%20Port%20SMD%20Magnetics_Rev2008.pdf).
 
 
 ### 4. Single-ended to differential converter
 
-The I/O interface is connected to the FPGA I/O pins of the PicoZed, which can be configured as SPI, UART or any other communication interface. This signal is converted into differential I/O using the AM26C31 differential line driver. The operating conditions for the IC are provided in the following table.
+The I/O interface is connected to the FPGA I/O pins of the PicoZed, which can be configured as SPI, UART, or any other communication interface. This signal is converted into differential I/O using the AM26C31 differential line driver. The operating conditions for the IC are provided in the following table.
 
 | Parameter                             | MIN   | NOM | MAX   |
 |---------------------------------------|-------|-----|-------|
@@ -112,7 +112,7 @@ The maximum supply current consumed by the IC including the drive currents for t
 
 ### 6. Voltage level shifter
 
-The 5V voltage level from the differential line receiver is translated to 1.8V for the PicoZed using the SN74LVC8T245 level translation IC. This IC supports bi-directional translation, and is also used to translate the low-voltage level (from PicoZed) to 5 V level used by the differential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using a direction control pin (DIR), a high on the DIR pin translates the signals from A to B and a low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V.  For more information refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
+The 5V voltage level from the differential line receiver is translated to 1.8V for the PicoZed using the SN74LVC8T245 level translation IC. This IC supports bi-directional translation and is also used to translate the low-voltage level (from PicoZed) to 5 V level used by the differential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using a direction control pin (DIR), a high on the DIR pin translates the signals from A to B and a low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V.  For more information refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
 
 
 ## PCB Layout
