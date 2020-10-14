@@ -1,6 +1,6 @@
-# AMDC IsoSPI and Differential I/O Interface
+# AMDC Expansion Port
 
-This document describes the design considerations and implementation details for the isoSPI and differential I/O interface on the Advanced Motor Drive Controller (AMDC). The block diagram of the implementation is presented and each block is discussed in detail. The connector interface and PCB layout information are also provided in this document.
+This document describes the design considerations and implementation details for the expansion port interface on the Advanced Motor Drive Controller (AMDC). The expansion port consists of the isoSPI and differential I/O interface. The block diagram of the implementation is presented, and each block is discussed in detail. The connector interface and PCB layout information are also provided in this document.
 
 
 ## Relevant Versions of AMDC Hardware
