@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for IO_Converter_Board
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -110,55 +110,43 @@ DocumentPath=Project Outputs for IO_Converter_Board\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for IO_Converter_Board\PCB.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument11]
-DocumentPath=Project Outputs for IO_Converter_Board\PCB.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for IO_Converter_Board\PCB.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for IO_Converter_Board\PCB.TXT
 DItemRevisionGUID=
 
 [DeviceSheetFolder1]
@@ -166,20 +154,20 @@ Path=C:\Users\Brandt\Documents\AMDC-Hardware\altium\templates\
 IncludeSubFolders=0
 
 [Parameter1]
-Name=ProjectUniversity
-Value=UW - Madison
+Name=ProjectGroup
+Value=Severson Group
 
 [Parameter2]
-Name=ProjectRev
-Value=A
-
-[Parameter3]
 Name=ProjectOrganization
 Value=WEMPEC
 
+[Parameter3]
+Name=ProjectRev
+Value=A
+
 [Parameter4]
-Name=ProjectGroup
-Value=Severson Group
+Name=ProjectUniversity
+Value=UW - Madison
 
 [Configuration1]
 Name=Sources
@@ -228,7 +216,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for IO_Converter_Board
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1241,52 +1229,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=CRAMB.SchLib
-ComponentDesignItemID0=1935200
-ComponentSymbolReference0=1935200
+ComponentLibraryIdentifier0=IO_Converter.SchLib
+ComponentDesignItemID0=SN74LVC1T45DBVR
+ComponentSymbolReference0=SN74LVC1T45DBVR
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=CRAMB.SchLib
-ComponentDesignItemID1=AM26C31CDR
-ComponentSymbolReference1=AM26C31CDR
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=CRAMB.SchLib
-ComponentDesignItemID2=AM26C32CDR
-ComponentSymbolReference2=AM26C32CDR
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=CRAMB.SchLib
-ComponentDesignItemID3=Capacitor 0.1uF
-ComponentSymbolReference3=Capacitor 0.1uF
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=CRAMB.SchLib
-ComponentDesignItemID4=ICD15S13E6GX00LF
-ComponentSymbolReference4=ICD15S13E6GX00LF
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=CRAMB.SchLib
-ComponentDesignItemID5=Resistor
-ComponentSymbolReference5=Resistor
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=IO_Converter.SchLib
-ComponentDesignItemID6=MOUNT_HOLE
-ComponentSymbolReference6=MOUNT_HOLE
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1312,36 +1264,11 @@ ParameterName4=Supplier 1
 ParameterUpdate4=1
 ParameterName5=Supplier Part Number 1
 ParameterUpdate5=1
-ParameterName6=Value
-ParameterUpdate6=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0603-CAP
+ModelName0=SOT95P280X145-6N
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=0603-RES
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=1935200
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=ICD15S13E6GX00LF
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=MOUNTING_HOLE
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=SOIC127P600X175-16N
-ModelUpdate5=1
-ModelTypeGroup1=SIM
-ModelTypeUpdate1=1
-ModelType6=SIM
-ModelName6=CAP
-ModelUpdate6=1
-ModelType7=SIM
-ModelName7=RES
-ModelUpdate7=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
