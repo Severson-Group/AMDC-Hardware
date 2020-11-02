@@ -58,7 +58,7 @@ Below are 3D images of the uAMDC and the AMDC illustrating how the connectors on
 
 ![uAMDC 3D Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/Images/uAMDC_3D.JPG?raw=true)
 
-![AMDC_3D_Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/Images/AMDC_3D.JPG?raw=true)
+![AMDC_3D_Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/images/AMDC_3D.JPG)
 
 ## Processing (DSP + FPGA)
 
