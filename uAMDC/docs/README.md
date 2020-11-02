@@ -51,14 +51,14 @@ The shape and size of the uAMDC were determined based on the design requirement 
 
 Below is a diagram to better illustrate the mounting hole locations and size differences between the two boards. The yellow X marks a mounting hole location on the AMDC board. The mounting holes on the bottom and right side of the uAMDC are in the exact same locations as the mounting holes on the AMDC. 
 
-![uAMDC AMDC Overlay](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/Images/uAMDC_AMDC_Overlay.JPG?raw=true)
+![uAMDC AMDC Overlay](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/images/uAMDC_AMDC_Overlay.JPG?raw=true)
 
 ### Connector Locations
 Below are 3D images of the uAMDC and the AMDC illustrating how the connectors on the uAMDC are in the same relative locations as the AMDC. Motor drive peripherals were placed close to the FPGA and the host interface systems are nearby the DSP.
 
-![uAMDC 3D Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/Images/uAMDC_3D.JPG?raw=true)
+![uAMDC 3D Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/images/uAMDC_3D.JPG?raw=true)
 
-![AMDC_3D_Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/images/AMDC_3D.JPG)
+![AMDC_3D_Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/images/AMDC_3D.JPG?raw=true)
 
 ## Processing (DSP + FPGA)
 
@@ -68,7 +68,7 @@ The DSP and FPGA on the uAMDC together handle the functionality similar to the P
 
 Below is a high level block diagram to easily visualize the purpose of the DSP and FPGA. 
 
-![uAMDC Block Diagram](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/Images/uAMDC_Block_Diagram.JPG?raw=true)
+![uAMDC Block Diagram](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/images/uAMDC_Block_Diagram.JPG?raw=true)
 
 
 ### DSP and FPGA Communication
