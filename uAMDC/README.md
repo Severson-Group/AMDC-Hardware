@@ -26,4 +26,4 @@ The purpose of this project is to create an inexpensive and smaller version of t
 ## Repository Structure
 The `altium` directory contains all files pertaining to schematics / board design in Altium Designer. These files should be the latest working copy of the project.
 
-The `RevxxA` directory currently contains 3D images of the uAMDC, the BOM, and a pdf copy of the uAMDC schematics.
+The `REV20201101A` directory contains 3D images of the uAMDC, the BOM, a pdf copy of the uAMDC schematics, and the gerbers to order this board.

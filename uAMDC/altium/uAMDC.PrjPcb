@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for uAMDC
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -497,23 +497,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OOGMATDB
 
 [Document28]
-DocumentPath=uAMDC_PCB.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KLEYBCPV
-
-[Document29]
 DocumentPath=BackPage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +513,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYECYDUL
 
-[Document30]
+[Document29]
 DocumentPath=..\..\altium\AMDC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,42 +530,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SFTSHHDF
 
-[Document31]
-DocumentPath=uAMDC_PCB_Backup.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WLPHFNGJ
-
-[Document32]
-DocumentPath=Overlay_uAMDC_AMDC.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NEEEFIYQ
-
-[Document33]
-DocumentPath=uAMDC_PCB_Backup_2.0.PcbDoc
+[Document30]
+DocumentPath=AMDC_uAMDC_Overlay.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -598,16 +547,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JOHPTMSH
 
+[Document31]
+DocumentPath=uAMDC.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WVXHLLVC
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for uAMDC\Design Rule Check - uAMDC_PCB_Backup_2.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for uAMDC\Power.NET
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for uAMDC\Power.PRT
+DocumentPath=Project Outputs for uAMDC\Design Rule Check - AMDC_uAMDC_Overlay.html
 DItemRevisionGUID=
 
 [Parameter1]
@@ -673,7 +631,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for uAMDC
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
