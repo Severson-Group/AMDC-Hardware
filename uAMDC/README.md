@@ -1,10 +1,10 @@
 # Micro Advanced Motor Drive Controller (uAMDC) Hardware
 
 ## Table of Contents
-- [uAMDC Overview](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC#uamdc-overview)
-- [uAMDC Documentation](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC#uamdc-documentation)
-- [Background](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC#background)
-- [Repository Structure](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC#repository-structure)
+- [uAMDC Overview](../uAMDC#uamdc-overview)
+- [uAMDC Documentation](../uAMDC#uamdc-documentation)
+- [Background](../uAMDC#background)
+- [Repository Structure](../uAMDC#repository-structure)
 
 ## uAMDC Overview
 ![uAMDC 3D Image](./docs/images/uAMDC_3D.JPG?raw=true)
@@ -18,7 +18,7 @@ The PCB provides the following interfaces to interact with power electronics:
 - 2 quadrature encoder input
 
 ## uAMDC Documentation
-Detailed documentation about the hardware of the uAMDC is available. Check it out [here...](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC/docs)
+Detailed documentation about the hardware of the uAMDC is available. Check it out [here...](../uAMDC/docs)
 
 ## Background
 The purpose of this project is to create an inexpensive and smaller version of the existing AMDC platform.
