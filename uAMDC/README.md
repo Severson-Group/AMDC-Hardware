@@ -7,7 +7,7 @@
 - [Repository Structure](https://github.com/Severson-Group/AMDC-Hardware/tree/uamdc-rev-a-pcb/uAMDC#repository-structure)
 
 ## uAMDC Overview
-![uAMDC 3D Image](https://github.com/Severson-Group/AMDC-Hardware/blob/uamdc-rev-a-pcb/uAMDC/docs/images/uAMDC_3D.JPG?raw=true)
+![uAMDC 3D Image](./docs/images/uAMDC_3D.JPG?raw=true)
 
 The uAMDC is a low-cost and compact version of the AMDC platform. The uAMDC is a PCB with a STM32H753 DSP, an inexpensive ($13) high-performance single-core ARM Cortex-M7 microprocessor, and a Lattice iCE40 HX4K FPGA that is reasonably powerful and inexpensive ($6). 
 
