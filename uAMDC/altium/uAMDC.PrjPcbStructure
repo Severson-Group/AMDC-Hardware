@@ -1,4 +1,5 @@
 Record=TopLevelDocument|FileName=uAMDC.SchDoc
+Record=SheetSymbol|SourceDocument=uAMDC.SchDoc|Designator=U_BackPage|SchDesignator=U_BackPage|FileName=BackPage.SchDoc|SymbolType=Normal|RawFileName=BackPage.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=uAMDC.SchDoc|Designator=U_DSP|SchDesignator=U_DSP|FileName=DSP.SchDoc|SymbolType=Normal|RawFileName=DSP.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=uAMDC.SchDoc|Designator=U_FPGA|SchDesignator=U_FPGA|FileName=FPGA.SchDoc|SymbolType=Normal|RawFileName=FPGA.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=uAMDC.SchDoc|Designator=U_Power|SchDesignator=U_Power|FileName=Power.SchDoc|SymbolType=Normal|RawFileName=Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
