@@ -1,10 +1,10 @@
 # Micro Advanced Motor Drive Controller (uAMDC) Hardware
 
 ## Table of Contents
-- [uAMDC Overview](../uAMDC#uamdc-overview)
-- [uAMDC Documentation](../uAMDC#uamdc-documentation)
-- [Background](../uAMDC#background)
-- [Repository Structure](../uAMDC#repository-structure)
+- [uAMDC Overview](#uamdc-overview)
+- [uAMDC Documentation](#uamdc-documentation)
+- [Background](#background)
+- [Repository Structure](#repository-structure)
 
 ## uAMDC Overview
 ![uAMDC 3D Image](./docs/images/uAMDC_3D.JPG?raw=true)
