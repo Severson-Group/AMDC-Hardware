@@ -3,15 +3,15 @@
 This document describes the design requirements, implementation details, and similarities/differences between the uAMDC and AMDC platform. A high level block diagram of the uAMDC is presented and 3D images of the uAMDC and AMDC are shown to easily compare the two platforms. 
 
 ## Table of Contents
-- [Relevant Hardware Versions](../docs#relevant-hardware-versions)
-- [Design Requirements](../docs#design-requirements)
-- [uAMDC v. AMDC](../docs#uamdc-v-amdc)
-    - [Systems on Board](../docs#systems-on-board)
-    - [Shape and Size](../docs#shape-and-size)
-    - [Connector Locations](../docs#connector-locations)
-- [Processing (DSP + FPGA)](../docs#processing-dsp--fpga)
-    - [DSP and FPGA Communication](../docs#dsp-and-fpga-communication)
-- [Motor Drive Peripherals](../docs#motor-drive-peripherals)
+- [Relevant Hardware Versions](#relevant-hardware-versions)
+- [Design Requirements](#design-requirements)
+- [uAMDC v. AMDC](#uamdc-v-amdc)
+    - [Systems on Board](#systems-on-board)
+    - [Shape and Size](#shape-and-size)
+    - [Connector Locations](#connector-locations)
+- [Processing (DSP + FPGA)](#processing-dsp--fpga)
+    - [DSP and FPGA Communication](#dsp-and-fpga-communication)
+- [Motor Drive Peripherals](#motor-drive-peripherals)
 
 ## Relevant Hardware Versions: 
 REVA
