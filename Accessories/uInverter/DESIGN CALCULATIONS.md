@@ -27,7 +27,7 @@ The gate driver uses the 12V input voltage as VDD, which sits in the defined ran
 
 Each phase of the inverter is connected to an R-L load and a sense resistor. Since each phase receives 50% of the bus voltage, i.e., 6V and 2.5A as regulated by the driver used in the half-bridge. 
 
-Given that the frequency of signal is 1kHz, a 300uH resistor and a 400mOhm resistor is chosen, where the resistor doubles up as the Rsense. The 400 mOhm resistor will be justified in the next section, and the impedance of the inductor (Z= 2* *pi* **f* *L) is 0.63 ohm.
+Given that the frequency of signal is 1kHz, a 320uH inductor and a 400mOhm resistor is chosen, where the resistor doubles up as the Rsense. The 400 mOhm resistor will be justified in the next section, and the impedance of the inductor (Z= 2* *pi* **f* *L) is 2 ohm. In total, the impedance of 2.4ohm draws a maximum of 2.5A in each phase (set at 6V). 
 
 #### Difference Amplifier as Current Sensor
 
