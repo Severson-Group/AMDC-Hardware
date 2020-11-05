@@ -1,12 +1,19 @@
 ﻿## uInverter Design Calculations
 
+
+-   nominal dc link voltage - _12V_
+-   rated phase current - _2.5A_
+-   range of allowable switching frequency - typically 100kHz
+-   range of allowable power frequency - 47 − 63 Hz
+
+ 
 ### Core Components
  #### DC Barrel Jack
  
  The 2.1mm [DC barrel jack](https://www.digikey.com/en/products/detail/3643/1528-2553-ND/8346574) is rated for 15Vdc and is supplied from a standard [AC-DC wall adapter](digikey.com/en/products/detail/cui-inc/SWM30-12-NV-P5/7388285) rated for 12V. 
 
 #### DC link 
-A 3mF capacitor is selected as a DC link capacitor to protect the voltage ripple from input to the components comprising the half bridge. The capacitor is should be able to withstand a 9V input voltage. 
+A 3mF capacitor is selected as a DC link capacitor to protect the voltage ripple from input to the components comprising the half bridge. The capacitor is should be able to withstand a 12V input voltage. 
 
 Using formula 
 ![](http://ec.kemet.com/wp-content/uploads/sites/4/2019/10/dc-link-design-tips-04-300x70.png)
