@@ -1,0 +1,390 @@
+Altium Designer Pick and Place Locations
+C:\Users\Nathan\Documents\GitHub\AMDC-Hardware\altium\Project Outputs for AMDC\Pick Place for PCB_v4.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       29/01/20
+Time:       13:28
+Revision:   0d508a363b177f8dbbefb5c8a275c25c40fe56db
+Variant:    No variations
+Units used: mil
+
+Designator Comment              Layer       Footprint               Center-X(mil) Center-Y(mil) Rotation Description                                                                                      
+U27        CAT25128VI-GT3       BottomLayer SOIC127P600X175-8N      3159.659      4185.366      180      "IC EEPROM 128K SPI 20MHZ 8SOIC"                                                                 
+C107       Capacitor            BottomLayer 0603-CAP                3159.659      4365.000      180      Capacitor                                                                                        
+C106       Capacitor            BottomLayer 0603-CAP                4407.500      4749.879      360      Capacitor                                                                                        
+C105       Capacitor            TopLayer    0603-CAP                4643.944      2936.543      180      Capacitor                                                                                        
+C104       Capacitor            TopLayer    0603-CAP                3668.693      2947.531      180      Capacitor                                                                                        
+C90        Capacitor            BottomLayer 0603-CAP                5299.661      3250.000      180      Capacitor                                                                                        
+C89        Capacitor            BottomLayer 0603-CAP                5130.000      4955.000      180      Capacitor                                                                                        
+C87        Capacitor            BottomLayer 0603-CAP                4649.512      3660.000      360      Capacitor                                                                                        
+C83        Capacitor            BottomLayer 0603-CAP                2855.000      4055.000      180      Capacitor                                                                                        
+R50        Resistor             TopLayer    0603-RES                5577.806      6899.528      360      Resistor                                                                                         
+CON9       1981584-1            TopLayer    1981584-1               4566.876      6892.342      180      "CONN RCPT MICRO USB TYPE AB"                                                                    
+R91        Resistor             BottomLayer 0603-RES                6590.000      6451.890      270      Resistor                                                                                         
+R90        Resistor             BottomLayer 0603-RES                6590.000      6151.667      270      Resistor                                                                                         
+R89        Resistor             BottomLayer 0603-RES                6590.000      5829.278      270      Resistor                                                                                         
+R88        Resistor             BottomLayer 0603-RES                6590.000      5541.535      270      Resistor                                                                                         
+R87        Resistor             BottomLayer 0603-RES                6712.008      6151.667      90       Resistor                                                                                         
+R86        Resistor             BottomLayer 0603-RES                6712.008      6452.677      90       Resistor                                                                                         
+R85        Resistor             BottomLayer 0603-RES                6712.008      5541.535      90       Resistor                                                                                         
+R84        Resistor             BottomLayer 0603-RES                6712.008      5829.278      90       Resistor                                                                                         
+C64        Capacitor            BottomLayer 0603-CAP                1336.386      4900.748      270      Capacitor                                                                                        
+R57        Resistor             TopLayer    1206-RES                6490.000      6845.000      270      Resistor                                                                                         
+C79B       Capacitor            TopLayer    0603-CAP                5544.342      5620.463      180      Capacitor                                                                                        
+C79A       Capacitor            TopLayer    0603-CAP                5544.342      5406.968      180      Capacitor                                                                                        
+C77B       Capacitor            TopLayer    0603-CAP                5544.342      6047.452      180      Capacitor                                                                                        
+C77A       Capacitor            TopLayer    0603-CAP                5544.342      5833.957      180      Capacitor                                                                                        
+U23F       TC4468               BottomLayer SOIC16_N_-_wide         1315.000      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+R83        Resistor             TopLayer    0603-RES                1973.465      3497.244      90       Resistor                                                                                         
+R82        Resistor             TopLayer    1206-RES                5140.000      5985.472      180      Resistor                                                                                         
+R81        Resistor             TopLayer    1206-RES                4980.000      5425.000      270      Resistor                                                                                         
+R80        Resistor             TopLayer    1206-RES                4325.000      5985.472      360      Resistor                                                                                         
+R79        Resistor             TopLayer    1206-RES                6546.641      5045.000      90       Resistor                                                                                         
+R78        Resistor             TopLayer    1206-RES                6443.307      5045.000      90       Resistor                                                                                         
+R77        Resistor             TopLayer    1206-RES                6335.000      6845.394      270      Resistor                                                                                         
+R76        Resistor             TopLayer    1206-RES                6753.307      5045.000      90       Resistor                                                                                         
+R75        Resistor             TopLayer    1206-RES                6649.974      5045.000      90       Resistor                                                                                         
+R74        Resistor             BottomLayer 1206-RES                5855.000      5650.000      180      Resistor                                                                                         
+R73        Resistor             BottomLayer 1206-RES                1200.913      4920.000      360      Resistor                                                                                         
+R72        Resistor             BottomLayer 1206-RES                2091.386      4915.000      180      Resistor                                                                                         
+R71        Resistor             BottomLayer 1206-RES                5595.000      5210.000      270      Resistor                                                                                         
+R70        Resistor             BottomLayer 1206-RES                4035.000      5935.000      270      Resistor                                                                                         
+R65        Resistor             BottomLayer 1206-RES                2400.000      2949.370      180      Resistor                                                                                         
+R64        Resistor             BottomLayer 1206-RES                2285.866      3902.334      180      Resistor                                                                                         
+C75F       Capacitor            BottomLayer 0603-CAP                1590.000      2045.000      180      Capacitor                                                                                        
+R10D       Resistor             BottomLayer 0603-RES                6297.316      3574.252      360      Resistor                                                                                         
+R10C       Resistor             BottomLayer 0603-RES                6295.000      3895.000      360      Resistor                                                                                         
+R10B       Resistor             BottomLayer 0603-RES                6295.000      4250.000      360      Resistor                                                                                         
+R10A       Resistor             BottomLayer 0603-RES                6295.000      4580.000      360      Resistor                                                                                         
+R9D        Resistor             BottomLayer 0603-RES                5800.000      3749.863      360      Resistor                                                                                         
+R9C        Resistor             BottomLayer 0603-RES                5800.000      4090.496      360      Resistor                                                                                         
+R9B        Resistor             BottomLayer 0603-RES                5800.000      4421.852      360      Resistor                                                                                         
+R9A        Resistor             BottomLayer 0603-RES                5740.000      4761.535      360      Resistor                                                                                         
+U41        IN-PI556FCH          TopLayer    IN-PI556FCH             5145.217      2685.512      0        "LED RGB 5050 SMD"                                                                               
+U40        IN-PI556FCH          TopLayer    IN-PI556FCH             4633.407      2685.512      0        "LED RGB 5050 SMD"                                                                               
+U39        IN-PI556FCH          TopLayer    IN-PI556FCH             4121.596      2685.512      0        "LED RGB 5050 SMD"                                                                               
+U10        IN-PI556FCH          TopLayer    IN-PI556FCH             3609.785      2685.512      0        "LED RGB 5050 SMD"                                                                               
+C103       Capacitor            TopLayer    0603-CAP                3217.895      2560.472      270      Capacitor                                                                                        
+C102       Capacitor            TopLayer    0603-CAP                4950.651      2652.047      90       Capacitor                                                                                        
+C101       Capacitor            TopLayer    0603-CAP                4437.895      2652.047      90       Capacitor                                                                                        
+C100       Capacitor            TopLayer    0603-CAP                3930.887      2656.886      90       Capacitor                                                                                        
+C99        Capacitor            TopLayer    0603-CAP                3411.910      2656.886      90       Capacitor                                                                                        
+U9D        LTC6820IMS#TRPBF     BottomLayer TSSOP50P490X110-16N     6023.449      3690.000      360      "IC INTERFACE SPECIALIZED 16MSOP"                                                                
+U9C        LTC6820IMS#TRPBF     BottomLayer TSSOP50P490X110-16N     6023.449      4030.099      360      "IC INTERFACE SPECIALIZED 16MSOP"                                                                
+U9B        LTC6820IMS#TRPBF     BottomLayer TSSOP50P490X110-16N     6023.449      4356.299      360      "IC INTERFACE SPECIALIZED 16MSOP"                                                                
+U9A        LTC6820IMS#TRPBF     BottomLayer TSSOP50P490X110-16N     6023.449      4702.500      360      "IC INTERFACE SPECIALIZED 16MSOP"                                                                
+T2         HX1188NLT            TopLayer    HX1188NLT               6583.386      3912.614      270      "XFRMR MAGNETIC 1PORT 1:1 10/100"                                                                
+T1         HX1188NLT            TopLayer    HX1188NLT               6595.000      4476.614      270      "XFRMR MAGNETIC 1PORT 1:1 10/100"                                                                
+R69        Resistor             BottomLayer 0603-RES                6263.734      3770.709      90       Resistor                                                                                         
+R68        Resistor             BottomLayer 0603-RES                6263.734      4110.807      90       Resistor                                                                                         
+R67        Resistor             BottomLayer 0603-RES                6263.734      4437.008      90       Resistor                                                                                         
+R66        Resistor             BottomLayer 0603-RES                6263.734      4773.602      90       Resistor                                                                                         
+R19D       Resistor             BottomLayer 0603-RES                6297.316      3658.543      180      Resistor                                                                                         
+R19C       Resistor             BottomLayer 0603-RES                6295.000      3987.402      180      Resistor                                                                                         
+R19B       Resistor             BottomLayer 0603-RES                6295.000      4318.543      180      Resistor                                                                                         
+R19A       Resistor             BottomLayer 0603-RES                6295.000      4653.287      180      Resistor                                                                                         
+C98D       Capacitor            BottomLayer 0603-CAP                6085.457      3825.000      360      Capacitor                                                                                        
+C98C       Capacitor            BottomLayer 0603-CAP                6085.457      4155.000      360      Capacitor                                                                                        
+C98B       Capacitor            BottomLayer 0603-CAP                6085.457      4495.000      360      Capacitor                                                                                        
+C98A       Capacitor            BottomLayer 0603-CAP                6085.457      4835.000      360      Capacitor                                                                                        
+C97D       Capacitor            BottomLayer 0603-CAP                5800.000      3820.823      360      Capacitor                                                                                        
+C97C       Capacitor            BottomLayer 0603-CAP                5800.000      4169.813      360      Capacitor                                                                                        
+C97B       Capacitor            BottomLayer 0603-CAP                5800.000      4504.923      360      Capacitor                                                                                        
+C97A       Capacitor            BottomLayer 0603-CAP                5740.000      4827.126      360      Capacitor                                                                                        
+C96        Capacitor            BottomLayer 0603-CAP                5433.028      4553.850      270      Capacitor                                                                                        
+C95        Capacitor            BottomLayer 0603-CAP                5433.402      3952.312      270      Capacitor                                                                                        
+U38        SMDA12CTR            BottomLayer SOIC127P600X175-8N      7480.000      6126.667      360      "TVS DIODE 12V 19V 8SO"                                                                          
+U37        SMDA12CTR            BottomLayer SOIC127P600X175-8N      7480.000      5888.333      360      "TVS DIODE 12V 19V 8SO"                                                                          
+U36        SMDA12CTR            BottomLayer SOIC127P600X175-8N      7480.000      6365.000      360      "TVS DIODE 12V 19V 8SO"                                                                          
+U35        SMDA12CTR            BottomLayer SOIC127P600X175-8N      7480.000      5650.000      360      "TVS DIODE 12V 19V 8SO"                                                                          
+U32        NUP4114HMR6T1G       BottomLayer TSOP95P280X110-6N       1396.535      3670.000      270      "TVS DIODE 5.5V 10V 6TSOP"                                                                       
+U33        NUP4114HMR6T1G       TopLayer    TSOP95P280X110-6N       4575.511      6695.000      0        "TVS DIODE 5.5V 10V 6TSOP"                                                                       
+U34        NUP4114HMR6T1G       TopLayer    TSOP95P280X110-6N       5290.000      6695.000      0        "TVS DIODE 5.5V 10V 6TSOP"                                                                       
+U7         AM26C32              BottomLayer TSOP65P640X120-16N      5278.992      4487.126      90       "IC RCVR RS422 QUAD DIFF 16TSSOP"                                                                
+U8         AM26C31              BottomLayer TSOP65P640X120-16N      5278.992      3872.659      90       "IC DRIVER 4/0 16TSSOP"                                                                          
+U31E       SN74LVC8T245PWR      BottomLayer TSOP65P640X120-24N      4951.835      4511.419      360      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U31F       SN74LVC8T245PWR      BottomLayer TSOP65P640X120-24N      4942.984      3911.045      360      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+R20        Resistor             TopLayer    0603-RES                6973.302      3702.500      0        Resistor                                                                                         
+C94E       Capacitor            BottomLayer 0603-CAP                4888.134      4285.671      360      Capacitor                                                                                        
+C94F       Capacitor            BottomLayer 0603-CAP                4870.150      3691.045      360      Capacitor                                                                                        
+C93E       Capacitor            BottomLayer 0603-CAP                5033.803      4285.671      180      Capacitor                                                                                        
+C93F       Capacitor            BottomLayer 0603-CAP                5015.819      3691.045      180      Capacitor                                                                                        
+C28        Capacitor            TopLayer    0603-CAP                6389.976      2365.252      90       Capacitor                                                                                        
+C29        Capacitor            TopLayer    0603-CAP                6311.734      2866.795      180      Capacitor                                                                                        
+C27        Capacitor            TopLayer    0603-CAP                6389.976      2717.221      90       Capacitor                                                                                        
+C30        Capacitor            TopLayer    0603-CAP                6379.646      3295.000      90       Capacitor                                                                                        
+JP3        Jumper2              TopLayer    PIN_HEADER_1x2          6791.764      3402.626      270      ""                                                                                               
+R14        Resistor             BottomLayer 0603-RES                6858.071      2698.567      360      Resistor                                                                                         
+U4         AM26C32              TopLayer    TSOP65P640X120-16N      6559.976      2644.386      90       "IC RCVR RS422 QUAD DIFF 16TSSOP"                                                                
+U5         SN74LVC8T245         TopLayer    TSOP65P640X120-24N      6545.000      3065.000      90       "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U6         AM26C32              TopLayer    TSOP65P640X120-16N      6559.976      2301.591      90       "IC RCVR RS422 QUAD DIFF 16TSSOP"                                                                
+R17        Resistor             TopLayer    0603-RES                7270.315      3477.500      360      Resistor                                                                                         
+R16        Resistor             BottomLayer 0603-RES                6858.071      2397.134      360      Resistor                                                                                         
+R15        Resistor             BottomLayer 0603-RES                6858.071      2547.851      360      Resistor                                                                                         
+JP2        Jumper2              TopLayer    PIN_HEADER_1x2          6569.976      3397.626      270      ""                                                                                               
+U25F       TC4468               BottomLayer SOIC16_N_-_wide         1775.000      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U25E       TC4468               BottomLayer SOIC16_N_-_wide         2694.638      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U24F       SN74LVC8T245         BottomLayer TSOP65P640X120-24N      3172.307      2910.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U24E       SN74LVC8T245         BottomLayer TSOP65P640X120-24N      3672.307      2910.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U24D       SN74LVC8T245         BottomLayer TSOP65P640X120-24N      4172.307      2910.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U24C       SN74LVC8T245         BottomLayer TSOP65P640X120-24N      4662.307      2910.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U24B       SN74LVC8T245         BottomLayer TSOP65P640X120-24N      5152.307      2910.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U24A       SN74LVC8T245         BottomLayer TSOP65P640X120-24N      5637.969      2910.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U23E       TC4468               BottomLayer SOIC16_N_-_wide         2225.000      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U22        CP2102N              BottomLayer QFN50P400X400X80_HS-25N 5545.000      6705.000      270      "IC USB TO UART BRIDGE QFN24"                                                                    
+U21        LT1764EQ-1.8#PBF-ND  BottomLayer 5-DDPAK                 1336.386      5222.500      180      "IC REG LINEAR 1.8V 3A 5DDPAK"                                                                   
+U20        LT1529CQ-5#PBF       BottomLayer 5-DDPAK                 1888.838      5217.500      180      "IC REG LINEAR 5V 3A 5DDPAK"                                                                     
+U17        AP2114H-3.3TRG1      BottomLayer SOT230P700X180-4N       3915.000      5746.614      360      "IC REG LINEAR 3.3V 1A SOT223"                                                                   
+U16        AP2112K-1.8TRG1      BottomLayer SOT95P280X145-5N        2700.000      3082.834      360      "IC REG LINEAR 1.8V 600MA SOT25"                                                                 
+U15        LT1529CQ-5#PBF       BottomLayer 5-DDPAK                 2164.303      4209.834      180      "IC REG LINEAR 5V 3A 5DDPAK"                                                                     
+U3         74LVC1T45GW,125      TopLayer    SOT95P280X145-6N        3258.719      2717.909      180      "TXRX XLATING DUAL 3ST 6TSSOP"                                                                   
+R54        Resistor             BottomLayer 0603-RES                5640.158      6332.795      180      Resistor                                                                                         
+R53        Resistor             BottomLayer 0603-RES                5640.158      6258.575      180      Resistor                                                                                         
+R52        Resistor             TopLayer    0603-RES                5541.437      6490.118      90       Resistor                                                                                         
+R51        Resistor             TopLayer    0603-RES                5266.712      6490.118      90       Resistor                                                                                         
+R49        Resistor             TopLayer    0603-RES                4987.303      6490.118      90       Resistor                                                                                         
+R48        Resistor             BottomLayer 0603-RES                5640.158      6408.543      360      Resistor                                                                                         
+R47        Resistor             BottomLayer 1206-RES                2545.000      6380.000      360      Resistor                                                                                         
+R46        Resistor             BottomLayer 1206-RES                2545.000      6280.000      360      Resistor                                                                                         
+R45        Resistor             BottomLayer 0603-RES                2795.000      5750.520      360      Resistor                                                                                         
+R44        Resistor             BottomLayer 0603-RES                2955.000      5750.520      360      Resistor                                                                                         
+R43        Resistor             BottomLayer 0603-RES                3115.000      5750.520      360      Resistor                                                                                         
+R42        Resistor             BottomLayer 0603-RES                1422.302      6520.197      180      Resistor                                                                                         
+R41        Resistor             BottomLayer 0603-RES                1282.605      6520.197      180      Resistor                                                                                         
+R40        Resistor             BottomLayer 0603-RES                1276.205      6013.346      360      Resistor                                                                                         
+R39        Resistor             BottomLayer 0603-RES                1420.075      6013.346      360      Resistor                                                                                         
+R28        Resistor             TopLayer    1206-RES                2793.000      1460.000      90       Resistor                                                                                         
+R27        Resistor             TopLayer    1206-RES                4285.945      1800.000      90       Resistor                                                                                         
+R26        Resistor             TopLayer    1206-RES                4410.000      1800.000      90       Resistor                                                                                         
+R25        Resistor             TopLayer    1206-RES                1096.929      1453.355      90       Resistor                                                                                         
+R21D       Resistor             TopLayer    0603-RES                6205.472      1980.166      90       Resistor                                                                                         
+R21C       Resistor             TopLayer    0603-RES                5655.682      1964.669      90       Resistor                                                                                         
+R21B       Resistor             TopLayer    0603-RES                4076.063      1970.000      90       Resistor                                                                                         
+LED14      LED                  TopLayer    0603-LED                5669.587      6490.118      270      ""                                                                                               
+LED13      LED                  TopLayer    0603-LED                5404.499      6490.118      270      ""                                                                                               
+LED12      LED                  TopLayer    0603-LED                5129.665      6490.118      270      ""                                                                                               
+JP7        Jumper3              TopLayer    PIN_HEADER_1X3          2780.000      2745.311      90       ""                                                                                               
+JP1        Jumper3              TopLayer    PIN_HEADER_1X3          2158.110      3014.213      360      ""                                                                                               
+CON10D     178-H15-513R497      TopLayer    178-H15-513R497         6775.000      1585.000      360      "CONN D-SUB RCPT/RCPT 15/15POS RA"                                                               
+CON10C     178-H15-513R497      TopLayer    178-H15-513R497         5175.000      1585.000      360      "CONN D-SUB RCPT/RCPT 15/15POS RA"                                                               
+CON10B     178-H15-513R497      TopLayer    178-H15-513R497         3575.000      1585.000      360      "CONN D-SUB RCPT/RCPT 15/15POS RA"                                                               
+CON5       ScrewTerminal_1x2    TopLayer    1935161                 1160.000      2857.000      90       ""                                                                                               
+C76F       Capacitor            BottomLayer 0603-CAP                1590.000      1965.000      180      Capacitor                                                                                        
+C76E       Capacitor            BottomLayer 0603-CAP                2506.410      1960.000      180      Capacitor                                                                                        
+C76D       Capacitor            BottomLayer 0603-CAP                3458.181      1955.000      180      Capacitor                                                                                        
+C76C       Capacitor            BottomLayer 0603-CAP                4410.000      1945.000      180      Capacitor                                                                                        
+C75E       Capacitor            BottomLayer 0603-CAP                2506.410      2040.000      180      Capacitor                                                                                        
+C75D       Capacitor            BottomLayer 0603-CAP                3458.181      2035.000      180      Capacitor                                                                                        
+C75C       Capacitor            BottomLayer 0603-CAP                4410.000      2035.000      180      Capacitor                                                                                        
+C75B       Capacitor            BottomLayer 0603-CAP                5342.197      2020.000      180      Capacitor                                                                                        
+C75A       Capacitor            BottomLayer 0603-CAP                6310.000      2020.000      180      Capacitor                                                                                        
+C74F       Capacitor            BottomLayer 0603-CAP                2952.307      2982.835      90       Capacitor                                                                                        
+C74E       Capacitor            BottomLayer 0603-CAP                3452.307      2982.835      90       Capacitor                                                                                        
+C74D       Capacitor            BottomLayer 0603-CAP                3954.898      2982.835      90       Capacitor                                                                                        
+C74C       Capacitor            BottomLayer 0603-CAP                4442.307      2982.835      90       Capacitor                                                                                        
+C73F       Capacitor            BottomLayer 0603-CAP                1260.000      1955.000      360      Capacitor                                                                                        
+C73E       Capacitor            BottomLayer 0603-CAP                2040.000      1965.000      180      Capacitor                                                                                        
+C73D       Capacitor            BottomLayer 0603-CAP                2993.457      1965.000      180      Capacitor                                                                                        
+C73C       Capacitor            BottomLayer 0603-CAP                3922.591      1945.000      180      Capacitor                                                                                        
+C72F       Capacitor            BottomLayer 0603-CAP                1260.000      2035.000      360      Capacitor                                                                                        
+C72E       Capacitor            BottomLayer 0603-CAP                2040.000      2045.000      180      Capacitor                                                                                        
+C72D       Capacitor            BottomLayer 0603-CAP                2993.457      2040.000      180      Capacitor                                                                                        
+C72C       Capacitor            BottomLayer 0603-CAP                3922.591      2030.000      180      Capacitor                                                                                        
+C72B       Capacitor            BottomLayer 0603-CAP                4887.866      2030.000      180      Capacitor                                                                                        
+C72A       Capacitor            BottomLayer 0603-CAP                5845.000      2030.000      180      Capacitor                                                                                        
+C71F       Capacitor            BottomLayer 0603-CAP                2952.307      2837.165      90       Capacitor                                                                                        
+C71E       Capacitor            BottomLayer 0603-CAP                3452.307      2837.165      90       Capacitor                                                                                        
+C71D       Capacitor            BottomLayer 0603-CAP                3954.898      2837.165      90       Capacitor                                                                                        
+C71C       Capacitor            BottomLayer 0603-CAP                4442.307      2837.165      90       Capacitor                                                                                        
+C71B       Capacitor            BottomLayer 0603-CAP                4932.307      2837.165      90       Capacitor                                                                                        
+C71A       Capacitor            BottomLayer 0603-CAP                5417.969      2837.165      90       Capacitor                                                                                        
+C70        Capacitor            BottomLayer 0603-CAP                5465.905      6467.795      180      Capacitor                                                                                        
+C69        Capacitor            BottomLayer 0603-CAP                5465.905      6392.795      180      Capacitor                                                                                        
+C68        Capacitor            BottomLayer 0603-CAP                5465.905      6317.795      180      Capacitor                                                                                        
+C67        Capacitor            BottomLayer 0603-CAP                5825.000      6444.213      90       Capacitor                                                                                        
+C66        Capacitor            BottomLayer 0603-CAP                5751.575      6444.213      90       Capacitor                                                                                        
+C63        Capacitor            BottomLayer 0603-CAP                1470.386      4905.000      270      Capacitor                                                                                        
+C62        Capacitor            BottomLayer 0603-CAP                1955.838      4895.748      270      Capacitor                                                                                        
+C61        Capacitor            BottomLayer 0603-CAP                1821.838      4900.000      270      Capacitor                                                                                        
+C60        Capacitor            BottomLayer 0603-CAP                5720.000      5775.829      90       Capacitor                                                                                        
+C59        Capacitor            BottomLayer 0603-CAP                6080.000      5775.829      270      Capacitor                                                                                        
+C58        Capacitor            BottomLayer 0603-CAP                5685.000      5184.370      270      Capacitor                                                                                        
+C57        Capacitor            BottomLayer 0603-CAP                5930.000      5065.000      360      Capacitor                                                                                        
+C56        Capacitor            BottomLayer 0603-CAP                3640.000      5671.614      180      Capacitor                                                                                        
+C55        Capacitor            BottomLayer 0603-CAP                3640.000      5821.614      180      Capacitor                                                                                        
+C54        Capacitor            BottomLayer 0603-CAP                2704.685      2949.370      180      Capacitor                                                                                        
+C53        Capacitor            BottomLayer 0603-CAP                2685.000      3255.000      360      Capacitor                                                                                        
+C52        Capacitor            BottomLayer 0603-CAP                2269.886      3815.000      360      Capacitor                                                                                        
+C51        Capacitor            BottomLayer 0603-CAP                2030.303      3887.334      270      Capacitor                                                                                        
+C20        Capacitor            TopLayer    0603-CAP                4375.850      5727.844      180      Capacitor                                                                                        
+C16        Capacitor            TopLayer    0603-CAP                5090.984      5655.883      0        Capacitor                                                                                        
+U12        74LVC1T45GW,125      BottomLayer SOT95P280X145-6N        3085.840      3375.414      180      "TXRX XLATING DUAL 3ST 6TSSOP"                                                                   
+U26        LTC4365              TopLayer    TSOP65P280X100-8N       2177.559      3600.394      180      "IC OVERVOLTAGE PROT TSOT23-8"                                                                   
+U19        MC79M15CDTRKG        BottomLayer DPAK229P991X238-3N      5887.961      5913.231      90       "IC REG LINEAR -15V 500MA DPAK"                                                                  
+U18        MC78M15CDTRKG        BottomLayer DPAK229P991X238-3N      5872.961      5321.772      90       "IC REG LINEAR 15V 500MA DPAK"                                                                   
+R37        Resistor             TopLayer    1206-RES                5885.139      1460.000      90       Resistor                                                                                         
+R36        Resistor             TopLayer    1206-RES                5998.525      1460.000      90       Resistor                                                                                         
+R35        Resistor             TopLayer    1206-RES                7478.000      1470.000      90       Resistor                                                                                         
+R34        Resistor             TopLayer    1206-RES                7600.000      1470.000      90       Resistor                                                                                         
+R38        Resistor             TopLayer    0603-RES                4714.646      6695.000      270      Resistor                                                                                         
+R13        Resistor             BottomLayer 0603-RES                6858.071      2849.284      360      Resistor                                                                                         
+R12        Resistor             BottomLayer 0603-RES                6858.071      3000.000      360      Resistor                                                                                         
+R11        Resistor             BottomLayer 0603-RES                6858.071      3150.716      360      Resistor                                                                                         
+Q3         Si4946CDY            TopLayer    SOIC127P600X175-8N      2170.000      3827.244      90       "MOSFET N-CHAN DUAL 60V SO-8"                                                                    
+Q2         MOSFET               TopLayer    SOT95P245X110-3N        3555.003      5715.000      0        ""                                                                                               
+Q1         MOSFET               TopLayer    SOT95P245X110-3N        4635.279      6505.236      0        ""                                                                                               
+C92        Capacitor            TopLayer    0603-CAP                2885.947      6640.000      180      Capacitor                                                                                        
+C94D       Capacitor            TopLayer    0603-CAP                3000.295      2410.000      270      Capacitor                                                                                        
+C94C       Capacitor            TopLayer    0603-CAP                2500.295      2412.835      270      Capacitor                                                                                        
+C94B       Capacitor            TopLayer    0603-CAP                1995.295      2412.835      270      Capacitor                                                                                        
+C94A       Capacitor            TopLayer    0603-CAP                1498.768      2412.835      270      Capacitor                                                                                        
+C65        Capacitor            BottomLayer 0603-CAP                5900.000      6444.213      90       Capacitor                                                                                        
+CON1       RJSAE538004          TopLayer    RJSAE538004             7185.000      6000.000      90       "CONN MOD JACK 8P8C R/A SHIELDED"                                                                
+U29B       INA2143UA            TopLayer    SOIC127P600X175-14N     6235.000      5864.239      90       "IC OPAMP DIFF 150KHZ 14SOIC"                                                                    
+U29A       INA2143UA            TopLayer    SOIC127P600X175-14N     6235.000      5532.717      90       "IC OPAMP DIFF 150KHZ 14SOIC"                                                                    
+U28B       INA2143UA            TopLayer    SOIC127P600X175-14N     6235.000      6527.283      90       "IC OPAMP DIFF 150KHZ 14SOIC"                                                                    
+U28A       INA2143UA            TopLayer    SOIC127P600X175-14N     6235.000      6195.761      90       "IC OPAMP DIFF 150KHZ 14SOIC"                                                                    
+U25D       TC4468               BottomLayer SOIC16_N_-_wide         3637.307      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U25C       TC4468               BottomLayer SOIC16_N_-_wide         4590.819      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U25B       TC4468               BottomLayer SOIC16_N_-_wide         5539.047      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U25A       TC4468               BottomLayer SOIC16_N_-_wide         6493.181      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U30        TPS22965DSGT         TopLayer    SON50P200X80_HS-9N      2885.947      6765.945      270      "IC LOAD SWITCH 6A 8WSON"                                                                        
+U14        SHHD003A0A4Z         TopLayer    DCDC_SHHD003A0A41-SRZ   2730.000      5957.374      0        "DC DC CONVERTER 5V 15W"                                                                         
+U31D       SN74LVC8T245PWR      TopLayer    TSOP65P640X120-24N      2780.295      2340.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U31C       SN74LVC8T245PWR      TopLayer    TSOP65P640X120-24N      2282.681      2340.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U31B       SN74LVC8T245PWR      TopLayer    TSOP65P640X120-24N      1780.295      2340.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U31A       SN74LVC8T245PWR      TopLayer    TSOP65P640X120-24N      1280.295      2340.000      270      "IC BUS TRANSCVR 8BIT 24TSSOP"                                                                   
+U23D       TC4468               BottomLayer SOIC16_N_-_wide         3175.457      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U23C       TC4468               BottomLayer SOIC16_N_-_wide         4107.591      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U23B       TC4468               BottomLayer SOIC16_N_-_wide         5072.866      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U23A       TC4468               BottomLayer SOIC16_N_-_wide         6020.000      2333.465      270      "IC MOSFET DVR QUAD AND 16SOIC"                                                                  
+U13        "DCDC Converter RS6" TopLayer    RS6_DCDC                1610.936      6430.275      360      "Recom RS6"                                                                                      
+U11        "DCDC Converter RS6" TopLayer    RS6_DCDC                1604.535      5923.819      360      "Recom RS6"                                                                                      
+U2         REF3020AIDBZT        TopLayer    SOT23-3                 6122.559      6822.441      90       "Series Voltage Reference IC ±0.2% 25mA SOT-23-3"                                                
+U1         LTC2320-14           TopLayer    QFN50P700X800X80_HS-53N 4728.557      5635.000      270      "IC ADC 14BIT 1.5MSPS SAR 52QFN - 14 Bit Analog to Digital Converter 8 Input 4 SAR 52-QFN (7x8)" 
+TP4        "Test Point"         TopLayer    RCU-0C                  4085.512      5440.000      90       "Test Point"                                                                                     
+TP3        "Test Point"         TopLayer    RCU-0C                  4085.513      5568.922      90       "Test Point"                                                                                     
+TP2        "Test Point"         TopLayer    RCU-0C                  4085.512      5694.900      90       "Test Point"                                                                                     
+TP1        "Test Point"         TopLayer    RCU-0C                  4085.512      5830.000      90       "Test Point"                                                                                     
+SW1        1825027-5            TopLayer    1825027-5               6850.000      6850.984      180      "SWITCH TACTILE SPST-NO 0.05A 24V"                                                               
+R63B       Resistor             TopLayer    0603-RES                5705.000      5620.463      360      Resistor                                                                                         
+R63A       Resistor             TopLayer    0603-RES                5705.000      5406.968      360      Resistor                                                                                         
+R62B       Resistor             TopLayer    0603-RES                5705.000      5727.210      360      Resistor                                                                                         
+R62A       Resistor             TopLayer    0603-RES                5705.000      5513.716      360      Resistor                                                                                         
+R61B       Resistor             TopLayer    0603-RES                5705.000      6047.452      360      Resistor                                                                                         
+R61A       Resistor             TopLayer    0603-RES                5705.000      5833.957      360      Resistor                                                                                         
+R60B       Resistor             TopLayer    0603-RES                5705.000      6154.199      360      Resistor                                                                                         
+R60A       Resistor             TopLayer    0603-RES                5705.000      5940.704      360      Resistor                                                                                         
+R59        Resistor             TopLayer    0603-RES                2185.000      3250.000      360      Resistor                                                                                         
+R58        Resistor             TopLayer    0603-RES                2185.000      3327.244      360      Resistor                                                                                         
+R56        Resistor             TopLayer    0603-RES                2035.000      3327.244      360      Resistor                                                                                         
+R55        Resistor             TopLayer    0603-RES                2040.000      3497.244      90       Resistor                                                                                         
+R33        Resistor             TopLayer    1206-RES                4284.055      1450.000      90       Resistor                                                                                         
+R32        Resistor             TopLayer    1206-RES                4414.055      1450.000      90       Resistor                                                                                         
+R31        Resistor             TopLayer    1206-RES                5880.000      1800.000      90       Resistor                                                                                         
+R30        Resistor             TopLayer    1206-RES                6004.667      1800.000      90       Resistor                                                                                         
+R29        Resistor             TopLayer    1206-RES                2680.000      1464.134      90       Resistor                                                                                         
+R22        Resistor             TopLayer    1206-RES                2800.000      1800.000      90       Resistor                                                                                         
+R7         Resistor             TopLayer    0603-RES                3425.000      5715.000      270      Resistor                                                                                         
+R21A       Resistor             TopLayer    0603-RES                2467.000      1976.732      90       Resistor                                                                                         
+R18        Resistor             TopLayer    0603-RES                4275.000      6173.268      180      Resistor                                                                                         
+R6         Resistor             TopLayer    0603-RES                4523.395      6505.236      270      Resistor                                                                                         
+R8         Resistor             BottomLayer 0603-RES                1360.000      3835.000      180      Resistor                                                                                         
+R5         Resistor             BottomLayer 0603-RES                1359.134      3520.000      180      Resistor                                                                                         
+R4         Resistor             TopLayer    0603-RES                3910.552      5539.429      180      Resistor                                                                                         
+R3         Resistor             TopLayer    0603-RES                3910.552      5407.500      180      Resistor                                                                                         
+R2         Resistor             TopLayer    0603-RES                4601.017      6377.677      180      Resistor                                                                                         
+R24        Resistor             TopLayer    1206-RES                1220.295      1453.355      90       Resistor                                                                                         
+R23        Resistor             TopLayer    1206-RES                2680.000      1800.000      90       Resistor                                                                                         
+R1         Resistor             TopLayer    0603-RES                7205.000      6734.528      360      Resistor                                                                                         
+LED3       LED                  TopLayer    0603-LED                3750.552      5539.429      360      ""                                                                                               
+LED2       LED                  TopLayer    0603-LED                3750.552      5407.500      360      ""                                                                                               
+LED1       LED                  TopLayer    0603-LED                4600.000      6300.000      180      ""                                                                                               
+L1         "CMC  744273801"     TopLayer    CMC_744273801           2034.606      5032.500      180      "CMC 450UH 6.5A 2LN TH"                                                                          
+L2         7447709221           TopLayer    7447709221              1510.000      5255.000      180      "FIXED IND 220UH 1.8A 300 MOHM"                                                                  
+JP6        Jumper3              TopLayer    PIN_HEADER_1X3          2609.962      2745.311      90       ""                                                                                               
+JP10       Jumper2              TopLayer    PIN_HEADER_1x2          2346.220      6880.000      180      ""                                                                                               
+JP8        Jumper2              TopLayer    PIN_HEADER_1x2          1754.055      6884.880      180      ""                                                                                               
+JP9        Jumper2              TopLayer    PIN_HEADER_1x2          1754.055      6730.000      360      ""                                                                                               
+JP5        Jumper3              TopLayer    PIN_HEADER_1X3          2439.924      2745.311      90       ""                                                                                               
+JP4        Jumper3              TopLayer    PIN_HEADER_1X3          2269.886      2745.311      90       ""                                                                                               
+CON12      1981584-1            TopLayer    1981584-1               5274.724      6892.342      180      "CONN RCPT MICRO USB TYPE AB"                                                                    
+CON11      JTAG-SMT2-NC         BottomLayer JTAG-SMT2-NC            4675.000      6473.465      270      "MOD PROGRAMMING JTAG-SMT2-NC"                                                                   
+CON10A     178-H15-513R497      TopLayer    178-H15-513R497         1975.000      1585.000      360      "CONN D-SUB RCPT/RCPT 15/15POS RA"                                                               
+CON8       178-H15-513R497      TopLayer    178-H15-513R497         7170.000      4387.000      90       "CONN D-SUB RCPT/RCPT 15/15POS RA"                                                               
+CON7       L829-1J1T-43         TopLayer    L829-1J1T-43            3810.000      6445.000      0        ""                                                                                               
+CON6       L17H2220131          TopLayer    L17H2220131             7241.024      2792.126      90       "CONN D-SUB RCPT 9POS R/A SLDR"                                                                  
+CON3       ScrewTerminal_1x2    TopLayer    1935161                 1160.000      4039.000      90       ""                                                                                               
+CON2       ScrewTerminal_1x2    TopLayer    1935161                 1160.000      3251.000      90       ""                                                                                               
+CON4       ScrewTerminal_1x2    TopLayer    1935161                 1160.000      3645.000      90       ""                                                                                               
+C86B       Capacitor            TopLayer    0603-CAP                5544.342      5727.210      180      Capacitor                                                                                        
+C86A       Capacitor            TopLayer    0603-CAP                5544.342      5513.716      180      Capacitor                                                                                        
+C88B       Capacitor            TopLayer    0603-CAP                6450.000      5774.595      90       Capacitor                                                                                        
+C88A       Capacitor            TopLayer    0603-CAP                6450.000      5440.433      90       Capacitor                                                                                        
+C85B       Capacitor            TopLayer    0603-CAP                6450.000      5951.676      90       Capacitor                                                                                        
+C85A       Capacitor            TopLayer    0603-CAP                6450.000      5617.514      90       Capacitor                                                                                        
+C81B       Capacitor            TopLayer    0603-CAP                5544.342      6154.199      180      Capacitor                                                                                        
+C81A       Capacitor            TopLayer    0603-CAP                5544.342      5940.704      180      Capacitor                                                                                        
+C84B       Capacitor            TopLayer    0603-CAP                6450.000      6442.918      90       Capacitor                                                                                        
+C84A       Capacitor            TopLayer    0603-CAP                6450.000      6108.757      90       Capacitor                                                                                        
+C82B       Capacitor            TopLayer    0603-CAP                6450.000      6615.000      90       Capacitor                                                                                        
+C82A       Capacitor            TopLayer    0603-CAP                6450.000      6285.838      90       Capacitor                                                                                        
+C76B       Capacitor            BottomLayer 0603-CAP                5342.197      1940.000      180      Capacitor                                                                                        
+C76A       Capacitor            BottomLayer 0603-CAP                6310.000      1940.000      180      Capacitor                                                                                        
+C74B       Capacitor            BottomLayer 0603-CAP                4932.307      2982.835      90       Capacitor                                                                                        
+C74A       Capacitor            BottomLayer 0603-CAP                5417.969      2982.835      90       Capacitor                                                                                        
+C73B       Capacitor            BottomLayer 0603-CAP                4887.866      1945.000      180      Capacitor                                                                                        
+C73A       Capacitor            BottomLayer 0603-CAP                5845.000      1945.000      180      Capacitor                                                                                        
+C44        Capacitor            BottomLayer 0603-CAP                1960.936      6296.874      270      Capacitor                                                                                        
+C39        Capacitor            BottomLayer 0603-CAP                1954.535      5773.819      90       Capacitor                                                                                        
+C49        Capacitor            BottomLayer 1812-CAP                2535.000      5960.000      270      Capacitor                                                                                        
+C48        Capacitor            BottomLayer 1808-CAP                2775.000      6040.000      360      Capacitor                                                                                        
+C47        Capacitor            BottomLayer 1808-CAP                2775.000      5880.000      360      Capacitor                                                                                        
+C46        Capacitor            BottomLayer 1812-CAP                1331.987      6292.874      360      Capacitor                                                                                        
+C42        Capacitor            BottomLayer 1808-CAP                1775.000      6560.197      360      Capacitor                                                                                        
+C41        Capacitor            BottomLayer 1808-CAP                1753.416      6292.874      360      Capacitor                                                                                        
+C40        Capacitor            BottomLayer 1812-CAP                1329.535      5773.819      360      Capacitor                                                                                        
+C38        Capacitor            TopLayer    1812-CAP                1280.000      4800.000      360      Capacitor                                                                                        
+C37        Capacitor            TopLayer    1812-CAP                2113.910      4481.331      360      Capacitor                                                                                        
+C36        Capacitor            BottomLayer 1808-CAP                1754.535      6053.740      360      Capacitor                                                                                        
+C78        "Cap Pol1"           TopLayer    CAP_-_UVR1H102MHD1TO    1651.500      4545.000      180      "Polarized Capacitor (Radial)"                                                                   
+C80        "Cap Pol1"           TopLayer    CAP_-_UWT1V101MCL1GS    2106.653      4145.000      180      "Polarized Capacitor (Radial)"                                                                   
+C93D       Capacitor            TopLayer    0603-CAP                3000.295      2267.165      90       Capacitor                                                                                        
+C93C       Capacitor            TopLayer    0603-CAP                2500.295      2267.165      90       Capacitor                                                                                        
+C93B       Capacitor            TopLayer    0603-CAP                1995.295      2267.165      90       Capacitor                                                                                        
+C93A       Capacitor            TopLayer    0603-CAP                1498.768      2267.165      90       Capacitor                                                                                        
+C50        Capacitor            BottomLayer 0603-CAP                2955.000      5557.374      360      Capacitor                                                                                        
+C35        Capacitor            BottomLayer 1808-CAP                1747.016      5793.819      360      Capacitor                                                                                        
+C45        Capacitor            BottomLayer 0603-CAP                2962.521      3375.414      270      Capacitor                                                                                        
+C43        Capacitor            BottomLayer 0603-CAP                3086.824      3511.114      180      Capacitor                                                                                        
+C34        Capacitor            BottomLayer 0603-CAP                3745.000      6300.000      270      Capacitor                                                                                        
+C33        Capacitor            BottomLayer 0603-CAP                3610.000      6300.000      270      Capacitor                                                                                        
+C32        Capacitor            BottomLayer 0603-CAP                3880.000      6300.000      270      Capacitor                                                                                        
+C31        Capacitor            BottomLayer 0603-CAP                4009.921      6305.000      270      Capacitor                                                                                        
+C25        Capacitor            BottomLayer 0603-CAP                1360.000      3907.500      180      Capacitor                                                                                        
+C24        Capacitor            BottomLayer 0603-CAP                3606.535      4780.000      90       Capacitor                                                                                        
+C91        Capacitor            TopLayer    0603-CAP                2885.947      6880.000      180      Capacitor                                                                                        
+C26        Capacitor            TopLayer    0603-CAP                3297.895      2560.472      270      Capacitor                                                                                        
+C5         Capacitor            TopLayer    0603-CAP                4728.557      5970.615      90       Capacitor                                                                                        
+C4         Capacitor            TopLayer    0603-CAP                4375.850      5440.000      180      Capacitor                                                                                        
+C3         Capacitor            TopLayer    0603-CAP                4648.642      5970.615      90       Capacitor                                                                                        
+C2         Capacitor            TopLayer    0603-CAP                4808.472      5970.615      90       Capacitor                                                                                        
+C1         Capacitor            TopLayer    0603-CAP                5090.984      5583.922      0        Capacitor                                                                                        
+C23        Capacitor            TopLayer    0603-CAP                5090.984      5871.765      0        Capacitor                                                                                        
+C22        Capacitor            TopLayer    0603-CAP                5090.984      5799.805      0        Capacitor                                                                                        
+C21        Capacitor            TopLayer    0603-CAP                4375.850      5655.883      180      Capacitor                                                                                        
+C19        Capacitor            TopLayer    0603-CAP                5090.984      5511.961      0        Capacitor                                                                                        
+C18        Capacitor            TopLayer    0603-CAP                5090.984      5440.000      0        Capacitor                                                                                        
+C17        Capacitor            TopLayer    0603-CAP                4968.303      5970.615      90       Capacitor                                                                                        
+C11        Capacitor            TopLayer    0603-CAP                4888.387      5970.615      90       Capacitor                                                                                        
+C15        Capacitor            TopLayer    0603-CAP                4750.434      5370.000      180      Capacitor                                                                                        
+C14        Capacitor            TopLayer    0603-CAP                4375.850      5871.765      180      Capacitor                                                                                        
+C13        Capacitor            TopLayer    0603-CAP                4375.850      5799.805      180      Capacitor                                                                                        
+C12        Capacitor            TopLayer    0603-CAP                5090.984      5727.844      0        Capacitor                                                                                        
+C6         Capacitor            TopLayer    0603-CAP                4488.811      5970.615      90       Capacitor                                                                                        
+C10        Capacitor            TopLayer    0603-CAP                4621.457      5370.000      180      Capacitor                                                                                        
+C9         Capacitor            TopLayer    0603-CAP                4375.850      5583.922      180      Capacitor                                                                                        
+C8         Capacitor            TopLayer    0603-CAP                4375.850      5511.961      180      Capacitor                                                                                        
+C7         Capacitor            TopLayer    0603-CAP                4568.726      5970.615      90       Capacitor                                                                                        
