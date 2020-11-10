@@ -59,7 +59,7 @@ The isoSPI signals that connect to the PicoZed pins and Zynq-7000 FPGA module ca
 
 The isoSPI communication interface is implemented using the [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf) IC. This provides a bi-directional interface between standard SPI signals and differential pulses. This IC can operate at a maximum SPI communication speed of 1Mbps for cable length of up to 10m. This can support cable length of up to 100m (speed drops to 0.5Mbps). This IC also translates the 1.8V SPI signals from the PicoZed to 5V. For termination, a 120Ω resistor is added. Bias resistors (RB1 and RB2) are used to adjust the drive current to the differential lines, in this design they set the drive current to 10mA. For this choice of drive current the cable length of up to 50m can be used. To support longer cable length the drive current needs to be set to 20mA using the bias resistors values from the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf) (refer Table 6). The bias resistors (RB1 and RB2) in the schematic is shown in the following figure.
 
-<img src="images/Schematic_RB.PNG" width="200"/>
+<img src="images/schematic_bias_res.PNG" width="200"/>
 
 The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8mA, which corresponds to 79mW for a 5V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
 
