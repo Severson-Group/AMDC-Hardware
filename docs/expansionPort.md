@@ -12,13 +12,13 @@ AMDC REV D
 
 The design requirements for the isoSPI and differential I/O (D_IO) interface are as follows:
 
-1. Add digital port interface to communicate with the PicoZed. 
+1. Add a digital port interface to communicate with the PicoZed. 
 
 2. Enable differential communication to ensure high noise immunity.
 
 3. Support longer cable lengths by increasing noise immunity of the communication interface. 
 
-4. Achieve high throughput using differential I/O interface (limited by the external device and the FPGA speed). The typical propagation delay of the interface is 7ns.
+4. Achieve high throughput using differential I/O interface. The maximum data rate of the interface is 10Mbps.
 
 5. Suppress common-mode noise using an isolation transformer for isoSPI. 
 
@@ -57,29 +57,31 @@ The isoSPI signals that connect to the PicoZed pins and Zynq-7000 FPGA module ca
 
 ### 2. IsoSPI communication interface
 
-The isoSPI communication interface is implemented using the [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf) IC. This provides a bi-directional interface between standard SPI signals and differential pulses. This IC can operate at a maximum SPI communication speed of 1Mbps for cable length of up to 10m. This can support cable length of up to 100m (speed drops to 0.5Mbps). This IC also translates the 1.8V SPI signals from the PicoZed to 5V. For termination, a 120Ω resistor is added. Bias resistors (RB1 and RB2) are used to adjust the drive current to the differential lines, in this design they set the drive current to 10mA. For this choice of drive current the cable length of up to 50m can be used. To support longer cable length the drive current needs to be set to 20mA using the bias resistors values from the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf) (refer Table 6). The bias resistors (RB1 and RB2) in the schematic is shown in the following figure.
+The isoSPI communication interface is implemented using the [LTC6820](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf) IC. This provides a bi-directional interface between standard SPI signals and differential pulses. This IC can operate at a maximum SPI communication speed of 1Mbps for a cable length of up to 10m. This can support cable length of up to 100m (speed drops to 0.5Mbps). This IC also translates the 1.8V SPI signals from the PicoZed to 5V. For termination, a 120Ω resistor is added. Bias resistors (RB1 and RB2) are used to adjust the drive current to the differential lines, in this design they set the drive current to 10mA. For this choice of drive current, a cable length of up to 50m can be used. To support longer cable length the drive current needs to be set to 20mA using the bias resistors values from the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf) (refer Table 6). The LTC6820 schematic with the bias resistors (RB1 and RB2) is shown in the following figure.
 
-<img src="images/schematic_bias_res.PNG" width="200"/>
+<img src="images/schematic_bias_res.PNG" width="400"/>
 
 The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8mA, which corresponds to 79mW for a 5V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
 
 To isolate the differential isoSPI signals, the HX1188NLT pulse transformer is used. More information on the pulse transformer is found in the [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/10_100BASE-T%20Single%20Port%20SMD%20Magnetics_Rev2008.pdf).
 
-### 3. Differential communication interface
+### 3. Differential I/O interface
+
+The I/O interface is connected to the FPGA I/O pins of the PicoZed, which can be configured as SPI or UART interface. The I/O communication signals are converted to differential I/O using differential line driver/receiver. This interface is designed to achieve a maximum data rate of 10Mbps. 
 
 #### Single-ended to differential converter
 
-The I/O interface is connected to the FPGA I/O pins of the PicoZed, which can be configured as SPI, UART, or any other communication interface. This signal is converted into differential I/O using the AM26C31 differential line driver. The maximum supply current consumed by the IC including the drive currents for the differential lines is around 20mA, which corresponds to 100mW for a 5V supply. For more information refer to the [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995) datasheet.
+The single-ended signal is converted into differential I/O using the AM26C31 differential line driver. This IC can operate at a maximum signaling rate of 10Mbps. The maximum supply current consumed by the IC including the drive currents for the differential lines is around 20mA, which corresponds to 100mW for a 5V supply. For more information refer to the [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995) datasheet.
 
 
 #### Differential to single-ended converter
 
-The differential signal is then converted into a single-ended signal using the AM26C32 differential line receiver. The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10 mA, which corresponds to 50mW for a 5V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338) datasheet.
+The differential signal is converted into a single-ended signal using the AM26C32 differential line receiver. This IC can operate at a maximum signaling rate of 10Mbps. The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10mA, which corresponds to 50mW for a 5V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338) datasheet.
 
 
 #### Voltage level shifter
 
-The 5V voltage level from the differential line receiver is translated to 1.8V for the PicoZed using the SN74LVC8T245 level translation IC. This IC supports bi-directional translation and is also used to translate the low-voltage level (from PicoZed) to 5V level used by the differential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The operating voltage range for both A and B ports is from 1.65V to 5.5V.  For more information refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
+The 5V voltage level from the differential line receiver is translated to 1.8V for the PicoZed using the SN74LVC8T245 level translation IC. This IC supports bi-directional translation and is also used to translate the low-voltage level (from PicoZed) to the 5V level used by the differential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The operating voltage range for both A and B ports is from 1.65V to 5.5V.  For more information refer to the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
 
 
 ## PCB Layout
