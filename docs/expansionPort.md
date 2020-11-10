@@ -12,24 +12,28 @@ AMDC REV D
 
 The design requirements for the isoSPI and differential I/O (D_IO) interface are as follows:
 
-1. Enable differential communication to ensure high noise immunity and to support longer cable lengths.
+1. Add digital port interface to communicate with the PicoZed. 
 
-2. Achieve high throughput using differential I/O interface (limited by the external device and the FPGA speed). The typical propagation delay of the interface is 7ns.
+2. Enable differential communication to ensure high noise immunity.
 
-3. Eliminate common-mode noise using an isolation barrier for isoSPI and also provides electrical isolation for safety.
+3. Support longer cable lengths by increasing noise immunity of the communication interface. 
+
+4. Achieve high throughput using differential I/O interface (limited by the external device and the FPGA speed). The typical propagation delay of the interface is 7ns.
+
+5. Suppress common-mode noise using an isolation transformer for isoSPI. 
 
 
 ## Block Diagram / External Connections
 
 <img src="images/amdc-isoSPI.svg" />
 
-### 1. DB15 Connector
+### 1. DB-15 Connector
 
-A total of two DB15 D-sub high-density connectors are used for both the isoSPI and differential I/O (D_I / D_O) interface. Each connector has pins for 2 isoSPI communication interfaces, 2 differential I/O interfaces, 1 pin for ground signals, and 1 pin for 5V supply from the AMDC. More details on the DB15 connector can be found in [here](https://content.norcomp.net/rohspdfs/Connectors/17Y/178/513/178-H15-513R497.pdf). The location of these connectors in the AMDC is shown below:
+A total of two DB-15 D-sub high-density connectors are used for both the isoSPI and differential I/O (D_I / D_O) interface. Each connector has pins for two isoSPI communication interfaces, two differential I/O interfaces, one pin for ground signals, and one pin for 5V supply from the AMDC. More details on the DB-15 connector can be found in [here](https://content.norcomp.net/rohspdfs/Connectors/17Y/178/513/178-H15-513R497.pdf). The location of these connectors on the AMDC is shown below:
 
 <img src="images/amdc-isoSPI-input-highlighted.svg" />
 
-The pin mappings for each DB15 connector is shown below:
+The pin mappings for each DB-15 connector is shown below:
 
 | Pin number | Signal name |
 |------------|--------|
@@ -65,11 +69,11 @@ The isoSPI communication interface is implemented using the [LTC6820](https://ww
 | Low-level input voltage               |VDDS = 2.7V to 5V  | 0       | 0.3 VDDS  |
 | Low-level input voltage               |VDDS = 1.7V to 2.7V| 0       | 0.2 VDDS  |
 
-This IC can operate at a maximum SPI communication speed of 1 Mbps. Bias resistors (RB1 and RB2) are used to adjust the drive currents to the differential lines, in this design they set the drive currents to 10 mA. These resistors are on the schematic, see the following figure.
+This IC can operate at a maximum SPI communication speed of 1Mbps. Bias resistors (RB1 and RB2) are used to adjust the drive currents to the differential lines, in this design they set the drive currents to 10mA. These resistors are on the schematic, see the following figure.
 
 <img src="images/Schematic_RB.PNG" width="200"/>
 
-The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8 mA, which corresponds to 79 mW for a 5 V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
+The maximum supply current consumed by the IC including to drive currents for differential lines is 15.8mA, which corresponds to 79mW for a 5V supply. More information regarding the operating conditions, bias resistors, maximum throughput rate, can be found in the [datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf). 
 
 
 ### 3. IsoSPI isolation transformer
@@ -88,7 +92,7 @@ The I/O interface is connected to the FPGA I/O pins of the PicoZed, which can be
 | High-level input voltage              | 2 V   |     | Vcc   |
 | Low-level input voltage               | 0 V   |     | 0.8 V |
 
-The maximum supply current consumed by the IC including the drive currents for the differential lines is around 20 mA, which corresponds to 100 mW for a 5 V supply. For more information refer to the [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995) datasheet.
+The maximum supply current consumed by the IC including the drive currents for the differential lines is around 20mA, which corresponds to 100mW for a 5V supply. For more information refer to the [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995) datasheet.
 
 
 ### 5. Differential to single-ended converter
@@ -102,14 +106,14 @@ The differential signal is then converted into a single-ended signal using the A
 | High-level input voltage              | 2 V   |     | Vcc   |
 | Low-level input voltage               | 0 V   |     | 0.8 V |
 
-The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10 mA, which corresponds to 50 mW for a 5 V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338) datasheet.
+The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10 mA, which corresponds to 50mW for a 5V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338) datasheet.
 
 
 ### 6. Voltage level shifter
 
-The 5V voltage level from the differential line receiver is translated to 1.8V for the PicoZed using the SN74LVC8T245 level translation IC. This IC supports bi-directional translation and is also used to translate the low-voltage level (from PicoZed) to 5 V level used by the differential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using a direction control pin (DIR), a high on the DIR pin translates the signals from A to B and a low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65 V to 5.5 V.  For more information refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
+The 5V voltage level from the differential line receiver is translated to 1.8V for the PicoZed using the SN74LVC8T245 level translation IC. This IC supports bi-directional translation and is also used to translate the low-voltage level (from PicoZed) to 5V level used by the differential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The direction can be set using a direction control pin (DIR), a high on the DIR pin translates the signals from A to B and a low on DIR translates the signals from B to A. The operating voltage range for both A and B ports is from 1.65V to 5.5V.  For more information refer the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
 
 
 ## PCB Layout
 
-The DB15 connector and the pulse transformer are located on the top layer. The isoSPI interfacing IC, differential line driver, receiver, and voltage translator ICs are located on the bottom layer. The top layer is used to route the signals from the DB15 connector to the pulse transformer. Inner signal layers 2 and 3 are used to route the signals from the DB15 connector to the differential line driver and receiver ICs. The remaining signals from the ICs to the PicoZed connector are routed using the bottom layer. All the ICs consume less than 100 mA, so the 10 mil thickness trace is used for power supply traces. Most of the signal traces are routed using 6 mil trace thickness.
+The DB-15 connector and the pulse transformer are located on the top layer. The isoSPI interfacing IC, differential line driver, receiver, and voltage translator ICs are located on the bottom layer. The top layer is used to route the signals from the DB-15 connector to the pulse transformer. Inner signal layers two and three are used to route the signals from the DB-15 connector to the differential line driver and receiver ICs. The remaining signals from the ICs to the PicoZed connector are routed using the bottom layer. All the ICs consume less than 100mA, so the 10mil thickness trace is used for power supply traces. Most of the signal traces are routed using 6mil trace thickness.
