@@ -67,22 +67,26 @@ To isolate the differential isoSPI signals, the HX1188NLT pulse transformer is u
 
 ### 3. Differential I/O interface
 
-The I/O interface is connected to the FPGA I/O pins of the PicoZed, which can be configured as SPI or UART interface. The I/O communication signals are converted to differential I/O using differential line driver/receiver. This interface is designed to achieve a maximum data rate of 10Mbps. 
+The I/O interface is connected to the FPGA I/O pins of the PicoZed, which can be configured as SPI or UART interface. The I/O signals are converted to differential I/O using differential line driver/receiver. This interface is designed to achieve a maximum data rate of 10Mbps. 
 
 #### Single-ended to differential converter
 
-The single-ended signal is converted into differential I/O using the AM26C31 differential line driver. This IC can operate at a maximum signaling rate of 10Mbps. The maximum supply current consumed by the IC including the drive currents for the differential lines is around 20mA, which corresponds to 100mW for a 5V supply. For more information refer to the [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995) datasheet.
+The single-ended signal is converted into differential I/O using the AM26C31 differential line driver. Maximum data throughput of 10Mbps can be achieved using this IC. The maximum supply current consumed by the IC including the drive currents for the differential lines is around 20mA, which corresponds to 100mW for a 5V supply. For more information refer to the [AM26C31](http://www.ti.com/lit/ds/symlink/am26c31.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045318995) datasheet.
 
 
 #### Differential to single-ended converter
 
-The differential signal is converted into a single-ended signal using the AM26C32 differential line receiver. This IC can operate at a maximum signaling rate of 10Mbps. The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10mA, which corresponds to 50mW for a 5V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338) datasheet.
+The differential signal is converted into a single-ended signal using the AM26C32 differential line receiver. Maximum data throughput of 10Mbps can be achieved using this IC. The maximum supply current consumed by the IC including the drive currents for the differential lines is around 10mA, which corresponds to 50mW for a 5V supply. For more information refer to the [AM26C32](http://www.ti.com/lit/ds/symlink/am26c32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590045351338) datasheet.
 
 
 #### Voltage level shifter
 
 The 5V voltage level from the differential line receiver is translated to 1.8V for the PicoZed using the SN74LVC8T245 level translation IC. This IC supports bi-directional translation and is also used to translate the low-voltage level (from PicoZed) to the 5V level used by the differential line driver. The voltage levels are translated based on the supply voltage rail A (VCCA) and supply voltage rail B (VCCB). The operating voltage range for both A and B ports is from 1.65V to 5.5V.  For more information refer to the IC [datasheet](http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590052474879).    
 
+
+### 4. 5V supply
+
+The expansion port provides 5V supply to the externally connected devices. The maximum allowable current from the supply is xxA.
 
 ## PCB Layout
 
