@@ -12,15 +12,16 @@ AMDC REV D
 
 The design requirements for the isoSPI and differential I/O (D_IO) interface are as follows:
 
-1. Add a digital port interface to communicate with the PicoZed. 
+1. Add digital port interface to communicate with the PicoZed. 
 
 2. Enable differential communication to ensure high noise immunity.
 
-3. Support longer cable lengths by increasing noise immunity of the communication interface. 
+3. Suppress common-mode noise using an isolation transformer for isoSPI. 
 
-4. Achieve high throughput using differential I/O interface. The maximum data rate of the interface is 10Mbps.
+4. Support longer cable lengths for isoSPI interface. 
 
-5. Suppress common-mode noise using an isolation transformer for isoSPI. 
+5. Achieve high throughput using differential I/O interface. The maximum data rate of the interface is 10Mbps.
+
 
 
 ## Block Diagram / External Connections
