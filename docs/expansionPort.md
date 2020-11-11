@@ -86,7 +86,7 @@ The 5V voltage level from the differential line receiver is translated to 1.8V f
 
 ### 4. 5V supply
 
-The expansion port provides 5V supply to the externally connected devices. The maximum allowable current from the supply is xxA.
+The expansion port provides 5V supply to the externally connected devices. The maximum allowable current from the supply is 1A.
 
 ## PCB Layout
 
