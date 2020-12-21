@@ -8,6 +8,7 @@ Comment,Designator,Quantity,Supplier Part Number 1
 "ICD15S13E6GX00LF","CON2","1","609-2801-ND"
 "ScrewTerminal_1x2","CON3A, CON3B, CON4A, CON4B","4","277-1667-ND"
 "BK1608LM182-T","E1A, E1B, E2A, E2B","4","587-1892-1-ND"
+"Jumper2","JP1","1","732-5315-ND"
 "Resistor","R1","1","P0.0GDKR-ND"
 "Resistor","R2A, R2B, R4A, R4B","4","311-120HRCT-ND"
 "Resistor","R3A, R3B, R5A, R5B","4","541-5507-1-ND"
