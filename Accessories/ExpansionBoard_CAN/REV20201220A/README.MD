@@ -1,6 +1,6 @@
 # AMDC CAN Expansion Board
 
-This folder contains the compiled design outputs for the AMDC CAN REVA expansion board (design frozen on November 19, 2020). This includes schematics, images of the PCB layout, the bill of materials (BOM), and the files needed to order fully populated boards. 
+This folder contains the compiled design outputs for the AMDC CAN REV A expansion board (design frozen on Dec 20, 2020). This includes schematics, images of the PCB layout, the bill of materials (BOM), and the files needed to order fully populated boards. 
 
 ## PCB Properties
 | Question          | Answer        |
