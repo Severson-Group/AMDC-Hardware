@@ -1732,9 +1732,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7785267"
-     inkscape:cx="611.08603"
-     inkscape:cy="549.14945"
+     inkscape:zoom="0.44463168"
+     inkscape:cx="1103.1653"
+     inkscape:cy="873.48895"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1757,7 +1757,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2050,7 +2050,7 @@
          y="254.71445"
          x="34.05648"
          sodipodi:role="line"
-         id="tspan10127">Connector 1</tspan></text>
+         id="tspan10127">Connector</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
