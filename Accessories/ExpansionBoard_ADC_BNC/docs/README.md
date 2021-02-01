@@ -5,7 +5,7 @@ This document describes the design considerations and implementation details for
 ## Relevant Hardware Versions
 
 - Expansion Board: REV A
-- AMDC: REV C + REV D (AMDC REV C has 16 analog inputs, which would require two of these expansion boards)
+- AMDC: REV D (**not** REV C... the pin-out on the RJ45 connector is different and thus not compatible between hardware revisions!!)
 
 ## Purpose
 
