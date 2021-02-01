@@ -12,7 +12,7 @@ The CAN board was designed with the following specifications:
 2. Isolated buses
 3. Include screw terminal and DB-9 connectors for CAN outputs
 4. Place all components on top of the board
-5. Minimal routing on the bottom layer. 
+5. Minimal routing on the bottom layer 
 
 ## Pin Configuration
 The pin out on the double stack DB-9 connector is...
