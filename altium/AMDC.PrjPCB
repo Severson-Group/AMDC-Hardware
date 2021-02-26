@@ -193,23 +193,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PHAWGCJF
 
 [Document10]
-DocumentPath=SPIInterface.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=10
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OOGMATDB
-
-[Document11]
 DocumentPath=InverterConnector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -226,7 +209,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BTCCUSPD
 
-[Document12]
+[Document11]
 DocumentPath=InverterConnectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -243,7 +226,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OIFGDKMY
 
-[Document13]
+[Document12]
 DocumentPath=InverterTranslation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -260,7 +243,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PYHKPLBI
 
-[Document14]
+[Document13]
 DocumentPath=PicoZed.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -277,7 +260,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TUNXVCMH
 
-[Document15]
+[Document14]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -294,7 +277,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FMAMPNRG
 
-[Document16]
+[Document15]
 DocumentPath=Power_Protection.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -311,7 +294,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HOQMLCEG
 
-[Document17]
+[Document16]
 DocumentPath=AMDC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -328,7 +311,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GHNSFQBD
 
-[Document18]
+[Document17]
 DocumentPath=AMDC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -345,7 +328,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SFTSHHDF
 
-[Document19]
+[Document18]
 DocumentPath=LVHV8ChanTranslation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -362,7 +345,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FUDPQEWY
 
-[Document20]
+[Document19]
 DocumentPath=BackPage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -379,7 +362,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYECYDUL
 
-[Document21]
+[Document20]
 DocumentPath=Power_InrushLimit.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -396,7 +379,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VELVBLJA
 
-[Document22]
+[Document21]
 DocumentPath=AnalogSigCond.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -413,7 +396,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IUEDQDCI
 
-[Document23]
+[Document22]
 DocumentPath=PCB_v4.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -430,7 +413,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NMKVQQGW
 
-[Document24]
+[Document23]
 DocumentPath=TranslationDir8Chan.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -447,24 +430,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDYLIMEG
 
-[Document25]
-DocumentPath=isoSPI.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=37
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SKRXUXRE
-
-[Document26]
+[Document24]
 DocumentPath=RevisionChanges.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -481,7 +447,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GCLPOESB
 
-[Document27]
+[Document25]
 DocumentPath=JTAG_UART.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -497,6 +463,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HFOREJAD
+
+[Document26]
+DocumentPath=GPIO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=40
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RDVKKRHW
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for AMDC\Design Rule Check - PCB_v4.html
