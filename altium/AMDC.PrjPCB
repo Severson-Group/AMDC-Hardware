@@ -481,6 +481,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RDVKKRHW
 
+[Document27]
+DocumentPath=PCB_v5.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EYJJHBEW
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for AMDC\Design Rule Check - PCB_v4.html
 DItemRevisionGUID=
