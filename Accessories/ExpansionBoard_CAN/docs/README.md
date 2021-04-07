@@ -9,7 +9,7 @@ with other nodes on a CAN bus.
 | AMDC  | REV D   |
 | CAN   | REV A   |
 
-<img src="images/amdc-can.jpg">
+<img src="images/amdc-can.jpg" width="500">
 
 
 ## Design Requirements and Considerations
