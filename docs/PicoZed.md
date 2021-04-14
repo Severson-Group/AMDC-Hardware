@@ -6,6 +6,8 @@ This document describes considerations for the PicoZed selection: part numbers a
 
 _The `7Z015` version can work with the AMDC hardware design, but would require very slight firmware changes._
 
+<img src="./images/picozed-7Z030.jpg" width="250" />
+
 ## Background
 
 The AMDC board is technically a "carrier card" for the PicoZed module. The PicoZed plugs into the AMDC board via the three high-density connectors. All the processing power of the AMDC is directly from the PicoZed -- the AMDC hardware PCB has no processing capability of its own. The AMDC will not operate without the PicoZed! The AMDC hardware design is owned by the Severson Group and is available publicly on [GitHub](https://github.com/Severson-Group/AMDC-Hardware).
