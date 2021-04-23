@@ -4,3 +4,6 @@
 **/altium/Project*
 *.log
 
+Accessories/ExpansionBoard_ADC_BNC/altium/PCB1.PcbDoc.htm
+Accessories/ExpansionBoard_CAN/altium/CAN.PrjPcbStructure
+altium/PCB_v4.PcbDoc.htm

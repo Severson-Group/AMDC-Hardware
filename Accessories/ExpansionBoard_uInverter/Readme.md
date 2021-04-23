@@ -3,7 +3,7 @@
 
 uInverter is an accessory board for the AMDC. The purpose of this board is to serve as a low-cost, micro-level prototype board to demonstrate three-phase current regulation using the AMDC.  
 
-[High level schematic](system.jpg)
+![High level schematic](system.jpg)
 
 ## Requirements 
 Keeping the basic purpose of the board in mind, following requirements are defined -  
@@ -11,9 +11,9 @@ Keeping the basic purpose of the board in mind, following requirements are defin
 ### Absolute Ratings
 |  State variable     | Min   | Max	 | Unit |
 | ------ | ----- | ----- | ---- |
-| DC bus voltage : `Vdc` | 10 |35 | V |
-| Switching frequency: `fsw` | 20 | 100 | kHz
-| Load current (AC) : `i_ac` | 0 | 4 | A
+| DC bus voltage : `Vdc` | 10 |15 | V |
+| Switching frequency: `fsw` | 20 | 500 | kHz
+| Load current (AC) : `i_ac` | 0 | 4 | A_rms
 | DC Bus Voltage ripple: `Δ V_dc` | | 1%|  
 | Current sensing amplifier output: `V_out(i_sense)` | -10 | 10 | V
 |  
@@ -45,13 +45,13 @@ To maximize the resolution of current measurement, the shunt resistor value is s
 For this, the difference input voltage 
 `Vr_isense_max`= `Vout_isense` / `Ag`  
 `Vr_isense_max` = 10 / 10 = 1 V  
-Thus, the shunt resistor must have 1V drop at maximum current `Iac` = 4A.  
+Thus, the shunt resistor must have 1V drop at maximum current `Iac` = 5.7 A_peak.  
 Hence,  
 >`R_shunt` = `Vr_isense_max` / `Iac`  
->`R_shunt` = 1V / 4A  
->`R_shunt` = 0.25 Ω  
+>`R_shunt` = 1V / 5.7 A_peak  
+>`R_shunt` = 0.17 Ω  
 
- The current sense resistor [15FR250E](https://www.digikey.com/en/products/detail/ohmite/15FR250E/822921) is `0.25Ω` and rated for 5W, is fit for the purpose. 
+ The current sense resistor [15FR150E](https://www.digikey.com/en/products/detail/ohmite/15FR150E/822919) is `0.15Ω` and rated for 5W, is fit for the purpose. 
 
 
 ## Load Inductor:
@@ -69,7 +69,9 @@ The maximum ripple current in the load depends on the value of inductor and is g
     >`ΔI` =(0.25 * `Vdc`) / (1.5 * `L`*`fs`)  
     `L` - phase inductance.  
 
-    The factor of 1.5 comes in the denominator due to the 3-phase symmetrical load condition. At every time instant, all three inductors are connected to the DC bus ( 1 series and 2 parallel) The equivalent circuit is mentioned [below](eq_inductance.png).  
+    The factor of 1.5 comes in the denominator due to the 3-phase symmetrical load condition. At every time instant, all three inductors are connected to the DC bus ( 1 series and 2 parallel) The equivalent circuit is mentioned below:  
+    
+    ![Inductance](eq_inductance.png).  
 
 To pay due diligence to the aspect of emulating physical motor circuits and at the same time minimize the ripple current, a 100uH inductor [PA4344.104NLT](https://www.digikey.com/en/products/detail/pulse-electronics-power/PA4344.104NLT/5436742) 
  is chosen.  
@@ -91,6 +93,7 @@ Thus, for the given ripple, capacitance can be calculated using the above equati
 >`C` = 625 uF  
 
 
+
 Considering a margin of 1.5, capacitor [EEU-FM1V102B](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEU-FM1V102B/6109617) of `1000uF` is selected.   
 
 
@@ -100,9 +103,9 @@ Considering a margin of 1.5, capacitor [EEU-FM1V102B](https://www.digikey.com/en
 
 | Motor                 | `R` (ohm) |  `L` (uH) | `R/L` (Ω/ mH) |
 | -------               | ------- | ------- | ----------- |
-| Thingap - LSI-25-10   | 0.993     | 11.878 | 83.6
-| Thingap - TG2310       | 0.31 | 20 | 15.5 |
-| Portescap - 16ECP36 Ultra EC | 0.47 | 40.4 | 11.7
+| [Thingap - LSI-25-10](https://www.thingap.com/wp-content/uploads/2020/12/LSI-25-10-Datasheet-Rev_C.pdf)   | 0.993     | 11.878 | 83.6
+| [Thingap - TG2310](https://www.thingap.com/wp-content/themes/ndic/pdf/TG2310.pdf)       | 0.31 | 20 | 15.5 |
+| [Portescap - 16ECP36 Ultra EC](https://www.portescap.com/en/products/brushless-dc-motors/all-bldc-motors) | 0.47 | 40.4 | 11.7
 |
 
 
