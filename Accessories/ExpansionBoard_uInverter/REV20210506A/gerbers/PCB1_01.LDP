@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Nikhil Deshpande\ProjectSpace\AMDC-Hardware\Accessories\ExpansionBoard_uInverter\Altium\uInverter\PCB1_01.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb1_01.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=pcb1_01-rectholes.txt|DrillLayers=gtl,gbl

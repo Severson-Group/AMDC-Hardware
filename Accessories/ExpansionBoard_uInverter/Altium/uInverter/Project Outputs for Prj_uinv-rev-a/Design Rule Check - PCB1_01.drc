@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Nikhil Deshpande\ProjectSpace\AMDC-Hardware\Accessories\ExpansionBoard_uInverter\Altium\uInverter\PCB1_01.PcbDoc
-Date     : 4/26/2021
-Time     : 4:22:15 PM
+Date     : 4/28/2021
+Time     : 2:28:05 PM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -48,4 +48,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Prj_uinv-rev-a.PrjPcb]
+   Generated File[PCB1_01.TXT]
+   Generated File[PCB1_01-RectHoles.TXT]
+   Generated File[PCB1_01.LDP]
+   Generated File[PCB1_01.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:01:17 PM On 4/27/2021
