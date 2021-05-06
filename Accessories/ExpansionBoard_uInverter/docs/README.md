@@ -3,7 +3,7 @@
 
 uInverter is an accessory board for the AMDC. The purpose of this board is to serve as a low-cost, micro-level prototype board to demonstrate three-phase current regulation using the AMDC.  
 
-![High level schematic](system.jpg)
+![High level schematic](images/system.jpg)
 
 ## Requirements 
 Keeping the basic purpose of the board in mind, following requirements are defined -  
@@ -104,7 +104,7 @@ Considering a margin of 1.5, capacitor [EEU-FM1V102B](https://www.digikey.com/en
 | [Thingap - LSI-25-10](https://www.thingap.com/wp-content/uploads/2020/12/LSI-25-10-Datasheet-Rev_C.pdf)   | 0.993     | 11.878 | 83.6
 | [Thingap - TG2310](https://www.thingap.com/wp-content/themes/ndic/pdf/TG2310.pdf)       | 0.31 | 20 | 15.5 |
 | [Portescap - 16ECP36 Ultra EC](https://www.portescap.com/en/products/brushless-dc-motors/all-bldc-motors) | 0.47 | 40.4 | 11.7
-|
+
 
 
 

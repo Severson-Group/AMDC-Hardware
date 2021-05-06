@@ -13,7 +13,7 @@ Following are the pin connections -
 > `B+` -> `PIN-3`  
 > `C+` -> `PIN-5`  
 
-![PWM connector](pwm_connection.png)
+![PWM connector](images/pwm_connection.PNG)
 
 
 ### Analog connection
@@ -26,13 +26,15 @@ Following are the pin connections -
 > `VDC_SENSE` -> `PIN-7B`  
 
 
-![Analog connector](analog_connection.png)
+![Analog connector](images/analog_connection.PNG)
 
 
 ### DC Voltage Connector
 The `12V` DC supply uses a barrel jack connector with ground-centre as marked on the PCB. Here is the [link to the datasheet of the connector](https://www.digikey.com/en/products/detail/cui-devices/PJ-037AH/1644547).  
-Here is an example of a usable [12V wall-wart connector](https://www.digikey.com/en/products/detail/phihong-usa/PSAA30R-120-R-CNR1/3061648). A phoenix connector `J7` is also provided for an alternative 12V supply connection.   
-![Analog connector](DC_12V_connection.png)
+Here is an example of a usable [12V wall-wart connector](https://www.digikey.com/en/products/detail/phihong-usa/PSAA30R-120-R-CNR1/3061648). A phoenix connector `J7` is also provided for an alternative 12V supply connection.    
+
+
+![DC connector](images/DC_12V_connection.PNG)
 
 
 ### Jumper connection
