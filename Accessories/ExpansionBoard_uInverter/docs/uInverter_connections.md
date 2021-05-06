@@ -13,11 +13,8 @@ Following are the pin connections -
 > `B+` -> `PIN-3`  
 > `C+` -> `PIN-5`  
 
-<<<<<<< HEAD
+
 ![PWM connector](images/pwm_connection.PNG)
-=======
-![PWM connector](IMAGES/pwm_connection.PNG)
->>>>>>> 3edd3739147ebf48439da9ede58f8169a4cef64a
 
 
 ### Analog connection
