@@ -1,6 +1,6 @@
 # uInverter Board
 
-This document decribes the details of the connections on the uInverter board. For detailed review of the connections, please refer [schematics](https://github.com/Severson-Group/AMDC-Hardware/tree/uinv-rev-a-pcb/Accessories/ExpansionBoard_uInverter/REV20210506A/uInverter-rev-a.pdf).
+This document decribes the details of the connections on the uInverter board. For detailed review of the connections, please refer [schematics](../REV20210506A/uInverter-rev-a.pdf).
 
 
 ## Connections with the AMDC
@@ -41,5 +41,5 @@ Here is an example of a usable [12V wall-wart connector](https://www.digikey.com
 ### Jumper connection
 The phase connection Phoenix connectors are normal-closed (NC) connections. Hence, jumpers should be used to short ONLY the following connectors - `J1,J1, J3, J4, J5, J6`. Here is a link to an example [phoenix contact jumper](https://www.digikey.com/en/products/detail/phoenix-contact/3030161/2263931?s=N4IgTCBcDaIMwAZEEYBsyQF0C%2BQ).  
 
-For more details, please refer the [schematics](https://github.com/Severson-Group/AMDC-Hardware/tree/uinv-rev-a-pcb/Accessories/ExpansionBoard_uInverter/REV20210506A/uInverter-rev-a.pdf).
+For more details, please refer the [schematics](../REV20210506A/uInverter-rev-a.pdf).
 

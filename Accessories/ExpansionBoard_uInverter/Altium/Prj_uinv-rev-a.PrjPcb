@@ -142,10 +142,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LGWENYLX
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Prj_uinv-rev-a\Design Rule Check - PCB1_uinv_rev_A.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=ProjectGroup
 Value=Severson Group
