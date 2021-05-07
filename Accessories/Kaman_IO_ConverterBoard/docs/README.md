@@ -30,7 +30,7 @@ This board was designed as an external adapter that converts the 4 differential 
 - Inputs: 2
 - Outputs: 2x2 (The single ended outputs are duplicated to accommodate driving multiple ADCs on the Kaman sensor)
 
-## Block Diagram / External Connections
+## Block Diagram
 
 <img src="images/io-converter.svg">
 
@@ -47,6 +47,7 @@ More information about cascading Schmitt-Triggers can be found [here](https://ar
 
 The Kaman I/O Converter board interfaces with the AMDC via the IsoSPI port, which uses a DB-15 connector.
 
+## External Connectors 
 ### AMDC Connector
 
 | Pin Number | Pin Name |
