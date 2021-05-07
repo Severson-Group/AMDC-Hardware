@@ -1,32 +1,49 @@
-# IO Converter Expansion Board
 
-This document describes the design considerations and implementation details for the AMDC I/O Converter expansion board.
+# Kaman I/O Converter Board
+
+This document describes the design considerations and implementation details for the Kaman I/O Converter board.
 
 ## Relevant Hardware Versions
 
 | Hardware | Version |
 |:--------:|:-------:|
 | AMDC     | REV D |
-| I/O Converter Board | REV A |
+| Kaman I/O Converter Board | REV B |
+
+## Revision History
+| Revision | Changelog |
+|----------|-----------|
+| REV B | <li>specifically designed for the Kaman KD-5690-FE eddy current sensor</li><li>general purpose screw post outputs were replaced with the specific DSUB micro 9-D connector used by the Kaman sensor</li><li>pads for glitch filters and passive filters were added to increase the boards noise immunity</li>|
+| REV A | <li>implements a general purpose differential to single ended I/O converter. No filters are present on the board</li>|
 
 ## Design Requirements and Considerations
 
-This board was designed as an external adapter that converts the 4 differential I/O from the AMDC IsoSPI port to single ended I/O. The board was designed to meet the following requirements: 
+This board was designed as an external adapter that converts the 4 differential I/O from the AMDC IsoSPI port to single ended I/O for the Kaman sensor. The board was designed to meet the following requirements:
 
 #### Differential Signals
 - Signal Voltage: 5V
 - Inputs: 2
 - Outputs: 2
+
 #### Single Ended Signals
 - Signal Voltage: 3.3V
 - Inputs: 2
-- Outputs: 2x2 (The single ended outputs are duplicated to accommodate driving multiple peripheral devices)
+- Outputs: 2x2 (The single ended outputs are duplicated to accommodate driving multiple ADCs on the Kaman sensor)
+
+## Glitch Filtering
+The Kaman I/O Converter Board REV B features glitch filters implemented using cascading Schmitt-Triggers. The glitch filters were included to remove digital noise propagating from the Kaman PCB to the Converter Board PCB. Each glitch filter consists of two Schmitt-Triggers preceded by a 1MHz LPF and 16MHz LPF respectively. The low pass filters normalize the digital signals to the intended operating speeds before entering the Schmitt-Triggers. The Schmitt-Triggers are cascaded to prevent metastability issues.
+
+### Schmitt-Triggers
+
+More information about the Schmitt-Triggers...
+
+More information about cascading Schmitt-Triggers can be found [here](https://arxiv.org/pdf/2006.08415.pdf).
 
 ## Block Diagram / External Connections
 
 <img src="images/io-converter.svg">
 
-The AMDC I/O Converter expansion board interfaces with the AMDC via the IsoSPI port, which uses a DB-15 connector. 
+The Kaman I/O Converter board interfaces with the AMDC via the IsoSPI port, which uses a DB-15 connector.
 
 ### AMDC Connector
 
@@ -48,15 +65,28 @@ The AMDC I/O Converter expansion board interfaces with the AMDC via the IsoSPI p
 | 14 | GP2_OUT_P |
 | 15 | GP2_OUT_N |
 
-The AMDC I/O Converter expansion board interfaces with peripheral devices via leads connected to the screw post terminal.
+The Kaman I/O Converter board interfaces with the Kaman sensor through a DSUB micro 9-D connector.
 
-### Screw Terminal 
+### Kaman Connector
+| Pin Number | Pin Name |
+|:----------:|:--------:|
+| 1  | 24V |
+| 2  | XCNV |
+| 3  | XSCLK |
+| 4  | XMISO |
+| 5  | GND |
+| 6  | YCNV |
+| 7  | YSCLK |
+| 8  | YMISO |
+| 9  | GND |
 
-| Pin Number | Pin Name | Silk Screen Marking |
-|:----------:|:--------:|:-------------------:|
-| 1  | GP2_OUT_3.3V | OUT 2 |
-| 2  | GP2_OUT_3.3V | OUT 2 |
-| 3  | GP1_OUT_3.3V | OUT 1 |
-| 4  | GP1_OUT_3.3V | OUT 1 |
-| 5  | GP2_IN_3.3V  | IN 2  |
-| 6  | GP1_IN_3.3V  | IN 1  |
+The digital input voltage to the Kaman sensor is supplied externally through the screw post terminal.
+
+### Screw Terminal
+
+| Pin Number | Pin Name |
+|:----------:|:--------:|
+| 1  | 24V |
+| 2  | GND |
+| 3  | GND |
+| 4  | GND |
