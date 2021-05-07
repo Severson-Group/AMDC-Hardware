@@ -69,9 +69,8 @@ The maximum ripple current in the load depends on the value of inductor and is g
     >`ΔI` =(0.25 * `Vdc`) / (1.5 * `L`*`fs`)  
     `L` - phase inductance.  
 
-    The factor of 1.5 comes in the denominator due to the 3-phase symmetrical load condition. At every time instant, all three inductors are connected to the DC bus ( 1 series and 2 parallel) The equivalent circuit is mentioned below:  
-    
-    ![Inductance](eq_inductance.png).  
+    The factor of 1.5 comes in the denominator due to the 3-phase symmetrical load condition. At every time instant, all three inductors are connected to the DC bus ( 1 series and 2 parallel).
+
 
 To pay due diligence to the aspect of emulating physical motor circuits and at the same time minimize the ripple current, a 100uH inductor [PA4344.104NLT](https://www.digikey.com/en/products/detail/pulse-electronics-power/PA4344.104NLT/5436742) 
  is chosen.  
