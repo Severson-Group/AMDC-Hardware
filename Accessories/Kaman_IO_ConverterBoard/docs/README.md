@@ -31,11 +31,13 @@ This board was designed as an external adapter that converts the 4 differential 
 - Outputs: 2x2 (The single ended outputs are duplicated to accommodate driving multiple ADCs on the Kaman sensor)
 
 ## Glitch Filtering
-The Kaman I/O Converter Board REV B features glitch filters implemented using cascading Schmitt-Triggers. The glitch filters were included to remove digital noise propagating from the Kaman PCB to the Converter Board PCB. Each glitch filter consists of two Schmitt-Triggers preceded by a 1MHz LPF and 16MHz LPF respectively. The low pass filters normalize the digital signals to the intended operating speeds before entering the Schmitt-Triggers. The Schmitt-Triggers are cascaded to prevent metastability issues.
+The Kaman I/O Converter Board REV B features glitch filters implemented using cascading Schmitt-Triggers. The glitch filters were included to remove digital noise propagating from the Kaman PCB to the Converter Board PCB. Each glitch filter consists of two Schmitt-Triggers preceded by a 16MHz LPF and 1MHz LPF respectively. The low pass filters prevent short errant pulses and noise from propagating through, corrupting the SPI data from the Kaman sensor. The LPF corner frequencies were chosen based on LTspice simulation approximating the noise that was physically measured on the Kaman SPI line. The 16MHz LPF is intended to reduce high frequency noise/ripple on the data line, while the 1MHz LPF is intended to reject short pulses/glitches that are propagated through the data line. 1MHz is the maximum expected clock frequency of the data line. 
+
+While cascading the Schmitt-Triggers can prevent metastability issues, they were initially chosen to be cascaded from experience with this "cookbook" design. This is a filter arrangement that had been used in the past with success and the topology was applied here. This design can likely be implemented with a single non-inverting Schmitt trigger. 
+
+The LPF corner frequencies will need to be tuned once the board is complete as the noise characteristics will change. The added propagation delay needs to be accounted for in the SPI receiver of the AMDC.
 
 ### Schmitt-Triggers
-
-More information about the Schmitt-Triggers...
 
 More information about cascading Schmitt-Triggers can be found [here](https://arxiv.org/pdf/2006.08415.pdf).
 
