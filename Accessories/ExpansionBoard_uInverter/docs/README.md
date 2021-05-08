@@ -56,7 +56,7 @@ Hence,
 
 ## Load Inductor:
 For determining the value of load inductor, following aspects of operation are connsidered -
-1. **R/L ratio:** The purpose of the board is to demonstrate current regulation. Current regulation is predominantly used in motors for torque and speed control in numerous applications. Hence, the load R and L values are chosen to emulate a motor to some extent. Typically, the R/L ratio for [motors](Readme.md#References) lie somewhere in the range of 10 to 100 Ω/mH, with L being in the range of 20 to 100 uH. The inductor is chosen in such a way that the overall load resistance (seen the AC source) has ratio in the above-mentioned range.
+1. **R/L ratio:** The purpose of the board is to demonstrate current regulation. Current regulation is predominantly used in motors for torque and speed control in numerous applications. Hence, the load R and L values are chosen to emulate real life high speed low inductance motors to certain extent. Typically, the R/L ratio for [target high speed low inductance motors](#ref) lie somewhere in the range of 10 to 100 Ω/mH, with L being in the range of 20 to 100 uH. The inductor is chosen in such a way that the overall load resistance (seen the AC source) has ratio in the above-mentioned range.
 2. __Resistance:__ The load inductor is selected to have a high resistance. This will eliminate the need of a separate resistor in the RL load and will also reduce the number of large components on the board (and hence, the size of the board).
 3. __Load impedance:__
 Maximum commutation frequency of regulation current fcw = 1kHz
@@ -71,10 +71,12 @@ The maximum ripple current in the load depends on the value of inductor and is g
 
     The factor of 1.5 comes in the denominator due to the 3-phase symmetrical load condition. At every time instant, all three inductors are connected to the DC bus ( 1 series and 2 parallel).
 
-To pay due diligence to the aspect of emulating physical motor circuits and at the same time minimize the ripple current, a 100uH inductor [PA4344.104NLT](https://www.digikey.com/en/products/detail/pulse-electronics-power/PA4344.104NLT/5436742) 
- is chosen.  
+  From the above equation, it would be desirable to have as high inductance as possible for minimizing the ripple current. However, this reduces the R/L ratio. On the other hand, if the inductance is reduced to achieve a good R/L ratio, the ripple current increases.  
+  It can be observed from the above discussion that there is a tradeoff between the R/L ratio and the ripple current. To pay due diligence to the aspect of emulating behaviour of physical real-life high speed - low inductance motors and at the same time minimize the ripple current, `100uH` inductor [PA4344.104NLT](https://www.digikey.com/en/products/detail/pulse-electronics-power/PA4344.104NLT/5436742) is chosen. 
 
- > `L` = 100 uH  
+ > `L` = 100 uH   
+
+ This inductor has an ESR of `118 mΩ`. Thus, along with sensing resistor and the Gate driver output resistance, the half bridge yeilds the R/L ratio of `~ 8`. This is  close to the R/L ratio of low inductance high speed motors. Example of benchmarked motors are mentioned in the [References](#ref) section below.
 
 
 ## DC link capacitor:
@@ -92,10 +94,10 @@ Thus, for the given ripple, capacitance can be calculated using the above equati
 
 
 
-Considering a margin of 1.5, capacitor [EEU-FM1V102B](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEU-FM1V102B/6109617) of `1000uF` is selected.   
+Considering a margin of 1.5x, capacitor [EEU-FM1V102B](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEU-FM1V102B/6109617) of `1000uF` is selected.   
 
 
-## References – 
+## <a name="ref"></a> References – 
 
 [1] Benchmark motor specifications:  
 
