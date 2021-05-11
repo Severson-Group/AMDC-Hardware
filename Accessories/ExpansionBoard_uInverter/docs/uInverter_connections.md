@@ -1,6 +1,6 @@
 # uInverter Board
 
-This document decribes the details of connections on the uInverter board. For detailed review of the board, please refer to the [schematics](../REV20210506A/uInverter-rev-a.pdf).
+This document describes the connections on the uInverter board. For detailed review of the board, please refer to the [schematics](../REV20210506A/uInverter-rev-a.pdf).
 
 
 ## Connections with the AMDC
@@ -30,7 +30,7 @@ Following are the pin connections -
 
 
 ## Analog connection
-For providing feedback of current and voltage (analog sensing), uInverter board uses [RJSAE connector](https://www.digikey.com/en/products/detail/amphenol-icc-commercial-products/RJSAE-5385-02/1242709), similar to the [analog connector on the AMDC](https://github.com/Severson-Group/AMDC-Hardware/blob/develop/docs/Analog.md). Three phase current signals and the DC link voltage signal generated on the uInverter are fed back to the AMDC using connector `CONN3` - `ANALOG SENSING`. 
+For providing feedback of current and voltage (analog sensing), uInverter board uses [RJSAE connector](https://www.digikey.com/en/products/detail/amphenol-icc-commercial-products/RJSAE-5385-02/1242709) similar to the [analog connector on the AMDC](https://github.com/Severson-Group/AMDC-Hardware/blob/develop/docs/Analog.md). Three phase current signals and the DC link voltage signal generated on the uInverter are fed back to the AMDC using connector `CONN3` - `ANALOG SENSING`. 
 Following are the pin connections on the uInverter and AMDC board -  
 
 
@@ -48,7 +48,7 @@ Following are the pin connections on the uInverter and AMDC board -
 
 
 ## DC Voltage Connector
-The `12V` DC supply uses a barrel jack connector with ground-centre as marked on the PCB. Here is the [link to the datasheet of the connector](https://www.digikey.com/en/products/detail/cui-devices/PJ-037AH/1644547).  
+The `12V` DC supply uses a barrel jack connector with ground-center as marked on the PCB. Here is the [link to the datasheet of the connector](https://www.digikey.com/en/products/detail/cui-devices/PJ-037AH/1644547).  
 Here is an example of a usable [12V wall-wart connector](https://www.digikey.com/en/products/detail/phihong-usa/PSAA30R-120-R-CNR1/3061648). A phoenix connector `J7` is also provided for an alternative 12V supply connection.  
 
 ### Jumper connection
