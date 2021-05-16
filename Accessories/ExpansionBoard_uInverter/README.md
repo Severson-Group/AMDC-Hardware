@@ -7,7 +7,7 @@ The board features -
 - BNC connector to directly measure the current waveforms on an oscilloscope conveniently.    
 
 
-![PCB 3D](REV20210506A/uInverter3D_02.JPG)
+![PCB 3D](REV20210506A/snapshots/uInverter3D_02.JPG)
 
 ## Documentation
 

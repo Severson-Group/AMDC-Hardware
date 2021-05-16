@@ -70,8 +70,8 @@ Hence,
 
  The current sense resistor [15FR150E](https://www.digikey.com/en/products/detail/ohmite/15FR150E/822919) is `0.15Ω`.
   The power loss in the resistor can be found using the following equation - 
- > `P_loss = I<sup>2</sup> * R_shunt`  
- > `P_loss = 4<sup>2</sup> * 0.15`  
+ > `P_loss` = `I`<sup>`2`</sup> * `R_shunt`  
+ > `P_loss` = `4`<sup>`2`</sup> * `0.15`  
  > `P_loss = 2.4 W`  
 
  The resistor is rated for 5W (ambient cooling) condition, it is a good fit for the application. 
