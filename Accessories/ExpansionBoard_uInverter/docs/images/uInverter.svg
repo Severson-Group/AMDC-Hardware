@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="12.253318in"
-   height="9.6613483in"
-   viewBox="0 0 311.23428 245.39825"
+   width="12.889479in"
+   height="10.173825in"
+   viewBox="0 0 327.39277 258.41516"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
@@ -29,22 +29,6 @@
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path10099"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="TriangleOutM"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="TriangleOutM"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path2040"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
-         transform="scale(0.4)"
          inkscape:connector-curvature="0" />
     </marker>
     <marker
@@ -367,22 +351,6 @@
        orient="auto"
        refY="0"
        refX="0"
-       id="TriangleOutM-7"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path2040-6"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
-         transform="scale(0.4)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="TriangleOutM"
-       orient="auto"
-       refY="0"
-       refX="0"
        id="TriangleOutM-8"
        style="overflow:visible"
        inkscape:isstock="true"
@@ -501,6 +469,99 @@
          transform="scale(0.4)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-8-6-8"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2040-88-7-3"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#800080;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-8-8"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2040-88-8"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-8-7"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2040-88-5"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-67-5-1-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2040-5-9-4-1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#800080;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-67-5-1-83"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2040-5-9-4-7"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#800080;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-67-5-1-6-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2040-5-9-4-1-7"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#800080;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -509,9 +570,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="403.69372"
-     inkscape:cy="334.88474"
+     inkscape:zoom="1.979899"
+     inkscape:cx="607.67167"
+     inkscape:cy="383.09673"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -542,29 +603,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(77.296481,-157.62973)">
-    <g
-       id="g2632-4"
-       transform="translate(2.3282858,51.385292)">
-      <text
-         id="text819-1-8-3-7-8"
-         y="181.37236"
-         x="12.223721"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           sodipodi:role="line"
-           id="tspan2572-1"
-           x="12.223721"
-           y="181.37236">From AMDC</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect13405-6-5"
-         width="28.6134"
-         height="7.6340246"
-         x="10.705153"
-         y="175.94458"
-         ry="0" />
-    </g>
+     transform="translate(93.454967,-155.73183)">
+    <path
+       style="fill:#800080;stroke:#800080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-8-6-8)"
+       d="M -74.352318,350.62961 H -61.99064"
+       id="path2479-9-2-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <rect
        y="246.70573"
        x="181.38835"
@@ -777,35 +822,35 @@
        x="111.7252"
        y="194.30464" />
     <rect
-       y="246.53156"
-       x="-64.346481"
+       y="245.49213"
+       x="-80.504967"
        height="35.289825"
        width="33.271481"
        id="rect815-5"
        style="fill:#d7e3f4;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text819-5"
-       y="262.7869"
-       x="-61.888248"
+       y="261.7468"
+       x="-78.036598"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.2318px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.292115"
        xml:space="preserve"
        transform="scale(1.0006275,0.9993729)"><tspan
          sodipodi:role="line"
          id="tspan4179"
-         x="-61.888248"
-         y="262.7869"
+         x="-78.036598"
+         y="261.7468"
          style="stroke-width:0.292115">DC Supply</tspan></text>
     <text
        id="text819-5-14"
-       y="268.35587"
-       x="-53.317635"
+       y="267.31577"
+       x="-69.465981"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.89488px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.292115"
        xml:space="preserve"
        transform="scale(1.0006275,0.9993729)"><tspan
          sodipodi:role="line"
          id="tspan4205"
-         x="-53.317635"
-         y="268.35587"
+         x="-69.465981"
+         y="267.31577"
          style="stroke-width:0.292115">(12V)</tspan></text>
     <rect
        y="190.3445"
@@ -853,20 +898,14 @@
          x="46.541286"
          y="176.97182">PWM-A</tspan></text>
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
-       d="m 162.74325,178.00814 h 27.79537"
-       id="path2479"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5)"
-       d="M 6.6702694,200.9583 H 27.197776"
+       d="M 2.918903,200.9583 H 27.197776"
        id="path2479-3-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-55)"
-       d="m 17.978923,251.62658 h 7.81764"
+       d="m 19.315271,250.02296 h 7.81764"
        id="path2479-3-8-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -876,17 +915,15 @@
        id="path4258-5-7-4"
        inkscape:connector-curvature="0" />
     <g
-       id="g4583"
-       transform="matrix(0.74239796,0,0,1,14.426441,0)"
-       style="stroke-width:1.1606;stroke-miterlimit:4;stroke-dasharray:none">
+       id="g1364">
       <path
-         style="fill:none;stroke:#800080;stroke-width:1.1606;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 34.039982,179.63637 h 21.47802"
+         style="fill:none;stroke:#800080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 39.697654,179.63637 H 55.642892"
          id="path4258-5-0"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <path
-         style="fill:none;stroke:#800080;stroke-width:1.1606;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-1)"
+         style="fill:none;stroke:#800080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-1)"
          d="m 56.002822,179.1408 v 7.81764"
          id="path2479-3-8-14"
          inkscape:connector-curvature="0"
@@ -894,27 +931,15 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 6.6396513,200.84677 -1.4e-5,50.59082"
+       d="m 2.9354844,200.63447 -1.4e-5,49.41713"
        id="path10006-2-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -30.831391,251.62658 H 17.978923"
+       d="M -47.070936,250.02296 H 19.315271"
        id="path10065"
        inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="165.65601"
-       y="173.40758"
-       id="text819-5-8-91-5-0-8-1"><tspan
-         sodipodi:role="line"
-         id="tspan1565"
-         x="165.65601"
-         y="173.40758">I<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan1567">a</tspan>_sense</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 137.97623,199.97648 h 4.43217 l 1.15072,-3.13819 2.10816,5.72043 2.08733,-5.83292 2.01481,5.79692 2.00735,-5.77553 2.01063,5.78479 1.95358,-5.82405 1.90056,5.87514 0.98041,-3.0241 h 3.88955"
@@ -923,45 +948,25 @@
        sodipodi:nodetypes="cccccccccccc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-25.919415"
-       y="331.27917"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:'Cambria Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'Cambria Math, Normal';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+       x="-76.568222"
+       y="332.79108"
        id="text819-5-1-8-7"><tspan
          sodipodi:role="line"
          id="tspan817-98-4-4-5"
-         x="-25.919415"
-         y="331.27917"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';stroke-width:0.264583">Legend:</tspan></text>
+         x="-76.568222"
+         y="332.79108"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555556px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';stroke-width:0.264583;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">Legend:</tspan></text>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#e6e6e6;stroke-width:1.01271;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#e6e6e6;stroke-width:1.258;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect10528"
-       width="92.612877"
-       height="67.116203"
-       x="-30.32633"
-       y="322.70541" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-6.6250114"
-       y="339.42752"
-       id="text819-5-1-8-5"><tspan
-         sodipodi:role="line"
-         id="tspan1981"
-         x="-6.6250114"
-         y="339.42752">analog sensing signals</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-4.6649294"
-       y="359.43729"
-       id="text819-5-80-35-6"><tspan
-         sodipodi:role="line"
-         id="tspan2355"
-         x="-4.6649294"
-         y="359.43729">Current Sense Resistor</tspan></text>
+       width="122.98366"
+       height="77.989937"
+       x="-80.852493"
+       y="324.33997" />
     <g
        id="g1303"
-       transform="translate(3.3622486,44.929245)">
+       transform="translate(-48.231501,51.921805)">
       <rect
          y="307.62088"
          x="-26.775755"
@@ -976,19 +981,9 @@
          d="m -24.212544,312.79713 h 1.98437 l 0.5152,-1.82251 0.94387,3.32215 0.93454,-3.38748 0.90207,3.36657 0.89873,-3.35415 0.9002,3.35953 0.87466,-3.38233 0.85092,3.412 0.43895,-1.75625 h 1.74143"
          style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-5.0529861"
-       y="348.21317"
-       id="text819-5-1-1"><tspan
-         sodipodi:role="line"
-         id="tspan2289"
-         x="-5.0529861"
-         y="348.21317">PWM signals</tspan></text>
     <rect
-       y="376.83878"
-       x="-22.995316"
+       y="387.61108"
+       x="-74.589066"
        height="7.8434038"
        width="16.576639"
        id="rect964-2-7"
@@ -996,41 +991,30 @@
     <path
        inkscape:connector-curvature="0"
        id="path966-9-8"
-       d="m -18.968318,380.98121 h -1.72054"
+       d="m -70.562067,391.75352 h -1.72054"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        id="path966-1-04-6"
-       d="M -8.8371378,381.09814 H -10.557678"
+       d="m -60.430887,391.87045 h -1.72054"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        id="path983-6-4"
-       d="m -18.968318,380.98121 7.34991,-1.98781"
+       d="m -70.562067,391.75352 7.34991,-1.98781"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <circle
        r="0.67652601"
-       cy="381.0397"
-       cx="-18.926575"
+       cy="391.81201"
+       cx="-70.520325"
        id="path985-72-7"
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
        r="0.67652601"
-       cy="380.99792"
-       cx="-10.649565"
+       cy="391.77023"
+       cx="-62.243313"
        id="path985-7-8-4"
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-3.8942742"
-       y="381.60507"
-       id="text819-5-80-35-6-5"><tspan
-         sodipodi:role="line"
-         id="tspan817-98-5-6-3-8"
-         x="-3.8942742"
-         y="381.60507"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';stroke-width:0.264583">Jumper</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 89.806349,200.41035 H 111.28437"
@@ -1125,13 +1109,13 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-55-9)"
-       d="M 6.7206281,304.07974 H 26.545315"
+       d="M 3.063552,304.07974 H 26.545315"
        id="path2479-3-8-3-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 6.6396373,251.43759 -1.4e-5,52.8956"
+       d="m 2.9354704,250.0516 -1.4e-5,54.28159"
        id="path10006-2-0-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -1178,28 +1162,10 @@
        x="139.45982"
        y="245.44139" />
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-7)"
-       d="m 162.44853,229.29736 h 17.80749"
-       id="path2479-71"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 131.58695,251.2657 h 6.09456"
        id="path4258-5-7-4-4"
        inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="163.35677"
-       y="224.69678"
-       id="text819-5-8-91-5-0-8-1-2"><tspan
-         sodipodi:role="line"
-         id="tspan1565-8"
-         x="163.35677"
-         y="224.69678">I<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan4175">b</tspan>_sense</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 137.68151,251.2657 h 4.43217 l 1.15072,-3.13819 2.10816,5.72043 2.08733,-5.83292 2.01481,5.79692 2.00735,-5.77553 2.01063,5.78479 1.95358,-5.82405 1.90056,5.87514 0.98041,-3.0241 h 3.88955"
@@ -1357,12 +1323,12 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="164.86031"
-       y="277.52643"
+       y="276.01453"
        id="text819-5-8-91-5-0-8-1-1"><tspan
          sodipodi:role="line"
          id="tspan1565-4"
          x="164.86031"
-         y="277.52643">I<tspan
+         y="276.01453">I<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan4177">c</tspan>_sense</tspan></text>
     <path
@@ -1565,7 +1531,7 @@
     </g>
     <g
        id="g21529-4-5"
-       transform="matrix(1.0074647,0,0,0.90870278,-65.306113,113.17976)"
+       transform="matrix(1.0074647,0,0,0.90870278,-81.464595,112.14033)"
        style="stroke-width:1.04514;stroke-miterlimit:4;stroke-dasharray:none">
       <path
          sodipodi:nodetypes="ccc"
@@ -1580,14 +1546,8 @@
          style="fill:none;stroke:#000000;stroke-width:1.04514;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <path
-       style="fill:none;stroke:#800080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-1-8-4)"
-       d="m -22.100193,346.34368 11.147535,0.0659"
-       id="path2479-3-8-14-7-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
        style="fill:#008000;stroke:#008000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-8-6)"
-       d="m -23.391881,337.92583 h 12.361678"
+       d="m -74.04069,339.43773 h 12.361678"
        id="path2479-9-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -1596,230 +1556,300 @@
        id="rect815-5-2-03-7-9-6"
        width="16.689777"
        height="8.1697264"
-       x="-23.252098"
-       y="365.15842" />
+       x="-74.562363"
+       y="374.13535" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.495;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -23.169897,370.0297 2.11233,-0.0437 c 0,0 -0.09402,-3.05344 1.442212,-3.0853 1.536237,-0.0319 1.630237,3.02159 1.630237,3.02159 0,0 -0.09402,-3.05343 1.442196,-3.08529 1.536229,-0.0319 1.630246,3.02159 1.630246,3.02159 0,0 -0.09446,-3.05343 1.442228,-3.08528 1.536221,-0.0319 1.630237,3.02158 1.630237,3.02158 0,0 -0.0936,-3.05344 1.442204,-3.08528 1.5362372,-0.0319 1.6302532,3.02159 1.6302532,3.02159 l 2.1122979,-0.0437"
+       d="m -74.480164,379.00662 2.11233,-0.0437 c 0,0 -0.09402,-3.05344 1.442212,-3.0853 1.536237,-0.0319 1.630237,3.02159 1.630237,3.02159 0,0 -0.09402,-3.05343 1.442196,-3.08529 1.536229,-0.0319 1.630246,3.02159 1.630246,3.02159 0,0 -0.09446,-3.05343 1.442228,-3.08528 1.536221,-0.0319 1.630237,3.02158 1.630237,3.02158 0,0 -0.0936,-3.05344 1.442204,-3.08528 1.536237,-0.0319 1.630253,3.02159 1.630253,3.02159 l 2.112298,-0.0437"
        id="path1318-5-5-9"
        sodipodi:nodetypes="ccscscscscc"
        inkscape:transform-center-x="4.5107065"
        inkscape:transform-center-y="5.2878172" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-5.1053586"
-       y="370.54733"
-       id="text819-5-80-35-6-9"><tspan
+       id="text819-1-8-3-7-9"
+       y="285.01285"
+       x="13.607065"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan2353"
-         x="-5.1053586"
-         y="370.54733">Load inductor</tspan></text>
-    <g
-       id="g2577">
-      <text
-         id="text819-1-8-3"
-         y="180.04079"
-         x="194.5526"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           sodipodi:role="line"
-           id="tspan2524"
-           x="194.5526"
-           y="180.04079">To AMDC</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect13405"
-         width="22.820169"
-         height="7.6340246"
-         x="193.33398"
-         y="174.2121"
-         ry="0" />
-    </g>
-    <g
-       id="g2632">
-      <text
-         id="text819-1-8-3-7"
-         y="181.37236"
-         x="12.223721"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           sodipodi:role="line"
-           id="tspan2572"
-           x="12.223721"
-           y="181.37236">From AMDC</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect13405-6"
-         width="28.6134"
-         height="7.6340246"
-         x="10.705153"
-         y="175.94458"
-         ry="0" />
-    </g>
-    <g
-       id="g2577-7"
-       transform="translate(-10.132019,51.228565)">
-      <text
-         id="text819-1-8-3-77"
-         y="180.04079"
-         x="194.5526"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           sodipodi:role="line"
-           id="tspan2524-0"
-           x="194.5526"
-           y="180.04079">To AMDC</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect13405-1"
-         width="22.820169"
-         height="7.6340246"
-         x="193.33398"
-         y="174.2121"
-         ry="0" />
-    </g>
-    <g
-       id="g2577-3"
-       transform="translate(-8.4311259,103.38928)">
-      <text
-         id="text819-1-8-3-6"
-         y="180.04079"
-         x="194.5526"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           sodipodi:role="line"
-           id="tspan2524-6"
-           x="194.5526"
-           y="180.04079">To AMDC</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect13405-2"
-         width="22.820169"
-         height="7.6340246"
-         x="193.33398"
-         y="174.2121"
-         ry="0" />
-    </g>
-    <g
-       id="g4583-9"
-       transform="matrix(0.74239796,0,0,1,16.754727,51.385292)"
-       style="stroke-width:1.1606;stroke-miterlimit:4;stroke-dasharray:none">
-      <path
-         style="fill:none;stroke:#800080;stroke-width:1.1606;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 34.039982,179.63637 h 21.47802"
-         id="path4258-5-0-2"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#800080;stroke-width:1.1606;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-1-9)"
-         d="m 56.002822,179.1408 v 7.81764"
-         id="path2479-3-8-14-2"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-    </g>
-    <g
-       id="g4583-8"
-       transform="matrix(0.74239796,0,0,1,18.644608,103.92398)"
-       style="stroke-width:1.1606;stroke-miterlimit:4;stroke-dasharray:none">
-      <path
-         style="fill:none;stroke:#800080;stroke-width:1.1606;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 34.039982,179.63637 h 21.47802"
-         id="path4258-5-0-9"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#800080;stroke-width:1.1606;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-1-86)"
-         d="m 56.002822,179.1408 v 7.81764"
-         id="path2479-3-8-14-7"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-    </g>
-    <g
-       id="g2632-3"
-       transform="translate(4.2181672,103.92398)">
-      <text
-         id="text819-1-8-3-7-9"
-         y="181.37236"
-         x="12.223721"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           sodipodi:role="line"
-           id="tspan2572-4"
-           x="12.223721"
-           y="181.37236">From AMDC</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect13405-6-7"
-         width="28.6134"
-         height="7.6340246"
-         x="10.705153"
-         y="175.94458"
-         ry="0" />
-    </g>
+         id="tspan2572-4"
+         x="13.607065"
+         y="285.01285">From AMDC</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -25.256242,251.62658 v 1.98437 l 1.82251,0.5152 -3.32215,0.94387 3.38748,0.93454 -3.36657,0.90207 3.35415,0.89873 -3.35953,0.9002 3.38233,0.87466 -3.412,0.85092 1.75625,0.43895 v 1.74143"
+       d="m -41.414724,250.58715 v 1.98437 l 1.82251,0.5152 -3.32215,0.94387 3.38748,0.93454 -3.36657,0.90207 3.35415,0.89873 -3.35953,0.9002 3.38233,0.87466 -3.412,0.85092 1.75625,0.43895 v 1.74143"
        id="path5138"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -25.013772,265.78654 v 1.98437 l 1.82251,0.5152 -3.32215,0.94387 3.38748,0.93454 -3.36657,0.90207 3.35415,0.89873 -3.35953,0.9002 3.38233,0.87466 -3.412,0.85092 1.75625,0.43895 v 1.74143"
+       d="m -41.172254,264.74711 v 1.98437 l 1.82251,0.5152 -3.32215,0.94387 3.38748,0.93454 -3.36657,0.90207 3.35415,0.89873 -3.35953,0.9002 3.38233,0.87466 -3.412,0.85092 1.75625,0.43895 v 1.74143"
        id="path5138-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -25.013772,262.61152 0.0025,3.49493"
+       d="m -41.172254,261.57209 0.0025,3.49493"
        id="path4258-5-0-85-5-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#008000;stroke:#008000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-7-0)"
-       d="m -8.5044726,263.37993 -0.051313,6.82348"
+       d="m -17.533066,262.34861 -0.05131,6.82348"
        id="path2479-71-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <g
-       id="g2577-7-9"
-       transform="translate(-212.07721,99.056515)">
-      <text
-         id="text819-1-8-3-77-7"
-         y="180.04079"
-         x="194.5526"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         xml:space="preserve"><tspan
-           sodipodi:role="line"
-           id="tspan2524-0-4"
-           x="194.5526"
-           y="180.04079">To AMDC</tspan></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect13405-1-0"
-         width="22.820169"
-         height="7.6340246"
-         x="193.33398"
-         y="174.2121"
-         ry="0" />
-    </g>
+    <text
+       id="text819-1-8-3-77-7"
+       y="278.43585"
+       x="-27.493731"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2524-0-4"
+         x="-27.493731"
+         y="278.43585">To AMDC</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#008000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -8.5879943,263.88727 -16.1965287,0.009"
+       d="m -18.042577,262.84784 -22.900428,0.009"
        id="path3845"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-19.914276"
-       y="260.5542"
+       x="-36.072758"
+       y="259.51477"
        id="text819-5-8-91-5-0-8-1-28"><tspan
          sodipodi:role="line"
          id="tspan1342"
-         x="-19.914276"
-         y="260.5542">V<tspan
+         x="-36.072758"
+         y="259.51477">V<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan1344">DC</tspan>_sense</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.553032;stroke-miterlimit:4;stroke-dasharray:1.6591, 1.6591;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13405-1-0-6"
+       width="34.537785"
+       height="10.641971"
+       x="9.0892725"
+       y="278.13571"
+       ry="0" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13405-1-0-6-7"
+       width="31.65085"
+       height="9.4922895"
+       x="-33.874138"
+       y="272.22955"
+       ry="0" />
+    <text
+       id="text819-1-8-3-7-9-2"
+       y="341.06085"
+       x="-53.70866"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan1811"
+         x="-53.70866"
+         y="341.06085">Analog sensing signals</tspan></text>
+    <text
+       id="text819-1-8-3-7-9-2-2"
+       y="352.53079"
+       x="-53.317986"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan1837"
+         x="-53.317986"
+         y="352.53079">PWM signals</tspan></text>
+    <text
+       id="text819-1-8-3-7-9-2-2-3"
+       y="366.02786"
+       x="-53.217182"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan1865"
+         x="-53.217182"
+         y="366.02786">Current Sense Resistor</tspan></text>
+    <text
+       id="text819-1-8-3-7-9-2-2-3-2"
+       y="380.31729"
+       x="-52.957184"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan1891"
+         x="-52.957184"
+         y="380.31729">Load Inductor</tspan></text>
+    <text
+       id="text819-1-8-3-7-9-2-2-3-2-1"
+       y="392.6806"
+       x="-52.086544"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan1917"
+         x="-52.086544"
+         y="392.6806">Jumper</tspan></text>
+    <text
+       id="text819-1-8-3-77-7-0"
+       y="283.63748"
+       x="191.75334"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2524-0-4-6"
+         x="191.75334"
+         y="283.63748">To AMDC</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13405-1-0-6-7-3"
+       width="31.65085"
+       height="9.4922895"
+       x="185.37294"
+       y="277.43118"
+       ry="0" />
+    <path
+       style="fill:#008000;stroke:#008000;stroke-width:1.12774;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-8-8)"
+       d="m 162.56041,228.97031 h 18.93674"
+       id="path2479-9-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="163.93556"
+       y="224.28198"
+       id="text819-5-8-91-5-0-8-1-1-2"><tspan
+         sodipodi:role="line"
+         id="tspan3060"
+         x="163.93556"
+         y="224.28198">I<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3062">b</tspan>_sense</tspan></text>
+    <text
+       id="text819-1-8-3-77-7-0-2"
+       y="231.01535"
+       x="191.86523"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2524-0-4-6-8"
+         x="191.86523"
+         y="231.01535">To AMDC</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13405-1-0-6-7-3-7"
+       width="31.65085"
+       height="9.4922895"
+       x="185.48483"
+       y="224.80905"
+       ry="0" />
+    <path
+       style="fill:#008000;stroke:#008000;stroke-width:1.12774;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-8-7)"
+       d="m 163.09495,177.65456 h 18.93674"
+       id="path2479-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="164.61516"
+       y="171.50967"
+       id="text819-5-8-91-5-0-8-1-1-1"><tspan
+         sodipodi:role="line"
+         id="tspan3056"
+         x="164.61516"
+         y="171.50967">I<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan3058">a</tspan>_sense</tspan></text>
+    <text
+       id="text819-1-8-3-77-7-0-4"
+       y="179.6996"
+       x="192.39977"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2524-0-4-6-2"
+         x="192.39977"
+         y="179.6996">To AMDC</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:1.5, 1.5;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13405-1-0-6-7-3-71"
+       width="31.65085"
+       height="9.4922895"
+       x="186.01936"
+       y="173.4933"
+       ry="0" />
+    <text
+       id="text819-1-8-3-7-9-1"
+       y="232.89125"
+       x="12.194977"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2572-4-0"
+         x="12.194977"
+         y="232.89125">From AMDC</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.553032;stroke-miterlimit:4;stroke-dasharray:1.6591, 1.6591;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13405-1-0-6-3"
+       width="34.537785"
+       height="10.641971"
+       x="7.6771851"
+       y="226.01411"
+       ry="0" />
+    <text
+       id="text819-1-8-3-7-9-6"
+       y="181.29749"
+       x="9.5491457"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2572-4-3"
+         x="9.5491457"
+         y="181.29749">From AMDC</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.553032;stroke-miterlimit:4;stroke-dasharray:1.6591, 1.6591;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13405-1-0-6-0"
+       width="34.537785"
+       height="10.641971"
+       x="5.031353"
+       y="174.42035"
+       ry="0" />
+    <g
+       id="g1364-1"
+       transform="translate(2.7133859,51.672319)">
+      <path
+         style="fill:none;stroke:#800080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 39.697654,179.63637 H 55.642892"
+         id="path4258-5-0-93"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#800080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-1-6)"
+         d="m 56.002822,179.1408 v 7.81764"
+         id="path2479-3-8-14-9"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g1364-1-8"
+       transform="translate(4.3283215,103.82968)">
+      <path
+         style="fill:none;stroke:#800080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 39.697654,179.63637 H 55.642892"
+         id="path4258-5-0-93-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#800080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-67-5-1-6-2)"
+         d="m 56.002822,179.1408 v 7.81764"
+         id="path2479-3-8-14-9-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
   </g>
 </svg>
