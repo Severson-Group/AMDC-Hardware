@@ -126,6 +126,21 @@ _C_ = 625 uF
 Considering a margin of 1.5X, capacitor [EEU-FM1V102B](https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEU-FM1V102B/6109617) of 1000uF is selected.   
 
 
+**Note:** The maximum allowed DC supply voltage is 12V. This is considering the safety of the components and the AMDC board in case of single-phasing or short circuit between any two phases on the uInverter board. Accidentally, if the input PWM signal of one phase is turned ON and that of another phase is turned OFF for a sufficiently long time, a DC current would flow in the phase circuit. A sustained DC current would damage the current sensing resistor and the inductor in the phase circuit on the board. It will also push the current sense amplifier in saturation, which could exceed the acceptable voltage levels at the input of the analog amplifiers on the AMDC board.   
+
+The equivalent resistance of each phase RL branch is the sum of the gate driver's internal resistance, the equivalent series resistance of the inductor and the current sense resistance. Thus, the equivalent series resistance per phase comes out to be:   
+_R_s_ ~ 0.8 Ω  
+For the case mentioned above, the DC current flowing in the circuit would be:  
+_I_phase (max)_ = 12V / (2*0.8Ω)  
+_I_phase (max)_ = 7.5 A  
+
+The voltage output of the current sense amplifier:  
+_V_amp_ = (Amplifier gain) * (current * _R_sense_)     
+_V_amp_ = (10) * (7.5A * 0.15Ω)      
+_V_amp_ = 11.25 V  
+
+When the DC supply voltage exceeds 12V, the phase current increases significantly and may push the current sense amplifier in saturation. To aviod any damage to components on the AMDC board, the DC supply voltage must be limited to no more than 12V.  
+
 ## <a name="ref"></a> References 
 
 [1] Benchmark motor specifications:  
