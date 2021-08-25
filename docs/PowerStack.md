@@ -167,7 +167,7 @@ Putting this all together, to control a three-phase inverter from C code, the us
 double Ts    = 1.0 / 10000.0; // [sec]
 double theta = 0.0;           // [rad]
 double omega = 1000.0;        // [rad/s]
-double Do    = 0.75;          // [--]
+double Do    = 0.4;          // [--]
 
 // This callback function is executed every Ts seconds (e.g. 1/10000 sec) by the system scheduler
 void example_callback(void)
@@ -177,9 +177,9 @@ void example_callback(void)
     theta = fmod(theta, 2.0 * M_PI); // Wrap to 2*pi
     
     // Calculate desired duty ratios
-    duty_a = Do * cos(theta);
-    duty_b = Do * cos(theta + 2.0*M_PI/3.0);
-    duty_c = Do * cos(theta + 4.0*M_PI/3.0);
+    duty_a = 0.5 + Do * cos(theta);
+    duty_b = 0.5 + Do * cos(theta + 2.0*M_PI/3.0);
+    duty_c = 0.5 + Do * cos(theta + 4.0*M_PI/3.0);
 
     // Update PWM peripheral in FPGA
     pwm_set_duty(0, duty_a); // Set HB1 duty ratio (INV1, PWM1 and PWM2)
