@@ -27,8 +27,8 @@ NOTE: if any mistakes are found in this document, **make sure to update the [Viv
 
 | PCB Signal Name     | PicoZed Pin | Zynq-7000 Pin |
 |---------------------|-------------|---------------|
-| `LV_ESTOP_DRIVE_EN` | JX3-44      | C9            |
-| `LV_PS_DRIVE_EN`    | JX3-39      | E10           |
+| `LV_ESTOP_DRIVE_EN` | JX3-44      | MIO49         |
+| `LV_PS_DRIVE_EN`    | JX3-39      | MIO44         |
 
 ### Inverter 1
 
