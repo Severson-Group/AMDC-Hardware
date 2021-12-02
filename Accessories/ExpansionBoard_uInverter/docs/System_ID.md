@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Controller design and tuning depends heavily on the plant modelling and it is important to accurately estimate the plant model.
-One method to perform this system identification is to take look at the frequency response of the plant (output) to a commanded input
-containing range of freqncies (e.g.: random noise)
+Controller design and tuning for any plant depends heavily on the plant parameters and hence it is important to accurately estimate the plant model.
+One method to do this estimation is to take a look at the frequency response of the plant (output) to a commanded input
+containing range of frequncies (e.g.: random noise)
 
 ## System ID Exercise for a 3 phase R-L load
 
-System Identification procedure will be explained using a three phase `R-L load` connected to an inverter as an example. It is easier to 
+System Identification procedure will be explained here using a three phase `R-L load` connected to an inverter as an example. It is easier to 
 analyze a three phase system in synchronous reference frame and hence, applying `KVL` across the load loop in synchronous reference frame
-gives a condensed equation as:
+gives a condensed voltage equation as:
 
 `$V_{dq} (s)\ =\ RI_{dq} (s)\ +\ LsI_{dq} (s)$`
 
@@ -25,34 +25,35 @@ inductance, etc.
 To accurately estimate the plant parameters, a Frequency Response Function `FRF` of the plant can be generated and the plant parameters
 can be extracted from that.
 
-To estimate the plant's frequency response, following steps can be followed:
+To generate a plant's frequency response, following steps can be followed:
 
-1. A noise signal `V*` should be injected into the plant. If there is any other
-element (like a controller) in the loop, make sure to bypass it (by making controller bandwidth very low). In synchronous reference
-frame, a noise in d-axis circuit `Vd* or Vq*`, one at a time).
+1. A noise signal `V*` should be injected into the plant (If there is any other
+element (like a controller) in the loop, make sure to bypass it (by making controller bandwidth very low)). In synchronous reference
+frame, a noise voltage in d-axis or q-axis circuit `Vd* or Vq*`,can be injected one at a time.
 
 2. Capture the current signal in time domain, generated in response to the injected noise for about `1 second`
 
 3. The frequency response function `FRF`, `$(V(s)/I(s))$` can be generated using the `generateFRF` MATLAB function as shown in figure below
 (Check example code, [`Plot_FRF.m`](./Scripts/Plot_FRF.m) and [`generateFRF.m`](./Scripts/generateFRF.m))
 
-4. The frequency response function `FRF` is also the inverse of the load impedance `$(1/Z(s))$`. For lower frequencies, the load can be 
-estimated as a purely resistive load and for higher frequencies, the load can be estimated as a purely inductive load
-
-5. Estimated resistance, `$R_{estimated}$` can be found by taking the inverse of the curve fitted value of `FRF` at low frequencies and 
-estimated inductive reachtance, `$X_{L-estimated}$` can be found by taking the inverse of the curve fitted value of FRF at low frequencies.
-The value of inductance can be subsequently found using the `$X_L$` value
- 
 Example Frequency Response Function of the `R-L load`:
 
 <img src="./images/FRF_RL.jpg" width="80%" />
+
+4. The frequency response function `FRF` is also the inverse of the load impedance `$(1/Z(s))$` (i.e. admittance). For lower frequencies, the load can be 
+estimated as a purely resistive load and for higher frequencies, the load can be estimated as a purely inductive load
+
+5. Estimated resistance, `$R_{estimated}$` can be found by taking the inverse of the curve fitted value of `FRF` at low frequencies and 
+estimated inductive reactance, `$X_{L-estimated}$` can be found by taking the inverse of the curve fitted value of FRF at low frequencies.
+The value of inductance can be subsequently found using the `$X_L$` value
+ 
 
 The datasheet values for the `R` and `L` in the example case were `0.25 Ohm` and `100 uH` respectively. However, as it turns out, after performing 
 the system identification the estimated `R` and `L` values turn out to be `0.65 Ohm` and `121 uH`!
 
 ### Understanding the FRF Plot
 
-The output of the `generateFRF()` function is four vectors: a vector of frequencies, then three vectors `(magnitude, phase, coherence)` 
+The output of the `generateFRF()` function is four vectors: a vector of `frequencies`, then three vectors `magnitude, phase and coherence` 
 for values at each of these frequencies. The magnitude and phase output can be plotted to obtain the FRF function. 
 But what is the `coherence` output used for?
 
@@ -78,8 +79,8 @@ by injecting reference noise (e.g.: `Id*`) and capturing the resultant current `
 above. 
 
 The effect of accurately estimating the plant parameters for tuning can 
-be seen in figures below, where the intended bandwidth is `100 Hz`. The bandwidth before system identification (Considering datasheet 
-values of `R` and `L`) was around `20 Hz`! and the bandwidth after using the estimated values is around `100 Hz`, which is as intended.
+be seen in figures below, where the intended bandwidth is `100 Hz` and the bandwidth before system identification (Considering datasheet 
+values of `R` and `L`) was around `20 Hz`! The bandwidth after using the estimated values from system identification is around `100 Hz`, which is as required.
 
 Before tuning:
 
@@ -89,7 +90,7 @@ After tuning:
 
 <img src="./images/FRF_Cont_A.png" width="80%" />
 
-This effect can be seen in the time domain as well, where we can see that the resulting current is more responsive when the controller is tuned 
+This effect can be seen in the time domain as well, where we can see that the resulting current is more responsive to the noise when the controller is tuned 
 using the estimated `R` and `L` values
 
 Current response before tuning:
