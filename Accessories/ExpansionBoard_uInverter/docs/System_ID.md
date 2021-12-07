@@ -51,6 +51,9 @@ The value of inductance can be subsequently found using the `$X_L$` value
 The datasheet values for the `R` and `L` in the example case were `0.25 Ohm` and `100 uH` respectively. However, as it turns out, after performing 
 the system identification the estimated `R` and `L` values turn out to be `0.65 Ohm` and `121 uH`!
 
+An important point to be noted for this exercise is that the current measurement needs to be accurate to achieve correct results. Before starting with 
+this exercise, it is essential to ensure that the current measurements are precisely adjusted for gains and offsets.
+
 ### Understanding the FRF Plot
 
 The output of the `generateFRF()` function is four vectors: a vector of `frequencies`, then three vectors `magnitude, phase and coherence` 
