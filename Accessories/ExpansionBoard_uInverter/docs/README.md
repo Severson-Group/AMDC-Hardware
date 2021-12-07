@@ -110,7 +110,7 @@ The maximum ripple current in the load depends on the value of inductance and is
 
 
 ### **DC link capacitor**
-The main selection criterion for the DC link capacitor is the ripple voltage. The DC bus is expected to have a ripple of less than 0.5% (<0.6V) for good current regulation.
+The main selection criterion for the DC link capacitor is the ripple voltage. The DC bus is expected to have a ripple of less than 0.5% (<0.06V) for good current regulation.
 The maximum ripple in the voltage is given by -  
 
 _ΔV = Vdc / (32  L  C  f<sub>s</sub><sup>2</sup>)_   
