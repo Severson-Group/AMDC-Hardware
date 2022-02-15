@@ -2,6 +2,8 @@
 
 *The Advanced Motor Drive Controller (AMDC) is an open-source project from the [Severson Research Group](https://severson.wempec.wisc.edu/) at [UW-Madison](http://www.engr.wisc.edu/department/electrical-computer-engineering/), affiliated with [Wisconsin Electric Machines and Power Electronics Consortium (WEMPEC)](https://wempec.wisc.edu/).*
 
+Learn more at [docs.amdc.dev](https://docs.amdc.dev/).
+
 ---
 
 <img src="amdc-rev-d.jpg" width="50%" align="center"/>
@@ -59,7 +61,7 @@ The `altium/` subfolder contains the latest design files for the board.
 
 ## Documentation
 
-Detailed documentaion about the hardware design for each board is available in the `docs/` subfolder.
+Detailed documentaion about the hardware is available online at: [docs.amdc.dev/hardware](https://docs.amdc.dev/hardware/).
 
 The documentation explains the design narrative and process, design choices, requirements, relevant equations and diagrams, etc.
 
