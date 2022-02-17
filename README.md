@@ -61,7 +61,7 @@ The `altium/` subfolder contains the latest design files for the board.
 
 ## Documentation
 
-Detailed documentaion about the hardware is available online at: [docs.amdc.dev/hardware](https://docs.amdc.dev/hardware/).
+Detailed documentation about the hardware is available online at: [docs.amdc.dev/hardware](https://docs.amdc.dev/hardware/).
 
 The documentation explains the design narrative and process, design choices, requirements, relevant equations and diagrams, etc.
 
