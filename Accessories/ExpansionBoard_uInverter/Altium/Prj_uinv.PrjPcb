@@ -3,7 +3,7 @@ Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
-ChannelDesignatorFormatString=$Component_$RoomName
+ChannelDesignatorFormatString=$Component$ChannelAlpha
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
@@ -169,21 +169,41 @@ DItemRevisionGUID=
 DocumentPath=PCB_uinv 06-03-2022 12-06-11.WAS
 DItemRevisionGUID=
 
+[GeneratedDocument6]
+DocumentPath=PCB_uinv 06-03-2022 19-56-40.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=PCB_uinv 17-03-2022 18-44-28.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=PCB_uinv 17-03-2022 18-50-46.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=PCB_uinv 23-03-2022 20-45-35.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=PCB_uinv 23-03-2022 20-46-09.WAS
+DItemRevisionGUID=
+
 [Parameter1]
-Name=ProjectGroup
-Value=Severson Group
+Name=ProjectUniversity
+Value=UW-Madison
 
 [Parameter2]
-Name=ProjectOrganization
-Value=WEMPEC
-
-[Parameter3]
 Name=ProjectRev
 Value=B
 
+[Parameter3]
+Name=ProjectOrganization
+Value=WEMPEC
+
 [Parameter4]
-Name=ProjectUniversity
-Value=UW-Madison
+Name=ProjectGroup
+Value=Severson Group
 
 [Configuration1]
 Name=Sources
