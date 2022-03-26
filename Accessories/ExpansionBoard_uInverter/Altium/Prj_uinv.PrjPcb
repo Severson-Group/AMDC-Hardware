@@ -149,61 +149,21 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGFZFOEV
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Prj_uinv-rev-b\Design Rule Check - PCB1_uinv_rev_A.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Prj_uinv\Design Rule Check - PCB_uinv.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=PCB_uinv 06-03-2022 12-05-27.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=PCB_uinv 06-03-2022 12-05-54.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=PCB_uinv 06-03-2022 12-06-11.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=PCB_uinv 06-03-2022 19-56-40.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=PCB_uinv 17-03-2022 18-44-28.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=PCB_uinv 17-03-2022 18-50-46.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=PCB_uinv 23-03-2022 20-45-35.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=PCB_uinv 23-03-2022 20-46-09.WAS
-DItemRevisionGUID=
-
 [Parameter1]
-Name=ProjectUniversity
-Value=UW-Madison
+Name=ProjectGroup
+Value=Severson Group
 
 [Parameter2]
-Name=ProjectRev
-Value=B
-
-[Parameter3]
 Name=ProjectOrganization
 Value=WEMPEC
 
+[Parameter3]
+Name=ProjectRev
+Value=B
+
 [Parameter4]
-Name=ProjectGroup
-Value=Severson Group
+Name=ProjectUniversity
+Value=UW-Madison
 
 [Configuration1]
 Name=Sources
