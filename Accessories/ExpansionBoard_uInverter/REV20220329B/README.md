@@ -23,5 +23,5 @@ This folder contains the compiled design outputs for the uInverter expansion boa
 Please check the [docs folder](../docs/) for more details on the connectors and pin-outs and other documentation.
 
 
-![PCB 3D](snapshots/uInverter3D_02.JPG)
+![PCB 3D](snapshots/FV01.PNG)
 
