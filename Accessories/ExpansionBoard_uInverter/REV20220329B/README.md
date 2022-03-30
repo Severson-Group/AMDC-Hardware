@@ -10,7 +10,7 @@ This folder contains the compiled design outputs for the uInverter expansion boa
 | Size              | 3.5" x 6.9"   |
 | Number of Layers  | 2             |
 | Number of components | 66         |
-|Number of holes    | 205           |
+|Number of holes    | 196           |
 | Thickness         | 1.7mm         |
 | Min Track/Spacing | 6/6mil          |
 | Min Hole Size     | 14mil           |
