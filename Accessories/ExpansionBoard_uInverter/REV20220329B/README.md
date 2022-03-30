@@ -13,7 +13,7 @@ This folder contains the compiled design outputs for the uInverter expansion boa
 |Number of holes    | 205           |
 | Thickness         | 1.7mm         |
 | Min Track/Spacing | 6/6mil          |
-| Min Hole Size     | 0.3mm           |
+| Min Hole Size     | 14mil           |
 | Silkscreen        | Top Only      |
 | Part Count        | 66            |
 
