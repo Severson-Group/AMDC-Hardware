@@ -23,7 +23,7 @@ This folder contains the compiled design outputs for the uInverter expansion boa
 Please check the [docs folder](../docs/) for more details on the connectors and pin-outs and other documentation.
 
 
-![PCB 3D](snapshots/FV01.PNG)
+![PCB 3D](snapshots/Board_3D_view.PNG)
 
 **Note:** If you wish/have to replace the gate driver heatsink part numer, make sure that the new part number has a slot of similar dimensions (as in `part no.: 529702B02500G`) in the bottom to accommodate decoupling capacitors on the board.
 
