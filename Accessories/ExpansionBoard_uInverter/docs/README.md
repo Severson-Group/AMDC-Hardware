@@ -41,6 +41,8 @@ It is desired to reduce the circuit complexity as far as possible. Since the boa
 
 The IXYS [IXDN614YI](https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/IXDN614YI/2424709?s=N4IgTCBcDaIJIA0AiA5AbARgCwE04gF0BfIA) gate driver has a continuous output current capability of 4A as source as well as sink. This gate driver serves as a half bridge arrangement. The IC works for an input voltage range of 10V to 35V. For the purpose of current regulation, this gate driver IC can be used to drive the RL load. The driver suits the application requirements well.
 
+**Note:** If the gate driver heatsink part numer is replaced, make sure that the new part number has a slot of similar dimensions in the bottom to accommodate decoupling capacitors on the board.
+
 ### <a name="diff_amplifier"></a> **Current Sense Amplifier**
 For three-phase current regulation, phase currents need to be sensed and fed back to the AMDC. A precision resistor is used in the phase leg to sense the phase current. A difference amplifier is used to amplify the voltage across this resistor and bring it to the voltage level suited for the analog input to AMDC. The amplifier increases the signal to noise ratio of the current sense signal.
 
