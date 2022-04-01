@@ -25,5 +25,5 @@ Please check the [docs folder](../docs/) for more details on the connectors and 
 
 ![PCB 3D](snapshots/Board_3D_view.PNG)
 
-**Note:** If you wish/have to replace the gate driver heatsink part numer, make sure that the new part number has a slot of similar dimensions (as in `part no.: 529702B02500G`) in the bottom to accommodate decoupling capacitors on the board.
+**Note:** If you wish/have to replace the gate driver heatsink part number, make sure that the new part has a slot of similar dimensions as in `part no.: 529702B02500G` in the bottom to accommodate decoupling capacitors on the board.
 
