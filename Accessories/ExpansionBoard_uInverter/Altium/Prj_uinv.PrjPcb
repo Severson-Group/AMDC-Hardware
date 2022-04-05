@@ -149,8 +149,33 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGFZFOEV
 
+[Document7]
+DocumentPath=Prj_uinv.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Prj_uinv\Design Rule Check - PCB_uinv.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=PCB_uinv 30-03-2022 13-11-10.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=PCB_uinv 30-03-2022 13-11-34.WAS
 DItemRevisionGUID=
 
 [Parameter1]
@@ -327,7 +352,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=HP LaserJet Pro M501 PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1176,37 +1201,37 @@ IsEnabled0=1
 SelectionScope0=All
 Order0=3
 IndexEnabled0=0
-IndexStartValue0=3
+IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=
-DocumentName1=uInverter.SchDoc
+UniqueIDPath1=\AERJQGJS
+DocumentName1=Half_bridge_load.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=4
+Order1=1
 IndexEnabled1=0
-IndexStartValue1=4
+IndexStartValue1=3
 Suffix1=
-UniqueIDPath2=\AXDPJFTM
-DocumentName2=Backpage.SchDoc
+UniqueIDPath2=\JXRUQTSA
+DocumentName2=Half_bridge_load.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=5
+Order2=2
 IndexEnabled2=0
-IndexStartValue2=1
+IndexStartValue2=2
 Suffix2=
-UniqueIDPath3=\JXRUQTSA
-DocumentName3=Half_bridge_load.SchDoc
+UniqueIDPath3=
+DocumentName3=uInverter.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=2
+Order3=4
 IndexEnabled3=0
-IndexStartValue3=2
+IndexStartValue3=4
 Suffix3=
-UniqueIDPath4=\AERJQGJS
-DocumentName4=Half_bridge_load.SchDoc
+UniqueIDPath4=\AXDPJFTM
+DocumentName4=Backpage.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=1
+Order4=5
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
