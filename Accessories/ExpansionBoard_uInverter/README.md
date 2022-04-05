@@ -12,4 +12,4 @@ The uInverter (micro-inverter) board is an accessory for the AMDC. The purpose o
 
 ## Documentation
 
-Documentation about the design of uInverter board is located in [docs folder.](docs/)
+Detailed documentation about the uInverter board is available online at: [docs.amdc.dev/accessories/uinverter](https://docs.amdc.dev/accessories/uinverter/index.html).
