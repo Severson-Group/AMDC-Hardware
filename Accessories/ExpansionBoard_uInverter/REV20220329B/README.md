@@ -20,7 +20,7 @@ This folder contains the compiled design outputs for the uInverter expansion boa
 
 ## Connectors and connections
 
-Please check the [docs folder](../docs/) for more details on the connectors and pin-outs and other documentation.
+Please check the documentation at: [docs.amdc.dev/accessories/uinverter](https://docs.amdc.dev/accessories/uinverter/index.html) for more details on the connectors and pin-outs.
 
 
 ![PCB 3D](snapshots/Board_3D_view.PNG)
