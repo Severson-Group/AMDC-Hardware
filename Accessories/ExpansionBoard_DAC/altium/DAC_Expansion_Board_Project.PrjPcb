@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=Project Outputs for DAC_Expansion_Board_Project
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -99,7 +99,7 @@ DocumentUniqueId=QWEBKLDN
 
 [Document4]
 DocumentPath=DAC.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -116,7 +116,7 @@ DocumentUniqueId=NGNDCGNZ
 
 [Document5]
 DocumentPath=OutputConnectors.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -133,7 +133,7 @@ DocumentUniqueId=UVCKYKVG
 
 [Document6]
 DocumentPath=BackPage.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -164,6 +164,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=POUCOOCH
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for DAC_Expansion_Board_Project\Design Rule Check - PCB.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=ProjectGroup
@@ -228,7 +232,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for DAC_Expansion_Board_Project
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
