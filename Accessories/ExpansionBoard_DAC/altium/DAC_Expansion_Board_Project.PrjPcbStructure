@@ -1,1 +1,4 @@
-Record=TopLevelDocument|FileName=BackPage.SchDoc
+Record=TopLevelDocument|FileName=BackPage.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=BackPage.SchDoc|FileName=DAC.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=BackPage.SchDoc|FileName=InputConnector.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=BackPage.SchDoc|FileName=OutputConnectors.SchDoc|SheetNumber=3
