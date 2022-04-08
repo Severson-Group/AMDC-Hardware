@@ -4,4 +4,4 @@ The AMDC DAC expansion board is an accessory for the AMDC Rev E which provides 8
 
 ## Documentation
 
-Documentation about the design of this expansion board is located in then [docs folder.](docs/)
+Documentation about the design of this expansion board is located here at [docs.amdc.dev](https://docs.amdc.dev/accessories/dac/index.html)
