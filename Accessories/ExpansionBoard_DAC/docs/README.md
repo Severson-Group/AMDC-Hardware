@@ -1,21 +1,24 @@
-
 # AMDC DAC Expansion Board
 
-This document describes the design considerations and implementation details for the AMDC digital-to-analog converter (DAC) expansion board. A block diagram is presented and each component is discussed in detail. Specifications of each component are provided based on the datasheet.
+This document describes the design considerations and implementation details for the AMDC Digital-to-Analog Converter (DAC) expansion board. A block diagram is presented and each component is discussed in detail. Specifications of each component are provided based on the datasheet.
 
 ## Relevant Hardware Versions
 
 | Hardware | Version |
 | ---- | ----- |
-| AMDC | REV D |
-| DAC Board | REV B |
+| AMDC | REV E |
+| DAC Board | REV C |
+
+> For older DAC revisions, namely AMDC REV D and DAC REV B, view the historical versions of this file.
+
+> Pictured Below: DAC Board REV B
 
 <img src="images/amdc-dac.jpg">
 
 ## Design Requirements and Considerations
 
 The AMDC DAC expansion board was designed with the following requirements:
-1. Work with both the IsoSPI and Power Stack Inverter ports through a single DB-15 connector
+1. Work with both the GPIO and Power Stack AMDC ports through a single DB-15 connector
 2. Minimal I/O data lines as possible (simplified SPI interface)
 3. All digital and power signals on the board are isolated from the AMDC
 4. Operate the DAC fast enough such that all channels have a throughput of at least 20ksps
@@ -27,18 +30,20 @@ The AMDC DAC expansion board was designed with the following requirements:
 
 <img src="images/amdc-dac.svg"> 
 
+> Old (REV B) Block Diagram. In REV C, GPIO signals have replaced isoSPI signals.
+
 ### AMDC Connector
 
-The AMDC DAC expansion board interfaces with the AMDC via either the Power Stack Inverter or IsoSPI ports, both of which use a DB-15 connector. The pinouts of the two ports differ from one another; jumpers are used to configure the DAC expansion board to a particular pinout. The jumper blocks are discussed in greater detail later in this document.
+The AMDC DAC expansion board interfaces with the AMDC via either the Power Stack Inverter or GPIO ports, both of which use a DB-15 connector. The pinouts of the two ports differ from one another; jumpers and the S2 DIP switch are used to configure the DAC expansion board for a particular pinout. The jumper blocks and switch are discussed in greater detail later in this document.
 
-If the Power Stack port is to be used, additional configuration of the AMDC is required. Each Power Stack port on the AMDC has four status lines. Status lines A, B, and C must be configured as outputs by jumpers on the AMDC. The voltage of the status lines must be configured to 5V in the same manner. More information about the Power Stack can be found [here...](../../../docs/PowerStack.md)
+If the Power Stack port is to be used, additional configuration of the AMDC is required. Each Power Stack port on the AMDC has four status lines. Status lines A, B, and C must be configured as outputs by jumpers on the AMDC. The voltage of the status lines must be configured to 5V in the same manner. More information about the Power Stack can be found [here](../../../docs/PowerStack.md).
 
-The DAC board contains the IsoSPI transceiver needed to communicate with the IsoSPI port on the AMDC. No additional configuration is needed to interface with the IsoSPI port.
+For the GPIO configuration, the DAC board contains the differential-to-single chip and isolater needed to interpret SPI signals sent out from the AMDC.
 
 A table of the pinouts for both connector types is shown below:
 
  
-| Pin Number | Power Stack | IsoSPI     |
+| Pin Number | Power Stack | GPIO       |
 |------------|-------------|------------|
 | 1          | No Connect  | `+5V`      |
 | 2          | No Connect  | No Connect |
@@ -46,27 +51,27 @@ A table of the pinouts for both connector types is shown below:
 | 4          | No Connect  | No Connect |
 | 5          | No Connect  | No Connect |
 | 6          | No Connect  | No Connect |
-| 7          | No Connect  | `SPI_IP`   |
-| 8          | `STS_A`     | `SPI_IM`   |
-| 9          | `STS_B`     | No Connect |
-| 10         | `STS_C`     | No Connect |
+| 7          | No Connect  | No Connect |
+| 8          | `STS_A`     | No Connect |
+| 9          | `STS_B`     | `OUT3_P`   |
+| 10         | `STS_C`     | `OUT3_N`   |
 | 11         | No Connect  | `GND`      |
-| 12         | No Connect  | No Connect |
-| 13         | `+5V`       | No Connect |
-| 14         | No Connect  | No Connect |
-| 15         | `GND`       | No Connect |
+| 12         | No Connect  | `OUT1_P`   |
+| 13         | `+5V`       | `OUT1_N`   |
+| 14         | No Connect  | `OUT2_P`   |
+| 15         | `GND`       | `OUT2_N`   |
 
 ### Isolators
 
-Before the digital signals are routed to the jumpers, they are isolated from the AMDC through digital isolators. The power signals are also isolated within the DC-to-DC converters. The status lines from the Power Stack Inverter are isolated using a single [ADUM130E1BRWZ](https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM130D_130E_131D_131E.pdf) IC. The IsoSPI signals are isolated by the IsoSPI transceiver and do not require additional isolation.
+Before the digital signals are routed to the jumpers, they are isolated from the AMDC through digital isolators. The power signals are also isolated within the DC-to-DC converters. The status lines from the Power Stack Inverter and GPIO Signal-Differentiator are each isolated using their own [ADUM130E1BRWZ](https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM130D_130E_131D_131E.pdf) IC.
 
-### Jumper Blocks
+### Jumper Blocks/DIP Switch
 
-There is a total of eight jumpers on the DAC board that configure the expected pinout from the DB-15 connector. 
+There are a total of eight jumpers on the DAC board, along with a single 6-channel DIP switch, that configure the expected pinout from the DB-15 connector. 
 
 - Jumpers JP1, JP2, and JP3 route the SPI signals used to communicate with the DAC 
 - Jumpers JP4 and JP5 route the power signals to the board. 
-- Jumpers JP6, JP7, and JP8 enable or disable the SPI signal digital isolator. 
+- Jumpers JP6, JP7, and JP8 enable or disable the SPI signal digital isolator in the Power Stack Configuration. 
 
 All eight jumpers are critical to the operation of the DAC board and must be installed on the appropriate side of the jumper blocks as designated by the silkscreen. An example installation of the Power Stack Inverter configuration can be seen below:
 
@@ -76,6 +81,8 @@ All eight jumpers are critical to the operation of the DAC board and must be ins
 <br>
 
 <img src="images/amdc-dac-jmp2.jpg" style="max-width:580px">
+
+The 6-channel DIP switch ```S2``` is also essential. Its purpose is to protect the GPIO mode's Signal-Differentiator from the PWM signals when connected to the Power Stack. When connected to the AMDC via the Power Stack connection, all six DIP switch channels should be disconnected by moving the switches to the **OFF** position. When connected to the AMDC via the GPIO connectors, reconnect these signal lines by moving the switches to the **ON** position. The required positions for each connection mode are also marked on the silkscreen.
 
 ### DAC
 
@@ -117,9 +124,9 @@ There are eight BNC connectors in total (one for each DAC channel) which act as 
 
 ## PCB Layout
 
-Minimal components were placed on the top layer in order to maximize the space between the BNC connectors as well as protect components from physical damage. All analog signals are routed on the bottom layer within the area containing the BNC connectors to shield them from noise generated by the SPI lines. All signal traces have 6mil thickness. Power supply and ground signals have 10mil thickness.
+Components were placed on the top layer in positions with the intent to maximize the space between the BNC connectors, as well as protect components from physical damage. All analog signals are routed on the bottom layer within the area containing the BNC connectors to shield them from noise generated by the SPI lines. In an effort to make a uniform design, any traces that could accomodate 8mil thickness are as such, to avoid going thinner than needed. Anywhere a thin trace was absolutely needed to pass between components or pins, 6mil traces were used. 
 
 ## Datasheets
 - [DAC60508MC](../REV20200720B/datasheets/dac60508.pdf)
 - [OPA4192IDR](../REV20200720B/datasheets/opa4192.pdf)
-- [ESD protection devices](../REV20200720B/datasheets/SMDA03C-4_THRU_SMDA24C-4_N0298_REV_A.pdf)
+- [ESD Protection Devices](https://github.com/Severson-Group/AMDC-Hardware/files/8430217/SMDA03C.THRU.SMDA24C.N0297.REV.B.pdf)

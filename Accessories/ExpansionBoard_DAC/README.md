@@ -1,6 +1,6 @@
 # AMDC DAC Expansion Board
 
-The AMDC DAC expansion board is an accessory for the AMDC Rev D which provides 8 analog outputs (+- 10V output). The expansion board plugs into the AMDC via the Power Stack or IsoSPI interfaces. 
+The AMDC DAC expansion board is an accessory for the AMDC Rev E which provides 8 analog outputs (+- 10V output). The expansion board plugs into the AMDC via the Power Stack or GPIO interfaces. 
 
 ## Documentation
 
