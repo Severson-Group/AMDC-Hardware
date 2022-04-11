@@ -8,8 +8,8 @@ The uInverter (micro-inverter) board is an accessory for the AMDC. The purpose o
 - BNC connector to directly measure the current waveforms on an oscilloscope conveniently.    
 
 
-![PCB 3D](REV20210506A/snapshots/uInverter3D_02.JPG)
+![PCB 3D](REV20220329B/snapshots/Board_3D_view.PNG)
 
 ## Documentation
 
-Documentation about the design of uInverter board is located in [docs folder.](docs/)
+Detailed documentation about the uInverter board is available online at: [docs.amdc.dev/accessories/uinverter](https://docs.amdc.dev/accessories/uinverter/index.html).
