@@ -108,6 +108,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JILMSSYH
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Design Rule Check - Encoder.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
