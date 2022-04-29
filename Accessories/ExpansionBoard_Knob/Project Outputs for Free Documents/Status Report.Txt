@@ -1,0 +1,24 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 11:20:23 PM On 4/28/2022
+
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Encoder.PcbDoc]
+   Generated File[Encoder.GTO]
+   Generated File[Encoder.GTP]
+   Generated File[Encoder.GTS]
+   Generated File[Encoder.GTL]
+   Generated File[Encoder.GBL]
+   Generated File[Encoder.GBS]
+   Generated File[Encoder.GBP]
+   Generated File[Encoder.GBO]
+   Generated File[Encoder.RUL]
+   Generated File[Encoder.EXTREP]
+   Generated File[Encoder.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 11:20:24 PM On 4/28/2022
