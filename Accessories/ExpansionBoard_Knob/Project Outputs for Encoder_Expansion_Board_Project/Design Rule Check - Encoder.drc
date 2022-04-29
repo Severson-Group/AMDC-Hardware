@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : I:\Altium\Encoder Board\Encoder.PcbDoc
-Date     : 4/27/2022
-Time     : 3:34:26 AM
+Date     : 4/28/2022
+Time     : 10:02:27 PM
 
 Processing Rule : Clearance Constraint (Gap=0.16mm) (All),(All)
 Rule Violations :0
@@ -45,4 +45,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
