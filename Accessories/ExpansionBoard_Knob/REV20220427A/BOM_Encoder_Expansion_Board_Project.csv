@@ -1,12 +1,12 @@
-﻿Comment,Description,Designator,Footprint,LibRef,Quantity,Price (Qty 1),Price (Qty 10),
-Capacitor .1uF,Capacitor,"C1, C2, C3, C4",.1uF Capacitor (0603-CAP),Capacitor .1uF,4,0.4,1.16,
-ICD15S13E6GX00LF,CONN D-SUB PLUG 15POS R/A SLDR,CON1,ICD15S,178-H15-513R577,1,3.27,29.68,
-A-DF 09 A/KG-T2S,"9 Position D-Sub Receptacle, Female Sockets Connector",CON2,DB9 Connector,DB9 Connector A-DF_09_A/KG-T2S,1,0.81,6.87,
-PEC12R,,E1,Encoder,PEC12R-4220F-S0024,1,1.59,14.03,
-Jumper3,,JP1,PIN_HEADER_1x3,Jumper3,1,0.13,1.3,
-Resistor,Resistor,R7,100K Resistor (0603-RES),Resistor 100K,1,0.1,0.29,
-Resistor,Resistor,"R1, R2, R4, R5, R6",10K Resistor (0603-RES),Resistor 10K,5,0.5,2.65,
-Resistor,Resistor,"R3, R8",0 Resistor (1206-RES),Resistor 0R,2,0.2,1.1,
-AM26C31,IC DRIVER 4/0 16TSSOP,U1,Pg 23 Design,AM26C31,1,1.64,14.63,
-,,,,,,8.64,71.71,Total Price
-,,,,,,8.64,7.171,Unit Price
+﻿Comment,Digi-Key Part Number,Description,Designator,Footprint,LibRef,Quantity,Price (Qty 1),Price (Qty 10),
+Capacitor 0.1uF,1276-1012-1-ND,Capacitor,"C1, C2, C3, C4",.1uF Capacitor (0603-CAP),Capacitor .1uF,4,0.4,1.16,
+ICD15S13E6GX00LF,609-2801-ND,CONN D-SUB PLUG 15POS R/A SLDR,CON1,ICD15S,178-H15-513R577,1,3.27,29.68,
+A-DF 09 A/KG-T2S,AE10921-ND,"9 Position D-Sub Receptacle, Female Sockets Connector",CON2,DB9 Connector,DB9 Connector A-DF_09_A/KG-T2S,1,0.81,6.87,
+PEC12R,PEC12R-4220F-S0024-ND,,E1,Encoder,PEC12R-4220F-S0024,1,1.59,14.03,
+Jumper3,732-5316-ND,,JP1,PIN_HEADER_1x3,Jumper3,1,0.13,1.3,
+Resistor,311-0.0ERCT-ND,Resistor,R7,100K Resistor (0603-RES),Resistor 100K,1,0.1,0.29,
+Resistor,P10.0KHCT-ND,Resistor,"R1, R2, R4, R5, R6",10K Resistor (0603-RES),Resistor 10K,5,0.5,2.65,
+Resistor,311-100KLDCT-ND,Resistor,"R3, R8",0 Resistor (1206-RES),Resistor 0R,2,0.2,1.1,
+AM26C31,296-30087-1-ND,IC DRIVER 4/0 16TSSOP,U1,Pg 23 Design,AM26C31,1,1.64,14.63,
+,,,,,,,8.64,71.71,Total Price
+,,,,,,,8.64,7.171,Unit Price
