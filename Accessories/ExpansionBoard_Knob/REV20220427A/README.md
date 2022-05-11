@@ -14,9 +14,9 @@ This folder contains the design outputs for the AMDC Knob REV A expansion board.
 | Surface Finish          | HASL (Tin Lead) |
 | Silkscreen              | Top Only        |
 | Unique Part Count       | 9               |
-| Unique SMD Part Count   | ?               |
+| Unique SMD Part Count   | 5               |
 | Total Parts             | 17              |
-| Through-Hole Count      | ?               |
+| Through-Hole Count      | 53              |
 | Cost per Board (Unit 1) | $8.64           |
 | Cost per Board (Unit 10)| $7.17           |
 
