@@ -25,7 +25,6 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=0
-NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -36,12 +35,6 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
-CrossRefLocationStyle=1
-CrossRefPorts=3
-CrossRefCrossSheets=1
-CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -99,23 +92,6 @@ GenerateClassCluster=0
 DocumentUniqueId=RLPKATWY
 
 [Document4]
-DocumentPath=Encoder.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JILMSSYH
-
-[Document5]
 DocumentPath=Encoder.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -132,61 +108,39 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder-RoundHoles.TXT
+[Document5]
+DocumentPath=BackPage.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PKHFGDAV
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder-SquareHoles.TXT
+[Document6]
+DocumentPath=Encoder.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.REP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Encoder_Expansion_Board_Project\Encoder.RUL
-DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JILMSSYH
 
 [Configuration1]
 Name=Sources
@@ -198,117 +152,61 @@ OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
+[Generic_SimulationProfiles]
+ActiveProfile=XMCAGACC
+ProfileId0=XMCAGACC
+ProfileName0=Mixed Sim Configuration
+OutputType0=AdvSimNetlist
+ConfigParameters0=OP_Analysis=False|TRAN_Analysis=True|DC_Analysis=False|AC_Analysis=False|TF_Analysis=False|PZ_Analysis=False|Noise_Analysis=False|TRAN_FourierAnalysis=False|TempSweep_Analysis=False|ParamSweep_Analysis=False|MonteCarlo_Analysis=False|TF_Enabled=False|TF_Source=|TF_Reference=0|PZ_Enabled=False|PZ_Node1=|PZ_Node2=0|PZ_Node3=|PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|AnalysesDataSavedIndex=4|DC_PrimarySource=|DC_PrimaryStart=|DC_PrimaryStop=|DC_PrimaryStep=|DC_EnableSecondary=False|DC_SecondarySource=|DC_SecondaryStart=|DC_SecondaryStop=|DC_SecondaryStep=|AC_StartFrequency_UserValue=|AC_StartFrequency=1K|AC_StopFrequency_UserValue=|AC_StopFrequency=1G|AC_TestPoints_UserValue=|AC_TestPoints=10|AC_SweepType=DEC|Noise_Enabled=False|Noise_Source=|Noise_Output=|Noise_Reference=0|Noise_Start_UserValue=|Noise_Start=1K|Noise_Stop_UserValue=|Noise_Stop=1G|Noise_TestPoints_UserValue=|Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|TRAN_StartTime_UserValue=|TRAN_StartTime=0|TRAN_StopTime_UserValue=|TRAN_StopTime=5u|TRAN_StepTime_UserValue=|TRAN_StepTime=0.1u|TRAN_MaxStepTime_UserValue=|TRAN_MaxStepTime=0.1u|TRAN_AlwaysSetDefaults=False|TRAN_DefaultCycles_UserValue=|TRAN_DefaultCycles=5|TRAN_DefaultPointsPerCycle_UserValue=|TRAN_DefaultPointsPerCycle=25|TRAN_UseInitialConditions=False|TRAN_FourierEnabled=False|TRAN_FourierFundFreq_UserValue=|TRAN_FourierFundFreq=1Meg|TRAN_FourierNumHarmonics_UserValue=|TRAN_FourierNumHarmonics=10|TempSweep_Start_UserValue=|TempSweep_Start=-10|TempSweep_Stop_UserValue=|TempSweep_Stop=60|TempSweep_Step_UserValue=|TempSweep_Step=10|ParamSweep_Parameter1=|ParamSweep_Type1=LIN|ParamSweep_Start1=|ParamSweep_Stop1=|ParamSweep_Step1=|ParamSweep_SweepType1=False|ParamSweep_SecondaryEnabled=False|ParamSweep_Parameter2=|ParamSweep_Type2=LIN|ParamSweep_Start2=|ParamSweep_Stop2=|ParamSweep_Step2=|ParamSweep_SweepType2=False|MonteCarlo_NumberOfRuns=10|MonteCarlo_DistributionType=GAUSS|MonteCarlo_Seed=-1|MonteCarlo_ResistorTolerance=10%|MonteCarlo_ResistorTolerance_UserValue=10%|MonteCarlo_CapacitorTolerance=10%|MonteCarlo_CapacitorTolerance_UserValue=10%|MonteCarlo_InductorTolerance=10%|MonteCarlo_InductorTolerance_UserValue=10%|MonteCarlo_TransistorTolerance=10%|MonteCarlo_TransistorTolerance_UserValue=10%|MonteCarlo_DCSourceTolerance=10%|MonteCarlo_DCSourceTolerance_UserValue=10%|MonteCarlo_DigitalTpTolerance=10%|MonteCarlo_DigitalTpTolerance_UserValue=10%|OldCfgLoaded=True|SimViewSetup=ShowActiveSignalsProbes|OPTION_Method=Trapezoidal|OPTION_SpiceRefNode_UserValue=|OPTION_SpiceRefNode=GND|OPTION_DVCC_UserValue=|OPTION_DVCC=5|OPTION_DVDD_UserValue=|OPTION_DVDD=15|SheetsToNetlist=0
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=CadnetixNetlist
-OutputName2=Cadnetix Netlist
+OutputType2=SIMetrixNetlist
+OutputName2=SIMetrix
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=CalayNetlist
-OutputName3=Calay Netlist
+OutputType3=SIMPLISNetlist
+OutputName3=SIMPLIS
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=EDIF
-OutputName4=EDIF for PCB
+OutputType4=XSpiceNetlist
+OutputName4=Mixed Sim Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=EESofNetlist
-OutputName5=EESof Netlist
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-OutputType6=IntergraphNetlist
-OutputName6=Intergraph Netlist
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-OutputType7=MentorBoardStationNetlist
-OutputName7=Mentor BoardStation Netlist
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=MultiWire
-OutputName8=MultiWire
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=OrCadPCB2Netlist
-OutputName9=Orcad/PCB2 Netlist
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-OutputType10=PADSNetlist
-OutputName10=PADS ASCII Netlist
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=Pcad
-OutputName11=Pcad for PCB
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Protel2Netlist
-OutputName13=Protel2 Netlist
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=ProtelNetlist
-OutputName14=Protel
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=RacalNetlist
-OutputName15=Racal Netlist
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=RINFNetlist
-OutputName16=RINF Netlist
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SciCardsNetlist
-OutputName17=SciCards Netlist
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-OutputType20=WireListNetlist
-OutputName20=WireList Netlist
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=OP_Analysis=False|TRAN_Analysis=True|DC_Analysis=False|AC_Analysis=False|TF_Analysis=False|PZ_Analysis=False|Noise_Analysis=False|TRAN_FourierAnalysis=False|TempSweep_Analysis=False|ParamSweep_Analysis=False|MonteCarlo_Analysis=False|TF_Enabled=False|TF_Source= |TF_Reference=0|PZ_Enabled=False|PZ_Node1= |PZ_Node2=0|PZ_Node3= |PZ_Node4=0|PZ_AnalType=PZ|PZ_TfType=VOL|AnalysesDataSavedIndex=4|DC_PrimarySource= |DC_PrimaryStart= |DC_PrimaryStop= |DC_PrimaryStep= |DC_EnableSecondary=False|DC_SecondarySource= |DC_SecondaryStart= |DC_SecondaryStop= |DC_SecondaryStep= |AC_StartFrequency_UserValue= |AC_StartFrequency=1K|AC_StopFrequency_UserValue= |AC_StopFrequency=1G|AC_TestPoints_UserValue= |AC_TestPoints=10|AC_SweepType=DEC|Noise_Enabled=False|Noise_Source= |Noise_Output= |Noise_Reference=0|Noise_Start_UserValue= |Noise_Start=1K|Noise_Stop_UserValue= |Noise_Stop=1G|Noise_TestPoints_UserValue= |Noise_TestPoints=10|Noise_PointsPerSummary=0|Noise_SweepType=DEC|TRAN_StartTime_UserValue= |TRAN_StartTime=0|TRAN_StopTime_UserValue= |TRAN_StopTime=5u|TRAN_StepTime_UserValue= |TRAN_StepTime=0.1u|TRAN_MaxStepTime_UserValue= |TRAN_MaxStepTime=0.1u|TRAN_AlwaysSetDefaults=False|TRAN_DefaultCycles_UserValue= |TRAN_DefaultCycles=5|TRAN_DefaultPointsPerCycle_UserValue= |TRAN_DefaultPointsPerCycle=25|TRAN_UseInitialConditions=False|TRAN_FourierEnabled=False|TRAN_FourierFundFreq_UserValue= |TRAN_FourierFundFreq=1Meg|TRAN_FourierNumHarmonics_UserValue= |TRAN_FourierNumHarmonics=10|TempSweep_Start_UserValue= |TempSweep_Start=-10|TempSweep_Stop_UserValue= |TempSweep_Stop=60|TempSweep_Step_UserValue= |TempSweep_Step=10|ParamSweep_Parameter1= |ParamSweep_Type1=LIN|ParamSweep_Start1= |ParamSweep_Stop1= |ParamSweep_Step1= |ParamSweep_SweepType1=False|ParamSweep_SecondaryEnabled=False|ParamSweep_Parameter2= |ParamSweep_Type2=LIN|ParamSweep_Start2= |ParamSweep_Stop2= |ParamSweep_Step2= |ParamSweep_SweepType2=False|MonteCarlo_NumberOfRuns=10|MonteCarlo_DistributionType=GAUSS|MonteCarlo_Seed=-1|MonteCarlo_ResistorTolerance=10%|MonteCarlo_ResistorTolerance_UserValue=10%|MonteCarlo_CapacitorTolerance=10%|MonteCarlo_CapacitorTolerance_UserValue=10%|MonteCarlo_InductorTolerance=10%|MonteCarlo_InductorTolerance_UserValue=10%|MonteCarlo_TransistorTolerance=10%|MonteCarlo_TransistorTolerance_UserValue=10%|MonteCarlo_DCSourceTolerance=10%|MonteCarlo_DCSourceTolerance_UserValue=10%|MonteCarlo_DigitalTpTolerance=10%|MonteCarlo_DigitalTpTolerance_UserValue=10%|OldCfgLoaded=True|SimViewSetup=ShowActiveSignalsProbes|OPTION_Method=Trapezoidal|OPTION_SpiceRefNode_UserValue= |OPTION_SpiceRefNode=GND|OPTION_DVCC_UserValue= |OPTION_DVCC=5|OPTION_DVDD_UserValue= |OPTION_DVDD=15|SheetsToNetlist=0|Record=AdvSimNetlistView|SimulationName=Mixed Sim Configuration|ProfileId=XMCAGACC
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -375,6 +273,8 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=I:\Altium\ExpansionBoard_Knob\altium\Encoder.SchDoc
 OutputType11=SimView Print
 OutputName11=SimView Prints
 OutputDocumentPath11=
@@ -385,7 +285,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -407,7 +307,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -487,7 +387,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -526,17 +426,11 @@ OutputName7=Report Single Pin Nets
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=BOM_ReportCompare
-OutputName8=BOM Compare
-OutputDocumentPath8=
-OutputVariantName8=[No Variations]
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -644,7 +538,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -688,7 +582,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Save As/Export PCB
 OutputName1=Save As/Export PCB
@@ -705,51 +599,11 @@ OutputName3=Specctra Design PCB
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=AutoCAD dwg/dxf PCB
-OutputName4=AutoCAD dwg/dxf File PCB
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-OutputType5=AutoCAD dwg/dxf Schematic
-OutputName5=AutoCAD dwg/dxf File Schematic
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-OutputType6=ExportIDF
-OutputName6=Export IDF
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-OutputType7=ExportPARASOLID
-OutputName7=Export PARASOLID
-OutputDocumentPath7=
-OutputVariantName7=[No Variations]
-OutputDefault7=0
-OutputType8=ExportSTEP
-OutputName8=Export STEP
-OutputDocumentPath8=
-OutputVariantName8=[No Variations]
-OutputDefault8=0
-OutputType9=ExportVRML
-OutputName9=Export VRML
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
-OutputType10=MBAExportPARASOLID
-OutputName10=Export PARASOLID
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=MBAExportSTEP
-OutputName11=Export STEP
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=EH 2568 (HP LaserJet P3010 Series)
+TargetPrinter=\\engr-print.ad.engr.wisc.edu\engr-3654-duplex
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1074,7 +928,6 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
-Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
