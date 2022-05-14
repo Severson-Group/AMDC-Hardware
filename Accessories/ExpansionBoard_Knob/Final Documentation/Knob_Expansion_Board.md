@@ -21,7 +21,7 @@ The AMDC Knob expansion board was designed with the following requirements:
 4.  Minimize noise with debouncing and a Signal Differentiator 
 
 ### AMDC Connector 
-The AMDC Knob expansion board interfaces with the AMDC via either the DB-15 (GPIO) connector or the DB-9 (encoder) connector.  The pinouts of the two connectors differ from one another as shown in the below.
+The AMDC Knob expansion board interfaces with the AMDC via either the DB-15 (GPIO) connector or the DB-9 (encoder) connector.  The pinouts of the two connectors differ from one another as shown in the tables below.
 
 
 ### DB-15 Connector
@@ -56,7 +56,7 @@ The AMDC Knob expansion board interfaces with the AMDC via either the DB-15 (GPI
   | 8          | `GND`         | 
   | 9          | `GND`         | 
   
-  Both of the DB-15 and DB-9 connectors can be connected to the Knob expansion board, however the single jumper on the Knob board ensures power will only be pulled from one of the connectors.
+  Both the DB-15 and DB-9 connectors can be connected to the Knob expansion board, however, the single jumper on the Knob board ensures power will only be pulled from one of the connectors.
   
   
   
@@ -65,7 +65,7 @@ The AMDC Knob expansion board interfaces with the AMDC via either the DB-15 (GPI
   
   ## PCB Layout[](https://docs.amdc.dev/accessories/Knob/index.html#pcb-layout "Permalink to this headline")
 
-Two polygon pours were used to reduce the number of required traces. The top pour is the +5V net, and the bottom pour is the GND net. All components and most traces are also located on the top of the board to simplify fabrication of the board. Additional PCB properties are outlined in the table below.
+Two polygon pours were used to reduce the number of required traces. The top pour is the +5V net, and the bottom pour is the GND net. All components and most traces are also located on the top of the board to simplify the fabrication of the board. Additional PCB properties are outlined in the table below.
 
 | Property                | Value           |
 | ----------------------- | --------------- |
@@ -74,7 +74,7 @@ Two polygon pours were used to reduce the number of required traces. The top pou
 | Thickness               | 1.6mm           |
 | Min Track/Spacing       | 6/6mil          |
 | Min Hole Size           | 0.3mm           |
-| Surface Finish          | HASL (Tin Lead) |
+| Surface Finish          | HASL (Tin-Lead) |
 | Silkscreen              | Top Only        |
 | Unique Part Count       | 9               |
 | Unique SMD Part Count   | 5               |
