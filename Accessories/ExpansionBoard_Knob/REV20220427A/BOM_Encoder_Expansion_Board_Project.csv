@@ -7,6 +7,6 @@ Jumper3,732-5316-ND,,JP1,PIN_HEADER_1x3,Jumper3,1,0.13,1.3,
 Resistor,311-0.0ERCT-ND,Resistor,R7,100K Resistor (0603-RES),Resistor 100K,1,0.1,0.29,
 Resistor,P10.0KHCT-ND,Resistor,"R1, R2, R4, R5, R6",10K Resistor (0603-RES),Resistor 10K,5,0.5,2.65,
 Resistor,311-100KLDCT-ND,Resistor,"R3, R8",0 Resistor (1206-RES),Resistor 0R,2,0.2,1.1,
-AM26C31,296-30087-1-ND,IC DRIVER 4/0 16TSSOP,U1,Pg 23 Design,AM26C31,1,1.64,14.63,
+AM26C31,AM26C31CNS,IC DRIVER 4/0 16TSSOP,U1,Pg 23 Design,AM26C31,1,1.64,14.63,
 ,,,,,,,8.64,71.71,Total Price
 ,,,,,,,8.64,7.171,Unit Price
