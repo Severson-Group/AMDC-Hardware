@@ -1,4 +1,4 @@
-# AMDC CAN Expansion Board
+# AMDC Knob Expansion Board
 
 This folder contains the design outputs for the AMDC Knob REV A expansion board. This includes schematics, images of the PCB, the bill of materials (BOM), and the gerber files needed to order a fully populated board.
 
@@ -22,4 +22,4 @@ This folder contains the design outputs for the AMDC Knob REV A expansion board.
 
 ## Recommended Cables
 
-The knob expansion board will function with either a DB15 or DB9 connector. Only one cable is required, however multiple can be plugged in to the board at one time.
+The Knob expansion board will function with either a DB15 or DB9 connector. Only one cable is required, however multiple can be plugged in to the board at one time.

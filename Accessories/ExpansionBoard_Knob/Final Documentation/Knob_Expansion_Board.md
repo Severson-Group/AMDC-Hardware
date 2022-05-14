@@ -1,4 +1,5 @@
-# Knob Board[](https://docs.amdc.dev/accessories/Knob/index.html#knob-board "Permalink to this headline")
+
+# Knob Board[](https://docs.amdc.dev/accessories/Knob/index.html#Knob-board "Permalink to this headline")
 
 This document describes the design considerations and implementation details for the AMDC Knob (Encoder) expansion board. A block diagram is presented to explain each component in detail. 
 
@@ -18,8 +19,6 @@ The AMDC Knob expansion board was designed with the following requirements:
 3.  Designed to run off of 5V power supplied from the AMDC
     
 4.  Minimize noise with debouncing and a Signal Differentiator 
-    
-## Block Diagram / External Connections[](https://docs.amdc.dev/accessories/Knob/index.html#block-diagram-external-connections "Permalink to this headline")
 
 ### AMDC Connector 
 The AMDC Knob expansion board interfaces with the AMDC via either the DB-15 (GPIO) connector or the DB-9 (encoder) connector.  The pinouts of the two connectors differ from one another as shown in the below.
@@ -57,7 +56,7 @@ The AMDC Knob expansion board interfaces with the AMDC via either the DB-15 (GPI
   | 8          | `GND`         | 
   | 9          | `GND`         | 
   
-  Both of the DB-15 and DB-9 connectors can be connected to the Knob expansion board, however the single jumper on the knob board ensures power will only be pulled from one of the connectors.
+  Both of the DB-15 and DB-9 connectors can be connected to the Knob expansion board, however the single jumper on the Knob board ensures power will only be pulled from one of the connectors.
   
   
   
@@ -86,7 +85,7 @@ Two polygon pours were used to reduce the number of required traces. The top pou
 
 ### LPFs[](https://docs.amdc.dev/accessories/Knob/index.html#lpfs "Permalink to this headline")
 
-Low pass filters such as the one shown below are used throughout the knob expansion board. These low pass filters are used to prevent debouncing while still allowing for signals to be sent at a rate of 160 times per second. 
+Low pass filters such as the one shown below are used throughout the Knob expansion board. These low pass filters are used to prevent debouncing while still allowing for signals to be sent at a rate of 160 times per second. 
 
   
 
