@@ -31,4 +31,4 @@ A column named Silkscreen Designators is added to the BOM to show the correspond
 
 ## Note
 
-In revB of the uInveter board, the component designator names on the silkscreen do not match with the designator names on the BOM and the schematic (see issue https://github.com/Severson-Group/AMDC-Hardware/issues/216). To fix this issue, a column named `Silkscreen Designators` is added to the [BOM file](uInv_revB_BOM.csv) to show the corresponding designator names from the silkscreen for each BOM item.
+In this revision (rev B) of the uInveter board, the component designator names on the silkscreen do not match the designator names on the BOM and the schematic (see issue https://github.com/Severson-Group/AMDC-Hardware/issues/216). To fix this issue, a column named `Silkscreen Designators` has been added to the [BOM file](uInv_revB_BOM.csv) to show the corresponding designator names from the silkscreen for each BOM item.
