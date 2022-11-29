@@ -149,29 +149,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGFZFOEV
 
-[Document7]
-DocumentPath=Prj_uinv.Annotation
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
-DocumentPath=PCB_uinv 30-03-2022 13-11-10.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=PCB_uinv 30-03-2022 13-11-34.WAS
+DocumentPath=Project Outputs for Prj_uinv\Design Rule Check - PCB_uinv.html
 DItemRevisionGUID=
 
 [Parameter1]
@@ -348,7 +327,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=HP LaserJet Pro M501 PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -579,9 +558,9 @@ Configuration1_Item4=Supplier Part Number 1=True
 Configuration1_Name5=SortOrder
 Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Supplier Part Number 1=154|Quantity=76|Comment=120|Description=120|Designator=120|Footprint=120|LibRef=97
+Configuration1_Item6=Supplier Part Number 1=154|Quantity=76|Comment=120|Description=100|Designator=120|Footprint=120|LibRef=97
 Configuration1_Name7=VisibleOrder_Flat
-Configuration1_Item7=Supplier Part Number 1=154|Quantity=76|Comment=120|Description=120|Designator=120|Footprint=120|LibRef=97
+Configuration1_Item7=Supplier Part Number 1=154|Quantity=76|Comment=120|Description=100|Designator=120|Footprint=120|LibRef=97
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
