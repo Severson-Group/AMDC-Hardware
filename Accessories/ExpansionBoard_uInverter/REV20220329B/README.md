@@ -27,3 +27,7 @@ Please check the documentation at: [docs.amdc.dev/accessories/uinverter](https:/
 
 **Note:** If you wish/have to replace the gate driver heatsink part number, make sure that the new part has a slot of similar dimensions as in `part no.: 529702B02500G` in the bottom to accommodate decoupling capacitors on the board.
 
+
+## Note
+
+In this revision (rev B) of the uInveter board, the component designator names on the silkscreen do not match the designator names on the BOM and the schematic (see issue https://github.com/Severson-Group/AMDC-Hardware/issues/216). To fix this issue, a column named `Silkscreen Designators` has been added to the [BOM file](uInv_revB_BOM.csv) to show the corresponding designator names from the silkscreen for each BOM item.
