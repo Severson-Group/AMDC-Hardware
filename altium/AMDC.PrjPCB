@@ -524,25 +524,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EVNAOEZR
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for AMDC\Design Rule Check - PCB_v6.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=C:\Users\Public\Documents\Altium\AD18\Library\Libraries\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectUniversity
-Value=UW-Madison
+Name=ProjectGroup
+Value=Severson Group
 
 [Parameter2]
-Name=ProjectRev
-Value=F
-
-[Parameter3]
 Name=ProjectOrganization
 Value=WEMPEC
 
+[Parameter3]
+Name=ProjectRev
+Value=F
+
 [Parameter4]
-Name=ProjectGroup
-Value=Severson Group
+Name=ProjectUniversity
+Value=UW-Madison
 
 [Configuration1]
 Name=Sources
