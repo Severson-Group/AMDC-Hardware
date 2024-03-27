@@ -4,10 +4,10 @@ This file describes any key changes between hardware revisions.
 
 ## [REV20231005F](https://github.com/Severson-Group/AMDC-Hardware/milestone/8)
 
-- Change Screw 1 ... 13 P/N to `36-9900-ND` ([#189](https://github.com/Severson-Group/AMDC-Hardware/issues/189))
-- Fix PCB Footprint `TSOP65P640X120-16` ([#211](https://github.com/Severson-Group/AMDC-Hardware/issues/211))
 - Add termination resistors for incoming GPIO signals ([#226](https://github.com/Severson-Group/AMDC-Hardware/issues/226))
-- Increase R97 pull-down strength to fix PWM gate signals during boot-up ([#227](https://github.com/Severson-Group/AMDC-Hardware/issues/227))
+- Fix pull-down resistor strength for PWM gate signals during boot-up ([#227](https://github.com/Severson-Group/AMDC-Hardware/issues/227))
+- Fix footprints ([#211](https://github.com/Severson-Group/AMDC-Hardware/issues/211))
+- Fix part numbers ([#189](https://github.com/Severson-Group/AMDC-Hardware/issues/189))
 
 ## [REV20210325E](https://github.com/Severson-Group/AMDC-Hardware/milestone/5)
 
