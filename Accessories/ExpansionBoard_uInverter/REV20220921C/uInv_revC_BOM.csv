@@ -13,7 +13,7 @@ HS404-ND,3,529702B02500G,Heat Sink Passive TO-220 Radial Thru-Hole 2.6C/W Black 
 553-3011-1-ND,3,100u,FIXED IND 100UH 5.3A 118 MOHM,"L1A, L1B, L1C"
 36-5005-ND,15,Test Point,Conn Test Point SKT 1 POS ST Thru-Hole 1 Port,"PWMA, PWMB, PWMC, TP1A, TP1B, TP1C, TP2A, TP2B, TP2C, TP3A, TP3B, TP3C, TP4, TP5, TP6"
 A97581-ND,3,5-1634503-1,CONN BNC JACK STR 50 OHM PCB,"Q1A, Q1B, Q1C"
-541-1.00CCCT-ND,3,1R,Res Thick Film 0805 1 Ohm 1% 1/8W,"R1A, R1B, R1C, R1B, R1C"
+541-1.00CCCT-ND,3,1R,Res Thick Film 0805 1 Ohm 1% 1/8W,"R1A, R1B, R1C"
 541-2841-1-ND,2,2.2K,Res Thick Film 0805 2.2K Ohm 1% 0.4W,"R2, R3"
 RHM1.10KAECT-ND,2,1.1K,Res Thick Film 0805 1.1K Ohm 1% 0.4W,"R4, R5"
 15FR150E-ND,3,150m,Resistor; Wirewound; Res 0.15 Ohms; Pwr-Rtg 5 W; Tol 1%; Axial; Silicone; Cur-Sense,"Rsense1A, Rsense1B, Rsense1C"
