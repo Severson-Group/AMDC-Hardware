@@ -25,11 +25,12 @@ This folder contains the compiled design outputs for AMDC REV F. This includes t
 |----------------------------|-------------|
 | Unique Part Count[^1]      | 67          |
 | Number of Total Parts[^1]  | 447         |
-| Total SMT Part Count       | 418         |
-| Total Thru Hole Part Count | 29          |
+| Total SMT Part Count       | 415         |
+| Total Thru Hole Part Count | 32          |
 | Total Mechanical Screws    | 13          |
 | Total Mechanical Standoffs | 13          |
 | Total Removable Jumpers    | 10          |
+| Total Picozed              | 1           |
 | BGA / QFN                  | Yes         |
 
 ## Bill of Materials
