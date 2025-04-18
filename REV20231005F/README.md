@@ -17,24 +17,27 @@ This folder contains the compiled design outputs for AMDC REV F. This includes t
 | Min Hole Size           | 0.36 mm (14 mil) |
 | Number of Holes         | 1528             |
 | Solder Mask             | Green            |
+| HASL or ENIG            | No               |
 | Finished Copper         | 1 oz             |
 
 ## Assembly Details
 
-| Question                   | Answer      |
-|----------------------------|-------------|
-| Unique Part Count[^1]      | 67          |
-| Number of Total Parts[^1]  | 447         |
-| Total SMT Part Count       | 415         |
-| Total Thru Hole Part Count | 32          |
-| Total Mechanical Screws    | 13          |
-| Total Mechanical Standoffs | 13          |
-| Total Removable Jumpers    | 10          |
-| Total Picozed              | 1           |
-| BGA / QFN                  | Yes         |
+| Question[^1]                  | Answer      |
+|-------------------------------|-------------|
+| Unique Part Count[^2]         | 67          |
+| Number of Total Parts[^2]     | 447         |
+| Total SMT Part Count          | 415         |
+| Total Through-hole Part Count | 32          |
+| Total Mechanical Screws       | 13          |
+| Total Mechanical Standoffs    | 13          |
+| Total Removable Jumpers       | 10          |
+| Total Picozed                 | 1           |
+| BGA / QFN                     | Yes         |
 
 ## Bill of Materials
 
 The [Bill of Materials (BOM)](bom-rev-f.csv) contains components for 1 board. If users of this repo discover that any components are unvailable, please maintain an `alternate-components.md` file in this folder that lists approved alternates.
 
-[^1]: This number does not include screws, standoffs, removable jumpers, or the picozed. With these components included, the unique part count is 71 and total parts is 484. Users are advised to not have their assembly vendor place these components.
+[^1]: For complete breakdown of surface mount, through-hole, and other components, see [this pull request comment](https://github.com/Severson-Group/AMDC-Hardware/pull/255#issuecomment-2815977355)
+
+[^2]: This number does not include screws, standoffs, removable jumpers, or the picozed. With these components included, the unique part count is 71 and total parts is 484. Users are advised to not have their assembly vendor place these components.
