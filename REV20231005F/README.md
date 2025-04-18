@@ -12,11 +12,11 @@ This folder contains the compiled design outputs for AMDC REV F. This includes t
 | Surface Finish          | Tin Lead         |
 | Silkscreen              | White            |
 | Material                | FR-4, TG150      |
-| Board Thickness	      | 1.6 mm           |
+| Board Thickness         | 1.6 mm           |
 | Min Trace Spacing       | 0.15 mm (6 mil)  |
 | Min Hole Size           | 0.36 mm (14 mil) |
 | Number of Holes         | 1528             |
-| Solder Mask	          | Green            |
+| Solder Mask             | Green            |
 | Finished Copper         | 1 oz             |
 
 ## Assembly Details
