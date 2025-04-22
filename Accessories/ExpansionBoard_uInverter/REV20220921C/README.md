@@ -2,7 +2,7 @@
 
 This document describes the information necessary to place an order for the fabrication of the uInverter board.  
 
-This folder contains the compiled design outputs for the uInverter expansion board. This includes schematics, images of the PCB layout, the bill of materials (BOM) and the files needed to order fully populated boards. 
+This folder contains the compiled design outputs for the uInverter expansion board. This includes schematics, images of the PCB layout, the bill of materials (BOM) and the files needed to order boards from an online vendor. 
 
 ## PCB Properties
 | Question          | Answer        |
