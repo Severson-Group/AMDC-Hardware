@@ -28,7 +28,7 @@ This folder contains the compiled design outputs for the uInverter expansion boa
 | Unique Part Count[^1]         | 19           |
 | Number of Total Parts[^1]     | 61           |
 | Total SMT Part Count          | 33           |
-| Total Through-hole Part Count | 28            |
+| Total Through-hole Part Count | 28           |
 | Total Mechanical Components   | 28           |
 | BGA / QFN                     | No           |
 
