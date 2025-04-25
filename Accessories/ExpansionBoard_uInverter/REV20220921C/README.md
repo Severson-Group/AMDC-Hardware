@@ -23,18 +23,14 @@ This folder contains the compiled design outputs for the uInverter expansion boa
 
 ## Assembly Details
 
-| Question                     | Answer        |
-|------------------------------|---------------|
-| Unique Part Count            | 66            |
-| Number of Total Parts        | 66            |
-
-
-
-| Total SMT Part Count          | 89          |
-| Total Through-hole Part Count | 3           |
-| Total Mechanical Screws       | 2           |
-| Total Mechanical Standoffs    | 2           |
-
+| Question                      | Answer       |
+|-------------------------------|--------------|
+| Unique Part Count[^1]         | 19           |
+| Number of Total Parts[^1]     | 61           |
+| Total SMT Part Count          | 89           |
+| Total Through-hole Part Count | 3            |
+| Total Mechanical Components   | 28           |
+| BGA / QFN                     | No           |
 
 ## Bill of Materials
 
@@ -47,3 +43,6 @@ Please check the documentation at: [docs.amdc.dev/accessories/uinverter](https:/
 
 **Note:** If you wish/have to replace the gate driver heatsink part number, make sure that the new part has a slot of similar dimensions as in `part no.: 529702B02500G` in the bottom to accommodate decoupling capacitors on the board.
 
+
+
+[^1]: This number does not include mechanical components. With mechanical components included, the unique part count is 27 and total parts is 89. Users are advised to not have their assembly vendor place screws and standoffs.
