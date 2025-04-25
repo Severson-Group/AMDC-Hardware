@@ -13,7 +13,7 @@ This folder contains the compiled design outputs for the Kaman I/O Converter REV
 | Surface Finish          | Tin Lead           |
 | Silkscreen              | White              |
 | Material                | FR-4, TG150        |
-| Board Thickness         | 0.41 mm (16.2 mil) |
+| Board Thickness         | 1.6 mm (63 mil)    |
 | Min Trace Spacing       | 0.15 mm (6 mil)    |
 | Min Hole Size           | 0.36 mm (14 mil)   |
 | Number of Holes         | 112                |
