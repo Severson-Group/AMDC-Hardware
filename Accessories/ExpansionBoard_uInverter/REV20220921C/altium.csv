@@ -1,5 +1,5 @@
 Quantity,Designator,Description,Value,Footprint,Supplier Part Number 1,Manufacturer Part Number 1,Supplier 1,Manufacturer 1
-,,,,,
+,,,,,,,,
 "3","C1A, C1B, C1C","Cap Ceramic 0.1uF 35V X7R 10% SMD 0805","","0805_CAP","399-17618-1-ND","C0805C104K6RACTU","Digikey","KEMET"
 "5","C2A, C2B, C2C, C5, C6","0805 35 V 10 uF �10% Tolerance X5R Multilayer Ceramic Capacitor","","0805_CAP","490-10514-2-ND","GRM21BR6YA106KE43L","Digikey","Murata"
 "6","C3A, C3B, C3C, C4A, C4B, C4C","2.2 �F �10% 35V Ceramic Capacitor X7R 0805","","0805_CAP","445-7551-1-ND","C2012X7R1V225K125AB","Digikey","TDK"
