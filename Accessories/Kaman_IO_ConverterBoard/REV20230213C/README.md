@@ -25,8 +25,8 @@ This folder contains the compiled design outputs for the Kaman I/O Converter REV
 
 | Question                      | Answer      |
 |-------------------------------|-------------|
-| Unique Part Count             | 16          |
-| Number of Total Parts         | 92          |
+| Unique Part Count[^1]         | 16          |
+| Number of Total Parts[^1]     | 92          |
 | Total SMT Part Count          | 89          |
 | Total Through-hole Part Count | 3           |
 | Total Mechanical Screws       | 2           |
@@ -35,3 +35,6 @@ This folder contains the compiled design outputs for the Kaman I/O Converter REV
 ## Bill of Materials
 
 The [Bill of Materials (BOM)](io-converter-board-bom.csv) contains components for 1 board. If users of this repo discover that any components are unvailable, please maintain an `alternate-components.md` file in this folder that lists approved alternates.
+
+
+[^1]: This number does not include screws and standoffs. With these components included, the unique part count is 18 and total parts is 96. Users are advised to not have their assembly vendor place these components.
