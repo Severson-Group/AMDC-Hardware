@@ -1,0 +1,1293 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top_layer
+
+# CMP 0
+CMP 6 47.371 43.18 90 N TP26B RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 47.371 43.18 0 N 18 3 1
+#
+# CMP 1
+CMP 6 59.944 17.78 270 N TP26A RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.944 17.78 180 N 19 3 1
+#
+# CMP 2
+CMP 6 58.293 43.18 90 N TP25B RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 58.293 43.18 0 N 20 3 1
+#
+# CMP 3
+CMP 6 49.022 17.78 270 N TP25A RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 49.022 17.78 180 N 21 3 1
+#
+# CMP 4
+CMP 6 53.975 31.496 270 N TP24B RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 53.975 31.496 180 N 22 3 1
+#
+# CMP 5
+CMP 6 53.34 29.21 270 N TP24A RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 53.34 29.21 180 N 23 3 1
+#
+# CMP 6
+CMP 6 64.135 31.623 270 N TP23B RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 64.135 31.623 180 N 24 3 1
+#
+# CMP 7
+CMP 6 43.18 29.337 270 N TP23A RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 43.18 29.337 180 N 25 3 1
+#
+# CMP 8
+CMP 0 41.56799916 53.086 0 N C22 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 40.71799832 53.086 0 N 40 61 1
+TOP 1 42.418 53.086 0 N 42 12 2
+#
+# CMP 9
+CMP 0 41.44099916 48.514 0 N C21 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 40.59099832 48.514 0 N 40 65 1
+TOP 1 42.291 48.514 0 N 42 19 2
+#
+# CMP 10
+CMP 0 47.752 6.69200084 90 N C20 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 47.752 7.54200168 90 N 40 69 1
+TOP 1 47.752 5.842 90 N 41 13 2
+#
+# CMP 11
+CMP 0 47.752 11.64500084 90 N C19 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 47.752 12.49500168 90 N 40 70 1
+TOP 1 47.752 10.795 90 N 41 14 2
+#
+# CMP 12
+CMP 0 46.228 34.417 270 N C18B CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 46.228 33.56699916 270 N 40 64 1
+TOP 1 46.228 35.26700084 270 N 42 15 2
+#
+# CMP 13
+CMP 0 57.15 34.417 270 N C18A CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 57.15 33.56699916 270 N 40 63 1
+TOP 1 57.15 35.26700084 270 N 42 14 2
+#
+# CMP 14
+CMP 0 50.165 20.53500084 270 N C17B CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 50.165 19.685 270 N 40 62 1
+TOP 1 50.165 21.38500168 270 N 42 13 2
+#
+# CMP 15
+CMP 0 61.087 20.574 270 N C17A CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 61.087 19.72399916 270 N 40 60 1
+TOP 1 61.087 21.42400084 270 N 42 11 2
+#
+# CMP 16
+CMP 2 69.80299984 10.287 0 N CON3 1862291 ;0=2,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '277-12141-ND'
+TOP 0 69.80299984 5.28699984 0 N 5 0 1
+TOP 1 69.80299984 10.287 0 N 5 1 1
+TOP 2 74.803 5.28699984 0 N 40 21 2
+TOP 3 74.803 10.287 0 N 40 18 2
+TOP 4 79.80300016 5.28699984 0 N 40 19 3
+TOP 5 79.80300016 10.287 0 N 40 22 3
+TOP 6 84.80300032 5.28699984 0 N 40 20 4
+TOP 7 84.80300032 10.287 0 N 40 23 4
+#
+# CMP 17
+CMP 10 44.949999 50.546 180 N U9 SN74LVC1T45DBVR ;0=1,1=1.4500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '296-16843-1-ND'
+TOP 0 46.24999894 49.59599936 90 N 41 18 1
+TOP 1 46.24999894 50.546 90 N 40 66 2
+TOP 2 46.24999894 51.4959981 90 N 6 1 3
+TOP 3 43.64999906 51.4959981 90 N 14 2 4
+TOP 4 43.64999906 50.546 90 N 41 11 5
+TOP 5 43.64999906 49.59599936 90 N 42 18 6
+#
+# CMP 18
+CMP 10 44.949999 55.626 180 N U8 SN74LVC1T45DBVR ;0=1,1=1.4500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '296-16843-1-ND'
+TOP 0 46.24999894 54.67599936 90 N 41 10 1
+TOP 1 46.24999894 55.626 90 N 40 68 2
+TOP 2 46.24999894 56.5759981 90 N 7 1 3
+TOP 3 43.64999906 56.5759981 90 N 15 2 4
+TOP 4 43.64999906 55.626 90 N 41 12 5
+TOP 5 43.64999906 54.67599936 90 N 42 20 6
+#
+# CMP 19
+CMP 8 53.848 52.578 0 N U7 UA9637ACDR ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '296-15056-1-ND'
+TOP 0 51.1229991 54.483 270 N 41 16 1
+TOP 1 51.1229991 53.213 270 N 7 0 2
+TOP 2 51.1229991 51.943 270 N 6 0 3
+TOP 3 51.1229991 50.673 270 N 40 52 4
+TOP 4 56.57299836 50.673 270 N 33 2 5
+TOP 5 56.57299836 51.943 270 N 32 2 6
+TOP 6 56.57299836 53.213 270 N 37 2 7
+TOP 7 56.57299836 54.483 270 N 36 2 8
+#
+# CMP 20
+CMP 10 44.704 4.699 0 N U6 SN74LVC1T45DBVR ;0=1,1=1.4500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '296-16843-1-ND'
+TOP 0 43.40400006 5.64900064 270 N 42 8 1
+TOP 1 43.40400006 4.699 270 N 40 82 2
+TOP 2 43.40400006 3.7490019 270 N 26 5 3
+TOP 3 46.00399994 3.7490019 270 N 8 0 4
+TOP 4 46.00399994 4.699 270 N 42 9 5
+TOP 5 46.00399994 5.64900064 270 N 41 2 6
+#
+# CMP 21
+CMP 8 53.848 7.874 0 N U5 UA9638CDR ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '296-15058-1-ND'
+TOP 0 51.1229991 9.779 270 N 41 3 1
+TOP 1 51.1229991 8.509 270 N 9 1 2
+TOP 2 51.1229991 7.239 270 N 8 1 3
+TOP 3 51.1229991 5.969 270 N 40 74 4
+TOP 4 56.57299836 5.969 270 N 35 2 5
+TOP 5 56.57299836 7.239 270 N 34 2 6
+TOP 6 56.57299836 8.509 270 N 39 2 7
+TOP 7 56.57299836 9.779 270 N 38 2 8
+#
+# CMP 22
+CMP 10 44.73399994 9.7129981 0 N U4 SN74LVC1T45DBVR ;0=1,1=1.4500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '296-16843-1-ND'
+TOP 0 43.434 10.66299874 270 N 42 4 1
+TOP 1 43.434 9.7129981 270 N 40 73 2
+TOP 2 43.434 8.763 270 N 29 5 3
+TOP 3 46.03399988 8.763 270 N 9 0 4
+TOP 4 46.03399988 9.7129981 270 N 42 2 5
+TOP 5 46.03399988 10.66299874 270 N 41 1 6
+#
+# CMP 23
+CMP 11 46.228 37.338 180 N U3B 74LVC2G14GW-Q100H ;0=1,1=1.1000,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1727-2072-1-ND'
+TOP 0 47.32800034 36.68799876 90 N 22 1 1
+TOP 1 47.32800034 37.338 90 N 40 75 2
+TOP 2 47.32800034 37.9879987 90 N 18 1 3
+TOP 3 45.12799966 37.9879987 90 N 2 6 4
+TOP 4 45.12799966 37.338 90 N 42 10 5
+TOP 5 45.12799966 36.68799876 90 N 4 5 6
+#
+# CMP 24
+CMP 11 61.087 23.495 0 N U3A 74LVC2G14GW-Q100H ;0=1,1=1.1000,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1727-2072-1-ND'
+TOP 0 59.98699966 24.14500124 270 N 23 4 1
+TOP 1 59.98699966 23.495 270 N 40 56 2
+TOP 2 59.98699966 22.8450013 270 N 19 1 3
+TOP 3 62.18700034 22.8450013 270 N 26 4 4
+TOP 4 62.18700034 23.495 270 N 42 16 5
+TOP 5 62.18700034 24.14500124 270 N 29 4 6
+#
+# CMP 25
+CMP 11 57.15 37.338 180 N U2B 74LVC2G14GW-Q100H ;0=1,1=1.1000,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1727-2072-1-ND'
+TOP 0 58.25000034 36.68799876 90 N 24 1 1
+TOP 1 58.25000034 37.338 90 N 40 76 2
+TOP 2 58.25000034 37.9879987 90 N 20 1 3
+TOP 3 56.04999966 37.9879987 90 N 10 0 4
+TOP 4 56.04999966 37.338 90 N 42 3 5
+TOP 5 56.04999966 36.68799876 90 N 12 0 6
+#
+# CMP 26
+CMP 11 50.165 23.495 0 N U2A 74LVC2G14GW-Q100H ;0=1,1=1.1000,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1727-2072-1-ND'
+TOP 0 49.06499966 24.14500124 270 N 25 4 1
+TOP 1 49.06499966 23.495 270 N 40 71 2
+TOP 2 49.06499966 22.8450013 270 N 21 1 3
+TOP 3 51.26500034 22.8450013 270 N 11 0 4
+TOP 4 51.26500034 23.495 270 N 42 17 5
+TOP 5 51.26500034 24.14500124 270 N 13 0 6
+#
+# CMP 27
+CMP 9 30.988 44.45 0 N U1 TLV75533PDBVR ;0=1,1=1.4500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '296-50411-1-ND'
+TOP 0 29.68800006 45.40000064 270 N 41 8 1
+TOP 1 29.68800006 44.45 270 N 40 79 2
+TOP 2 29.68800006 43.5000019 270 N 41 5 3
+TOP 3 32.28799994 43.5000019 270 N 0 3 4
+TOP 4 32.28799994 45.40000064 270 N 42 5 5
+#
+# CMP 28
+CMP 6 67.437 41.021 0 N TP22 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 67.437 41.021 270 N 14 0 1
+#
+# CMP 29
+CMP 6 59.80976862 49.911 90 N TP21 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.80976862 49.911 0 N 33 3 1
+#
+# CMP 30
+CMP 6 67.437 33.782 0 N TP20 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 67.437 33.782 270 N 15 0 1
+#
+# CMP 31
+CMP 6 59.69 51.816 90 N TP19 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.69 51.816 0 N 32 3 1
+#
+# CMP 32
+CMP 6 59.69 54.356 90 N TP18 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.69 54.356 0 N 37 3 1
+#
+# CMP 33
+CMP 6 59.69 56.896 90 N TP17 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.69 56.896 0 N 36 3 1
+#
+# CMP 34
+CMP 6 67.437 19.812 180 N TP13 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 67.437 19.812 90 N 26 0 1
+#
+# CMP 35
+CMP 6 59.69 3.81 270 N TP12 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.69 3.81 180 N 35 3 1
+#
+# CMP 36
+CMP 6 67.437 27.051 180 N TP11 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 67.437 27.051 90 N 29 0 1
+#
+# CMP 37
+CMP 6 59.69 6.35 270 N TP10 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.69 6.35 180 N 34 3 1
+#
+# CMP 38
+CMP 6 59.69 8.89 270 N TP9 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.69 8.89 180 N 39 3 1
+#
+# CMP 39
+CMP 6 59.69 11.43 270 N TP8 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 59.69 11.43 180 N 38 3 1
+#
+# CMP 40
+CMP 6 34.798 48.26 270 N TP7 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 34.798 48.26 180 N 40 17 1
+#
+# CMP 41
+CMP 6 30.988 48.26 270 N TP6 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 30.988 48.26 180 N 42 6 1
+#
+# CMP 42
+CMP 6 27.178 48.26 270 N TP5 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 27.178 48.26 180 N 41 6 1
+#
+# CMP 43
+CMP 6 40.64 40.64 180 N TP4 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 40.64 40.64 90 N 2 4 1
+#
+# CMP 44
+CMP 6 40.64 34.29 180 N TP3 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 40.64 34.29 90 N 4 6 1
+#
+# CMP 45
+CMP 6 40.64 20.32 180 N TP2 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 40.64 20.32 90 N 1 3 1
+#
+# CMP 46
+CMP 6 40.64 26.67 0 N TP1 RCU-0C ;0=1,1=1.7500,5=0
+PRP Category 'Test and Measurement'
+PRP Color 'Natural'
+PRP ComponentLink1Description 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP ComponentLink1URL 'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English'
+PRP Manufacturer ''
+PRP Manufacturer_Part_Number 'RCU-0C'
+PRP Material_-_Body '-'
+PRP Material_-_Insulation 'No Insulation'
+PRP Mounting_Type 'Surface Mount'
+PRP Packaging 'Cut Tape (CT)'
+PRP Part_Status 'Active'
+PRP Plating '-'
+PRP Price ''
+PRP Pricing_1 '1=0.22, 10=0.206, 25=0.1756, 50=0.1536, 100=0.1426, 250=0.12616, 500=0.12068, 1000=0.09874 (USD)'
+PRP RoHS 'RoHS Compliant'
+PRP Size_/_Dimension '0.063_ x 0.031_ x 0.045_ (1.60mm x 0.80mm x 1.15mm)'
+PRP Stock_1 '136646'
+PRP Supplier ''
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number ''
+PRP Supplier_Part_Number_1 'A106145CT-ND'
+PRP Type 'PC Test Point'
+TOP 0 40.64 26.67 270 N 3 3 1
+#
+# CMP 47
+CMP 1 43.18 39.58500084 90 N R16B RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 43.18 40.43500168 90 N 40 91 1
+TOP 1 43.18 38.735 90 N 2 5 2
+#
+# CMP 48
+CMP 1 64.135 21.37499916 270 N R16A RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 64.135 20.52499832 270 N 40 50 1
+TOP 1 64.135 22.225 270 N 26 3 2
+#
+# CMP 49
+CMP 7 49.53 39.73500054 90 N R15B CPF-A-0805B25KE ;0=1,1=0.6500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1712-CPF-A-0805B25KECT-ND'
+PRP Value '25K'
+TOP 0 49.53 40.73500108 0 N 40 93 1
+TOP 1 49.53 38.735 0 N 18 4 2
+#
+# CMP 50
+CMP 7 57.785 21.22499946 270 N R15A CPF-A-0805B25KE ;0=1,1=0.6500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1712-CPF-A-0805B25KECT-ND'
+PRP Value '25K'
+TOP 0 57.785 20.22499892 180 N 40 48 1
+TOP 1 57.785 22.225 180 N 19 4 2
+#
+# CMP 51
+CMP 1 60.325 39.58500084 90 N R14B RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 60.325 40.43500168 90 N 40 89 1
+TOP 1 60.325 38.735 90 N 20 0 2
+#
+# CMP 52
+CMP 1 46.99 21.37499916 270 N R14A RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 46.99 20.52499832 270 N 40 53 1
+TOP 1 46.99 22.225 270 N 21 4 2
+#
+# CMP 53
+CMP 1 53.975 39.58500084 90 N R13B RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 53.975 40.43500168 90 N 10 1 1
+TOP 1 53.975 38.735 90 N 18 0 2
+#
+# CMP 54
+CMP 1 53.34 21.37499916 270 N R13A RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 53.34 20.52499832 270 N 11 1 1
+TOP 1 53.34 22.225 270 N 19 0 2
+#
+# CMP 55
+CMP 1 64.135 39.58500084 270 N R12B RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 64.135 38.735 270 N 20 4 1
+TOP 1 64.135 40.43500168 270 N 14 3 2
+#
+# CMP 56
+CMP 1 43.18 21.37499916 90 N R12A RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 43.18 22.225 90 N 21 0 1
+TOP 1 43.18 20.52499832 90 N 1 2 2
+#
+# CMP 57
+CMP 1 43.18 35.14000084 90 N R11B RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 43.18 35.99000168 90 N 40 83 1
+TOP 1 43.18 34.29 90 N 4 4 2
+#
+# CMP 58
+CMP 1 64.135 25.81999916 270 N R11A RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 64.135 24.96999832 270 N 40 58 1
+TOP 1 64.135 26.67 270 N 29 3 2
+#
+# CMP 59
+CMP 7 49.53 35.29000054 90 N R10B CPF-A-0805B25KE ;0=1,1=0.6500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1712-CPF-A-0805B25KECT-ND'
+PRP Value '25K'
+TOP 0 49.53 36.29000108 0 N 40 90 1
+TOP 1 49.53 34.29 0 N 22 0 2
+#
+# CMP 60
+CMP 7 57.785 25.66999946 270 N R10A CPF-A-0805B25KE ;0=1,1=0.6500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '1712-CPF-A-0805B25KECT-ND'
+PRP Value '25K'
+TOP 0 57.785 24.66999892 180 N 40 54 1
+TOP 1 57.785 26.67 180 N 23 2 2
+#
+# CMP 61
+CMP 1 60.325 35.14000084 90 N R9B RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 60.325 35.99000168 90 N 40 85 1
+TOP 1 60.325 34.29 90 N 24 0 2
+#
+# CMP 62
+CMP 1 46.99 25.81999916 270 N R9A RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 46.99 24.96999832 270 N 40 87 1
+TOP 1 46.99 26.67 270 N 25 2 2
+#
+# CMP 63
+CMP 1 53.975 35.14000084 90 N R8B RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 53.975 35.99000168 90 N 12 1 1
+TOP 1 53.975 34.29 90 N 22 4 2
+#
+# CMP 64
+CMP 1 53.34 25.81999916 270 N R8A RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 53.34 24.96999832 270 N 13 1 1
+TOP 1 53.34 26.67 270 N 23 1 2
+#
+# CMP 65
+CMP 1 64.135 35.14000084 90 N R7B RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 64.135 35.99000168 90 N 15 3 1
+TOP 1 64.135 34.29 90 N 24 4 2
+#
+# CMP 66
+CMP 1 43.18 25.81999916 270 N R7A RT0603DRE0710KL ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'YAG2318CT-ND'
+PRP Value '10K'
+TOP 0 43.18 24.96999832 270 N 3 2 1
+TOP 1 43.18 26.67 270 N 25 1 2
+#
+# CMP 67
+CMP 1 72.39 43.90300084 270 N R2 Resistor ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 ''
+PRP Value 'DNP'
+TOP 0 72.39 43.053 270 N 17 2 1
+TOP 1 72.39 44.75300168 270 N 40 47 2
+#
+# CMP 68
+CMP 1 32.258 19.304 0 N R1 Resistor ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 ''
+PRP Value 'DNP'
+TOP 0 31.40799916 19.304 0 N 16 2 1
+TOP 1 33.10800084 19.304 0 N 40 16 2
+#
+# CMP 69
+CMP 5 30.48 5.08 0 N MH2 MOUNT_HOLE ;0=2,1=1.7500,5=0
+TOP 0 27.97999992 6.57999954 0 N 40 39 1
+TOP 1 30.48 7.9375 90 N 40 24 1
+TOP 2 33.3375 5.08 180 N 40 9 1
+TOP 3 30.48 2.2225 270 N 40 8 1
+TOP 4 27.6225 5.08 0 N 40 10 1
+TOP 5 28.98000046 7.58000008 0 N 40 12 1
+TOP 6 28.98000046 2.57999992 270 N 40 11 1
+TOP 7 32.98000008 3.58000046 180 N 40 7 1
+TOP 8 31.97999954 7.58000008 90 N 40 3 1
+TOP 9 27.97999992 3.58000046 270 N 40 2 1
+TOP 10 31.97999954 2.57999992 180 N 40 4 1
+TOP 11 32.98000008 6.57999954 90 N 40 6 1
+TOP 12 30.48 5.08 0 N 40 5 1
+#
+# CMP 70
+CMP 5 30.48 55.88 0 N MH1 MOUNT_HOLE ;0=2,1=1.7500,5=0
+TOP 0 27.97999992 57.37999954 0 N 40 27 1
+TOP 1 30.48 58.7375 90 N 40 29 1
+TOP 2 33.3375 55.88 180 N 40 28 1
+TOP 3 30.48 53.0225 270 N 40 43 1
+TOP 4 27.6225 55.88 0 N 40 42 1
+TOP 5 28.98000046 58.38000008 0 N 40 44 1
+TOP 6 28.98000046 53.37999992 270 N 40 46 1
+TOP 7 32.98000008 54.38000046 180 N 40 45 1
+TOP 8 31.97999954 58.38000008 90 N 40 41 1
+TOP 9 27.97999992 54.38000046 270 N 40 37 1
+TOP 10 31.97999954 53.37999992 180 N 40 36 1
+TOP 11 32.98000008 57.37999954 90 N 40 38 1
+TOP 12 30.48 55.88 0 N 40 40 1
+#
+# CMP 71
+CMP 3 35.052 30.48 90 N CON2 381-009-112L565 ;0=2,1=0.0000,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 'NOR1136-ND'
+TOP 0 35.052 33.02 90 N 5 2 1
+TOP 1 35.052 31.75 90 N 2 3 2
+TOP 2 35.052 30.48 90 N 4 3 3
+TOP 3 35.052 29.21 90 N 3 0 4
+TOP 4 35.052 27.94 90 N 40 13 5
+TOP 5 32.512 32.385 90 N 2 0 6
+TOP 6 32.512 31.115 90 N 4 0 7
+TOP 7 32.512 29.845 90 N 1 0 8
+TOP 8 32.512 28.575 90 N 40 14 9
+TOP 9 31.242 37.65499962 90 N 16 1 SH1
+TOP 10 31.242 23.30500038 90 N 16 0 SH2
+#
+# CMP 72
+CMP 4 77.47 30.48 270 N CON1 ICD15S13E6GX00LF ;0=2,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '609-2801-ND'
+TOP 0 74.93 34.78500028 270 N 41 7 1
+TOP 1 74.93 32.50499976 270 N 38 0 2
+TOP 2 74.93 30.22499924 270 N 39 0 3
+TOP 3 74.93 27.94500126 270 N 34 0 4
+TOP 4 74.93 25.66500074 270 N 35 0 5
+TOP 5 77.47 35.92500054 270 N 0 2 6
+TOP 6 77.47 33.64500002 270 N 0 0 7
+TOP 7 77.47 31.3649995 270 N 0 5 8
+TOP 8 77.47 29.08500152 270 N 0 4 9
+TOP 9 77.47 26.805001 270 N 0 1 10
+TOP 10 80.01 34.78500028 270 N 40 15 11
+TOP 11 80.01 32.50499976 270 N 36 0 12
+TOP 12 80.01 30.22500178 270 N 37 0 13
+TOP 13 80.01 27.94500126 270 N 32 0 14
+TOP 14 80.01 25.66500074 270 N 33 0 15
+TOP 15 77.47 42.97500168 270 N 17 1 SH1
+TOP 16 77.47 17.9850034 270 N 17 0 SH2
+#
+# CMP 73
+CMP 0 47.997999 49.44199916 90 N C16 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 47.997999 50.292 90 N 40 67 1
+TOP 1 47.997999 48.59199832 90 N 41 19 2
+#
+# CMP 74
+CMP 0 47.997999 54.52199916 90 N C15 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 47.997999 55.372 90 N 40 59 1
+TOP 1 47.997999 53.67199832 90 N 41 17 2
+#
+# CMP 75
+CMP 0 51.90400084 56.388 180 N C14 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 52.75400168 56.388 180 N 40 51 1
+TOP 1 51.054 56.388 180 N 41 15 2
+#
+# CMP 76
+CMP 0 41.656 10.88300084 270 N C13 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 41.656 10.033 270 N 40 77 1
+TOP 1 41.656 11.73300168 270 N 42 0 2
+#
+# CMP 77
+CMP 0 51.65000084 11.684 180 N C12 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 52.50000168 11.684 180 N 40 72 1
+TOP 1 50.8 11.684 180 N 41 4 2
+#
+# CMP 78
+CMP 0 41.656 5.80300084 270 N C11 CC0603KRX7R8BB104 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-1341-1-ND'
+PRP Value '0.1uF'
+TOP 0 41.656 4.953 270 N 40 81 1
+TOP 1 41.656 6.65300168 270 N 42 1 2
+#
+# CMP 79
+CMP 0 52.07 39.58500084 90 N C10B CC0603JRNPO9BN160 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-3964-1-ND'
+PRP Value '16pF'
+TOP 0 52.07 40.43500168 90 N 40 94 1
+TOP 1 52.07 38.735 90 N 18 2 2
+#
+# CMP 80
+CMP 0 55.245 21.37499916 270 N C10A CC0603JRNPO9BN160 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-3964-1-ND'
+PRP Value '16pF'
+TOP 0 55.245 20.52499832 270 N 40 49 1
+TOP 1 55.245 22.225 270 N 19 2 2
+#
+# CMP 81
+CMP 0 62.23 39.58500084 90 N C9B CC0603BRNPO9BN1R0 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-3346-1-ND'
+PRP Value '1pF'
+TOP 0 62.23 40.43500168 90 N 40 86 1
+TOP 1 62.23 38.735 90 N 20 2 2
+#
+# CMP 82
+CMP 0 45.085 21.37499916 270 N C9A CC0603BRNPO9BN1R0 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-3346-1-ND'
+PRP Value '1pF'
+TOP 0 45.085 20.52499832 270 N 40 57 1
+TOP 1 45.085 22.225 270 N 21 2 2
+#
+# CMP 83
+CMP 0 52.07 35.14000084 90 N C8B CC0603JRNPO9BN160 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-3964-1-ND'
+PRP Value '16pF'
+TOP 0 52.07 35.99000168 90 N 40 92 1
+TOP 1 52.07 34.29 90 N 22 2 2
+#
+# CMP 84
+CMP 0 55.245 25.81999916 270 N C8A CC0603JRNPO9BN160 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-3964-1-ND'
+PRP Value '16pF'
+TOP 0 55.245 24.96999832 270 N 40 55 1
+TOP 1 55.245 26.67 270 N 23 0 2
+#
+# CMP 85
+CMP 0 62.23 35.14000084 90 N C7B CC0603BRNPO9BN1R0 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-3346-1-ND'
+PRP Value '1pF'
+TOP 0 62.23 35.99000168 90 N 40 84 1
+TOP 1 62.23 34.29 90 N 24 2 2
+#
+# CMP 86
+CMP 0 45.085 25.81999916 270 N C7A CC0603BRNPO9BN1R0 ;0=1,1=1.7500,5=0
+PRP Supplier_1 'DigiKey'
+PRP Supplier_Part_Number_1 '311-3346-1-ND'
+PRP Value '1pF'
+TOP 0 45.085 24.96999832 270 N 40 88 1
+TOP 1 45.085 26.67 270 N 25 0 2
+#
+# CMP 87
+CMP 0 34.798 44.45 270 N C2 CL10A105KP8NNWC ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '1276-1863-1-ND'
+PRP Value '1uF'
+TOP 0 34.798 43.59999916 270 N 40 80 1
+TOP 1 34.798 45.30000084 270 N 42 7 2
+#
+# CMP 88
+CMP 0 27.178 44.45 270 N C1 CL10A105KP8NNWC ;0=1,1=1.7500,5=0
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '1276-1863-1-ND'
+PRP Value '1uF'
+TOP 0 27.178 43.59999916 270 N 40 78 1
+TOP 1 27.178 45.30000084 270 N 41 9 2
+#
