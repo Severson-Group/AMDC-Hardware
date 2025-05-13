@@ -16,5 +16,5 @@ Quantity,Designator,Description,Value,Footprint,Supplier Part Number,Manufacture
 "4","U4, U6, U8, U9","IC TRNSLTR BIDIRECTIONAL SOT23-6","","SOT95P280X145-6N","296-16843-1-ND","SN74LVC1T45DBVR","Digikey","Texas Instruments"
 "1","U5","IC DRIVER 2/0 8SOIC","","SOIC127P600X175-8N","296-15058-1-ND","UA9638CDR","Digikey","Rochester Electronics"
 "1","U7","IC RECEIVER 0/2 8SOIC","","SOIC127P600X175-8N","296-15056-1-ND","UA9637ACDR","Digikey","Texas Instruments"
-"2","NA","MACH SCREW PAN PHILLIPS #4-40","","","36-9900-ND","9900","DigiKey","Keystone Electronics"
-"2","NA","HEX STANDOFF #4-40 BRASS 3/8","","","36-1803-ND","1803","DigiKey","Keystone Electronics"
+"2","SCREW1, SCREW2","MACH SCREW PAN PHILLIPS #4-40","","","36-9900-ND","9900","DigiKey","Keystone Electronics"
+"2","STANDOFF1, STANDOFF2","HEX STANDOFF #4-40 BRASS 3/8","","","36-1803-ND","1803","DigiKey","Keystone Electronics"
