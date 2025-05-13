@@ -1,31 +1,29 @@
-Quantity,Designator,Description,Value,Footprint,Supplier Part Number,Manufacturer Part Number,Supplier,Manufacturer
-,,,,,,,,
-3,"C1A, C1B, C1C",Cap Ceramic 0.1uF 35V X7R 10% SMD 0805,0.1uF,0805_CAP,399-17618-1-ND,C0805C104K6RACTU,Digikey,KEMET
-5,"C2A, C2B, C2C, C5, C6",0805 35 V 10 uF Â±10% Tolerance X5R Multilayer Ceramic Capacitor,10uF,0805_CAP,490-10514-2-ND,GRM21BR6YA106KE43L,Digikey,Murata
-6,"C3A, C3B, C3C, C4A, C4B, C4C",2.2 ÂµF Â±10% 35V Ceramic Capacitor X7R 0805,2.2uF,0805_CAP,445-7551-1-ND,C2012X7R1V225K125AB,Digikey,TDK
-2,"C7, C8",Cap Aluminum 1000uF 35V 20% (12.5 X 25mm) Radial 5mm 3190mA 7000 hr 105C Ammo Pack,1000uF,CAP_PAN_12.5X25_PAN,P19719CT-ND,EEU-FM1V102B,Digikey,Panasonic
-1,C9,Capacitor 0.1uF 16V 0805 SMD X7R,0.1uF,0805_CAP,311-1142-1-ND,CC0805KRX7R7BB104,DigiKey,Yageo
-1,CONN1,CONN PWR JACK 2X5.5MM SOLDER,,CUI_PJ-037AH,CP-037AH-ND,PJ037AH,Digikey,CUI Devices
-1,CONN2,Conn High Density D-Sub SKT 15 POS 2.28mm Solder RA Thru-Hole 15 Terminal 1 Port,,ICD15S13E6GV00LF,609-2802-ND,ICD15S13E6GV00LF,Digikey,Amphenol Communications Solutions
-1,CONN3,CONN MOD JACK 8P8C R/A SHIELDED,,CONN_RJSAE538502_AMP,RJSAE-5385-02-ND,RJSAE538502,Digikey,Amphenol Communications Solutions
-3,"HS1, HS2, HS3",Heat Sink Passive TO-220 Radial Thru-Hole 2.6C/W Black Anodized,,530002,HS404-ND,529702B02500G,Digikey,BOYD
-1,J1,Conn Terminal Blocks 2 POS 5mm Solder ST Thru-Hole 16A,,PHOENIX_1935161,277-1667-ND,PT1.5/2-5.0-H,Digikey,Phoenix Contact
-3,"L1A, L1B, L1C",FIXED IND 100UH 5.3A 118 MOHM,100uH,FP-PA4344_104NLT-MFG,553-3011-1-ND,PA4344.104NLT,Digikey,Pulse
-15,"PWMA, PWMB, PWMC, TP1A, TP1B, TP1C, TP2A, TP2B, TP2C, TP3A, TP3B, TP3C, TP4, TP5, TP6",Conn Test Point SKT 1 POS ST Thru-Hole 1 Port,,TP_1.6MM,36-5005-ND,5005,Digikey,Keystone Electronics
-3,"Q1A, Q1B, Q1C",CONN BNC JACK STR 50 OHM PCB,,5-1634503-1,A97581-ND,5-1634503-1,Digi-Key,AMP - TE CONNECTIVITY
-3,"R1A, R1B, R1C",Res Thick Film 0805 1 Ohm 1% 1/8W,1,0805_RES,541-1.00CCCT-ND,CRCW08051R00FKEA,DigiKey,Vishay Dale
-2,"R2, R3",Res Thick Film 0805 2.2K Ohm 1% 0.4W,2.2K,0805_RES,541-2841-1-ND,RCS08052K20FKEA,Digikey,Vishay Dale
-2,"R4, R5",Res Thick Film 0805 1.1K Ohm 1% 0.4W,1.1K,0805_RES,RHM1.10KAECT-ND,ESR10EZPF1101,Digikey,Rohm
-3,"Rsense1A, Rsense1B, Rsense1C",Resistor; Wirewound; Res 0.15 Ohms; Pwr-Rtg 5 W; Tol 1%; Axial; Silicone; Cur-Sense,0.15,RES_15_OHM,15FR150E-ND,15FR150E,Digikey,Ohmite
-3,"U1A, U1B, U1C",14-Ampere Low-Side Ultrafast MOSFET Driver 5-Lead TO-220,,IXYS_TO-220-5_IXY,IXDN614CI-ND,IXDN614CI,Digikey,Littelfuse
-3,"U2A, U2B, U2C",SP Amp Difference Amplifier Single Â±18V/36V 8-Pin SOIC Tube,,SOIC127P599X175-8N,INA143U-ND,INA143U,Digikey,Texas Instruments
-,,,,,,,,
-,,MECHANICAL COMPONENTS,,,,,,
-5,"SCREW1, SCREW2, SCREW3, SCREW4, SCREW5",MACH SCREW PAN PHILLIPS #4-40,,,KEY1046-ND,9900,Digi-Key,Keystone Electronics
-5,"STANDOFF1, STANDOFF2, STANDOFF3, STANDOFF4, STANDOFF5","HEX STANDOFF #4-40 BRASS 1/2""",,,36-1656-ND,1656,Digikey,Keystone Electronics
-3,NA,MACH SCREW PAN PHILLIPS #4-40,,,H705-ND,PMSSS 440 0050 PH,Digikey,B&F Fastener Supply
-3,NA,WASHER SHOULDER #4 POLY SULFIDE,,,HS418-ND,7721-7PPSG,Digikey,"Boyd Laconia, LLC"
-3,NA,THERM PAD 18.42MMX13.21MM AMBER,,,43-77-9G-ND,43-77-9G,Digikey,"Boyd Laconia, LLC"
-3,NA,WASHER FLAT #4 STAINLESS STEEL,,,H734-ND,FWSS 004,Digikey,B&F Fastener Supply
-3,NA,WASHER SPLIT LOCK #4 STEEL,,,36-4693-ND,4693,Digikey,Keystone Electronics
-3,NA,HEX NUT 1/4in 4-40,,,H216-ND,HNZ 440,Digikey,B&F Fastener Supply
+Quantity,Designator,Description,Value,Footprint,Supplier Part Number 1,Manufacturer Part Number,Supplier 1,Manufacturer
+
+"3","C1A, C1B, C1C","Cap Ceramic 0.1uF 35V X7R 10% SMD 0805","100nF","0805_CAP","399-17618-1-ND","C0805C104K6RACTU","Digi-Key","KEMET"
+"5","C2A, C2B, C2C, C5, C6","0805 35 V 10 uF ±10% Tolerance X5R Multilayer Ceramic Capacitor","10uF","0805_CAP","490-10514-2-ND","GRM21BR6YA106KE43L","Digi-Key","Murata"
+"6","C3A, C3B, C3C, C4A, C4B, C4C","2.2 µF ±10% 35V Ceramic Capacitor X7R 0805","2.2uF","0805_CAP","445-7551-1-ND","C2012X7R1V225K125AB","Digi-Key","TDK"
+"2","C7, C8","Cap Aluminum 1000uF 35V 20% (12.5 X 25mm) Radial 5mm 3190mA 7000 hr 105C Ammo Pack","1mF","CAP_PAN_12.5X25_PAN","P19719CT-ND","EEU-FM1V102B","Digi-Key","Panasonic"
+"1","C9","Capacitor 0.1uF 16V 0805 SMD X7R","100nF","0805_CAP","311-1142-1-ND","CC0805KRX7R7BB104","Digi-Key","Yageo"
+"1","CONN1","CONN PWR JACK 2X5.5MM SOLDER","","CUI_PJ-037AH","CP-037AH-ND","PJ-037AH","Digi-Key","CUI"
+"1","CONN2","Conn High Density D-Sub SKT 15 POS 2.28mm Solder RA Thru-Hole 15 Terminal 1 Port","","ICD15S13E6GV00LF","609-2802-ND","ICD15S13E6GV00LF","Digi-Key","Amphenol FCI"
+"1","CONN3","CONN MOD JACK 8P8C R/A SHIELDED","","CONN_RJSAE538502_AMP","RJSAE-5385-02-ND","RJSAE-5385-02","Digi-Key","Amphenol Commercial"
+"3","HS1, HS2, HS3","Heat Sink Passive TO-220 Radial Thru-Hole 2.6C/W Black Anodized","","530002","HS404-ND","529702B02500G","Digi-Key","Aavid Thermalloy"
+"3","HSFLATWASH1, HSFLATWASH2, HSFLATWASH3","WASHER FLAT #4 STAINLESS STEEL","","","H734-ND","","Digi-Key",""
+"3","HSHEXNUT1, HSHEXNUT2, HSHEXNUT3","HEX NUT 1/4in 4-40","","","H216-ND","","Digi-Key",""
+"3","HSINSWASHER1, HSINSWASHER2, HSINSWASHER3","WASHER SHOULDER #4 POLY SULFIDE","","","HS418-ND","","Digi-Key",""
+"3","HSLOCKWASH1, HSLOCKWASH2, HSLOCKWASH3","WASHER SPLIT LOCK #4 STEEL","","","36-4693-ND","","DIgi-Key",""
+"3","HSSCREW1, HSSCREW2, HSSCREW3","MACHINE SCREW PAN PHILLIPS 4-40","","","H705-ND","","Digi-Key",""
+"3","HSTHERMPAD1, HSTHERMPAD2, HSTHERMPAD3","THERM PAD 18.42MMX13.21MM AMBER","","","43-77-9G-ND","","Digi-Key",""
+"1","J1","Conn Terminal Blocks 2 POS 5mm Solder ST Thru-Hole 16A","","PHOENIX_1935161","277-1667-ND","1935161","Digi-Key","Phoenix Contact"
+"3","L1A, L1B, L1C","FIXED IND 100UH 5.3A 118 MOHM","100uH","FP-PA4344_104NLT-MFG","553-3011-1-ND","PA4344.104NLT","Digi-Key","Pulse"
+"15","PWMA, PWMB, PWMC, TP1A, TP1B, TP1C, TP2A, TP2B, TP2C, TP3A, TP3B, TP3C, TP4, TP5, TP6","Conn Test Point SKT 1 POS ST Thru-Hole 1 Port","","TP_1.6MM","36-5005-ND","","Digi-Key",""
+"3","Q1A, Q1B, Q1C","CONN BNC JACK STR 50 OHM PCB","","5-1634503-1","A97581-ND","","Digi-Key",""
+"3","R1A, R1B, R1C","Res Thick Film 0805 1 Ohm 1% 1/8W","1R","0805_RES","541-1.00CCCT-ND","CRCW08051R00FKEA","Digi-Key","Vishay Dale"
+"2","R2, R3","Res Thick Film 0805 2.2K Ohm 1% 0.4W","2.2kR","0805_RES","541-2841-1-ND","RCS08052K20FKEA","Digi-Key","Vishay Dale"
+"2","R4, R5","Res Thick Film 0805 1.1K Ohm 1% 0.4W","1.1kR","0805_RES","RHM1.10KAECT-ND","ESR10EZPF1101","Digi-Key","Rohm"
+"3","Rsense1A, Rsense1B, Rsense1C","Resistor; Wirewound; Res 0.15 Ohms; Pwr-Rtg 5 W; Tol 1%; Axial; Silicone; Cur-Sense","150mR","RES_15_OHM","15FR150E-ND","15FR150E","Digi-Key","Ohmite"
+"5","SCREW1, SCREW2, SCREW3, SCREW4, SCREW5","MACH SCREW PAN PHILLIPS #4-40","","","KEY1046-ND","","Digi-Key",""
+"5","STANDOFF1, STANDOFF2, STANDOFF3, STANDOFF4, STANDOFF5","HEX STANDOFF #4-40 BRASS 1/2"", [NoValue]","","","36-1656-ND","","Digi-Key",""
+"3","U1A, U1B, U1C","14-Ampere Low-Side Ultrafast MOSFET Driver 5-Lead TO-220","","IXYS_TO-220-5_IXY","IXDN614CI-ND","IXDN614CI","Digi-Key","IXYS"
+"3","U2A, U2B, U2C","SP Amp Difference Amplifier Single ±18V/36V 8-Pin SOIC Tube","","SOIC127P599X175-8N","INA143U-ND","INA143U","Digi-Key","Texas Instruments"
