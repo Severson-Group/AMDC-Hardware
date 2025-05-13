@@ -1,5 +1,5 @@
 Quantity,Designator,Description,Value,Footprint,Supplier Part Number,Manufacturer Part Number,Supplier,Manufacturer
-
+,,,,,,,,
 "2","C1, C2","CAP CER 1UF 10V X5R 0603","1uF","0603-CAP","1276-1863-1-ND","CL10A105KP8NNWC","Digikey","Samsung"
 "4","C7A, C7B, C9A, C9B","±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)","1pF","0603-CAP","311-3346-1-ND","CC0603BRNPO9BN1R0","Digikey","Yageo"
 "4","C8A, C8B, C10A, C10B","±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)","16pF","0603-CAP","311-3964-1-ND","CC0603JRNPO9BN160","Digikey","Yageo"
