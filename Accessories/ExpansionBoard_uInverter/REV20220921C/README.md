@@ -34,6 +34,6 @@ This folder contains the compiled design outputs for the uInverter expansion boa
 
 ## Bill of Materials
 
-The [Bill of Materials (BOM)](uinv-rev-c-bom.csv) contains components for 1 board. If users of this repo discover that any components are unvailable, please maintain an alternate-components.md file in this folder that lists approved alternates.
+The [Bill of Materials (BOM)](uinv-rev-c-bom.csv) contains components for 1 board. If users of this repo discover that any components are unavailable, please maintain an `alternate-components.md` file in this folder that lists approved alternates.
 
 [^1]: This number does not include mechanical components. With mechanical components included, the unique part count is 27 and total parts is 89. Users are advised to not have their assembly vendor place screws and standoffs.
