@@ -1,6 +1,6 @@
 # Kaman I/O Converter Board
 
-This folder contains the compiled design outputs for the Kaman I/O Converter REV B. This includes the schematics, images of the PCB layout, the bill of materials (BOM), and the files needed to order boards from an online vendor.
+This folder contains the compiled design outputs for the Kaman I/O Converter. This includes the schematics, images of the PCB layout, the bill of materials (BOM), and the files needed to order boards from an online vendor.
 
 
 ## Board Parameters
