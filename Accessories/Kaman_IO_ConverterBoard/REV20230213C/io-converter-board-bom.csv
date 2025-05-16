@@ -1,18 +1,13 @@
-<<<<<<< HEAD
-Quantity,Designator,Description,Value,Footprint,Supplier Part Number 1,Manufacturer Part Number 1,Supplier 1,Manufacturer 1
-
-=======
 Quantity,Designator,Description,Value,Footprint,Supplier Part Number,Manufacturer Part Number,Supplier,Manufacturer
->>>>>>> e67bdcefd9f2eb9bf3877d1fe54653ad871dd3bd
 "2","C1, C2","CAP CER 1UF 10V X5R 0603","1uF","0603-CAP","1276-1863-1-ND","CL10A105KP8NNWC","Digikey","Samsung"
-"4","C7A, C7B, C9A, C9B","±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)","1pF","0603-CAP","311-3346-1-ND","CC0603BRNPO9BN1R0","Digikey","Yageo"
-"4","C8A, C8B, C10A, C10B","±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)","16pF","0603-CAP","311-3964-1-ND","CC0603JRNPO9BN160","Digikey","Yageo"
-"14","C11, C12, C13, C14, C15, C16, C17A, C17B, C18A, C18B, C19, C20, C21, C22","0.1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)","0.1uF","0603-CAP","311-1341-1-ND","CC0603KRX7R8BB104","Digi-Key","Yageo"
+"4","C7A, C7B, C9A, C9B","Â±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)","1pF","0603-CAP","311-3346-1-ND","CC0603BRNPO9BN1R0","Digikey","Yageo"
+"4","C8A, C8B, C10A, C10B","Â±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)","16pF","0603-CAP","311-3964-1-ND","CC0603JRNPO9BN160","Digikey","Yageo"
+"14","C11, C12, C13, C14, C15, C16, C17A, C17B, C18A, C18B, C19, C20, C21, C22","0.1ÂµF Â±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)","0.1uF","0603-CAP","311-1341-1-ND","CC0603KRX7R8BB104","Digi-Key","Yageo"
 "1","CON1","15 Position D-Sub, High Density Receptacle, Female Sockets Connector","","ICD15S13E6GX00LF","609-2801-ND","ICD15S13E6GX00LF","Digikey","Amphenol ICC / FCI"
 "1","CON2","9 Position D-Type, Micro-D Plug, Male Pins Connector","","381-009-112L565","NOR1136-ND","381-009-112L565","Digikey","NorComp"
 "1","CON3","TERM BLOCK 4POS 45DEG 5MM PCB","","1862291","277-12141-ND","1862291","Digikey","Phoenix Contact"
-"16","R7A, R7B, R8A, R8B, R9A, R9B, R11A, R11B, R12A, R12B, R13A, R13B, R14A, R14B, R16A, R16B","10 ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) - Thin Film","10K","0603-RES","YAG2318CT-ND","RT0603DRE0710KL","DigiKey","Yageo"
-"4","R10A, R10B, R15A, R15B","25 ±0.1% 0.1W, 1/10W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film","25K","RESC2012X06N","1712-CPF-A-0805B25KECT-ND","5-2176238-6","Digikey","TE Connectivity"
+"16","R7A, R7B, R8A, R8B, R9A, R9B, R11A, R11B, R12A, R12B, R13A, R13B, R14A, R14B, R16A, R16B","10 Â±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) - Thin Film","10K","0603-RES","YAG2318CT-ND","RT0603DRE0710KL","DigiKey","Yageo"
+"4","R10A, R10B, R15A, R15B","25 Â±0.1% 0.1W, 1/10W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film","25K","RESC2012X06N","1712-CPF-A-0805B25KECT-ND","5-2176238-6","Digikey","TE Connectivity"
 "4","R17, R18, R19, R20","RES 120 OHM 5% 1/10W 0603","120","0603-RES","RMCF0603JT120RTR-ND","RMCF0603JT120R","Digikey","Stackpole Electronics"
 "2","SCREW1, SCREW2","MACH SCREW PAN PHILLIPS #4-40","","","36-9900-ND","9900","Digikey","Keystone Electronics"
 "2","STANDOFF1, STANDOFF2","HEX STANDOFF #4-40 BRASS 3/8","","","36-1656-ND","1656","Digikey","Keystone Electronics"
@@ -22,8 +17,5 @@ Quantity,Designator,Description,Value,Footprint,Supplier Part Number,Manufacture
 "4","U4, U6, U8, U9","IC TRNSLTR BIDIRECTIONAL SOT23-6","","SOT95P280X145-6N","296-16843-1-ND","SN74LVC1T45DBVR","Digikey","Texas Instruments"
 "1","U5","IC DRIVER 2/0 8SOIC","","SOIC127P600X175-8N","296-15058-1-ND","UA9638CDR","Digikey","Rochester Electronics"
 "1","U7","IC RECEIVER 0/2 8SOIC","","SOIC127P600X175-8N","296-15056-1-ND","UA9637ACDR","Digikey","Texas Instruments"
-<<<<<<< HEAD
-=======
 "2","SCREW1, SCREW2","MACH SCREW PAN PHILLIPS #4-40","","","36-9900-ND","9900","DigiKey","Keystone Electronics"
 "2","STANDOFF1, STANDOFF2","HEX STANDOFF #4-40 BRASS 3/8","","","36-1803-ND","1803","DigiKey","Keystone Electronics"
->>>>>>> e67bdcefd9f2eb9bf3877d1fe54653ad871dd3bd
