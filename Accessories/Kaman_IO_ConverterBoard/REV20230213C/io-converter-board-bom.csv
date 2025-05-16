@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 Quantity,Designator,Description,Value,Footprint,Supplier Part Number 1,Manufacturer Part Number 1,Supplier 1,Manufacturer 1
 
+=======
+Quantity,Designator,Description,Value,Footprint,Supplier Part Number,Manufacturer Part Number,Supplier,Manufacturer
+>>>>>>> e67bdcefd9f2eb9bf3877d1fe54653ad871dd3bd
 "2","C1, C2","CAP CER 1UF 10V X5R 0603","1uF","0603-CAP","1276-1863-1-ND","CL10A105KP8NNWC","Digikey","Samsung"
 "4","C7A, C7B, C9A, C9B","±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)","1pF","0603-CAP","311-3346-1-ND","CC0603BRNPO9BN1R0","Digikey","Yageo"
 "4","C8A, C8B, C10A, C10B","±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)","16pF","0603-CAP","311-3964-1-ND","CC0603JRNPO9BN160","Digikey","Yageo"
@@ -18,3 +22,8 @@ Quantity,Designator,Description,Value,Footprint,Supplier Part Number 1,Manufactu
 "4","U4, U6, U8, U9","IC TRNSLTR BIDIRECTIONAL SOT23-6","","SOT95P280X145-6N","296-16843-1-ND","SN74LVC1T45DBVR","Digikey","Texas Instruments"
 "1","U5","IC DRIVER 2/0 8SOIC","","SOIC127P600X175-8N","296-15058-1-ND","UA9638CDR","Digikey","Rochester Electronics"
 "1","U7","IC RECEIVER 0/2 8SOIC","","SOIC127P600X175-8N","296-15056-1-ND","UA9637ACDR","Digikey","Texas Instruments"
+<<<<<<< HEAD
+=======
+"2","SCREW1, SCREW2","MACH SCREW PAN PHILLIPS #4-40","","","36-9900-ND","9900","DigiKey","Keystone Electronics"
+"2","STANDOFF1, STANDOFF2","HEX STANDOFF #4-40 BRASS 3/8","","","36-1803-ND","1803","DigiKey","Keystone Electronics"
+>>>>>>> e67bdcefd9f2eb9bf3877d1fe54653ad871dd3bd
