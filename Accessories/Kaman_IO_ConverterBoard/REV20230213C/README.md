@@ -1,29 +1,40 @@
 # Kaman I/O Converter Board
 
-This folder contains the compiled design outputs for the Kaman I/O Converter REV B. This includes the schematics, images of the PCB layout, and the bill of materials (BOM).
+This folder contains the compiled design outputs for the Kaman I/O Converter. This includes the schematics, images of the PCB layout, the bill of materials (BOM), and the files needed to order boards from an online vendor.
 
-## PCB Properties
-| Question          | Answer        |
-|-------------------|---------------|
-| Size              | 2.4" x 2.5"   |
-| Number of Layers  | 2               |
-| Thickness         | 1.6mm            |
-| Min Track/Spacing | 6/6mil          |
-| Min Hole Size     | 0.3mm           |
-| Surface Finish    | HASL (Tin Lead) |
-| Silkscreen        | Both sides      |
-| Unique Part Count | 15            |
-| SMT Part Count    | 69            |
-| Trough-Hole Count | 3            |
 
-## Recommended Cables
+## Board Parameters
 
-The Kaman I/O Converter board requires cables to interface with the AMDC GPIO connectors. The following are the recommended cables to buy.
+| Question                | Answer             |
+|-------------------------|--------------------|
+| Board Size              | 2.4" x 2.5"        |
+| Numer of Layers         | 2 Layers           |
+| Double Sided            | Yes                |
+| Surface Finish          | Tin Lead           |
+| Silkscreen              | White              |
+| Material                | FR-4, TG150        |
+| Board Thickness         | 1.6 mm (63 mil)    |
+| Min Trace Spacing       | 0.15 mm (6 mil)    |
+| Min Hole Size           | 0.36 mm (14 mil)   |
+| Number of Holes         | 112                |
+| Solder Mask             | Green              |
+| HASL or ENIG            | No                 |
+| Finished Copper         | 1 oz               |
 
-### GPIO Cables
+## Assembly Details
 
-<img src="https://media.digikey.com/Photos/Amphenol%20Photos/MFG_CS-DSDHD15MM0.jpg" width="25%" />
+| Question                      | Answer      |
+|-------------------------------|-------------|
+| Unique Part Count[^1]         | 16          |
+| Number of Total Parts[^1]     | 92          |
+| Total SMT Part Count          | 89          |
+| Total Through-hole Part Count | 3           |
+| Total Mechanical Screws       | 2           |
+| Total Mechanical Standoffs    | 2           |
 
-Digi-Key Part Number: `CS-DSDHD15MM0-007.5-ND`
+## Bill of Materials
 
-Only one cable is required.
+The [Bill of Materials (BOM)](io-converter-board-bom.csv) contains components for 1 board. If users of this repo discover that any components are unavailable, please maintain an `alternate-components.md` file in this folder that lists approved alternates.
+
+
+[^1]: This number does not include screws and standoffs. With these components included, the unique part count is 18 and total parts is 96. Users are advised to not have their assembly vendor place these components.

@@ -1,0 +1,388 @@
+UNITS=MM
+H optimize n staggered n
+$0 $NONE$
+$1 3.3V
+$2 5V
+$3 GND
+$4 GP1_IN_N
+$5 GP1_IN_P
+$6 GP1_OUT_N
+$7 GP1_OUT_P
+$8 GP2_IN_N
+$9 GP2_IN_P
+$10 GP2_OUT_N
+$11 GP2_OUT_P
+$12 NetC3A_2
+$13 NetC3B_2
+$14 NetC4A_2
+$15 NetC5A_2
+$16 NetC5B_2
+$17 NetC6A_2
+$18 NetC7A_2
+$19 NetC7B_2
+$20 NetC8A_2
+$21 NetC8B_2
+$22 NetC9A_2
+$23 NetC9B_2
+$24 NetC10A_2
+$25 NetC10B_2
+$26 NetCON1_SH1
+$27 NetCON2_SH1
+$28 NetR3B_1
+$29 NetR5B_1
+$30 NetR8A_1
+$31 NetR8B_1
+$32 NetR13A_1
+$33 NetR13B_1
+$34 NetU4_4
+$35 NetU5_3
+$36 NetU7_2
+$37 NetU7_3
+$38 VIN
+$39 X_CNV
+$40 X_MISO
+$41 X_SCLK
+$42 Y_MISO
+#
+#Netlist points
+#
+0 0.002 32.28799994 43.5000019 T e e staggered 0 0 0
+0 0.45000164 77.47 35.92500054 B e e staggered 0 0 0
+0 0.45000164 77.47 26.805001 B e e staggered 0 0 0
+0 0.45000164 77.47 33.64500002 B e e staggered 0 0 0
+0 0.45000164 77.47 31.3649995 B e e staggered 0 0 0
+0 0.45000164 77.47 29.08500152 B e e staggered 0 0 0
+1 0.002 57.15 35.26700084 T e e staggered 0 0 0
+1 0.002 46.228 35.26700084 T e e staggered 0 0 0
+1 0.002 50.165 21.38500168 T e e staggered 0 0 0
+1 0.002 61.087 21.42400084 T e e staggered 0 0 0
+1 0.002 42.418 53.086 T e e staggered 0 0 0
+1 0.002 42.291 48.514 T e e staggered 0 0 0
+1 0.002 43.64999906 54.67599936 T e e staggered 0 0 0
+1 0.002 43.64999906 49.59599936 T e e staggered 0 0 0
+1 0.002 62.18700034 23.495 T e e staggered 0 0 0
+1 0.002 51.26500034 23.495 T e e staggered 0 0 0
+1 0.002 45.12799966 37.338 T e e staggered 0 0 0
+1 0.002 56.04999966 37.338 T e e staggered 0 0 0
+1 0.002 43.434 10.66299874 T e e staggered 0 0 0
+1 0.002 46.03399988 9.7129981 T e e staggered 0 0 0
+1 0.002 41.656 11.73300168 T e e staggered 0 0 0
+1 0.002 41.656 6.65300168 T e e staggered 0 0 0
+1 0.002 43.40400006 5.64900064 T e e staggered 0 0 0
+1 0.002 46.00399994 4.699 T e e staggered 0 0 0
+1 0.002 34.798 45.30000084 T e e staggered 0 0 0
+1 0.002 32.28799994 45.40000064 T e e staggered 0 0 0
+1 0.002 30.988 48.26 T e e staggered 0 0 0
+1 0.1778 43.561 48.387 B e c staggered 0 0 0 v
+1 0.1778 41.656 13.18738028 B e c staggered 0 0 0 v
+1 0.1778 63.373 23.495 B e c staggered 0 0 0 v
+1 0.1778 54.737 37.338 B e c staggered 0 0 0 v
+1 0.1778 43.815 37.338 B e c staggered 0 0 0 v
+1 0.1778 52.832 23.495 B e c staggered 0 0 0 v
+1 0.1778 41.656 7.874 B e c staggered 0 0 0 v
+1 0.1778 42.418 54.61 B e c staggered 0 0 0 v
+1 0.1778 32.766 48.26 B e c staggered 0 0 0 v
+2 0.002 47.752 5.842 T e e staggered 0 0 0
+2 0.002 47.752 10.795 T e e staggered 0 0 0
+2 0.002 43.64999906 55.626 T e e staggered 0 0 0
+2 0.002 46.24999894 54.67599936 T e e staggered 0 0 0
+2 0.002 43.64999906 50.546 T e e staggered 0 0 0
+2 0.002 46.24999894 49.59599936 T e e staggered 0 0 0
+2 0.002 47.997999 48.59199832 T e e staggered 0 0 0
+2 0.002 47.997999 53.67199832 T e e staggered 0 0 0
+2 0.002 51.054 56.388 T e e staggered 0 0 0
+2 0.002 51.1229991 54.483 T e e staggered 0 0 0
+2 0.002 51.1229991 9.779 T e e staggered 0 0 0
+2 0.002 50.8 11.684 T e e staggered 0 0 0
+2 0.002 46.03399988 10.66299874 T e e staggered 0 0 0
+2 0.002 46.00399994 5.64900064 T e e staggered 0 0 0
+2 0.002 29.68800006 43.5000019 T e e staggered 0 0 0
+2 0.002 29.68800006 45.40000064 T e e staggered 0 0 0
+2 0.002 27.178 45.30000084 T e e staggered 0 0 0
+2 0.002 27.178 48.26 T e e staggered 0 0 0
+2 0.45000164 74.93 34.78500028 B e e staggered 0 0 0
+2 0.1778 42.291 50.546 B e c staggered 0 0 0 v
+2 0.1778 48.006 46.99 B e c staggered 0 0 0 v
+2 0.1778 45.974 6.858 B e c staggered 0 0 0 v
+2 0.1778 50.8 12.827 B e c staggered 0 0 0 v
+2 0.1778 51.054 57.658 B e c staggered 0 0 0 v
+2 0.1778 48.006 52.451 B e c staggered 0 0 0 v
+2 0.1778 42.418 55.626 B e c staggered 0 0 0 v
+2 0.1778 29.083 48.26 B e c staggered 0 0 0 v
+3 0.002 57.15 33.56699916 T e e staggered 0 0 0
+3 0.002 46.228 33.56699916 T e e staggered 0 0 0
+3 0.002 50.165 19.685 T e e staggered 0 0 0
+3 0.002 61.087 19.72399916 T e e staggered 0 0 0
+3 0.002 40.71799832 53.086 T e e staggered 0 0 0
+3 0.002 40.59099832 48.514 T e e staggered 0 0 0
+3 0.002 47.752 7.54200168 T e e staggered 0 0 0
+3 0.002 47.752 12.49500168 T e e staggered 0 0 0
+3 0.002 46.24999894 55.626 T e e staggered 0 0 0
+3 0.002 46.24999894 50.546 T e e staggered 0 0 0
+3 0.002 47.997999 50.292 T e e staggered 0 0 0
+3 0.002 47.997999 55.372 T e e staggered 0 0 0
+3 0.002 52.75400168 56.388 T e e staggered 0 0 0
+3 0.002 51.1229991 50.673 T e e staggered 0 0 0
+3 0.002 64.135 20.52499832 T e e staggered 0 0 0
+3 0.002 57.785 20.22499892 T e e staggered 0 0 0
+3 0.002 55.245 20.52499832 T e e staggered 0 0 0
+3 0.002 46.99 20.52499832 T e e staggered 0 0 0
+3 0.002 45.085 20.52499832 T e e staggered 0 0 0
+3 0.002 64.135 24.96999832 T e e staggered 0 0 0
+3 0.002 59.98699966 23.495 T e e staggered 0 0 0
+3 0.002 57.785 24.66999892 T e e staggered 0 0 0
+3 0.002 55.245 24.96999832 T e e staggered 0 0 0
+3 0.002 49.06499966 23.495 T e e staggered 0 0 0
+3 0.002 46.99 24.96999832 T e e staggered 0 0 0
+3 0.002 45.085 24.96999832 T e e staggered 0 0 0
+3 0.002 62.23 40.43500168 T e e staggered 0 0 0
+3 0.002 62.23 35.99000168 T e e staggered 0 0 0
+3 0.002 60.325 35.99000168 T e e staggered 0 0 0
+3 0.002 60.325 40.43500168 T e e staggered 0 0 0
+3 0.002 49.53 40.73500108 T e e staggered 0 0 0
+3 0.002 52.07 40.43500168 T e e staggered 0 0 0
+3 0.002 52.07 35.99000168 T e e staggered 0 0 0
+3 0.002 49.53 36.29000108 T e e staggered 0 0 0
+3 0.002 43.18 40.43500168 T e e staggered 0 0 0
+3 0.002 43.18 35.99000168 T e e staggered 0 0 0
+3 0.002 47.32800034 37.338 T e e staggered 0 0 0
+3 0.002 58.25000034 37.338 T e e staggered 0 0 0
+3 0.002 51.1229991 5.969 T e e staggered 0 0 0
+3 0.002 52.50000168 11.684 T e e staggered 0 0 0
+3 0.002 43.434 9.7129981 T e e staggered 0 0 0
+3 0.002 41.656 10.033 T e e staggered 0 0 0
+3 0.002 41.656 4.953 T e e staggered 0 0 0
+3 0.002 43.40400006 4.699 T e e staggered 0 0 0
+3 0.002 34.798 43.59999916 T e e staggered 0 0 0
+3 0.002 29.68800006 44.45 T e e staggered 0 0 0
+3 0.002 27.178 43.59999916 T e e staggered 0 0 0
+3 0.002 72.39 44.75300168 T e e staggered 0 0 0
+3 0.002 33.10800084 19.304 T e e staggered 0 0 0
+3 0.002 34.798 48.26 T e e staggered 0 0 0
+3 0.45000164 80.01 34.78500028 B e e staggered 0 0 0
+3 0.35000184 35.052 27.94 B e e staggered 0 0 0
+3 0.35000184 32.512 28.575 B e e staggered 0 0 0
+3 0.55000144 74.803 10.287 B e e staggered 0 0 0
+3 0.55000144 79.80300016 10.287 B e e staggered 0 0 0
+3 0.55000144 84.80300032 10.287 B e e staggered 0 0 0
+3 0.55000144 74.803 5.28699984 B e e staggered 0 0 0
+3 0.55000144 79.80300016 5.28699984 B e e staggered 0 0 0
+3 0.55000144 84.80300032 5.28699984 B e e staggered 0 0 0
+3 1.905 30.48 5.08 B e e staggered 0 0 0
+3 0.1778 32.98000008 6.57999954 B e e staggered 0 0 0
+3 0.1778 31.97999954 2.57999992 B e e staggered 0 0 0
+3 0.1778 27.97999992 3.58000046 B e e staggered 0 0 0
+3 0.1778 31.97999954 7.58000008 B e e staggered 0 0 0
+3 0.1778 32.98000008 3.58000046 B e e staggered 0 0 0
+3 0.1778 28.98000046 2.57999992 B e e staggered 0 0 0
+3 0.1778 28.98000046 7.58000008 B e e staggered 0 0 0
+3 0.1778 27.6225 5.08 B e e staggered 0 0 0
+3 0.1778 30.48 2.2225 B e e staggered 0 0 0
+3 0.1778 33.3375 5.08 B e e staggered 0 0 0
+3 0.1778 30.48 7.9375 B e e staggered 0 0 0
+3 0.1778 27.97999992 6.57999954 B e e staggered 0 0 0
+3 1.905 30.48 55.88 B e e staggered 0 0 0
+3 0.1778 32.98000008 57.37999954 B e e staggered 0 0 0
+3 0.1778 31.97999954 53.37999992 B e e staggered 0 0 0
+3 0.1778 27.97999992 54.38000046 B e e staggered 0 0 0
+3 0.1778 31.97999954 58.38000008 B e e staggered 0 0 0
+3 0.1778 32.98000008 54.38000046 B e e staggered 0 0 0
+3 0.1778 28.98000046 53.37999992 B e e staggered 0 0 0
+3 0.1778 28.98000046 58.38000008 B e e staggered 0 0 0
+3 0.1778 27.6225 55.88 B e e staggered 0 0 0
+3 0.1778 30.48 53.0225 B e e staggered 0 0 0
+3 0.1778 33.3375 55.88 B e e staggered 0 0 0
+3 0.1778 30.48 58.7375 B e e staggered 0 0 0
+3 0.1778 27.97999992 57.37999954 B e e staggered 0 0 0
+3 0.002 48.92399664 22.225 D e e staggered 0 0 0
+3 0.002 45.11399664 22.225 D e e staggered 0 0 0
+3 0.002 45.16299832 26.67 D e e staggered 0 0 0
+3 0.002 48.97299832 26.67 D e e staggered 0 0 0
+3 0.002 46.91200168 38.735 D e e staggered 0 0 0
+3 0.002 50.72200168 38.735 D e e staggered 0 0 0
+3 0.002 46.78500168 34.29 D e e staggered 0 0 0
+3 0.002 50.59500168 34.29 D e e staggered 0 0 0
+3 0.1778 48.006 39.751 B e c staggered 0 0 0 v
+3 0.1778 46.736 31.369 B e c staggered 0 0 0 v
+3 0.1778 47.9995992 21.31894644 B e c staggered 0 0 0 v
+3 0.1778 38.227 35.941 B e c staggered 0 0 0 v
+3 0.1778 41.275 35.941 B e c staggered 0 0 0 v
+3 0.1778 38.608 22.225 B e c staggered 0 0 0 v
+3 0.1778 49.022 28.575 B e c staggered 0 0 0 v
+3 0.1778 45.212 28.575 B e c staggered 0 0 0 v
+3 0.1778 50.546 32.385 B e c staggered 0 0 0 v
+3 0.1778 57.023 39.624 B e c staggered 0 0 0 v
+4 0.002 56.57299836 8.509 T e e staggered 0 0 0
+4 0.002 59.69 8.89 T e e staggered 0 0 0
+4 0.45000164 74.93 30.22499924 B e e staggered 0 0 0
+4 0.002 65.74700084 10.541 D e e staggered 0 0 0
+4 0.1778 62.611 8.001 B e c staggered 0 0 0 v
+5 0.002 56.57299836 9.779 T e e staggered 0 0 0
+5 0.002 59.69 11.43 T e e staggered 0 0 0
+5 0.45000164 74.93 32.50499976 B e e staggered 0 0 0
+5 0.002 64.04699916 10.541 D e e staggered 0 0 0
+5 0.1778 62.611 10.541 B e c staggered 0 0 0 v
+6 0.002 56.57299836 53.213 T e e staggered 0 0 0
+6 0.002 59.69 54.356 T e e staggered 0 0 0
+6 0.45000164 80.01 30.22500178 B e e staggered 0 0 0
+6 0.002 82.85300168 50.927 D e e staggered 0 0 0
+6 0.1778 82.55 47.244 B e c staggered 0 0 0 v
+6 0.1778 82.55 54.356 B e c staggered 0 0 0 v
+7 0.002 56.57299836 54.483 T e e staggered 0 0 0
+7 0.002 59.69 56.896 T e e staggered 0 0 0
+7 0.45000164 80.01 32.50499976 B e e staggered 0 0 0
+7 0.002 81.153 50.927 D e e staggered 0 0 0
+7 0.1778 81.28 47.244 B e c staggered 0 0 0 v
+7 0.1778 81.28 56.769 B e c staggered 0 0 0 v
+8 0.002 56.57299836 5.969 T e e staggered 0 0 0
+8 0.002 59.69 3.81 T e e staggered 0 0 0
+8 0.45000164 74.93 25.66500074 B e e staggered 0 0 0
+8 0.002 65.74700084 5.461 D e e staggered 0 0 0
+8 0.1778 62.611 2.921 B e c staggered 0 0 0 v
+9 0.002 56.57299836 7.239 T e e staggered 0 0 0
+9 0.002 59.69 6.35 T e e staggered 0 0 0
+9 0.45000164 74.93 27.94500126 B e e staggered 0 0 0
+9 0.002 64.04699916 5.461 D e e staggered 0 0 0
+9 0.1778 62.611 5.461 B e c staggered 0 0 0 v
+10 0.002 56.57299836 50.673 T e e staggered 0 0 0
+10 0.002 59.80976862 49.911 T e e staggered 0 0 0
+10 0.45000164 80.01 25.66500074 B e e staggered 0 0 0
+10 0.002 85.55900084 48.514 D e e staggered 0 0 0
+10 0.1778 85.30500084 47.117 B e c staggered 0 0 0 v
+10 0.1778 85.30500084 50.038 B e c staggered 0 0 0 v
+11 0.002 56.57299836 51.943 T e e staggered 0 0 0
+11 0.002 59.69 51.816 T e e staggered 0 0 0
+11 0.45000164 80.01 27.94500126 B e e staggered 0 0 0
+11 0.002 83.85899916 48.514 D e e staggered 0 0 0
+11 0.1778 84.201 47.18863816 B e c staggered 0 0 0 v
+11 0.1778 84.201 51.816 B e c staggered 0 0 0 v
+12 0.002 46.863 26.67 D e e staggered 0 0 0
+12 0.002 46.863 24.765 D e e staggered 0 0 0
+12 0.002 48.97299832 24.765 D e e staggered 0 0 0
+13 0.002 48.895 36.195 D e e staggered 0 0 0
+13 0.002 46.78500168 36.195 D e e staggered 0 0 0
+13 0.002 48.895 34.29 D e e staggered 0 0 0
+14 0.002 64.135 26.67 T e e staggered 0 0 0
+14 0.002 62.18700034 24.14500124 T e e staggered 0 0 0
+14 0.002 43.434 8.763 T e e staggered 0 0 0
+14 0.002 67.437 27.051 T e e staggered 0 0 0
+14 0.002 50.673 24.765 D e e staggered 0 0 0
+14 0.002 50.673 26.67 D e e staggered 0 0 0
+14 0.1778 58.674 14.097 B e c staggered 0 0 0 v
+14 0.1778 66.167 26.67 B e c staggered 0 0 0 v
+15 0.002 48.92399664 20.32 D e e staggered 0 0 0
+15 0.002 46.81399832 22.225 D e e staggered 0 0 0
+15 0.002 46.81399832 20.32 D e e staggered 0 0 0
+16 0.002 49.022 40.64 D e e staggered 0 0 0
+16 0.002 49.022 38.735 D e e staggered 0 0 0
+16 0.002 46.91200168 40.64 D e e staggered 0 0 0
+17 0.002 64.135 22.225 T e e staggered 0 0 0
+17 0.002 62.18700034 22.8450013 T e e staggered 0 0 0
+17 0.002 43.40400006 3.7490019 T e e staggered 0 0 0
+17 0.002 67.437 19.812 T e e staggered 0 0 0
+17 0.002 50.62399832 20.32 D e e staggered 0 0 0
+17 0.002 50.62399832 22.225 D e e staggered 0 0 0
+17 0.1778 58.674 15.367 B e c staggered 0 0 0 v
+17 0.1778 66.167 22.225 B e c staggered 0 0 0 v
+18 0.002 43.18 29.337 T e e staggered 0 0 0
+18 0.002 49.06499966 24.14500124 T e e staggered 0 0 0
+18 0.002 46.99 26.67 T e e staggered 0 0 0
+18 0.002 45.085 26.67 T e e staggered 0 0 0
+18 0.002 43.18 26.67 T e e staggered 0 0 0
+19 0.002 64.135 31.623 T e e staggered 0 0 0
+19 0.002 64.135 34.29 T e e staggered 0 0 0
+19 0.002 62.23 34.29 T e e staggered 0 0 0
+19 0.002 60.325 34.29 T e e staggered 0 0 0
+19 0.002 58.25000034 36.68799876 T e e staggered 0 0 0
+20 0.002 53.34 29.21 T e e staggered 0 0 0
+20 0.002 59.98699966 24.14500124 T e e staggered 0 0 0
+20 0.002 57.785 26.67 T e e staggered 0 0 0
+20 0.002 55.245 26.67 T e e staggered 0 0 0
+20 0.002 53.34 26.67 T e e staggered 0 0 0
+21 0.002 53.975 31.496 T e e staggered 0 0 0
+21 0.002 53.975 34.29 T e e staggered 0 0 0
+21 0.002 52.07 34.29 T e e staggered 0 0 0
+21 0.002 49.53 34.29 T e e staggered 0 0 0
+21 0.002 47.32800034 36.68799876 T e e staggered 0 0 0
+22 0.002 49.022 17.78 T e e staggered 0 0 0
+22 0.002 46.99 22.225 T e e staggered 0 0 0
+22 0.002 45.085 22.225 T e e staggered 0 0 0
+22 0.002 43.18 22.225 T e e staggered 0 0 0
+22 0.002 49.06499966 22.8450013 T e e staggered 0 0 0
+23 0.002 58.293 43.18 T e e staggered 0 0 0
+23 0.002 64.135 38.735 T e e staggered 0 0 0
+23 0.002 62.23 38.735 T e e staggered 0 0 0
+23 0.002 60.325 38.735 T e e staggered 0 0 0
+23 0.002 58.25000034 37.9879987 T e e staggered 0 0 0
+24 0.002 59.944 17.78 T e e staggered 0 0 0
+24 0.002 57.785 22.225 T e e staggered 0 0 0
+24 0.002 55.245 22.225 T e e staggered 0 0 0
+24 0.002 53.34 22.225 T e e staggered 0 0 0
+24 0.002 59.98699966 22.8450013 T e e staggered 0 0 0
+25 0.002 47.371 43.18 T e e staggered 0 0 0
+25 0.002 49.53 38.735 T e e staggered 0 0 0
+25 0.002 52.07 38.735 T e e staggered 0 0 0
+25 0.002 53.975 38.735 T e e staggered 0 0 0
+25 0.002 47.32800034 37.9879987 T e e staggered 0 0 0
+26 0.002 72.39 43.053 T e e staggered 0 0 0
+26 1.60000188 77.47 42.97500168 B e e staggered 0 0 0
+26 1.60000188 77.47 17.9850034 B e e staggered 0 0 0
+27 0.002 31.40799916 19.304 T e e staggered 0 0 0
+27 1.34500112 31.242 37.65499962 B e e staggered 0 0 0
+27 1.34500112 31.242 23.30500038 B e e staggered 0 0 0
+28 0.002 43.64999906 56.5759981 T e e staggered 0 0 0
+28 0.002 64.135 35.99000168 T e e staggered 0 0 0
+28 0.002 67.437 33.782 T e e staggered 0 0 0
+28 0.002 50.59500168 36.195 D e e staggered 0 0 0
+28 0.1778 64.516 44.831 B e c staggered 0 0 0 v
+28 0.1778 66.294 36.068 B e c staggered 0 0 0 v
+29 0.002 43.64999906 51.4959981 T e e staggered 0 0 0
+29 0.002 64.135 40.43500168 T e e staggered 0 0 0
+29 0.002 67.437 41.021 T e e staggered 0 0 0
+29 0.002 50.72200168 40.64 D e e staggered 0 0 0
+29 0.1778 66.167 40.513 B e c staggered 0 0 0 v
+30 0.002 53.34 24.96999832 T e e staggered 0 0 0
+30 0.002 51.26500034 24.14500124 T e e staggered 0 0 0
+31 0.002 53.975 35.99000168 T e e staggered 0 0 0
+31 0.002 56.04999966 36.68799876 T e e staggered 0 0 0
+32 0.002 53.34 20.52499832 T e e staggered 0 0 0
+32 0.002 51.26500034 22.8450013 T e e staggered 0 0 0
+33 0.002 53.975 40.43500168 T e e staggered 0 0 0
+33 0.002 56.04999966 37.9879987 T e e staggered 0 0 0
+34 0.002 51.1229991 8.509 T e e staggered 0 0 0
+34 0.002 46.03399988 8.763 T e e staggered 0 0 0
+35 0.002 51.1229991 7.239 T e e staggered 0 0 0
+35 0.002 46.00399994 3.7490019 T e e staggered 0 0 0
+36 0.002 46.24999894 56.5759981 T e e staggered 0 0 0
+36 0.002 51.1229991 53.213 T e e staggered 0 0 0
+37 0.002 46.24999894 51.4959981 T e e staggered 0 0 0
+37 0.002 51.1229991 51.943 T e e staggered 0 0 0
+38 0.35000184 35.052 33.02 B e e staggered 0 0 0
+38 0.55000144 69.80299984 10.287 B e e staggered 0 0 0
+38 0.55000144 69.80299984 5.28699984 B e e staggered 0 0 0
+39 0.002 40.64 40.64 T e e staggered 0 0 0
+39 0.002 43.18 38.735 T e e staggered 0 0 0
+39 0.002 45.12799966 37.9879987 T e e staggered 0 0 0
+39 0.35000184 35.052 31.75 B e e staggered 0 0 0
+39 0.35000184 32.512 32.385 B e e staggered 0 0 0
+39 0.002 45.212 38.735 D e e staggered 0 0 0
+39 0.002 45.212 40.64 D e e staggered 0 0 0
+39 0.1778 40.64 38.2651 B e c staggered 0 0 0 v
+40 0.002 43.18 24.96999832 T e e staggered 0 0 0
+40 0.002 40.64 26.67 T e e staggered 0 0 0
+40 0.35000184 35.052 29.21 B e e staggered 0 0 0
+40 0.002 45.16299832 24.765 D e e staggered 0 0 0
+40 0.1778 40.64 28.321 B e c staggered 0 0 0 v
+41 0.002 43.18 34.29 T e e staggered 0 0 0
+41 0.002 45.12799966 36.68799876 T e e staggered 0 0 0
+41 0.002 40.64 34.29 T e e staggered 0 0 0
+41 0.35000184 35.052 30.48 B e e staggered 0 0 0
+41 0.35000184 32.512 31.115 B e e staggered 0 0 0
+41 0.002 45.085 34.29 D e e staggered 0 0 0
+41 0.002 45.085 36.195 D e e staggered 0 0 0
+41 0.1778 40.64 32.639 B e c staggered 0 0 0 v
+42 0.002 43.18 20.52499832 T e e staggered 0 0 0
+42 0.002 40.64 20.32 T e e staggered 0 0 0
+42 0.35000184 32.512 29.845 B e e staggered 0 0 0
+42 0.002 45.11399664 20.32 D e e staggered 0 0 0
+42 0.1778 40.64 18.669 B e c staggered 0 0 0 v
