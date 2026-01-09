@@ -67,6 +67,4 @@ CurrentControl_ert_rtw/
 .vscode/
 *.DS_Store
 
-# KiCad schematic branch 
 
- *.kicad_pcb

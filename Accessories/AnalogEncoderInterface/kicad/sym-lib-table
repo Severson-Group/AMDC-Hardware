@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "INA2")(type "KiCad")(uri "C:/Users/count/Downloads/INA2143U/KiCADv6/2025-10-09_20-19-41.kicad_sym")(options "")(descr ""))
+  (lib (name "RS6-2405S")(type "KiCad")(uri "C:/Users/count/Downloads/RS6_2405S/RS6-2405S.kicad_sym")(options "")(descr ""))
+  (lib (name "RS6-2415D")(type "KiCad")(uri "C:/Users/count/Downloads/RS6_2415D/RS6-2415D.kicad_sym")(options "")(descr ""))
+  (lib (name "RJ45-ME4090")(type "KiCad")(uri "C:/Users/count/Downloads/RJSSE5380/KiCADv6/2025-10-21_00-40-02.kicad_sym")(options "")(descr ""))
+  (lib (name "ebc-rev-a-lib")(type "KiCad")(uri "${KIPRJMOD}/ebc-rev-a-lib.kicad_sym")(options "")(descr ""))
+  (lib (name "WE-SL5_HC")(type "KiCad")(uri "C:/Users/count/Downloads/WE-SL5_HC/WE-SL5_HC.kicad_sym")(options "")(descr "Power noise filter"))
+  (lib (name "1935161")(type "KiCad")(uri "C:/Users/count/Downloads/ul_1935161/KiCADv6/2025-12-26_18-51-42.kicad_sym")(options "")(descr "2 connector"))
+)
