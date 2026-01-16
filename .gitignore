@@ -7,4 +7,38 @@
 Accessories/ExpansionBoard_ADC_BNC/altium/PCB1.PcbDoc.htm
 Accessories/ExpansionBoard_CAN/altium/CAN.PrjPcbStructure
 altium/PCB_v4.PcbDoc.htm
+
+
+#############
+# KiCAD #
+##############
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+
 Accessories/AnalogEncoderInterface/kicad/ebc-rev-a.kicad_pcb
