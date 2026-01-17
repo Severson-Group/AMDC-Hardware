@@ -39,5 +39,3 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-
-Accessories/AnalogEncoderInterface/kicad/aei.kicad_pcb
