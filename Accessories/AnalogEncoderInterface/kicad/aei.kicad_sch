@@ -410,6 +410,7 @@
 		(symbol "987-1710-ND:P120PK-Y25BR10K"
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5564,6 +5565,12 @@
 		(uuid "1b25b2e0-b343-4377-9f0d-8a643be93292")
 	)
 	(junction
+		(at 54.61 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f4a05f-e7a6-422c-989c-e935f40148ac")
+	)
+	(junction
 		(at 78.74 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5863,12 +5870,6 @@
 		(color 0 0 0 0)
 		(uuid "fd919099-fc41-4b8c-a310-103375209f09")
 	)
-	(junction
-		(at 52.07 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe947cb5-70e9-4b09-bf21-3172094e4c84")
-	)
 	(no_connect
 		(at 43.18 114.3)
 		(uuid "0b18a358-d731-43dd-b481-275aaadb22e1")
@@ -6009,13 +6010,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 58.42) (xy 52.07 57.15)
+			(xy 41.91 58.42) (xy 54.61 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d3b952b-2216-445c-9620-755f95a17204")
+		(uuid "0d82332c-db85-42c0-a5fc-c4e9582ae37b")
 	)
 	(wire
 		(pts
@@ -6369,16 +6370,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 58.42) (xy 52.07 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e99992e-69bb-40f0-a905-86ee8b7ee552")
-	)
-	(wire
-		(pts
 			(xy 227.33 72.39) (xy 226.06 72.39)
 		)
 		(stroke
@@ -6449,7 +6440,7 @@
 	)
 	(polyline
 		(pts
-			(xy 60.96 128.27) (xy 60.96 132.08)
+			(xy 59.69 128.27) (xy 59.69 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6939,7 +6930,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.15 67.31) (xy 57.15 132.08)
+			(xy 58.42 67.31) (xy 58.42 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7289,16 +7280,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 20.32) (xy 236.22 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7e2c7e-a531-4b88-9806-3f736510d808")
-	)
-	(wire
-		(pts
 			(xy 226.06 68.58) (xy 226.06 69.85)
 		)
 		(stroke
@@ -7346,6 +7327,16 @@
 			(type default)
 		)
 		(uuid "a20ac50f-bab9-437c-853a-0b2656869484")
+	)
+	(wire
+		(pts
+			(xy 54.61 58.42) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27037af-ff9a-4afe-acde-6311ce57e507")
 	)
 	(wire
 		(pts
@@ -7789,16 +7780,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 58.42) (xy 57.15 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dceada2e-ecff-44a5-83f1-72b336022c9f")
-	)
-	(wire
-		(pts
 			(xy 162.56 149.86) (xy 165.1 149.86)
 		)
 		(stroke
@@ -7879,7 +7860,7 @@
 	)
 	(polyline
 		(pts
-			(xy 60.96 67.31) (xy 60.96 128.27)
+			(xy 59.69 67.31) (xy 59.69 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7916,16 +7897,6 @@
 			(type default)
 		)
 		(uuid "e287b451-7736-47f1-92fd-06d182c6511f")
-	)
-	(wire
-		(pts
-			(xy 194.31 55.88) (xy 194.31 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e304665a-b9be-4f71-8c46-f7d3613c6ff5")
 	)
 	(wire
 		(pts
@@ -11922,16 +11893,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 232.41 20.32 0)
+		(at 236.22 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33d06b70-6c83-40fd-966a-0ff2c9a93559")
 		(property "Reference" "TP7"
-			(at 234.95 15.7479 0)
+			(at 238.252 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11940,7 +11910,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 234.95 18.2879 0)
+			(at 238.76 18.2879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11950,7 +11920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 20.32 0)
+			(at 241.3 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11959,7 +11929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 20.32 0)
+			(at 241.3 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,7 +11938,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 232.41 20.32 0)
+			(at 236.22 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12064,10 +12034,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "40b6433c-810c-4f3f-b0d6-77bb054e57fb")
 		(property "Reference" "PS1"
-			(at 58.42 71.12 0)
+			(at 51.816 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12044,7 @@
 			)
 		)
 		(property "Value" "RS6-2405S"
-			(at 58.42 73.66 0)
+			(at 51.816 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12719,7 +12688,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 52.07 58.42 0)
+		(at 54.61 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12728,7 +12697,7 @@
 		(dnp no)
 		(uuid "5972eeee-828a-46c1-a4c5-3781e39742a8")
 		(property "Reference" "TP18"
-			(at 50.546 56.134 0)
+			(at 53.086 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12737,7 +12706,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 49.53 56.3879 0)
+			(at 52.07 56.3879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 58.42 0)
+			(at 49.53 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +12725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 58.42 0)
+			(at 49.53 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12734,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 52.07 58.42 0)
+			(at 54.61 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14002,7 +13971,7 @@
 		(dnp no)
 		(uuid "99de0a24-4591-4641-8ea9-626f7bfbedea")
 		(property "Reference" "R1"
-			(at 240.03 30.4799 90)
+			(at 254.508 34.798 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14011,7 +13980,7 @@
 			)
 		)
 		(property "Value" "P120PK-Y25BR10K"
-			(at 267.208 35.56 90)
+			(at 266.192 37.338 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14156,10 +14125,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e2beada-8367-4c8c-8ad2-4248c50b27ba")
 		(property "Reference" "PS2"
-			(at 58.42 101.6 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14167,7 +14135,7 @@
 			)
 		)
 		(property "Value" "RS6-2415D"
-			(at 58.42 104.14 0)
+			(at 52.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
