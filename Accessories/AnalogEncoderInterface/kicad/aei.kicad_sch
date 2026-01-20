@@ -5853,12 +5853,6 @@
 		(uuid "e0260a7b-d085-4a4f-a620-523e5fd85dab")
 	)
 	(junction
-		(at 58.42 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f02def32-ed25-4dd2-989d-dfe1b6a79a2b")
-	)
-	(junction
 		(at 80.01 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11220,7 +11214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 144.78 142.24 0)
 			(effects
 				(font
@@ -11639,7 +11633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 57.15 48.26 0)
 			(effects
 				(font
@@ -11852,7 +11846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 87.63 19.05 0)
 			(effects
 				(font
@@ -11919,7 +11913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -11987,7 +11981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 77.47 26.67 0)
 			(effects
 				(font
@@ -12174,7 +12168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTST-C191KRKT_LTO"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 44.45 167.64 0)
 			(effects
 				(font
@@ -12245,7 +12239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -12310,7 +12304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -12577,7 +12571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 167.64 137.16 0)
 			(effects
 				(font
@@ -12715,7 +12709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 49.53 58.42 0)
 			(effects
 				(font
@@ -12782,7 +12776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 137.16 170.18 0)
 			(effects
 				(font
@@ -12909,7 +12903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 157.48 158.75 0)
 			(effects
 				(font
@@ -13018,7 +13012,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x06")
-		(at 170.18 144.78 0)
+		(at 170.18 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13026,7 +13021,7 @@
 		(dnp no)
 		(uuid "73c44f15-18bc-4922-9989-5b5214d35db5")
 		(property "Reference" "J3"
-			(at 169.672 156.21 0)
+			(at 169.672 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13035,7 +13030,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x06"
-			(at 161.036 156.21 0)
+			(at 161.036 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13045,7 +13040,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal"
-			(at 170.18 144.78 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13054,7 +13049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 144.78 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,7 +13058,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 144.78 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13394,7 +13389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 59.69 44.45 0)
 			(effects
 				(font
@@ -13461,7 +13456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE5380"
 			(at 217.17 145.415 90)
 			(effects
 				(font
@@ -13724,7 +13719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -13791,7 +13786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 161.29 153.67 0)
 			(effects
 				(font
@@ -13855,7 +13850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTST-C191KRKT_LTO"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 34.29 151.13 0)
 			(effects
 				(font
@@ -14269,7 +14264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 86.36 119.38 0)
 			(effects
 				(font
@@ -14337,7 +14332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -14540,7 +14535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 157.48 170.18 0)
 			(effects
 				(font
@@ -14672,7 +14667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_1935161_PXC"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 46.99 22.86 0)
 			(effects
 				(font
@@ -14741,7 +14736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTST-C191KRKT_LTO"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 34.29 185.42 0)
 			(effects
 				(font
@@ -14880,7 +14875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 97.79 170.18 0)
 			(effects
 				(font
@@ -14918,73 +14913,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 58.42 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9b2a61e-a449-4935-9dbe-cd200261568a")
-		(property "Reference" "TP9"
-			(at 52.578 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 60.96 34.7979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dffd508-df0d-4c58-9832-34c994d2e445")
-		)
-		(instances
-			(project "aei-rev-a"
-				(path "/d51d5d44-56d3-4d42-8ea1-48307eca1305"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 55.88 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -15012,7 +14940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -15080,7 +15008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -15148,7 +15076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 274.32 26.67 0)
 			(effects
 				(font
@@ -15283,7 +15211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 154.94 148.59 0)
 			(effects
 				(font
