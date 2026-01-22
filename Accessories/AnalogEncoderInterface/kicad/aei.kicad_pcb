@@ -420,7 +420,7 @@
 			(uuid "e4e62182-e98b-442e-834e-9967d6e18618")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -613,7 +613,7 @@
 			(uuid "1b3f18e6-56ea-479b-ad07-1e7aaf2bfd2c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -952,7 +952,7 @@
 			(uuid "c96368d5-d1bc-4e10-903b-fd3a374b95e0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.step"
+		(model "${KIPRJMOD}/3D-models/LED_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1325,7 +1325,7 @@
 			(uuid "071969c2-4542-4367-9953-8420b78d7e0b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE5380.step"
+		(model "${KIPRJMOD}/3D-models/RJ45_Amphenol_RJHSE538X.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1463,7 +1463,7 @@
 			(uuid "6b23b0eb-7e1d-4cb9-ad39-e04c222ffb44")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1601,7 +1601,7 @@
 			(uuid "b4f31b23-edef-4f1f-a20f-1426fe9650fa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1739,7 +1739,7 @@
 			(uuid "ffe03470-3033-4e2c-b7bb-5a681311a041")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1924,7 +1924,7 @@
 			(uuid "c104cdf5-e7f4-4ae6-aea8-2d8ee1fe3f7a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2062,7 +2062,7 @@
 			(uuid "2480d86a-f51e-4af2-bcf6-e818eb7a6520")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2200,7 +2200,7 @@
 			(uuid "ce23ef3e-f796-4f2c-8181-7b882d43cbbc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2338,7 +2338,7 @@
 			(uuid "51a9e7a0-351b-40d3-9b57-ad6f57e58adc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2683,6 +2683,17 @@
 			(uuid "421e4f57-2277-4880-bfc2-2c65c5d213a2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/RS6-2405S--3DModel-STEP-1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 180)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 		(layer "F.Cu")
@@ -2980,7 +2991,7 @@
 			(uuid "996579e1-79f5-49ae-98f5-a77cc9fd114e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2999,7 +3010,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5mm, size 10x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2 pitch 5mm size 10x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J2"
-			(at 2.5 -6.32 270)
+			(at 2.5 -6.32 90)
 			(layer "F.SilkS")
 			(uuid "5607c669-8160-4db2-8d03-f92a188602e5")
 			(effects
@@ -3010,7 +3021,7 @@
 			)
 		)
 		(property "Value" "1935161"
-			(at 2.5 5.72 270)
+			(at 2.5 5.72 90)
 			(layer "F.Fab")
 			(uuid "3426f4c6-c52e-4b1a-9dcf-e87eedc6e27b")
 			(effects
@@ -3021,7 +3032,7 @@
 			)
 		)
 		(property "Datasheet" "1935161"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bb8729dc-6500-4ed6-8caf-7968756192fb")
@@ -3033,7 +3044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e19950a-e259-440f-99f7-72038af4b6c6")
@@ -3324,7 +3335,7 @@
 			(uuid "a0d1b7ec-b523-4ddc-b9d7-558eeca77c6c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 3.2 270)
+			(at 2.5 3.2 90)
 			(layer "F.Fab")
 			(uuid "a055957a-d1ac-4a40-b8e2-8fc06025a0c1")
 			(effects
@@ -3358,7 +3369,7 @@
 			(uuid "64287b37-f6e8-46cd-8461-13975f5e9b24")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/3D-models/TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3904,7 +3915,7 @@
 			(uuid "142bcfcf-c4ce-477a-81e2-aae4698f590e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/3D-models/TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4128,7 +4139,7 @@
 			(uuid "7d39988a-d430-488c-9149-bfadc7fb6eeb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.step"
+		(model "${KIPRJMOD}/3D-models/LED_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4151,7 +4162,7 @@
 			(effects
 				(font
 					(size 0.48 0.48)
-					(thickness 0.15)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -4162,7 +4173,7 @@
 			(effects
 				(font
 					(size 0.48 0.48)
-					(thickness 0.15)
+					(thickness 0.12)
 				)
 			)
 		)
@@ -4313,6 +4324,17 @@
 			(uuid "14ffa5a0-76f2-4acf-abda-328be3d15c76")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/R_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "INA2143U:D14"
 		(layer "F.Cu")
@@ -5251,6 +5273,17 @@
 			(uuid "48d9b1bb-5afd-4515-8a8a-df41277e82a5")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/INA2143U.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
@@ -5378,7 +5411,7 @@
 			(uuid "063fd7c2-6235-4fb1-8fc9-08c7fc052165")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5689,6 +5722,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/R_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "P120PK_Y25BR10K:POT_P120PK-x25_TTE"
 		(layer "F.Cu")
@@ -6011,6 +6055,17 @@
 			(uuid "2d09b8d5-ce8b-43cb-93a5-f19be6c5cde8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/P120PK-Y25BR10K.stp"
+			(offset
+				(xyz 3.5 10 9.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
@@ -6193,7 +6248,7 @@
 			(uuid "fa49af89-dc4d-4677-96dd-47183c4f4d63")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6331,7 +6386,7 @@
 			(uuid "c9c7a467-abfd-487b-b552-0c1b37cfb973")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7280,6 +7335,17 @@
 			(uuid "9ddcca72-d03f-4d48-b071-49967201eda4")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/INA2143U.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "RS6_2415D:CONV_RS6-2415D"
 		(layer "F.Cu")
@@ -7614,6 +7680,17 @@
 			(uuid "c3f26417-b3cb-4cf7-b0c5-486340fa8b50")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/RS6-2415D--3DModel-STEP-1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
@@ -7741,7 +7818,7 @@
 			(uuid "b056e716-59bf-429d-ba19-53e7bc2a0e0b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7879,7 +7956,7 @@
 			(uuid "f6362f39-6207-4108-adc8-563e7cf27d32")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8017,7 +8094,7 @@
 			(uuid "1a0b2d95-def3-4ca4-8f8f-9946cf426b3f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8308,6 +8385,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/R_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
@@ -8435,7 +8523,7 @@
 			(uuid "ad63e667-d155-4cea-8ea2-489ae122f0ae")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8573,7 +8661,7 @@
 			(uuid "5d204fed-04bb-4049-b4e6-55af59c90791")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8711,7 +8799,7 @@
 			(uuid "b9a78c99-b28c-4209-8ced-e191bdac5305")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8904,7 +8992,7 @@
 			(uuid "75023ad1-07cf-42c5-96aa-560fe560f89b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9089,7 +9177,7 @@
 			(uuid "844e1f83-9eb2-415e-9cf6-60153206e827")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9314,7 +9402,7 @@
 			(uuid "ee971994-0e2d-4d67-a6af-866703d982b9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0201_0603Metric.step"
+		(model "${KIPRJMOD}/3D-models/LED_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10169,7 +10257,7 @@
 			(uuid "37f15744-c432-45e9-87b7-394e14151339")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3D-models/TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10307,7 +10395,7 @@
 			(uuid "72507ead-ffef-43a6-bf04-a1aae2e70957")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10445,7 +10533,7 @@
 			(uuid "15638285-8073-4dc1-bd38-5c6fc9bbb53d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10869,7 +10957,7 @@
 			(uuid "3a9725a0-1e24-4fe2-aaab-8beaa6b489b9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+		(model "${KIPRJMOD}/3D-models/TestPoint_Keystone_5005-5009_Compact.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11160,6 +11248,18 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/R_0201_0603Metric.step"
+			(opacity 0.9100)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 		(layer "F.Cu")
@@ -11665,7 +11765,7 @@
 			(uuid "39b22f25-a54d-4f24-892f-d30849294c74")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11871,7 +11971,7 @@
 			(uuid "504fa0d7-7a8f-42c9-9abc-30ddc6230da0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1812_4532Metric.wrl"
+		(model "${KIPRJMOD}/3D-models/C_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12071,7 +12171,7 @@
 			(uuid "50b8b00e-2318-47f5-9e70-cbbfdb7af115")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12276,7 +12376,7 @@
 			(uuid "93f8e20f-bec5-4aa1-a2a8-7875cfb49afe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1812_4532Metric.step"
+		(model "${KIPRJMOD}/3D-models/C_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12890,6 +12990,17 @@
 			(uuid "88c74a7d-8ee6-4b4f-9035-a75b5c95316c")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/LT1764EQ-1.5#PBF.STEP"
+			(offset
+				(xyz 0 -1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1812_4532Metric"
 		(layer "B.Cu")
@@ -13085,7 +13196,7 @@
 			(uuid "e9aa5f67-5f97-4b3f-9dcb-2f619e20ec12")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1812_4532Metric.wrl"
+		(model "${KIPRJMOD}/3D-models/C_1812_4532Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13285,7 +13396,7 @@
 			(uuid "6a080487-6141-41e6-b127-8f7ebf5e57cf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+		(model "${KIPRJMOD}/3D-models/C_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15060,7 +15171,7 @@
 		)
 		(polygon
 			(pts
-				(xy 101.065904 69.56) (xy 102.805904 69.58) (xy 102.86 71.54) (xy 100.9 71.56) (xy 100.905904 69.56)
+				(xy 101.065904 69.56) (xy 102.805904 69.58) (xy 102.84 71.65) (xy 100.88 71.67) (xy 100.905904 69.56)
 				(xy 101.095904 69.55)
 			)
 		)
@@ -15071,14 +15182,14 @@
 				(xy 102.524956 70.236763) (xy 102.526275 70.241685) (xy 102.5305 70.273776) (xy 102.5305 70.353597)
 				(xy 102.528117 70.377788) (xy 102.5205 70.416082) (xy 102.5205 70.563918) (xy 102.5205 70.56392)
 				(xy 102.520499 70.56392) (xy 102.54934 70.708907) (xy 102.549343 70.708917) (xy 102.605914 70.845492)
-				(xy 102.605915 70.845494) (xy 102.605916 70.845495) (xy 102.638813 70.894729) (xy 102.688048 70.968416)
-				(xy 102.762533 71.042901) (xy 102.766223 71.047351) (xy 102.77785 71.074348) (xy 102.791935 71.100142)
-				(xy 102.791511 71.106066) (xy 102.793861 71.111522) (xy 102.789047 71.140513) (xy 102.786951 71.169834)
-				(xy 102.78339 71.17459) (xy 102.782418 71.180448) (xy 102.762694 71.202235) (xy 102.745079 71.225767)
-				(xy 102.739514 71.227842) (xy 102.735528 71.232246) (xy 102.707152 71.239912) (xy 102.679615 71.250184)
-				(xy 102.670769 71.2505) (xy 101.02528 71.2505) (xy 100.958241 71.230815) (xy 100.912486 71.178011)
-				(xy 100.901281 71.126134) (xy 100.903797 70.273776) (xy 100.904327 70.094133) (xy 100.924209 70.027153)
-				(xy 100.977148 69.981554) (xy 101.028326 69.9705) (xy 102.385501 69.9705)
+				(xy 102.635251 70.889399) (xy 102.635254 70.889402) (xy 102.638813 70.894729) (xy 102.688048 70.968416)
+				(xy 102.762539 71.042907) (xy 102.766224 71.047351) (xy 102.777849 71.074343) (xy 102.791936 71.100141)
+				(xy 102.791512 71.106066) (xy 102.793862 71.111522) (xy 102.789048 71.140518) (xy 102.786952 71.169833)
+				(xy 102.783392 71.174587) (xy 102.78242 71.180448) (xy 102.762694 71.202237) (xy 102.745081 71.225767)
+				(xy 102.739514 71.227843) (xy 102.735529 71.232246) (xy 102.707157 71.239911) (xy 102.679617 71.250184)
+				(xy 102.67077 71.2505) (xy 101.010682 71.2505) (xy 100.943643 71.230815) (xy 100.897888 71.178011)
+				(xy 100.886691 71.124978) (xy 100.896161 70.353597) (xy 100.89936 70.092975) (xy 100.919866 70.026185)
+				(xy 100.973228 69.981082) (xy 101.023351 69.9705) (xy 102.385501 69.9705)
 			)
 		)
 	)
