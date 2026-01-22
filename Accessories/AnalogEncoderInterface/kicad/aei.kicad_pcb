@@ -1322,7 +1322,7 @@
 			(drill 1.57)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "cf6a988d-c1ae-41bb-82bb-3e09bd2f528e")
+			(uuid "071969c2-4542-4367-9953-8420b78d7e0b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE5380.step"
@@ -15253,7 +15253,7 @@
 		)
 		(polygon
 			(pts
-				(xy 101.84 55.15) (xy 104.24 55.15) (xy 104.27 56.95) (xy 101.87 56.91) (xy 101.84 55.15)
+				(xy 101.84 55.15) (xy 104.24 55.15) (xy 104.27 56.95) (xy 101.87 56.91)
 			)
 		)
 		(filled_polygon
