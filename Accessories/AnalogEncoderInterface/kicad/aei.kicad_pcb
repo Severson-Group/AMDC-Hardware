@@ -10830,6 +10830,17 @@
 			(uuid "ac8df6f9-3a8e-468a-8794-df28be7b22d2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-models/WE-SL5_HC_744273+%28rev1%29.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
