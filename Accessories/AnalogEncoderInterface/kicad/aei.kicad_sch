@@ -407,511 +407,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "987-1710-ND:P120PK-Y25BR10K"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 10.795 -3.175 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "P120PK-Y25BR10K"
-				(at 10.795 -6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "POT_P120PK-x25_TTE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "P120PK-Y25BR10K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "P120PK-Y25BR10K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "POT_P120PK-x25_TTE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "P120PK-Y25BR10K_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.985 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 1.27) (xy 8.255 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -1.27) (xy 9.525 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 3.81) (xy 10.16 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 3.81) (xy 10.795 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 1.27) (xy 10.795 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 3.81) (xy 10.16 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.795 3.81) (xy 10.16 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.795 -1.27) (xy 12.065 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.065 1.27) (xy 13.335 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.335 -1.27) (xy 13.97 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 0) (xy 17.78 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 7.62 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 20.32 0 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "P120PK-Y25BR10K_1_2"
-				(polyline
-					(pts
-						(xy -3.81 -9.525) (xy -1.905 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.16) (xy -5.08 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.795) (xy -3.81 -9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.795) (xy -1.905 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -8.255) (xy 1.27 -6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.795) (xy 1.27 -9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -13.335) (xy 1.27 -12.065)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -13.97) (xy -1.27 -13.335)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -17.78) (xy 0 -13.97)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.985) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -9.525) (xy -1.27 -8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -12.065) (xy -1.27 -10.795)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -10.16 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:RJ45"
 			(pin_names
 				(offset 1.016)
@@ -5486,6 +4981,411 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ebc-rev-a-lib:3362P-1-103LF"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VR"
+				(at -10.1818 2.5465 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "3362P-1-103LF"
+				(at -10.1645 -7.6423 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "3362P-1-103LF:TRIM_3362P-1-103LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "3362P-103LF-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Trimmer, Cermet, Rest 10 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-103LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "3362P-1 Bourns Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "08/26/10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/3362P-1-103LF/Bourns/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "3362P-1-103LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/3362P-1-103LF/Bourns/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "3362P-1-103LF_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.699 -2.032) (xy -2.159 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 0) (xy -3.81 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.016) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.429 -1.397) (xy -2.159 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.429 -2.667) (xy -3.429 -1.397)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 -2.032) (xy -3.429 -2.667)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.016) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.016) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 4.572 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ebc-rev-a-lib:standoff"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5763,12 +5663,6 @@
 		(uuid "b4f65cd4-fd93-4487-80b4-a97baf359d0b")
 	)
 	(junction
-		(at 242.57 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b718cf91-da54-472b-b2c6-8d44d8157403")
-	)
-	(junction
 		(at 227.33 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5791,6 +5685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bff7d515-517c-4dca-ac55-d7c7346cddb4")
+	)
+	(junction
+		(at 242.57 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2d9d8f3-5142-4cc2-9603-3977d833119b")
 	)
 	(junction
 		(at 48.26 53.34)
@@ -5851,12 +5751,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0260a7b-d085-4a4f-a620-523e5fd85dab")
-	)
-	(junction
-		(at 58.42 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f02def32-ed25-4dd2-989d-dfe1b6a79a2b")
 	)
 	(junction
 		(at 80.01 167.64)
@@ -6217,16 +6111,6 @@
 			(type default)
 		)
 		(uuid "29533aa2-2de7-4e42-9a18-12f825d1b566")
-	)
-	(wire
-		(pts
-			(xy 236.22 21.59) (xy 242.57 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ad409ae-5be7-42dd-bae4-0272a8496167")
 	)
 	(wire
 		(pts
@@ -7010,6 +6894,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 21.59) (xy 248.92 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860f455a-d841-494b-b4f6-043e4b483ab8")
+	)
+	(wire
+		(pts
 			(xy 233.68 101.6) (xy 233.68 105.41)
 		)
 		(stroke
@@ -7400,7 +7294,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 21.59) (xy 248.92 21.59)
+			(xy 236.22 21.59) (xy 242.57 21.59)
 		)
 		(stroke
 			(width 0)
@@ -10207,7 +10101,7 @@
 		)
 	)
 	(global_label "GND"
-		(shape passive)
+		(shape input)
 		(at 74.93 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10218,7 +10112,7 @@
 		)
 		(uuid "4f954827-e7c0-447e-8e73-b156368cfddf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.6744 114.3 0)
+			(at 81.7857 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10757,7 +10651,7 @@
 		)
 	)
 	(global_label "GND"
-		(shape passive)
+		(shape input)
 		(at 87.63 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10768,7 +10662,7 @@
 		)
 		(uuid "c63e8e73-29aa-4a44-8034-7abb924720cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3744 88.9 0)
+			(at 94.4857 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10911,7 +10805,7 @@
 		)
 	)
 	(global_label "GND_24V"
-		(shape passive)
+		(shape input)
 		(at 27.94 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10922,7 +10816,7 @@
 		)
 		(uuid "e278e403-cb25-4662-b24d-8728d421a371")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.7204 119.38 0)
+			(at 16.6091 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11065,7 +10959,7 @@
 		)
 	)
 	(global_label "GND_24V"
-		(shape passive)
+		(shape input)
 		(at 27.94 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11076,7 +10970,7 @@
 		)
 		(uuid "fee59cd7-8399-41e8-bddb-507c93cf520a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.7204 88.9 0)
+			(at 16.6091 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11220,7 +11114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 144.78 142.24 0)
 			(effects
 				(font
@@ -11284,7 +11178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC1206JR_070RL:RESC3116X65N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 256.54 21.59 0)
 			(effects
 				(font
@@ -11434,7 +11328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 31.4452 87.63 0)
 			(effects
 				(font
@@ -11452,7 +11346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4532"
+		(property "Description" "1206"
 			(at 36.322 87.122 0)
 			(effects
 				(font
@@ -11493,7 +11387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10 uF"
 			(at 230.632 31.496 0)
 			(effects
 				(font
@@ -11502,7 +11396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 228.2952 34.29 0)
 			(effects
 				(font
@@ -11568,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC0603FR_13470RL:RES_RC0603_YAG"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 57.15 185.42 0)
 			(effects
 				(font
@@ -11639,7 +11533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 57.15 48.26 0)
 			(effects
 				(font
@@ -11852,7 +11746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 87.63 19.05 0)
 			(effects
 				(font
@@ -11919,7 +11813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 241.3 20.32 0)
 			(effects
 				(font
@@ -11987,7 +11881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 77.47 26.67 0)
 			(effects
 				(font
@@ -12174,7 +12068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTST-C191KRKT_LTO"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 44.45 167.64 0)
 			(effects
 				(font
@@ -12245,7 +12139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -12310,7 +12204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -12440,7 +12334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 32.7152 116.84 0)
 			(effects
 				(font
@@ -12458,7 +12352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4532"
+		(property "Description" "1206"
 			(at 37.338 116.332 0)
 			(effects
 				(font
@@ -12506,7 +12400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMCF0603FG1K00:STA_RMCF0603_STP"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 57.15 151.13 0)
 			(effects
 				(font
@@ -12577,7 +12471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 167.64 137.16 0)
 			(effects
 				(font
@@ -12624,10 +12518,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "58b5590b-4941-43a5-be91-5e7853bd2ad5")
 		(property "Reference" "C9"
-			(at 57.15 22.8599 0)
+			(at 57.404 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12636,7 +12529,7 @@
 			)
 		)
 		(property "Value" "6.8uF"
-			(at 57.15 25.3999 0)
+			(at 56.896 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12644,7 +12537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 54.3052 27.94 0)
 			(effects
 				(font
@@ -12662,13 +12555,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 24.13 0)
+		(property "Description" "1206"
+			(at 59.436 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12715,7 +12607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 49.53 58.42 0)
 			(effects
 				(font
@@ -12782,7 +12674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 137.16 170.18 0)
 			(effects
 				(font
@@ -12909,7 +12801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 157.48 158.75 0)
 			(effects
 				(font
@@ -12975,7 +12867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 233.3752 78.74 0)
 			(effects
 				(font
@@ -12994,7 +12886,7 @@
 			)
 		)
 		(property "Description" "0603"
-			(at 237.744 78.74 0)
+			(at 238.76 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13018,7 +12910,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x06")
-		(at 170.18 144.78 0)
+		(at 170.18 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13026,7 +12919,7 @@
 		(dnp no)
 		(uuid "73c44f15-18bc-4922-9989-5b5214d35db5")
 		(property "Reference" "J3"
-			(at 169.672 156.21 0)
+			(at 169.672 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13035,7 +12928,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x06"
-			(at 161.036 156.21 0)
+			(at 161.036 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13045,7 +12938,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal"
-			(at 170.18 144.78 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13054,7 +12947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 144.78 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,7 +12956,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 144.78 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13126,7 +13019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 132.3848 120.65 0)
 			(effects
 				(font
@@ -13257,7 +13150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 79.7052 87.63 0)
 			(effects
 				(font
@@ -13275,7 +13168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603"
+		(property "Description" "0805"
 			(at 84.328 86.106 0)
 			(effects
 				(font
@@ -13325,7 +13218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.3952 60.96 0)
 			(effects
 				(font
@@ -13394,7 +13287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 59.69 44.45 0)
 			(effects
 				(font
@@ -13461,7 +13354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE5380"
 			(at 217.17 145.415 90)
 			(effects
 				(font
@@ -13652,7 +13545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMCF0603FG1K00:STA_RMCF0603_STP"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 58.42 167.64 0)
 			(effects
 				(font
@@ -13724,7 +13617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -13791,7 +13684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 161.29 153.67 0)
 			(effects
 				(font
@@ -13855,7 +13748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTST-C191KRKT_LTO"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 34.29 151.13 0)
 			(effects
 				(font
@@ -13956,80 +13849,6 @@
 			(project "ebc-rev-a"
 				(path "/d51d5d44-56d3-4d42-8ea1-48307eca1305"
 					(reference "standoff3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "987-1710-ND:P120PK-Y25BR10K")
-		(at 242.57 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99de0a24-4591-4641-8ea9-626f7bfbedea")
-		(property "Reference" "R1"
-			(at 254.508 34.798 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "P120PK-Y25BR10K"
-			(at 266.192 37.338 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "P120PK_Y25BR10K:POT_P120PK-x25_TTE"
-			(at 242.57 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "P120PK-Y25BR10K"
-			(at 242.57 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed5ff5b3-6d62-44f2-843f-262b7f17f5ec")
-		)
-		(pin "3"
-			(uuid "d9d0a7e0-b752-41a4-addb-cb37617eedfa")
-		)
-		(pin "2"
-			(uuid "e2e9a2c6-7a89-450a-850f-9011773197e2")
-		)
-		(instances
-			(project ""
-				(path "/d51d5d44-56d3-4d42-8ea1-48307eca1305"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14269,7 +14088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 86.36 119.38 0)
 			(effects
 				(font
@@ -14337,7 +14156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -14403,7 +14222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 238.4552 118.11 0)
 			(effects
 				(font
@@ -14471,7 +14290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.4752 101.6 0)
 			(effects
 				(font
@@ -14540,7 +14359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 157.48 170.18 0)
 			(effects
 				(font
@@ -14603,7 +14422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 157.1752 31.75 0)
 			(effects
 				(font
@@ -14621,7 +14440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603"
+		(property "Description" "0805"
 			(at 147.066 30.226 0)
 			(effects
 				(font
@@ -14672,7 +14491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_1935161_PXC"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 46.99 22.86 0)
 			(effects
 				(font
@@ -14741,7 +14560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTST-C191KRKT_LTO"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 34.29 185.42 0)
 			(effects
 				(font
@@ -14811,7 +14630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.2052 80.01 0)
 			(effects
 				(font
@@ -14880,7 +14699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 97.79 170.18 0)
 			(effects
 				(font
@@ -14917,16 +14736,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 58.42 36.83 0)
+		(lib_id "ebc-rev-a-lib:3362P-1-103LF")
+		(at 242.57 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d9b2a61e-a449-4935-9dbe-cd200261568a")
-		(property "Reference" "TP9"
-			(at 52.578 33.782 0)
+		(uuid "cf4add67-c1f3-4e8b-8685-4167b8be66f9")
+		(property "Reference" "VR1"
+			(at 255.524 34.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14934,18 +14753,27 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 60.96 34.7979 0)
+		(property "Value" "3362P-1-103LF"
+			(at 261.874 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Footprint" "Varistor:TRIM_3362P-1-103LF"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 36.83 0)
+		(property "Datasheet" ""
+			(at 242.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,8 +14781,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 63.5 36.83 0)
+		(property "Description" ""
+			(at 242.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14962,22 +14790,109 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 58.42 36.83 0)
+		(property "DigiKey_Part_Number" "3362P-103LF-ND"
+			(at 242.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
+		)
+		(property "MF" "Bourns"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Trimmer, Cermet, Rest 10 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-103LF"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "3362P-1 Bourns Inc."
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08/26/10"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3362P-1-103LF/Bourns/view-part/?ref=snap"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "3362P-1-103LF"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/3362P-1-103LF/Bourns/view-part/?ref=eda"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aaf04284-13d0-4160-b4fe-d874990f1360")
 		)
 		(pin "1"
-			(uuid "5dffd508-df0d-4c58-9832-34c994d2e445")
+			(uuid "0bc7460c-9155-4b9e-abe4-e094dc12bfd8")
+		)
+		(pin "2"
+			(uuid "d829314c-3375-4c48-8504-6d623f0d92b6")
 		)
 		(instances
-			(project "aei-rev-a"
+			(project ""
 				(path "/d51d5d44-56d3-4d42-8ea1-48307eca1305"
-					(reference "TP9")
+					(reference "VR1")
 					(unit 1)
 				)
 			)
@@ -15012,7 +14927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -15080,7 +14995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -15148,7 +15063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 274.32 26.67 0)
 			(effects
 				(font
@@ -15214,7 +15129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.3252 118.11 0)
 			(effects
 				(font
@@ -15232,7 +15147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603"
+		(property "Description" "0805"
 			(at 92.456 116.84 0)
 			(effects
 				(font
@@ -15283,7 +15198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 154.94 148.59 0)
 			(effects
 				(font
