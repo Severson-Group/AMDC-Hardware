@@ -7,4 +7,5 @@
   (lib (name "ebc-rev-a-lib")(type "KiCad")(uri "${KIPRJMOD}/ebc-rev-a-lib.kicad_sym")(options "")(descr ""))
   (lib (name "WE-SL5_HC")(type "KiCad")(uri "C:/Users/count/Downloads/WE-SL5_HC/WE-SL5_HC.kicad_sym")(options "")(descr "Power noise filter"))
   (lib (name "1935161")(type "KiCad")(uri "C:/Users/count/Downloads/ul_1935161/KiCADv6/2025-12-26_18-51-42.kicad_sym")(options "")(descr "2 connector"))
+  (lib (name "3362P-1-103LF")(type "KiCad")(uri "C:/Users/user/Downloads/3362P-1-103LF/3362P-1-103LF.kicad_sym")(options "")(descr ""))
 )
