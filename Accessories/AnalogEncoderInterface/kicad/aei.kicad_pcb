@@ -3031,7 +3031,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5mm, size 10x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2 pitch 5mm size 10x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J2"
-			(at 9.63 -0.3925 90)
+			(at 6.52 -7.2325 90)
 			(layer "F.SilkS")
 			(uuid "6927a9fe-b53b-4dd7-a199-f78a95dd9324")
 			(effects
@@ -14511,8 +14511,8 @@
 		)
 	)
 	(gr_rect
-		(start 140.75 104.37)
-		(end 150.2 86.62)
+		(start 140.75 86.62)
+		(end 150.2 104.37)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -14683,10 +14683,36 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "+24 V"
+		(at 82.57 101.6 0)
+		(layer "F.SilkS")
+		(uuid "9cbe4a8d-eb33-4b14-a6a3-b03897192539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Drive"
 		(at 137.53 53.26 0)
 		(layer "F.SilkS")
 		(uuid "a8b42cae-cce4-4c0e-b74d-1ef0775c48e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND_24V"
+		(at 81.79 114.83 0)
+		(layer "F.SilkS")
+		(uuid "b77a78ac-8d4c-43ec-8e6c-41ded0a902ac")
 		(effects
 			(font
 				(size 1 1)
