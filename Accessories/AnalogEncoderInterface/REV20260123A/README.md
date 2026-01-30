@@ -1,7 +1,7 @@
-# Anlog Encoder Interfacing Board REV20260123B
-This folder contains the compiled design outputs for the Anlog Encoder Interfacing Board REV B.  This includes the schematics, images of PCB layout, the bill of materials (BOM), and the files needed to order PCBs from online vendors.
+# Analog Encoder Interfacing Board REV20260123A
+This folder contains the compiled design outputs for the Anlog Encoder Interfacing Board REV A.  This includes the schematics, images of PCB layout, the bill of materials (BOM), and the files needed to order PCBs from online vendors.
 
-Following are the details of the board. 
+Following are the details of the board. A
 
 ## Anlog Encoder Interfacing Board
 
