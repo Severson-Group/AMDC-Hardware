@@ -24,7 +24,8 @@ This folder contains the compiled design outputs for the Analog Encoder Interfac
 
 | Question                       | Answer      |
 |--------------------------------|-------------|
-| Number of Total Parts          | 54          |
+| Unique part count              | 20          |
+| Number of Total Parts          | 57          |
 | Total SMD Part Count           | 24          |
 | Total Through-hole Part Count  | 25          |
 | Total Mechanical Screws        | 4           |
