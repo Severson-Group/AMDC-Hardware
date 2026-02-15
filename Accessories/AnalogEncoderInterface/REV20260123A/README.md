@@ -1,13 +1,11 @@
 # Analog Encoder Interface Board REV20260123A
-This folder contains the compiled design outputs for the Anlog Encoder Interfacing Board REV A.  This includes the schematics, images of PCB layout, the bill of materials (BOM), and the files needed to order PCBs from online vendors.
+This folder contains the compiled design outputs for the Analog Encoder Interface Board REVA. This includes the schematics, images of PCB layout, the bill of materials (BOM), and the files needed to order PCBs from online vendors.
 
-Following are the details of the board. A
-
-## Anlog Encoder Interfacing Board
+## Analog Encoder Interfacing Board
 
 | Question                | Answer            |
 |-------------------------|-------------------|
-| Board Size              | 73 mmx 80 mm      |
+| Board Size              | 73mm x 80mm       |
 | Number of Layers        | 4 Layers          |
 | Double Sided            | Yes               |
 | Surface Finish          | Tin Lead          |

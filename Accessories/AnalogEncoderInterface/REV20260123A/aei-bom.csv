@@ -6,7 +6,7 @@ Qty,Designator,Discription,Value,Footprint,Supplier Part Number,Manufacturer Par
 2,"J1, J3",Screw Terminal,01x06,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal",277-1581-ND,1935200,Digi-Key,Phoenix Contact
 1,J2,Screw Terminal,01x02,CONN_1935161_PXC,277-1667-ND,1935161,Digi-Key,Phoenix Contact
 1,J4,Screw Terminal,RJ45,Connector_RJ:RJ45_Amphenol_RJHSE5380,664-RJHSE5380-ND,RJHSE5380,Digi-Key,Phoenix Contact
-1,L1,"CMC 9UH, 3.5A, 2LN, 800 Ohm",WE-SL5_HC,WE-SL5_HC,732-2215-1-ND,744273801,Digi-Key,WÃ¼rth Elektronik
+1,L1,"CMC 9UH, 3.5A, 2LN, 800 Ohm",WE-SL5_HC,WE-SL5_HC,732-2215-1-ND,744273801,Digi-Key,Wurth Electronics
 2,"LED1, LED3",LED,RED,0603-LED,160-1447-1-ND,LTST-C191KRKT,Digi-Key,Lite-On Inc.
 1,LED2,LED,YELLOW,0603-LED,160-1448-1-ND,LTST-C191KSKT,Digi-Key,Lite-On Inc.
 1,PS1,DC/DC Power Supply,RS6-2405S,CONV_RS6-2405S,945-2985-ND,RS6-2405S,Digi-Key,Recom Power
