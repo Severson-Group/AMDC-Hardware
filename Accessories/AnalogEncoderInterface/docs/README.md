@@ -18,18 +18,11 @@ This file outlines the use of the Analog Encoder Interfacing Board and important
 
 The Analog Encoder Interfacing Board is intended to amplify signals from analog encoder to able to measure rotor position with AMDC/SUper CU.
 
-## Design Requirements, Considerations, and Features
-
-### System Design Requirements
-- Input Voltage: 24 VDC
-- Output Voltage: 5 V
-- Differential signaling
-
-### Features
+## Features
 
 - Handles different signals 
-- Removes offset for  the encoder signal 
-- Amplifies the singal by 10X
+- Removes offset from the encoder signal 
+- Amplifies the signal by 10X
 - Can be used with AMDC or Super CU drive
 
 ## Block Diagram
@@ -37,11 +30,11 @@ The Analog Encoder Interfacing Board is intended to amplify signals from analog 
 <p align="center">
 <img alt="image" src="image/circuit-block-diagram.png">
 
-This Analog Encoder Interfacing Board is an AMDC accessory adds the capability to read the position from the resolvers, which generates the sin/cosine signal to estimate the rotor positions.
+This Analog Encoder Interfacing Board is an AMDC accessory adds the capability to read the position from the analog encoder, which generates the sin/cosine signal to estimate the rotor positions.
 
 ## External Connectors
 
-There are 2 interfacing 6 pin connectors on the Full Bridge Converter board.  The first connector is used for interfacing with AMDC for PWM signals. The second connector is interfacing with AMDC for USART and isoSPI signals.  The third connector is intended to serve as a daisy chain connection between multiple Full Bridge Converter boards. There are also 5 additional header pin board-to-board connectors for connection with the power board.
+There are 4 connector on the boards the details of pin out is provided below. 
 
 ### 6 pin connector J1: Encoder-to-Board
 | Pin number | Signal name                                           |
