@@ -1,7 +1,7 @@
 # Analog Encoder Interface Board REV20260123A
 This folder contains the compiled design outputs for the Analog Encoder Interface Board REVA. This includes the schematics, images of PCB layout, the bill of materials (BOM), and the files needed to order PCBs from online vendors.
 
-## Analog Encoder Interfacing Board
+## Analog Encoder Interface Board
 
 | Question                | Answer            |
 |-------------------------|-------------------|
@@ -34,4 +34,4 @@ This folder contains the compiled design outputs for the Analog Encoder Interfac
 
 ## Bill of Materials
 
-The [Bill of Materials (BOM)](analog-encoder-interfacing-board-reva-bom.csv) contains components for 1 of each board. 
+The [Bill of Materials (BOM)](aei-bom.csv) contains components for 1 of each board. 
