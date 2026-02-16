@@ -1,5 +1,5 @@
-# Analog Encoder Interfacing Board
-This file outlines the use of the Analog Encoder Interfacing Board and important revision changes.
+# Analog Encoder Interface Board
+This file outlines the use of the Analog Encoder Interface Board and important revision changes.
 
 ## Relevant Hardware Versions
 
@@ -16,7 +16,7 @@ This file outlines the use of the Analog Encoder Interfacing Board and important
 
 ## Purpose
 
-The Analog Encoder Interfacing Board is intended to amplify signals from analog encoder to be able to measure rotor position with AMDC/Super CU.
+The Analog Encoder Interface Board is intended to amplify signals from analog encoder to be able to measure rotor position with AMDC/Super CU.
 
 ## Features
 
@@ -30,7 +30,7 @@ The Analog Encoder Interfacing Board is intended to amplify signals from analog 
 <p align="center">
 <img alt="image" src="image/circuit-block-diagram.png">
 
-This Analog Encoder Interfacing Board is an AMDC accessory adds the capability to read the position from the analog encoder, which generates the sin/cosine signal to estimate the rotor positions.
+This Analog Encoder Interface Board is an AMDC accessory adds the capability to read the position from the analog encoder, which generates the sin/cosine signal to estimate the rotor positions.
 
 ## External Connectors
 
