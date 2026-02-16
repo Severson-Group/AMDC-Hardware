@@ -16,7 +16,7 @@ This file outlines the use of the Analog Encoder Interfacing Board and important
 
 ## Purpose
 
-The Analog Encoder Interfacing Board is intended to amplify signals from analog encoder to able to measure rotor position with AMDC/SUper CU.
+The Analog Encoder Interfacing Board is intended to amplify signals from analog encoder to be able to measure rotor position with AMDC/Super CU.
 
 ## Features
 
@@ -34,7 +34,7 @@ This Analog Encoder Interfacing Board is an AMDC accessory adds the capability t
 
 ## External Connectors
 
-There are 4 connector on the boards the details of pin out is provided below. 
+There are 4 connectors on the boards. The details of the pinout are provided below. 
 
 ### 6 pin connector J1: Encoder-to-Board
 | Pin number | Signal name                                           |
