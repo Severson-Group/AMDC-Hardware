@@ -15,7 +15,7 @@ This folder contains the compiled design outputs for the Analog Encoder Interfac
 | Min Trace Spacing       | 0.2 mm (7.9 mil)  |
 | Min Hole Size           | 0.3 mm (11.8 mil) |
 | Number of Holes         | 63                |
-| Solder Mask             | Green             |
+| Solder Mask             | Purple            |
 | HASL or ENIG            | No                |
 | Inner Copper            | 1 oz              |
 | Outer Copper            | 1 oz              |
