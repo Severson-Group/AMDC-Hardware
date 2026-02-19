@@ -1,0 +1,17 @@
+UNITS=MM
+#
+#Num Features
+#
+F 1
+#
+#Layer features
+#
+S P 0 
+OB 150.880 -37.50 I
+OS 150.880 -37.50
+OS 150.880 -122.0
+OS 77.0 -122.0
+OS 77.0 -37.50
+OS 150.880 -37.50
+OE
+SE
