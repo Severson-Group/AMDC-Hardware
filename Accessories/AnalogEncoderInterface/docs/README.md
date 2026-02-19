@@ -1,12 +1,12 @@
 # Analog Encoder Interface Board
-This file outlines the use of the Analog Encoder Interface Board and important revision changes.
+
+**This file outlines the use of the Analog Encoder Interface Board and important revision changes.**
 
 ## Relevant Hardware Versions
 
 | Hardware               | Version |
 |------------------------|---------|
 | AMDC                   | F       |
-| Super CU               | NA      |
 
 ## Revision History
 
@@ -16,14 +16,14 @@ This file outlines the use of the Analog Encoder Interface Board and important r
 
 ## Purpose
 
-The Analog Encoder Interface Board is intended to amplify signals from analog encoder to be able to measure rotor position with AMDC/Super CU.
+The Analog Encoder Interface Board is intended to amplify signals from analog encoder to be able to measure rotor position with AMDC.
 
 ## Features
 
-- Handles different signals 
-- Removes offset from the encoder signal 
+- Handles different signals
+- Removes offset from the encoder signal
 - Amplifies the signal by 10X
-- Can be used with AMDC or Super CU drive
+- Can be used with AMDC
 
 ## Block Diagram
 
@@ -34,9 +34,10 @@ This Analog Encoder Interface Board is an AMDC accessory adds the capability to 
 
 ## External Connectors
 
-There are 4 connectors on the boards. The details of the pinout are provided below. 
+There are 4 connectors on the boards. The details of the pinout are provided below.
 
-### 6 pin connector J1: Encoder-to-Board
+### 6 pin connector J1: Encoder
+
 | Pin number | Signal name                                           |
 |------------|-------------------------------------------------------|
 | 1          | 5 V                                                   |
@@ -47,12 +48,14 @@ There are 4 connectors on the boards. The details of the pinout are provided bel
 | 6          | VB_N                                                  |
 
 ### 2 pin connector J2: Power supply
+
 | Pin number | Signal name                                           |
 |------------|-------------------------------------------------------|
 | 1          | 24 V                                                  |
 | 2          | GND_24V                                               |
 
-### 6 pin connector J3: Board-to-Super CU
+### 6 pin connector J3: Drive
+
 | Pin number | Signal name                                           |
 |------------|-------------------------------------------------------|
 | 1          | NC                                                    |
@@ -63,6 +66,7 @@ There are 4 connectors on the boards. The details of the pinout are provided bel
 | 6          | VA_P_OUT                                              |
 
 ### Ethernet connector J4: Board-to-AMDC
+
 | Pin number | Signal name                                           |
 |------------|-------------------------------------------------------|
 | 1          | VA_P_OUT                                              |
