@@ -58,7 +58,7 @@ There are 4 connectors on the boards. The details of the pinout are provided bel
 | 1          | NC                                                    |
 | 2          | GND                                                   |
 | 3          | VB_N_OUT                                              |
-| 4          | VB_p_OUT                                              |
+| 4          | VB_P_OUT                                              |
 | 5          | VA_N_OUT                                              |
 | 6          | VA_P_OUT                                              |
 
@@ -71,5 +71,5 @@ There are 4 connectors on the boards. The details of the pinout are provided bel
 | 4          | GND                                                   |
 | 5          | NC                                                    |
 | 6          | GND                                                   |
-| 7          | VB_p_OUT                                              |
+| 7          | VB_P_OUT                                              |
 | 8          | VB_N_OUT                                              |
