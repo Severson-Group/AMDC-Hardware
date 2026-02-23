@@ -1,0 +1,78 @@
+UNITS=MM
+
+#
+#Feature attribute names
+#
+@0 .comp_mount_type
+
+#
+#Feature attribute text strings
+#
+# CMP 0
+CMP 19 116.940 -98.920 270.0 M C3 Capacitor_SMD_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder ;0=1
+PRP Datasheet '~'
+PRP Description '0805'
+PRP Value '10uF'
+TOP 0 116.940 -99.95750 270.0 M 3 4 1
+TOP 1 116.940 -97.88250 270.0 M 6 23 2
+#
+# CMP 1
+CMP 19 135.380 -98.150 270.0 M C4 Capacitor_SMD_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder ;0=1
+PRP Datasheet '~'
+PRP Description '0805'
+PRP Value '10uF'
+TOP 0 135.380 -99.18750 270.0 M 1 7 1
+TOP 1 135.380 -97.11250 270.0 M 4 7 2
+#
+# CMP 2
+CMP 20 117.020 -111.40 90.0 M C2 Capacitor_SMD_C_1206_3216Metric_Pad1.33x1.80mm_HandSolder ;0=1
+PRP Datasheet '~'
+PRP Description '1206'
+PRP Value '6.8uF'
+TOP 0 117.020 -109.83750 90.0 M 2 4 1
+TOP 1 117.020 -112.96250 90.0 M 7 4 2
+#
+# CMP 3
+CMP 19 111.810 -88.12750 270.0 M C7 Capacitor_SMD_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder ;0=1
+PRP Datasheet '~'
+PRP Description '0805'
+PRP Value '10uF'
+TOP 0 111.810 -89.1650 270.0 M 3 5 1
+TOP 1 111.810 -87.090 270.0 M 6 24 2
+#
+# CMP 4
+CMP 20 91.750 -107.020 90.0 M C9 Capacitor_SMD_C_1206_3216Metric_Pad1.33x1.80mm_HandSolder ;0=1
+PRP Datasheet '~'
+PRP Description '1206'
+PRP Value '6.8uF'
+TOP 0 91.750 -105.45750 90.0 M 8 2 1
+TOP 1 91.750 -108.58250 90.0 M 9 2 2
+#
+# CMP 5
+CMP 21 124.670 -86.290 270.0 M U3 LTI1764EQ_DDPAK-5_Q_LIT ;0=1
+PRP Datasheet 'https://www.analog.com/media/en/technical-documentation/data-sheets/1764fb.pdf'
+PRP Description ''
+PRP Value 'LT1764EQ-1.5-PBF'
+TOP 0 115.86890 -89.69360 270.0 M 3 6 1
+TOP 1 115.86890 -87.99180 270.0 M 3 7 2
+TOP 2 115.86890 -86.290 270.0 M 6 25 3
+TOP 3 115.86890 -84.58820 270.0 M 13 3 4
+TOP 4 115.86890 -82.88640 270.0 M 13 4 5
+TOP 5 124.670 -86.290 270.0 M 6 26 6
+#
+# CMP 6
+CMP 20 136.770 -111.570 90.0 M C1 Capacitor_SMD_C_1206_3216Metric_Pad1.33x1.80mm_HandSolder ;0=1
+PRP Datasheet '~'
+PRP Description '1206'
+PRP Value '6.8uF'
+TOP 0 136.770 -110.00750 90.0 M 2 5 1
+TOP 1 136.770 -113.13250 90.0 M 7 5 2
+#
+# CMP 7
+CMP 22 111.70 -84.37250 90.0 M C8 Capacitor_SMD_C_0603_1608Metric_Pad1.08x0.95mm_HandSolder ;0=1
+PRP Datasheet '~'
+PRP Description '0603'
+PRP Value '10 uF'
+TOP 0 111.70 -83.510 90.0 M 13 5 1
+TOP 1 111.70 -85.2350 90.0 M 6 27 2
+#

@@ -1,0 +1,21 @@
+Qty,Designator,Discription,Value,Footprint,Supplier Part Number,Manufacturer Part Number,Supplier,Manufacturer
+3,"C1, C2, C9",Capacitor,6.8uF,1206-CAP,445-11734-1-ND,C3216JB1H685K160AB,Digi-Key,TDK Corporation
+3,"C3, C4, C7",Capacitor,10uF,0805-CAP,490-18663-1-ND,GRM21BR61H106KE43L,Digi-Key,Murata Electronics
+6,"C5, C6, C10, C11, C12, C13",Capacitor,1uF,0603-LED,490-12330-2-ND,GRT188R61H105KE13D,Digi-Key,Murata Electronics
+1,C8,Capacitor,10uF,0603-LED,1276-1871-1-ND,CL10A106MP8NNNC,Digi-Key,Samsung Electro-Mechanics
+2,"J1, J3",Screw Terminal,01x06,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal",277-1581-ND,1935200,Digi-Key,Phoenix Contact
+1,J2,Screw Terminal,01x02,CONN_1935161_PXC,277-1667-ND,1935161,Digi-Key,Phoenix Contact
+1,J4,Screw Terminal,RJ45,Connector_RJ:RJ45_Amphenol_RJHSE5380,664-RJHSE5380-ND,RJHSE5380,Digi-Key,Phoenix Contact
+1,L1,"CMC 9UH, 3.5A, 2LN, 800 Ohm",WE-SL5_HC,WE-SL5_HC,732-2215-1-ND,744273801,Digi-Key,Wurth Electronics
+2,"LED1, LED3",LED,RED,0603-LED,160-1447-1-ND,LTST-C191KRKT,Digi-Key,Lite-On Inc.
+1,LED2,LED,YELLOW,0603-LED,160-1448-1-ND,LTST-C191KSKT,Digi-Key,Lite-On Inc.
+1,PS1,DC/DC Power Supply,RS6-2405S,CONV_RS6-2405S,945-2985-ND,RS6-2405S,Digi-Key,Recom Power
+1,PS2,DC/DC Power Supply,RS6-2415D,CONV_RS6-2415D,945-2990-ND,RS6-2415D,Digi-Key,Recom Power
+1,R2,Resistor,70R,1206-RES,Y162570R0000A9W-ND,Y162570R0000A9W,Digi-Key,VPG Foil Resistors
+3,"R3, R4, R5",Resistor,3k,0603-RES,RMCF0603FT3K00CT-ND,RMCF0603FT3K00,Digi-Key,Stackpole Electronics Inc
+4,"standoff1, standoff2, standoff3, standoff4",Mounting Standoffs for Board,"#4-40 1/2""",,36-1656-ND,1656,Digi-Key,Keystone Electronics
+4,"screw1, screw2, screw3, screw4",Mounting Screws for Board,"#4-40 1/4""",,36-9900-ND,9900,Digi-Key,Keystone Electronics
+18,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8, TP10, TP11, TP12, TP13, TP14, TP15, TP16, TP17, TP18, TP19","Test Point, Yellow, 1-Pin THD, RoHS, Bulk",,KSTN-5004,36-5004-ND,5004,Digi-Key,Keystone
+2,"U1, U2",IC OPAMP DIFF 2 CIRCUIT 14SOIC,INA2143U,INA2143U:D14,INA2143U-ND,INA2143U,Digi-Key,Texas Instruments
+1,U3,IC REG LINEAR 1.5V 3A DDPAK-5,LT1764EQ-1.5-PBF,LTI1764EQ:DDPAK-5_Q_LIT,LT1764EQ-1.5#PBF-ND,LT1764EQ-1.5#PBF,Digi-Key,Analog Devices Inc.
+1,VR1,TRIMMER 10K OHM 0.5W PC PIN TOP,10 K,TRIM_3362P-1-103LF,3362P-103LF-ND,3362P-1-103LF,Digi-Key,Bourns Inc.
