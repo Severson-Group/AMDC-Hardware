@@ -16,21 +16,36 @@
 
 ## Purpose
 
-The Analog Encoder Interface Board is intended to amplify signals from analog encoder to be able to measure rotor position with AMDC.
+The Analog Encoder Interface Board is intended to amplify signals from an analog encoder (sin/cos outputs) to be able to measure rotor position with using the analog input ports of the AMDC.
 
-## Features
+## Design Requirements and Considerations
 
-- Handles different signals
-- Removes offset from the encoder signal
-- Amplifies the signal by 10X
-- Can be used with AMDC
+### Input Signals (From Analog Encoder)
+
+This board design is designed to be compatible with the [RLS RM44 Rotary Magnetic Encoder](https://www.rls.si/eng/rm44-rm58?openConfigurator=true&partNumbers=RM44BC0001S10F2E96):
+
+- Differential sin/cos signals
+- Amplitude: 0.25V
+- Offset: 1.6V
+
+### Output Signals (To AMDC)
+
+The goal of the board is to condition the input signals to quantities that are easily measured by the AMDC's analog interface. The output signals should meet the following specification:
+
+- Differential sin/cos
+- No DC offset
+- Reside within +/- 10V range
 
 ## Block Diagram
+
+The following block diagram illustrates how this board conditions sin/cos position signals for use by the AMDC:
 
 <p align="center">
 <img alt="image" src="image/circuit-block-diagram.svg">
 
-This Analog Encoder Interface Board is an AMDC accessory adds the capability to read the position from the analog encoder, which generates the sin/cosine signal to estimate the rotor positions.
+The blue box shows the functionality of the Analog Encoder Interface Board. It removes the DC offset of each signal in the differential pair of encoder outputs and amplifies each signal by a gain of 10. 
+
+The red box illustrates example functionality that can be implemented in the AMDC to use the resulting signals to calculate shaft speed and position. 
 
 ## External Connectors
 
