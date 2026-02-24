@@ -43,9 +43,9 @@ The following block diagram illustrates how this board conditions sin/cos positi
 <p align="center">
 <img alt="image" src="image/circuit-block-diagram.svg">
 
-The blue box shows the functionality of the Analog Encoder Interface Board. It removes the DC offset of each signal in the differential pair of encoder outputs and amplifies each signal by a gain of 10. 
+The blue box shows the functionality of the Analog Encoder Interface Board. It removes the DC offset of each signal in the differential pair of encoder outputs and amplifies each signal by a gain of 10.
 
-The red box illustrates example functionality that can be implemented in the AMDC to use the resulting signals to calculate shaft speed and position. 
+The red box illustrates example functionality that can be implemented in the AMDC to use the resulting signals to calculate shaft speed and position.
 
 ## External Connectors
 
