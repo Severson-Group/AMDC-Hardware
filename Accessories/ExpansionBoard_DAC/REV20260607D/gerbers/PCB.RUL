@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: D:\users\mokht029\AMDC-Hardware\Accessories\ExpansionBoard_DAC\altium\PCB.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=Width|RuleName=Width_5mil|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=Power_12mil|Scope=Board|Minimum=12.00
+RuleKind=Width|RuleName=Power_20mil|Scope=Board|Minimum=20.00
+RuleKind=Width|RuleName=Width_6mil|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
