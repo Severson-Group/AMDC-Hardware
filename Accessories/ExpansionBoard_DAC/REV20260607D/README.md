@@ -1,24 +1,24 @@
-# AMDC DAC Expansion Board REV20260607D
+# AMDC DAC Expansion Board REV20262207D
 
 This folder contains the compiled design outputs for the AMDC DAC Expansion Board REV D. This includes the schematics, images of PCB layout, the bill of materials (BOM), and the files needed to order PCBs from online vendors.
 
 ## Board Parameters
 
-| Question                  | Answer           |
-|---------------------------|----------------- |
-| Board Size                | 3.91" x 3.91"    |
-| Number of Layers          | 2 Layers         |
-| Double Sided              | Yes              |
-| Surface Finish            | Tin lead         |
-| Silkscreen                | White            |
-| Material                  | FR-4             |
-| Board Thickness           | 1.6 mm           |
-| Min Trace Spacing         | 0.127 mm (5 mil) |
-| Min Hole Size             | 0.36 mm (14 mil) |
-| Number of Holes           | 233              |
-| Solder Mask               | Green            |
-| HASL or ENIG              | HASL             |
-| Finished Copper           | 1 oz             |
+| Question                  | Answer                |
+|---------------------------|-----------------------|
+| Board Size                | 3.91" x 3.91"         |
+| Number of Layers          | 2 Layers              |
+| Double Sided              | Yes                   |
+| Surface Finish            | Tin lead              |
+| Silkscreen                | White (both sides)    |
+| Material                  | FR-4                  |
+| Board Thickness           | 1.6 mm                |
+| Min Trace Spacing         | 0.127 mm (5 mil)      |
+| Min Hole Size             | 0.36 mm (14 mil)      |
+| Number of Holes           | 233                   |
+| Solder Mask               | Green                 |
+| HASL or ENIG              | HASL                  |
+| Finished Copper           | 1 oz                  |
 
 ## Assembly Details
 
@@ -30,19 +30,8 @@ This folder contains the compiled design outputs for the AMDC DAC Expansion Boar
 | Total Through-hole Part Count     | 21               |
 | Total Mechanical Screws           | 4                |
 | Total Mechanical Standoffs        | 4                |
+| Total Jumper Connectors           | 8                |
 | BGA / QFN                         | QFN (U12)        |
-
-## Recommended Cables
-
-The DAC board requires 15-pin cables to interface with the AMDC Power Stack and GPIO connectors. The following are the recommended cables to buy.
-
-### Power Stack / GPIO Cables
-
-<img src="https://media.digikey.com/Photos/Amphenol%20Photos/MFG_CS-DSDHD15MM0.jpg" width="25%" />
-
-Digi-Key Part Number: `CS-DSDHD15MM0-002.5-ND`
-
-Only one cable is required.
 
 ## Bill of Materials
 
