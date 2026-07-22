@@ -2,7 +2,7 @@
 
 The AMDC DAC expansion board is an accessory for the AMDC Rev E which provides 8 analog outputs (+- 10V output). The expansion board plugs into the AMDC via the Power Stack or GPIO interfaces. 
 
-![PCD_3D](./REV20260607D/dac-pcb-3d-top.webp)
+![PCD_3D](./REV20262207D/dac-pcb-3d-top.webp)
 
 ## Documentation
 
