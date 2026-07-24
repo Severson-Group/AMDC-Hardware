@@ -4,4 +4,4 @@ This subfolder houses all the design files for the Analog Encoder Interface boar
 
 ## Documentation
 
-Read about the design of this board in the [`docs/folder`](docs/).
+Read about the design of this board on [docs.amdc.dev](docs.amdc.dev/main/accessories/analog-encoder).
