@@ -1,9 +1,9 @@
 
-## [REV20220921C](https://github.com/Severson-Group/AMDC-Hardware/tree/uInverter_revB/Accessories/ExpansionBoard_uInverter/REV20220921C)
+## [REV20220921C](https://github.com/Severson-Group/AMDC-Hardware/tree/develop/Accessories/ExpansionBoard_uInverter/REV20220921C)
 
 - Fix silkscreen designators ([#199](https://github.com/Severson-Group/AMDC-Hardware/issues/216))
 
-## [REV20220329B](https://github.com/Severson-Group/AMDC-Hardware/tree/uInverter_revB/Accessories/ExpansionBoard_uInverter/REV20220329B)
+## [REV20220329B](https://github.com/Severson-Group/AMDC-Hardware/tree/develop/Accessories/ExpansionBoard_uInverter/REV20220329B)
 
 - Add two small (10 uF) ceramic capacitors for DC link ([#199](https://github.com/Severson-Group/AMDC-Hardware/issues/199))
 - Add low pass filter capacitor at DC bus voltage sensing point ([#192](https://github.com/Severson-Group/AMDC-Hardware/issues/192))
@@ -15,6 +15,6 @@
 - Replace SMD components with 0603 size by 0805 sized components
  
 
-## [REV20210506A](https://github.com/Severson-Group/AMDC-Hardware/tree/uInverter_revB_Sch/Accessories/ExpansionBoard_uInverter/REV20210506A)
+## [REV20210506A](https://github.com/Severson-Group/AMDC-Hardware/tree/develop/Accessories/ExpansionBoard_uInverter/REV20210506A)
 
 - Initial design
