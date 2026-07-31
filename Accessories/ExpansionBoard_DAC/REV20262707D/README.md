@@ -1,4 +1,4 @@
-# AMDC DAC Expansion Board REV20262707D2
+# AMDC DAC Expansion Board REV20262707D
 
 This folder contains the compiled design outputs for the AMDC DAC Expansion Board REV D. This includes the schematics, images of PCB layout, the bill of materials (BOM), and the files needed to order PCBs from online vendors.
 
