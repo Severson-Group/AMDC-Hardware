@@ -1,4 +1,4 @@
-# AMDC DAC Expansion Board REV20262207D
+# AMDC DAC Expansion Board REV20262707D2
 
 This folder contains the compiled design outputs for the AMDC DAC Expansion Board REV D. This includes the schematics, images of PCB layout, the bill of materials (BOM), and the files needed to order PCBs from online vendors.
 
@@ -13,7 +13,7 @@ This folder contains the compiled design outputs for the AMDC DAC Expansion Boar
 | Silkscreen                | White (both sides)    |
 | Material                  | FR-4                  |
 | Board Thickness           | 1.6 mm                |
-| Min Trace Spacing         | 0.127 mm (5 mil)      |
+| Min Trace Spacing         | 0.152 mm (6 mil)      |
 | Min Hole Size             | 0.36 mm (14 mil)      |
 | Number of Holes           | 233                   |
 | Solder Mask               | Green                 |
